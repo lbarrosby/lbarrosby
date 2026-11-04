@@ -4,11 +4,14 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/lucas-rbarros"><img src="https://img.shields.io/badge/LinkedIn-lucas--rbarros-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:lucasbarros.kam@gmail.com"><img src="https://img.shields.io/badge/Email-lucasbarros.kam%40gmail.com-D14836?logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/CKA-Certified%20Kubernetes%20Administrator-326CE5?logo=kubernetes&logoColor=white" alt="CKA">
+  <img src="https://komarev.com/ghpvc/?username=lbarrosby&color=0A66C2&style=flat" alt="Profile views">
+  <img src="https://img.shields.io/github/followers/lbarrosby?label=Followers&style=flat&logo=github" alt="Followers">
 </p>
 
 ---
 
-I build and run cloud native platforms. 9 years across DevOps, SRE and Platform Engineering, after starting as a Python developer, in investment banking, payments, credit bureau, media and data center companies.
+I build and run cloud native platforms. 9 years across DevOps, SRE and Platform Engineering, after starting as a Python developer, in investment banking, payments, credit bureau and data center companies.
 
 - 🧭 Operated **330 Kubernetes clusters** with ArgoCD, Atlantis and Rancher across dev, uat and production
 - ⚡ Standardized **100+ Amazon EKS clusters** with Terraform and Terragrunt, cutting provisioning from **2 days to 40 minutes**
@@ -36,18 +39,53 @@ I build and run cloud native platforms. 9 years across DevOps, SRE and Platform 
   <img src="https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white" alt="Grafana">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/Terragrunt-1F2937?logo=terraform&logoColor=white" alt="Terragrunt">
+  <img src="https://img.shields.io/badge/Atlantis-0A4D8C?logoColor=white" alt="Atlantis">
+  <img src="https://img.shields.io/badge/Rancher-0075A8?logo=rancher&logoColor=white" alt="Rancher">
+  <img src="https://img.shields.io/badge/Envoy-AC6199?logo=envoyproxy&logoColor=white" alt="Envoy">
+  <img src="https://img.shields.io/badge/Istio-466BB0?logo=istio&logoColor=white" alt="Istio">
+  <img src="https://img.shields.io/badge/Cilium-F8C517?logo=cilium&logoColor=black" alt="Cilium">
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white" alt="Jenkins">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?logo=gitlab&logoColor=white" alt="GitLab CI">
+  <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?logo=azuredevops&logoColor=white" alt="Azure DevOps">
+  <img src="https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white" alt="Ansible">
+  <img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white" alt="Azure">
+  <img src="https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white" alt="GCP">
+  <img src="https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white" alt="Datadog">
+  <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?logo=anthropic&logoColor=white" alt="Claude Code">
 </p>
 
 ## 💼 Experience
 
 | Role | Company | Period |
 |---|---|---|
-| Senior DevOps Engineer | Globo | 2025 – present |
 | Senior Platform Engineer | BTG Pactual | 2023 – 2025 |
 | Senior Site Reliability Engineer | Serasa Experian | 2022 – 2023 |
 | DevOps Engineer | PagBank PagSeguro | 2021 – 2022 |
 | DevOps Engineer | Equinix | 2019 – 2021 |
 | Python Developer | Mundivox | 2018 – 2019 |
+
+## 📊 GitHub
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lbarrosby&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lbarrosby&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages">
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=lbarrosby&theme=tokyonight&hide_border=true" alt="Streak">
+</p>
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=lbarrosby&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph">
+</p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lbarrosby/lbarrosby/output/github-contribution-grid-snake-dark.svg">
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/lbarrosby/lbarrosby/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
 
 ## 🌱 Now
 
