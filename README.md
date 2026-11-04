@@ -15,10 +15,12 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the CNCF landscape, from graduated projects like Kubernetes, Envoy, Prometheus, Argo and OPA to sandbox ones like Headlamp, kube-vip, OpenEBS and Submariner, plus the Kubernetes pt-br docs localization.
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-42-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-1-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-30-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-44-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-1-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-32-2EA043?style=flat-square" alt="Projects">
 
 | Project | Latest pull request | |
 |---|---|---|
+| [gruntwork-io/terragrunt](https://github.com/gruntwork-io/terragrunt) | [fix: include init in get_terraform_commands_that_need_vars for OpenTofu >= 1.8](https://github.com/gruntwork-io/terragrunt/pull/7252) | `open` |
+| [ray-project/ray](https://github.com/ray-project/ray) | [[Java] Bump log4j to 2.25.5 and jackson-databind to 2.18.11](https://github.com/ray-project/ray/pull/67828) | `open` |
 | [argoproj-labs/terraform-provider-argocd](https://github.com/argoproj-labs/terraform-provider-argocd) | [feat(account_token): add optional token_id attribute](https://github.com/argoproj-labs/terraform-provider-argocd/pull/975) | `open` |
 | [rook/rook](https://github.com/rook/rook) | [osd: don't wipe metadata devices of existing OSDs](https://github.com/rook/rook/pull/18686) | `open` |
 | [tsuru/tsuru-client](https://github.com/tsuru/tsuru-client) | [fix: keep the current target in sync on target update](https://github.com/tsuru/tsuru-client/pull/283) | `open` |
