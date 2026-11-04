@@ -12,7 +12,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 
 **Open source**
 
-Contributing upstream to CNCF projects: Envoy Gateway, Kubernetes (including the pt-br docs localization), Atlantis, Prometheus, Argo CD and CoreDNS.
+Contributing upstream across the CNCF landscape, from graduated projects like Kubernetes, Envoy, Prometheus, Argo and OPA to sandbox ones like Headlamp, kube-vip, OpenEBS and Submariner, plus the Kubernetes pt-br docs localization.
 
 <!--START_SECTION:activity-->
 <img src="https://img.shields.io/badge/upstream%20PRs-27-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/projects-18-2EA043?style=flat-square" alt="Projects">
