@@ -15,10 +15,14 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the CNCF landscape, from graduated projects like Kubernetes, Envoy, Prometheus, Argo and OPA to sandbox ones like Headlamp, kube-vip, OpenEBS and Submariner, plus the Kubernetes pt-br docs localization.
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-27-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/projects-18-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-31-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/projects-22-2EA043?style=flat-square" alt="Projects">
 
 | Project | Latest pull request | |
 |---|---|---|
+| [open-feature/java-sdk-contrib](https://github.com/open-feature/java-sdk-contrib) | [fix(flagd): stop the FlagStore streamer thread on shutdown](https://github.com/open-feature/java-sdk-contrib/pull/1967) | `open` |
+| [litmuschaos/litmus](https://github.com/litmuschaos/litmus) | [fix(authentication): check the stored role before letting an owner leave](https://github.com/litmuschaos/litmus/pull/5712) | `open` |
+| [openkruise/charts](https://github.com/openkruise/charts) | [fix(kruise): point CRD conversion webhooks at the chart webhook service](https://github.com/openkruise/charts/pull/230) | `open` |
+| [lima-vm/lima](https://github.com/lima-vm/lima) | [limayaml: don't panic when the latest config fails to load](https://github.com/lima-vm/lima/pull/5738) | `open` |
 | [openebs/dynamic-localpv-provisioner](https://github.com/openebs/dynamic-localpv-provisioner) | [fix(helm): render localpv.securityContext on the provisioner container](https://github.com/openebs/dynamic-localpv-provisioner/pull/386) | `open` |
 | [kube-logging/fluent-plugin-label-router](https://github.com/kube-logging/fluent-plugin-label-router) | [Add worker_id label to router metrics with multiple workers](https://github.com/kube-logging/fluent-plugin-label-router/pull/32) | `open` |
 | [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv) | [feat(chart): allow extra args for the controller CSI sidecars](https://github.com/openebs/lvm-localpv/pull/528) | `open` |
