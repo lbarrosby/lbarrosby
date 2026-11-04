@@ -15,10 +15,21 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream to CNCF projects: Envoy Gateway, Kubernetes (including the pt-br docs localization), Atlantis, Prometheus, Argo CD and CoreDNS.
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-16-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/projects-7-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-27-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/projects-18-2EA043?style=flat-square" alt="Projects">
 
 | Project | Latest pull request | |
 |---|---|---|
+| [openebs/dynamic-localpv-provisioner](https://github.com/openebs/dynamic-localpv-provisioner) | [fix(helm): render localpv.securityContext on the provisioner container](https://github.com/openebs/dynamic-localpv-provisioner/pull/386) | `open` |
+| [kube-logging/fluent-plugin-label-router](https://github.com/kube-logging/fluent-plugin-label-router) | [Add worker_id label to router metrics with multiple workers](https://github.com/kube-logging/fluent-plugin-label-router/pull/32) | `open` |
+| [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv) | [feat(chart): allow extra args for the controller CSI sidecars](https://github.com/openebs/lvm-localpv/pull/528) | `open` |
+| [submariner-io/submariner-charts](https://github.com/submariner-io/submariner-charts) | [Omit ceIPSecPSK when no IPsec PSK is set](https://github.com/submariner-io/submariner-charts/pull/799) | `open` |
+| [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | [frontend: resourceMap: Match NetworkPolicy podSelector fully](https://github.com/kubernetes-sigs/headlamp/pull/8245) | `open` |
+| [carvel-dev/vendir](https://github.com/carvel-dev/vendir) | [Explain when a github release has no assets to fetch](https://github.com/carvel-dev/vendir/pull/482) | `open` |
+| [kube-vip/kube-vip](https://github.com/kube-vip/kube-vip) | [fix(services): do not treat DHCP placeholder VIPs as shared](https://github.com/kube-vip/kube-vip/pull/1838) | `open` |
+| [konveyor/tackle2-hub](https://github.com/konveyor/tackle2-hub) | [:bug: Validate shared api.Document fields against their schema](https://github.com/konveyor/tackle2-hub/pull/1183) | `open` |
+| [crossplane/crossplane](https://github.com/crossplane/crossplane) | [test(e2e): cover CRD hand-off for control planes upgraded from v1.20](https://github.com/crossplane/crossplane/pull/8011) | `open` |
+| [open-policy-agent/java-opa-sdk](https://github.com/open-policy-agent/java-opa-sdk) | [fix(cli): print counters and histograms in the metrics table](https://github.com/open-policy-agent/java-opa-sdk/pull/269) | `open` |
+| [fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka) | [in_kafka_group, in_rdkafka_group: Fix records skipped with time_source record](https://github.com/fluent/fluent-plugin-kafka/pull/598) | `open` |
 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | [fix(cli): include argocd-cmd-params-cm in admin export/import (#9506)](https://github.com/argoproj/argo-cd/pull/30759) · +1 more | `open` |
 | [coredns/helm](https://github.com/coredns/helm) | [docs: note that the ServiceMonitor needs the metrics Service](https://github.com/coredns/helm/pull/288) | `open` |
 | [kubernetes/website](https://github.com/kubernetes/website) | [[pt-br] Add tasks/configure-pod-container/configure-projected-volume-storage.md](https://github.com/kubernetes/website/pull/59012) · +7 more | `open` |
