@@ -12,15 +12,20 @@ I care about boring, predictable infrastructure: everything in code, every chang
 
 **Open source**
 
-Contributing upstream to CNCF projects: Envoy Gateway, Kubernetes (including the pt-br docs localization), Atlantis, Prometheus, Argo CD and CoreDNS. Recent pull requests:
+Contributing upstream to CNCF projects: Envoy Gateway, Kubernetes (including the pt-br docs localization), Atlantis, Prometheus, Argo CD and CoreDNS.
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#288](https://github.com/coredns/helm/pull/288) in [coredns/helm](https://github.com/coredns/helm)
-2. 💪 Opened PR [#59012](https://github.com/kubernetes/website/pull/59012) in [kubernetes/website](https://github.com/kubernetes/website)
-3. 💪 Opened PR [#59011](https://github.com/kubernetes/website/pull/59011) in [kubernetes/website](https://github.com/kubernetes/website)
-4. 💪 Opened PR [#59010](https://github.com/kubernetes/website/pull/59010) in [kubernetes/website](https://github.com/kubernetes/website)
-5. 💪 Opened PR [#59006](https://github.com/kubernetes/website/pull/59006) in [kubernetes/website](https://github.com/kubernetes/website)
-6. 💪 Opened PR [#59005](https://github.com/kubernetes/website/pull/59005) in [kubernetes/website](https://github.com/kubernetes/website)
+<img src="https://img.shields.io/badge/upstream%20PRs-16-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/projects-7-2EA043?style=flat-square" alt="Projects">
+
+| Project | Latest pull request | |
+|---|---|---|
+| [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | [fix(cli): include argocd-cmd-params-cm in admin export/import (#9506)](https://github.com/argoproj/argo-cd/pull/30759) · +1 more | `open` |
+| [coredns/helm](https://github.com/coredns/helm) | [docs: note that the ServiceMonitor needs the metrics Service](https://github.com/coredns/helm/pull/288) | `open` |
+| [kubernetes/website](https://github.com/kubernetes/website) | [[pt-br] Add tasks/configure-pod-container/configure-projected-volume-storage.md](https://github.com/kubernetes/website/pull/59012) · +7 more | `open` |
+| [prometheus/alertmanager](https://github.com/prometheus/alertmanager) | [ui: do not serve Brotli-encoded HTML](https://github.com/prometheus/alertmanager/pull/5724) | `open` |
+| [envoyproxy/gateway](https://github.com/envoyproxy/gateway) | [fix(status): merge policy ancestor status across controllers](https://github.com/envoyproxy/gateway/pull/10516) · +1 more | `open` |
+| [prometheus/node_exporter](https://github.com/prometheus/node_exporter) | [fix(diskstats): drop sector metrics on darwin](https://github.com/prometheus/node_exporter/pull/3885) | `open` |
+| [runatlantis/atlantis](https://github.com/runatlantis/atlantis) | [fix: reject targeted plan for a missing dir before creating its status](https://github.com/runatlantis/atlantis/pull/7055) | `open` |
 <!--END_SECTION:activity-->
 
 **Projects**

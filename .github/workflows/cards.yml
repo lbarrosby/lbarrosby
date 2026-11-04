@@ -15,15 +15,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+      - run: python3 .github/scripts/upstream.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "chore: update recent activity"
-          MAX_LINES: 6
-          FILTER_EVENTS: PullRequestEvent
-          COMMIT_NAME: Lucas Barros
-          COMMIT_EMAIL: lucasbarros.kam@gmail.com
+      - run: |
+          git diff --quiet && exit 0
+          git config user.name "Lucas Barros"
+          git config user.email "lucasbarros.kam@gmail.com"
+          git commit -am "chore: update upstream pull requests"
+          git push
   cards:
     runs-on: ubuntu-latest
     steps:
