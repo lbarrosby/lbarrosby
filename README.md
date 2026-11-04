@@ -18,9 +18,9 @@ Contributing upstream to CNCF projects: Envoy Gateway, Kubernetes (including the
 1. 💪 Opened PR [#59012](https://github.com/kubernetes/website/pull/59012) in [kubernetes/website](https://github.com/kubernetes/website)
 2. 💪 Opened PR [#59011](https://github.com/kubernetes/website/pull/59011) in [kubernetes/website](https://github.com/kubernetes/website)
 3. 💪 Opened PR [#59010](https://github.com/kubernetes/website/pull/59010) in [kubernetes/website](https://github.com/kubernetes/website)
-4. 🗣 Commented on [#59009](https://github.com/kubernetes/website/issues/59009#issuecomment-6624156352) in [kubernetes/website](https://github.com/kubernetes/website)
-5. 🗣 Commented on [#59008](https://github.com/kubernetes/website/issues/59008#issuecomment-6624156023) in [kubernetes/website](https://github.com/kubernetes/website)
-6. 🗣 Commented on [#59007](https://github.com/kubernetes/website/issues/59007#issuecomment-6624155706) in [kubernetes/website](https://github.com/kubernetes/website)
+4. 💪 Opened PR [#59006](https://github.com/kubernetes/website/pull/59006) in [kubernetes/website](https://github.com/kubernetes/website)
+5. 💪 Opened PR [#59005](https://github.com/kubernetes/website/pull/59005) in [kubernetes/website](https://github.com/kubernetes/website)
+6. 💪 Opened PR [#5724](https://github.com/prometheus/alertmanager/pull/5724) in [prometheus/alertmanager](https://github.com/prometheus/alertmanager)
 7. ❗ Opened issue [#59009](https://github.com/kubernetes/website/issues/59009) in [kubernetes/website](https://github.com/kubernetes/website)
 8. ❗ Opened issue [#59008](https://github.com/kubernetes/website/issues/59008) in [kubernetes/website](https://github.com/kubernetes/website)
 <!--END_SECTION:activity-->
