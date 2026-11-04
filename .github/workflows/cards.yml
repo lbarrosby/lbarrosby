@@ -20,7 +20,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           COMMIT_MSG: "chore: update recent activity"
-          MAX_LINES: 8
+          MAX_LINES: 6
+          FILTER_EVENTS: PullRequestEvent
           COMMIT_NAME: Lucas Barros
           COMMIT_EMAIL: lucasbarros.kam@gmail.com
   cards:
