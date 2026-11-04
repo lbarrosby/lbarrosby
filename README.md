@@ -12,7 +12,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 
 **Open source**
 
-Contributing upstream to CNCF projects: Envoy Gateway, Kubernetes (including the pt-br docs localization), Atlantis, Prometheus and Argo CD. Recent activity:
+Contributing upstream to CNCF projects: Envoy Gateway, Kubernetes (including the pt-br docs localization), Atlantis, Prometheus, Argo CD and CoreDNS. Recent pull requests:
 
 <!--START_SECTION:activity-->
 1. 💪 Opened PR [#288](https://github.com/coredns/helm/pull/288) in [coredns/helm](https://github.com/coredns/helm)
