@@ -8,6 +8,10 @@ I care about boring, predictable infrastructure: everything in code, every chang
 
 **Currently** contributing to cloud native projects around Envoy Gateway, Kubernetes and Atlantis.
 
+**Projects**
+
+- [helm-charts](https://github.com/lbarrosby/helm-charts): production-ready Helm charts with secure defaults, Gateway API, HPA/KEDA and schema-validated values, tested and released from CI
+
 <br>
 
 <a href="https://www.linkedin.com/in/lucas-rbarros"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
