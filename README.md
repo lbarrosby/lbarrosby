@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-91-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-6-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-58-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-96-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-6-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-65-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
@@ -30,23 +30,23 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Latest pull request |
 |---|---|
+| [sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager) | [fix: keep ip_sort_order cidrs out of the ignore list](https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/349) |
+| [MagaluCloud/mgc-sdk-go](https://github.com/MagaluCloud/mgc-sdk-go) | [fix(http): always send the request when MaxAttempts is zero or negative](https://github.com/MagaluCloud/mgc-sdk-go/pull/197) |
+| [kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api) | [access: do not modify the provider exec config](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/93) |
+| [MagaluCloud/terraform-provider-mgc](https://github.com/MagaluCloud/terraform-provider-mgc) | [fix(blockstorage): remove volume from state when it no longer exists](https://github.com/MagaluCloud/terraform-provider-mgc/pull/329) · +1 more |
+| [hetznercloud/hcloud-cloud-controller-manager](https://github.com/hetznercloud/hcloud-cloud-controller-manager) | [fix(load-balancer): trim spaces in comma separated annotations](https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411) |
+| [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox_kvm): return newid when the clone target already exists](https://github.com/ansible-collections/community.proxmox/pull/559) |
+| [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(acme): remove dns plugin from state when deleted outside terraform](https://github.com/bpg/terraform-provider-proxmox/pull/3259) · +1 more |
+| [hetznercloud/hcloud-go](https://github.com/hetznercloud/hcloud-go) | [fix(exp): escape backslashes in TXT records and keep escapes in one chunk](https://github.com/hetznercloud/hcloud-go/pull/963) |
+| [hetznercloud/terraform-provider-hcloud](https://github.com/hetznercloud/terraform-provider-hcloud) | [fix(server): do not delete primary ip already assigned to the server](https://github.com/hetznercloud/terraform-provider-hcloud/pull/1558) |
 | [helmfile/helmfile](https://github.com/helmfile/helmfile) | [fix: keep elements added to an existing array by --state-values-set](https://github.com/helmfile/helmfile/pull/2873) |
 | [aws-ia/terraform-aws-eks-blueprints-addons](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons) | [fix: Keep nested prefixes in the Velero backup location](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons/pull/524) |
 | [kubernetes-sigs/descheduler](https://github.com/kubernetes-sigs/descheduler) | [fix(helm): allow setting serviceMonitor.honorLabels to false](https://github.com/kubernetes-sigs/descheduler/pull/1940) |
 | [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets) | [fix(helm): use the container ports in the NetworkPolicy ingress rule](https://github.com/bitnami/sealed-secrets/pull/2096) |
 | [NVIDIA/k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin) | [Inspect embedded config.map entries before adding SYS_ADMIN](https://github.com/NVIDIA/k8s-device-plugin/pull/2155) |
 | [terraform-aws-modules/terraform-aws-iam](https://github.com/terraform-aws-modules/terraform-aws-iam) | [fix: Keep IRSA policy count known when policy documents are not read](https://github.com/terraform-aws-modules/terraform-aws-iam/pull/671) · +1 more |
-| [fluent/fluent-operator](https://github.com/fluent/fluent-operator) | [fix(helm): honor logstashFormat: false in the Elasticsearch ClusterOutput](https://github.com/fluent/fluent-operator/pull/2113) |
-| [openobserve/openobserve-helm-chart](https://github.com/openobserve/openobserve-helm-chart) | [fix(openobserve): honor postgres.spec.enableSuperuserAccess](https://github.com/openobserve/openobserve-helm-chart/pull/288) · +1 more |
-| [argoproj/argo-helm](https://github.com/argoproj/argo-helm) | [fix(argocd-image-updater): Allow webhook port in NetworkPolicy when service.enabled is set](https://github.com/argoproj/argo-helm/pull/4204) |
-| [github-aws-runners/terraform-aws-github-runner](https://github.com/github-aws-runners/terraform-aws-github-runner) | [fix(termination-watcher): keep retry queue visibility timeout at or above the Lambda timeout](https://github.com/github-aws-runners/terraform-aws-github-runner/pull/5576) |
-| [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts) | [[alertmanager-snmp-notifier] Honor namespaceOverride on all resources](https://github.com/prometheus-community/helm-charts/pull/7509) · +2 more |
-| [kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | [helm: default the ServiceMonitor client cert to the release's metrics secret](https://github.com/kubernetes-sigs/jobset/pull/1389) |
-| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_connection from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1103) · +2 more |
-| [kubernetes-sigs/dra-example-driver](https://github.com/kubernetes-sigs/dra-example-driver) | [Reject GPU sharing configs that omit the strategy config instead of panicking](https://github.com/kubernetes-sigs/dra-example-driver/pull/296) |
-| [terrakube-io/terrakube-helm-chart](https://github.com/terrakube-io/terrakube-helm-chart) | [fix(otel): quote defaulted values in the otel ConfigMaps](https://github.com/terrakube-io/terrakube-helm-chart/pull/304) · +1 more |
 
-…and pull requests in 43 more projects.
+…and pull requests in 50 more projects.
 <!--END_SECTION:activity-->
 
 **Projects**
