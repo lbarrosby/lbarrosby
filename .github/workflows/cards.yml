@@ -23,6 +23,7 @@ jobs:
           git config user.name "Lucas Barros"
           git config user.email "lucasbarros.kam@gmail.com"
           git commit -am "chore: update upstream pull requests"
+          git pull --rebase
           git push
   cards:
     runs-on: ubuntu-latest
