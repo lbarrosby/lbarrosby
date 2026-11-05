@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-155-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-19-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-93-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-156-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-19-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-93-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
@@ -43,6 +43,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [lima-vm/lima](https://github.com/lima-vm/lima) | [guestagent: don't run kubectl when no kubeconfig is found](https://github.com/lima-vm/lima/pull/5746) |
 | [DataDog/integrations-extras](https://github.com/DataDog/integrations-extras) | [Add vLLM Production Stack integration](https://github.com/DataDog/integrations-extras/pull/3272)<br>[Add Volcano integration](https://github.com/DataDog/integrations-extras/pull/3271)<br>[Add Hugging Face TEI integration](https://github.com/DataDog/integrations-extras/pull/3270)<br>[Add llama.cpp integration](https://github.com/DataDog/integrations-extras/pull/3269) |
 | [kubernetes-sigs/aws-ebs-csi-driver](https://github.com/kubernetes-sigs/aws-ebs-csi-driver) | [Honor leaderElection values for csi-resizer and allow lease tuning in the chart schema](https://github.com/kubernetes-sigs/aws-ebs-csi-driver/pull/3101) |
 | [argoproj/argo-helm](https://github.com/argoproj/argo-helm) | [fix(argocd-image-updater): mount the secret created by certificateSecret](https://github.com/argoproj/argo-helm/pull/4207)<br>[fix(argo-cd): render server.service.externalIPs as a list](https://github.com/argoproj/argo-helm/pull/4206)<br>[fix(argocd-image-updater): Allow webhook port in NetworkPolicy when service.enabled is set](https://github.com/argoproj/argo-helm/pull/4204) |
