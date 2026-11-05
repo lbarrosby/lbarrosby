@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-150-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-19-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-92-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-155-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-19-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-93-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
@@ -43,7 +43,9 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
-| [DataDog/integrations-extras](https://github.com/DataDog/integrations-extras) | [Add Hugging Face TEI integration](https://github.com/DataDog/integrations-extras/pull/3270)<br>[Add llama.cpp integration](https://github.com/DataDog/integrations-extras/pull/3269) |
+| [DataDog/integrations-extras](https://github.com/DataDog/integrations-extras) | [Add vLLM Production Stack integration](https://github.com/DataDog/integrations-extras/pull/3272)<br>[Add Volcano integration](https://github.com/DataDog/integrations-extras/pull/3271)<br>[Add Hugging Face TEI integration](https://github.com/DataDog/integrations-extras/pull/3270)<br>[Add llama.cpp integration](https://github.com/DataDog/integrations-extras/pull/3269) |
+| [kubernetes-sigs/aws-ebs-csi-driver](https://github.com/kubernetes-sigs/aws-ebs-csi-driver) | [Honor leaderElection values for csi-resizer and allow lease tuning in the chart schema](https://github.com/kubernetes-sigs/aws-ebs-csi-driver/pull/3101) |
+| [argoproj/argo-helm](https://github.com/argoproj/argo-helm) | [fix(argocd-image-updater): mount the secret created by certificateSecret](https://github.com/argoproj/argo-helm/pull/4207)<br>[fix(argo-cd): render server.service.externalIPs as a list](https://github.com/argoproj/argo-helm/pull/4206)<br>[fix(argocd-image-updater): Allow webhook port in NetworkPolicy when service.enabled is set](https://github.com/argoproj/argo-helm/pull/4204) |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(replication): set the ID before removing unused remote targets](https://github.com/aminueza/terraform-provider-minio/pull/1263)<br>[fix(replication): reject two rules on the same target endpoint](https://github.com/aminueza/terraform-provider-minio/pull/1262) |
 | [sergelogvinov/proxmox-csi-plugin](https://github.com/sergelogvinov/proxmox-csi-plugin) | [docs: explain why volume snapshots need the root@pam password](https://github.com/sergelogvinov/proxmox-csi-plugin/pull/687) |
 | [goharbor/terraform-provider-harbor](https://github.com/goharbor/terraform-provider-harbor) | [fix(#650): retention policy replaced on every plan when scope is a plain project ID](https://github.com/goharbor/terraform-provider-harbor/pull/666) |
@@ -91,7 +93,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [kubernetes-sigs/descheduler](https://github.com/kubernetes-sigs/descheduler) | [fix(helm): allow setting serviceMonitor.honorLabels to false](https://github.com/kubernetes-sigs/descheduler/pull/1940) |
 | [NVIDIA/k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin) | [Inspect embedded config.map entries before adding SYS_ADMIN](https://github.com/NVIDIA/k8s-device-plugin/pull/2155) |
 | [terraform-aws-modules/terraform-aws-iam](https://github.com/terraform-aws-modules/terraform-aws-iam) | [fix: Keep IRSA policy count known when policy documents are not read](https://github.com/terraform-aws-modules/terraform-aws-iam/pull/671)<br>[fix: Add `ec2:DescribeVpcPeeringConnections` to the LBC TargetGroupBinding only policy](https://github.com/terraform-aws-modules/terraform-aws-iam/pull/670) |
-| [argoproj/argo-helm](https://github.com/argoproj/argo-helm) | [fix(argocd-image-updater): Allow webhook port in NetworkPolicy when service.enabled is set](https://github.com/argoproj/argo-helm/pull/4204) |
 | [github-aws-runners/terraform-aws-github-runner](https://github.com/github-aws-runners/terraform-aws-github-runner) | [fix(termination-watcher): keep retry queue visibility timeout at or above the Lambda timeout](https://github.com/github-aws-runners/terraform-aws-github-runner/pull/5576) |
 | [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts) | [[alertmanager-snmp-notifier] Honor namespaceOverride on all resources](https://github.com/prometheus-community/helm-charts/pull/7509)<br>[[prometheus-operator-admission-webhook] Fix serviceMonitor.metricRelabelings value name](https://github.com/prometheus-community/helm-charts/pull/7507)<br>[[prometheus-pgbouncer-exporter] Pass config.extraArgs to the exporter](https://github.com/prometheus-community/helm-charts/pull/7505) |
 | [kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | [helm: default the ServiceMonitor client cert to the release's metrics secret](https://github.com/kubernetes-sigs/jobset/pull/1389) |
