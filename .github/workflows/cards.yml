@@ -15,16 +15,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 .github/scripts/upstream.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          ref: main
       - run: |
-          git diff --quiet && exit 0
           git config user.name "Lucas Barros"
           git config user.email "lucasbarros.kam@gmail.com"
-          git commit -am "chore: update upstream pull requests"
-          git pull --rebase
-          git push
+          for i in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 .github/scripts/upstream.py
+            git diff --quiet && exit 0
+            git commit -qam "chore: update upstream pull requests"
+            git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   cards:
     runs-on: ubuntu-latest
     steps:
