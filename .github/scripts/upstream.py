@@ -10,9 +10,15 @@ TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 def search():
     q = f"author:{USER} type:pr -user:{USER}"
-    url = "https://api.github.com/search/issues?per_page=100&sort=created&order=desc&q=" + urllib.parse.quote(q)
-    req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json", "Authorization": f"Bearer {TOKEN}"} if TOKEN else {})
-    return json.load(urllib.request.urlopen(req))["items"]
+    items = []
+    for page in range(1, 11):
+        url = f"https://api.github.com/search/issues?per_page=100&page={page}&sort=created&order=desc&q=" + urllib.parse.quote(q)
+        req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json", "Authorization": f"Bearer {TOKEN}"} if TOKEN else {})
+        batch = json.load(urllib.request.urlopen(req))["items"]
+        items += batch
+        if len(batch) < 100:
+            break
+    return items
 
 
 def status(pr):
