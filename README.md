@@ -15,23 +15,28 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-96-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-8-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-65-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-126-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-12-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-82-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
 - [tsuru/charts](https://github.com/tsuru/charts): [fix(tsuru-prometheus-pool): honor securityContext from values](https://github.com/tsuru/charts/pull/53)
 - [tsuru/charts](https://github.com/tsuru/charts): [ci: publish charts as OCI artifacts to GHCR](https://github.com/tsuru/charts/pull/55)
+- [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv): [feat(chart): allow extra args for the controller CSI sidecars](https://github.com/openebs/lvm-localpv/pull/528)
+- [fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka): [in_kafka_group, in_rdkafka_group: Fix records skipped with time_source record](https://github.com/fluent/fluent-plugin-kafka/pull/598)
 - [hetznercloud/hcloud-cloud-controller-manager](https://github.com/hetznercloud/hcloud-cloud-controller-manager): [fix(load-balancer): trim spaces in comma separated annotations](https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411)
 - [openobserve/openobserve-helm-chart](https://github.com/openobserve/openobserve-helm-chart): [fix(openobserve-collector): apply image.pullPolicy to the collectors](https://github.com/openobserve/openobserve-helm-chart/pull/286)
 - [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open): [feat: add Helm chart](https://github.com/AsyncFuncAI/deepwiki-open/pull/621)
 - [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp): [frontend: resourceMap: Resolve HTTPRoute parent and backend refs](https://github.com/kubernetes-sigs/headlamp/pull/8254)
 - [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp): [frontend: util: Use desired DaemonSet pods as the total](https://github.com/kubernetes-sigs/headlamp/pull/8259)
 - [tsuru/tsuru-client](https://github.com/tsuru/tsuru-client): [fix: keep the current target in sync on target update](https://github.com/tsuru/tsuru-client/pull/283)
+- [coredns/helm](https://github.com/coredns/helm): [docs: note that the ServiceMonitor needs the metrics Service](https://github.com/coredns/helm/pull/288)
+- [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp): [frontend: resourceMap: Match NetworkPolicy podSelector fully](https://github.com/kubernetes-sigs/headlamp/pull/8245)
 
 **In review**
 
 | Project | Latest pull request |
 |---|---|
+| [Mongey/terraform-provider-kafka](https://github.com/Mongey/terraform-provider-kafka) | [Support importing kafka_quota](https://github.com/Mongey/terraform-provider-kafka/pull/690) |
 | [vultr/terraform-provider-vultr](https://github.com/vultr/terraform-provider-vultr) | [Mark credential attributes as sensitive](https://github.com/vultr/terraform-provider-vultr/pull/811) · +1 more |
 | [digitalocean/terraform-provider-digitalocean](https://github.com/digitalocean/terraform-provider-digitalocean) | [spaces: remove bucket CORS configuration from state when it is gone](https://github.com/digitalocean/terraform-provider-digitalocean/pull/1633) |
 | [kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api) | [access: sort profile-sourced exec env vars by name](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/96) · +1 more |
@@ -46,9 +51,8 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets) | [fix(kubeseal): fail on malformed documents instead of skipping them](https://github.com/bitnami/sealed-secrets/pull/2097) · +1 more |
 | [istio/istio](https://github.com/istio/istio) | [gateway: honor exportTo when resolving Hostname backendRefs](https://github.com/istio/istio/pull/62659) |
 | [otwld/ollama-helm](https://github.com/otwld/ollama-helm) | [fix: keep service ipFamilies inside the non-Knative Service](https://github.com/otwld/ollama-helm/pull/296) · +1 more |
-| [kubernetes-sigs/kwok](https://github.com/kubernetes-sigs/kwok) | [heap: update the key when pushing an existing item](https://github.com/kubernetes-sigs/kwok/pull/1801) |
 
-…and pull requests in 48 more projects.
+…and pull requests in 63 more projects.
 <!--END_SECTION:activity-->
 
 **Projects**
