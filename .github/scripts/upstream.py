@@ -32,17 +32,27 @@ def main():
     if merged:
         badges.append(f'<img src="https://img.shields.io/badge/merged-{merged}-8957E5?style=flat-square" alt="Merged">')
     badges.append(f'<img src="https://img.shields.io/badge/projects-{len(repos)}-2EA043?style=flat-square" alt="Projects">')
-    lines = [
-        " ".join(badges),
-        "",
-        "| Project | Latest pull request | |",
-        "|---|---|---|",
-    ]
-    for repo, items in sorted(repos.items(), key=lambda kv: kv[1][0]["created_at"], reverse=True):
+    lines = [" ".join(badges), ""]
+    done = [p for p in prs if status(p) == "merged"]
+    if done:
+        lines += ["**Merged**", ""]
+        for p in sorted(done, key=lambda p: p["pull_request"]["merged_at"], reverse=True):
+            repo = p["repository_url"].split("/repos/")[1]
+            title = p["title"].replace("|", "\\|")
+            lines.append(f"- [{repo}](https://github.com/{repo}): [{title}]({p['html_url']})")
+        lines.append("")
+    open_repos = {r: [p for p in items if status(p) == "open"] for r, items in repos.items()}
+    open_repos = {r: items for r, items in open_repos.items() if items}
+    ordered = sorted(open_repos.items(), key=lambda kv: kv[1][0]["created_at"], reverse=True)
+    lines += ["**In review**", "", "| Project | Latest pull request |", "|---|---|"]
+    for repo, items in ordered[:15]:
         p = items[0]
         title = p["title"].replace("|", "\\|")
         more = f" · +{len(items) - 1} more" if len(items) > 1 else ""
-        lines.append(f"| [{repo}](https://github.com/{repo}) | [{title}]({p['html_url']}){more} | `{status(p)}` |")
+        lines.append(f"| [{repo}](https://github.com/{repo}) | [{title}]({p['html_url']}){more} |")
+    if len(ordered) > 15:
+        lines.append("")
+        lines.append(f"…and pull requests in {len(ordered) - 15} more projects.")
     block = "\n".join(lines)
     readme = open("README.md").read()
     readme = re.sub(r"(<!--START_SECTION:activity-->\n).*?(<!--END_SECTION:activity-->)", lambda m: m.group(1) + block + "\n" + m.group(2), readme, flags=re.S)

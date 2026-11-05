@@ -12,7 +12,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 
 **Open source**
 
-Contributing upstream across the CNCF landscape, from graduated projects like Kubernetes, Envoy, Prometheus, Argo and OPA to sandbox ones like Headlamp, kube-vip, OpenEBS and Submariner, plus the Kubernetes pt-br docs localization.
+Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
 <img src="https://img.shields.io/badge/upstream%20PRs-44-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-1-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-32-2EA043?style=flat-square" alt="Projects">
