@@ -15,10 +15,13 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-129-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-13-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-82-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-137-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-16-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-84-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager): [fix: remove the right addresses when several are ignored](https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/350)
+- [fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka): [out_kafka2: Unsubscribe ActiveSupport notifications on shutdown](https://github.com/fluent/fluent-plugin-kafka/pull/601)
+- [sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager): [fix: keep ip_sort_order cidrs out of the ignore list](https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/349)
 - [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp): [backend: auth: Accept a single string groups claim in /me](https://github.com/kubernetes-sigs/headlamp/pull/8262)
 - [tsuru/charts](https://github.com/tsuru/charts): [fix(tsuru-prometheus-pool): honor securityContext from values](https://github.com/tsuru/charts/pull/53)
 - [tsuru/charts](https://github.com/tsuru/charts): [ci: publish charts as OCI artifacts to GHCR](https://github.com/tsuru/charts/pull/55)
@@ -37,6 +40,12 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Latest pull request |
 |---|---|
+| [fluent/fluent-operator](https://github.com/fluent/fluent-operator) | [fix(helm): honor logstashFormat: false in the Fluentd ES and OpenSearch outputs](https://github.com/fluent/fluent-operator/pull/2114) · +1 more |
+| [coredns/coredns](https://github.com/coredns/coredns) | [plugin/acl: only add the EDE OPT record when the request has EDNS](https://github.com/coredns/coredns/pull/8749) · +1 more |
+| [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv) | [fix(chart): render lvmNode and lvmController labels](https://github.com/openebs/lvm-localpv/pull/534) |
+| [openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(helm): render zfsNode and zfsController updateStrategy](https://github.com/openebs/zfs-localpv/pull/791) |
+| [openobserve/terraform-provider-openobserve](https://github.com/openobserve/terraform-provider-openobserve) | [fix: keep the configured JSON text when the server document matches](https://github.com/openobserve/terraform-provider-openobserve/pull/17) |
+| [openobserve/openobserve-helm-chart](https://github.com/openobserve/openobserve-helm-chart) | [fix(openobserve,openobserve-standalone): pass group, kind and port to HTTPRoute parentRefs](https://github.com/openobserve/openobserve-helm-chart/pull/289) · +1 more |
 | [tsuru/tsuru-client](https://github.com/tsuru/tsuru-client) | [fix(metadata): accept the -t type in any case](https://github.com/tsuru/tsuru-client/pull/288) · +2 more |
 | [tsuru/tsuru](https://github.com/tsuru/tsuru) | [fix(api): return 400 when creating a team token with an invalid token_id](https://github.com/tsuru/tsuru/pull/2936) · +2 more |
 | [tsuru/terraform-provider-tsuru](https://github.com/tsuru/terraform-provider-tsuru) | [fix: report non-API errors from retried tsuru calls](https://github.com/tsuru/terraform-provider-tsuru/pull/105) · +3 more |
@@ -46,14 +55,8 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api) | [access: sort profile-sourced exec env vars by name](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/96) · +1 more |
 | [exoscale/terraform-provider-exoscale](https://github.com/exoscale/terraform-provider-exoscale) | [fix(block_storage_volume_snapshot): remove from state when deleted outside of Terraform](https://github.com/exoscale/terraform-provider-exoscale/pull/642) |
 | [kubernetes-sigs/e2e-framework](https://github.com/kubernetes-sigs/e2e-framework) | [conditions: wait for observed generation in DaemonSetReady](https://github.com/kubernetes-sigs/e2e-framework/pull/607) · +2 more |
-| [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | [fix(pki): accept lowercase attribute type names in literalSubject](https://github.com/cert-manager/cert-manager/pull/9556) |
-| [metallb/metallb](https://github.com/metallb/metallb) | [config: detect duplicate BGPPeers that only differ by name](https://github.com/metallb/metallb/pull/3182) |
-| [stakater/Reloader](https://github.com/stakater/Reloader) | [fix(handler): treat non-2xx --webhook-url responses as failures](https://github.com/stakater/Reloader/pull/1269) |
-| [aws/aws-cli](https://github.com/aws/aws-cli) | [Write JSON file cache entries atomically](https://github.com/aws/aws-cli/pull/10856) |
-| [cloudflare/cfssl](https://github.com/cloudflare/cfssl) | [signer: trim spaces and skip empty entries in SplitHosts](https://github.com/cloudflare/cfssl/pull/1463) |
-| [awslabs/eks-node-viewer](https://github.com/awslabs/eks-node-viewer) | [fix: update node usage when a bound pod's requests change](https://github.com/awslabs/eks-node-viewer/pull/547) |
 
-…and pull requests in 63 more projects.
+…and pull requests in 65 more projects.
 <!--END_SECTION:activity-->
 
 **Projects**
