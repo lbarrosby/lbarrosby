@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-210-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-32-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-121-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-216-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-32-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-127-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
@@ -56,6 +56,12 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [goharbor/harbor-cli](https://github.com/goharbor/harbor-cli) | [fix(retention): create a policy when the project has none](https://github.com/goharbor/harbor-cli/pull/1140) |
+| [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [fix(helm): point the ingress at the service named by service.name](https://github.com/aquasecurity/trivy/pull/11564) |
+| [project-zot/helm-charts](https://github.com/project-zot/helm-charts) | [fix(zot): select the service namespace in the ServiceMonitor](https://github.com/project-zot/helm-charts/pull/149) |
+| [ansible-collections/community.grafana](https://github.com/ansible-collections/community.grafana) | [fix(grafana_contact_point): ignore provenance when checking for changes](https://github.com/ansible-collections/community.grafana/pull/459) |
+| [wal-g/wal-g](https://github.com/wal-g/wal-g) | [fix(mysql): don't pass --apply-log-only to mariadb-backup](https://github.com/wal-g/wal-g/pull/2771) |
+| [ansible-collections/community.zabbix](https://github.com/ansible-collections/community.zabbix) | [zabbix_host: compare inventory_zabbix values as strings](https://github.com/ansible-collections/community.zabbix/pull/1799) |
 | [prometheus/mysqld_exporter](https://github.com/prometheus/mysqld_exporter) | [collector/binlog: return scan and iteration errors](https://github.com/prometheus/mysqld_exporter/pull/1109) |
 | [zilliztech/milvus-helm](https://github.com/zilliztech/milvus-helm) | [[tei] fix: render labels, annotations, volumes and topologySpreadConstraints](https://github.com/zilliztech/milvus-helm/pull/330) |
 | [latitudesh/terraform-provider-latitudesh](https://github.com/latitudesh/terraform-provider-latitudesh) | [fix(project): read the project by ID instead of scanning the first page](https://github.com/latitudesh/terraform-provider-latitudesh/pull/264)<br>[fix: remove server, ssh_key, user_data and firewall from state when deleted outside Terraform](https://github.com/latitudesh/terraform-provider-latitudesh/pull/263) |
