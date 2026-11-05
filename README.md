@@ -15,42 +15,38 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-44-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-1-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-32-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-91-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-6-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-58-2EA043?style=flat-square" alt="Projects">
 
-| Project | Latest pull request | |
-|---|---|---|
-| [gruntwork-io/terragrunt](https://github.com/gruntwork-io/terragrunt) | [fix: include init in get_terraform_commands_that_need_vars for OpenTofu >= 1.8](https://github.com/gruntwork-io/terragrunt/pull/7252) | `open` |
-| [ray-project/ray](https://github.com/ray-project/ray) | [[Java] Bump log4j to 2.25.5 and jackson-databind to 2.18.11](https://github.com/ray-project/ray/pull/67828) | `open` |
-| [argoproj-labs/terraform-provider-argocd](https://github.com/argoproj-labs/terraform-provider-argocd) | [feat(account_token): add optional token_id attribute](https://github.com/argoproj-labs/terraform-provider-argocd/pull/975) | `open` |
-| [rook/rook](https://github.com/rook/rook) | [osd: don't wipe metadata devices of existing OSDs](https://github.com/rook/rook/pull/18686) | `open` |
-| [tsuru/tsuru-client](https://github.com/tsuru/tsuru-client) | [fix: keep the current target in sync on target update](https://github.com/tsuru/tsuru-client/pull/283) | `open` |
-| [stern/stern](https://github.com/stern/stern) | [fix: compile the highlight regexp once per tail](https://github.com/stern/stern/pull/406) | `open` |
-| [terraform-aws-modules/terraform-aws-iam](https://github.com/terraform-aws-modules/terraform-aws-iam) | [fix: Add `ec2:DescribeVpcPeeringConnections` to the LBC TargetGroupBinding only policy](https://github.com/terraform-aws-modules/terraform-aws-iam/pull/670) | `open` |
-| [goharbor/harbor](https://github.com/goharbor/harbor) | [fix: return 404 for role ids outside the int32 range](https://github.com/goharbor/harbor/pull/24308) | `open` |
-| [tsuru/terraform-provider-tsuru](https://github.com/tsuru/terraform-provider-tsuru) | [fix: drop tsuru_app_cname and tsuru_app_router from state when removed outside terraform](https://github.com/tsuru/terraform-provider-tsuru/pull/98) | `open` |
-| [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | [feat(health): add health checks for Strimzi KafkaMirrorMaker and KafkaMirrorMaker2 (#5048)](https://github.com/argoproj/argo-cd/pull/30778) · +2 more | `open` |
-| [kubernetes-sigs/aws-load-balancer-controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller) | [fix(helm): quote default-tags and aws-vpc-tags args](https://github.com/kubernetes-sigs/aws-load-balancer-controller/pull/4943) | `open` |
-| [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | [frontend: resourceMap: Use targetRefs for backend policy relations](https://github.com/kubernetes-sigs/headlamp/pull/8256) · +2 more | `open` |
-| [open-feature/java-sdk-contrib](https://github.com/open-feature/java-sdk-contrib) | [fix(flagd): stop the FlagStore streamer thread on shutdown](https://github.com/open-feature/java-sdk-contrib/pull/1967) | `open` |
-| [litmuschaos/litmus](https://github.com/litmuschaos/litmus) | [fix(authentication): check the stored role before letting an owner leave](https://github.com/litmuschaos/litmus/pull/5712) | `open` |
-| [openkruise/charts](https://github.com/openkruise/charts) | [fix(kruise): point CRD conversion webhooks at the chart webhook service](https://github.com/openkruise/charts/pull/230) | `open` |
-| [lima-vm/lima](https://github.com/lima-vm/lima) | [limayaml: don't panic when the latest config fails to load](https://github.com/lima-vm/lima/pull/5738) | `open` |
-| [openebs/dynamic-localpv-provisioner](https://github.com/openebs/dynamic-localpv-provisioner) | [fix(helm): render localpv.securityContext on the provisioner container](https://github.com/openebs/dynamic-localpv-provisioner/pull/386) | `open` |
-| [kube-logging/fluent-plugin-label-router](https://github.com/kube-logging/fluent-plugin-label-router) | [Add worker_id label to router metrics with multiple workers](https://github.com/kube-logging/fluent-plugin-label-router/pull/32) | `open` |
-| [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv) | [feat(chart): allow extra args for the controller CSI sidecars](https://github.com/openebs/lvm-localpv/pull/528) | `open` |
-| [submariner-io/submariner-charts](https://github.com/submariner-io/submariner-charts) | [Omit ceIPSecPSK when no IPsec PSK is set](https://github.com/submariner-io/submariner-charts/pull/799) | `open` |
-| [carvel-dev/vendir](https://github.com/carvel-dev/vendir) | [Explain when a github release has no assets to fetch](https://github.com/carvel-dev/vendir/pull/482) | `open` |
-| [kube-vip/kube-vip](https://github.com/kube-vip/kube-vip) | [fix(services): do not treat DHCP placeholder VIPs as shared](https://github.com/kube-vip/kube-vip/pull/1838) | `open` |
-| [konveyor/tackle2-hub](https://github.com/konveyor/tackle2-hub) | [:bug: Validate shared api.Document fields against their schema](https://github.com/konveyor/tackle2-hub/pull/1183) | `open` |
-| [crossplane/crossplane](https://github.com/crossplane/crossplane) | [test(e2e): cover CRD hand-off for control planes upgraded from v1.20](https://github.com/crossplane/crossplane/pull/8011) | `open` |
-| [open-policy-agent/java-opa-sdk](https://github.com/open-policy-agent/java-opa-sdk) | [fix(cli): print counters and histograms in the metrics table](https://github.com/open-policy-agent/java-opa-sdk/pull/269) | `open` |
-| [fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka) | [in_kafka_group, in_rdkafka_group: Fix records skipped with time_source record](https://github.com/fluent/fluent-plugin-kafka/pull/598) | `open` |
-| [coredns/helm](https://github.com/coredns/helm) | [docs: note that the ServiceMonitor needs the metrics Service](https://github.com/coredns/helm/pull/288) | `open` |
-| [kubernetes/website](https://github.com/kubernetes/website) | [[pt-br] Add tasks/configure-pod-container/configure-projected-volume-storage.md](https://github.com/kubernetes/website/pull/59012) · +7 more | `open` |
-| [prometheus/alertmanager](https://github.com/prometheus/alertmanager) | [ui: do not serve Brotli-encoded HTML](https://github.com/prometheus/alertmanager/pull/5724) | `open` |
-| [envoyproxy/gateway](https://github.com/envoyproxy/gateway) | [fix(status): merge policy ancestor status across controllers](https://github.com/envoyproxy/gateway/pull/10516) · +1 more | `open` |
-| [prometheus/node_exporter](https://github.com/prometheus/node_exporter) | [fix(diskstats): drop sector metrics on darwin](https://github.com/prometheus/node_exporter/pull/3885) | `open` |
-| [runatlantis/atlantis](https://github.com/runatlantis/atlantis) | [fix: reject targeted plan for a missing dir before creating its status](https://github.com/runatlantis/atlantis/pull/7055) | `open` |
+**Merged**
+
+- [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open): [feat: add Helm chart](https://github.com/AsyncFuncAI/deepwiki-open/pull/621)
+- [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp): [frontend: resourceMap: Resolve HTTPRoute parent and backend refs](https://github.com/kubernetes-sigs/headlamp/pull/8254)
+- [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp): [frontend: util: Use desired DaemonSet pods as the total](https://github.com/kubernetes-sigs/headlamp/pull/8259)
+- [tsuru/tsuru-client](https://github.com/tsuru/tsuru-client): [fix: keep the current target in sync on target update](https://github.com/tsuru/tsuru-client/pull/283)
+- [coredns/helm](https://github.com/coredns/helm): [docs: note that the ServiceMonitor needs the metrics Service](https://github.com/coredns/helm/pull/288)
+- [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp): [frontend: resourceMap: Match NetworkPolicy podSelector fully](https://github.com/kubernetes-sigs/headlamp/pull/8245)
+
+**In review**
+
+| Project | Latest pull request |
+|---|---|
+| [helmfile/helmfile](https://github.com/helmfile/helmfile) | [fix: keep elements added to an existing array by --state-values-set](https://github.com/helmfile/helmfile/pull/2873) |
+| [aws-ia/terraform-aws-eks-blueprints-addons](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons) | [fix: Keep nested prefixes in the Velero backup location](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons/pull/524) |
+| [kubernetes-sigs/descheduler](https://github.com/kubernetes-sigs/descheduler) | [fix(helm): allow setting serviceMonitor.honorLabels to false](https://github.com/kubernetes-sigs/descheduler/pull/1940) |
+| [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets) | [fix(helm): use the container ports in the NetworkPolicy ingress rule](https://github.com/bitnami/sealed-secrets/pull/2096) |
+| [NVIDIA/k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin) | [Inspect embedded config.map entries before adding SYS_ADMIN](https://github.com/NVIDIA/k8s-device-plugin/pull/2155) |
+| [terraform-aws-modules/terraform-aws-iam](https://github.com/terraform-aws-modules/terraform-aws-iam) | [fix: Keep IRSA policy count known when policy documents are not read](https://github.com/terraform-aws-modules/terraform-aws-iam/pull/671) · +1 more |
+| [fluent/fluent-operator](https://github.com/fluent/fluent-operator) | [fix(helm): honor logstashFormat: false in the Elasticsearch ClusterOutput](https://github.com/fluent/fluent-operator/pull/2113) |
+| [openobserve/openobserve-helm-chart](https://github.com/openobserve/openobserve-helm-chart) | [fix(openobserve): honor postgres.spec.enableSuperuserAccess](https://github.com/openobserve/openobserve-helm-chart/pull/288) · +1 more |
+| [argoproj/argo-helm](https://github.com/argoproj/argo-helm) | [fix(argocd-image-updater): Allow webhook port in NetworkPolicy when service.enabled is set](https://github.com/argoproj/argo-helm/pull/4204) |
+| [github-aws-runners/terraform-aws-github-runner](https://github.com/github-aws-runners/terraform-aws-github-runner) | [fix(termination-watcher): keep retry queue visibility timeout at or above the Lambda timeout](https://github.com/github-aws-runners/terraform-aws-github-runner/pull/5576) |
+| [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts) | [[alertmanager-snmp-notifier] Honor namespaceOverride on all resources](https://github.com/prometheus-community/helm-charts/pull/7509) · +2 more |
+| [kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | [helm: default the ServiceMonitor client cert to the release's metrics secret](https://github.com/kubernetes-sigs/jobset/pull/1389) |
+| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_connection from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1103) · +2 more |
+| [kubernetes-sigs/dra-example-driver](https://github.com/kubernetes-sigs/dra-example-driver) | [Reject GPU sharing configs that omit the strategy config instead of panicking](https://github.com/kubernetes-sigs/dra-example-driver/pull/296) |
+| [terrakube-io/terrakube-helm-chart](https://github.com/terrakube-io/terrakube-helm-chart) | [fix(otel): quote defaulted values in the otel ConfigMaps](https://github.com/terrakube-io/terrakube-helm-chart/pull/304) · +1 more |
+
+…and pull requests in 43 more projects.
 <!--END_SECTION:activity-->
 
 **Projects**
