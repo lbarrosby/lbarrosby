@@ -15,38 +15,39 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-96-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-6-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-65-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-96-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-7-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-68-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [openebs/lvm-localpv](https://github.com/openebs/lvm-localpv): [feat(chart): allow extra args for the controller CSI sidecars](https://github.com/openebs/lvm-localpv/pull/528)
+- [hetznercloud/hcloud-cloud-controller-manager](https://github.com/hetznercloud/hcloud-cloud-controller-manager): [fix(load-balancer): trim spaces in comma separated annotations](https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411)
+- [openobserve/openobserve-helm-chart](https://github.com/openobserve/openobserve-helm-chart): [fix(openobserve-collector): apply image.pullPolicy to the collectors](https://github.com/openobserve/openobserve-helm-chart/pull/286)
 - [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open): [feat: add Helm chart](https://github.com/AsyncFuncAI/deepwiki-open/pull/621)
 - [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp): [frontend: resourceMap: Resolve HTTPRoute parent and backend refs](https://github.com/kubernetes-sigs/headlamp/pull/8254)
 - [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp): [frontend: util: Use desired DaemonSet pods as the total](https://github.com/kubernetes-sigs/headlamp/pull/8259)
 - [tsuru/tsuru-client](https://github.com/tsuru/tsuru-client): [fix: keep the current target in sync on target update](https://github.com/tsuru/tsuru-client/pull/283)
-- [coredns/helm](https://github.com/coredns/helm): [docs: note that the ServiceMonitor needs the metrics Service](https://github.com/coredns/helm/pull/288)
-- [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp): [frontend: resourceMap: Match NetworkPolicy podSelector fully](https://github.com/kubernetes-sigs/headlamp/pull/8245)
 
 **In review**
 
 | Project | Latest pull request |
 |---|---|
-| [sergelogvinov/proxmox-cloud-controller-manager](https://github.com/sergelogvinov/proxmox-cloud-controller-manager) | [fix: keep ip_sort_order cidrs out of the ignore list](https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/349) |
-| [MagaluCloud/mgc-sdk-go](https://github.com/MagaluCloud/mgc-sdk-go) | [fix(http): always send the request when MaxAttempts is zero or negative](https://github.com/MagaluCloud/mgc-sdk-go/pull/197) |
-| [kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api) | [access: do not modify the provider exec config](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/93) |
-| [MagaluCloud/terraform-provider-mgc](https://github.com/MagaluCloud/terraform-provider-mgc) | [fix(blockstorage): remove volume from state when it no longer exists](https://github.com/MagaluCloud/terraform-provider-mgc/pull/329) · +1 more |
-| [hetznercloud/hcloud-cloud-controller-manager](https://github.com/hetznercloud/hcloud-cloud-controller-manager) | [fix(load-balancer): trim spaces in comma separated annotations](https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411) |
-| [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox_kvm): return newid when the clone target already exists](https://github.com/ansible-collections/community.proxmox/pull/559) |
-| [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(acme): remove dns plugin from state when deleted outside terraform](https://github.com/bpg/terraform-provider-proxmox/pull/3259) · +1 more |
-| [hetznercloud/hcloud-go](https://github.com/hetznercloud/hcloud-go) | [fix(exp): escape backslashes in TXT records and keep escapes in one chunk](https://github.com/hetznercloud/hcloud-go/pull/963) |
-| [hetznercloud/terraform-provider-hcloud](https://github.com/hetznercloud/terraform-provider-hcloud) | [fix(server): do not delete primary ip already assigned to the server](https://github.com/hetznercloud/terraform-provider-hcloud/pull/1558) |
-| [helmfile/helmfile](https://github.com/helmfile/helmfile) | [fix: keep elements added to an existing array by --state-values-set](https://github.com/helmfile/helmfile/pull/2873) |
-| [aws-ia/terraform-aws-eks-blueprints-addons](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons) | [fix: Keep nested prefixes in the Velero backup location](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons/pull/524) |
-| [kubernetes-sigs/descheduler](https://github.com/kubernetes-sigs/descheduler) | [fix(helm): allow setting serviceMonitor.honorLabels to false](https://github.com/kubernetes-sigs/descheduler/pull/1940) |
-| [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets) | [fix(helm): use the container ports in the NetworkPolicy ingress rule](https://github.com/bitnami/sealed-secrets/pull/2096) |
-| [NVIDIA/k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin) | [Inspect embedded config.map entries before adding SYS_ADMIN](https://github.com/NVIDIA/k8s-device-plugin/pull/2155) |
-| [terraform-aws-modules/terraform-aws-iam](https://github.com/terraform-aws-modules/terraform-aws-iam) | [fix: Keep IRSA policy count known when policy documents are not read](https://github.com/terraform-aws-modules/terraform-aws-iam/pull/671) · +1 more |
+| [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | [fix(pki): accept lowercase attribute type names in literalSubject](https://github.com/cert-manager/cert-manager/pull/9556) |
+| [metallb/metallb](https://github.com/metallb/metallb) | [config: detect duplicate BGPPeers that only differ by name](https://github.com/metallb/metallb/pull/3182) |
+| [stakater/Reloader](https://github.com/stakater/Reloader) | [fix(handler): treat non-2xx --webhook-url responses as failures](https://github.com/stakater/Reloader/pull/1269) |
+| [aws/aws-cli](https://github.com/aws/aws-cli) | [Write JSON file cache entries atomically](https://github.com/aws/aws-cli/pull/10856) |
+| [cloudflare/cfssl](https://github.com/cloudflare/cfssl) | [signer: trim spaces and skip empty entries in SplitHosts](https://github.com/cloudflare/cfssl/pull/1463) |
+| [awslabs/eks-node-viewer](https://github.com/awslabs/eks-node-viewer) | [fix: update node usage when a bound pod's requests change](https://github.com/awslabs/eks-node-viewer/pull/547) |
+| [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets) | [fix(kubeseal): fail on malformed documents instead of skipping them](https://github.com/bitnami/sealed-secrets/pull/2097) · +1 more |
+| [istio/istio](https://github.com/istio/istio) | [gateway: honor exportTo when resolving Hostname backendRefs](https://github.com/istio/istio/pull/62659) |
+| [otwld/ollama-helm](https://github.com/otwld/ollama-helm) | [fix: keep service ipFamilies inside the non-Knative Service](https://github.com/otwld/ollama-helm/pull/296) · +1 more |
+| [kubernetes-sigs/kwok](https://github.com/kubernetes-sigs/kwok) | [heap: update the key when pushing an existing item](https://github.com/kubernetes-sigs/kwok/pull/1801) |
+| [open-webui/helm-charts](https://github.com/open-webui/helm-charts) | [fix(terminals): match operator labels in default terminalPodSelector](https://github.com/open-webui/helm-charts/pull/459) |
+| [aziontech/lib](https://github.com/aziontech/lib) | [fix(utils): keep '=' in cookie values in parseRequest](https://github.com/aziontech/lib/pull/495) · +3 more |
+| [kubernetes-sigs/e2e-framework](https://github.com/kubernetes-sigs/e2e-framework) | [utils: use go env to find the go install directory](https://github.com/kubernetes-sigs/e2e-framework/pull/605) · +1 more |
+| [runatlantis/atlantis](https://github.com/runatlantis/atlantis) | [fix: read pre-v0.44.0 pull records with int policy approvals](https://github.com/runatlantis/atlantis/pull/7059) |
+| [MagaluCloud/mgc-sdk-go](https://github.com/MagaluCloud/mgc-sdk-go) | [fix(client): let errors.Is/As see the error wrapped by RetryError](https://github.com/MagaluCloud/mgc-sdk-go/pull/198) · +1 more |
 
-…and pull requests in 50 more projects.
+…and pull requests in 51 more projects.
 <!--END_SECTION:activity-->
 
 **Projects**
