@@ -15,10 +15,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-301-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-52-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-180-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-306-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-53-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-184-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [coredns/helm](https://github.com/coredns/helm): [fix: default the server port when it is not set](https://github.com/coredns/helm/pull/289)
 - [helmfile/helmfile](https://github.com/helmfile/helmfile): [fix: return the default from get when a parent value is nil](https://github.com/helmfile/helmfile/pull/2877)
 - [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts): [[prometheus-rabbitmq-exporter] Fix service.labels rendering](https://github.com/prometheus-community/helm-charts/pull/7544)
 - [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts): [fix(mysqldump): keep the s3 and ssh upload steps on their own line](https://github.com/kokuwaio/helm-charts/pull/252)
@@ -76,6 +77,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | [fix(controller): apply retry backoff when retryStrategy has no limit](https://github.com/argoproj/argo-workflows/pull/17464) |
+| [argoproj/argo-rollouts](https://github.com/argoproj/argo-rollouts) | [fix(trafficrouting): skip ingress paths without a service backend in nginx](https://github.com/argoproj/argo-rollouts/pull/5172) |
+| [falcosecurity/falcoctl](https://github.com/falcosecurity/falcoctl) | [fix(follower): release wait group when canceled during startup jitter](https://github.com/falcosecurity/falcoctl/pull/1131) |
+| [istio/istio](https://github.com/istio/istio) | [helm: allow network gateway ports in the gateway NetworkPolicy](https://github.com/istio/istio/pull/62680)<br>[gateway: honor exportTo when resolving Hostname backendRefs](https://github.com/istio/istio/pull/62659) |
+| [kedacore/http-add-on](https://github.com/kedacore/http-add-on) | [fix(interceptor): fall back to shorter path when route headers do not match](https://github.com/kedacore/http-add-on/pull/1834) |
 | [falcosecurity/falco](https://github.com/falcosecurity/falco) | [fix(chart): use falcosidekick.listenPort in the Falcosidekick URL](https://github.com/falcosecurity/falco/pull/4069) |
 | [zammad/zammad-helm](https://github.com/zammad/zammad-helm) | [fix: render podDisruptionBudget minAvailable/maxUnavailable when set to 0](https://github.com/zammad/zammad-helm/pull/506)<br>[fix: set REDIS_USERNAME in sentinel mode when zammadConfig.redis.username is set](https://github.com/zammad/zammad-helm/pull/504) |
 | [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: don't report unknown stream group lag and entries-read as 0](https://github.com/oliver006/redis_exporter/pull/1215) |
@@ -198,7 +204,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [cloudflare/cfssl](https://github.com/cloudflare/cfssl) | [signer: trim spaces and skip empty entries in SplitHosts](https://github.com/cloudflare/cfssl/pull/1463) |
 | [awslabs/eks-node-viewer](https://github.com/awslabs/eks-node-viewer) | [fix: update node usage when a bound pod's requests change](https://github.com/awslabs/eks-node-viewer/pull/547) |
 | [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets) | [fix(kubeseal): fail on malformed documents instead of skipping them](https://github.com/bitnami/sealed-secrets/pull/2097)<br>[fix(helm): use the container ports in the NetworkPolicy ingress rule](https://github.com/bitnami/sealed-secrets/pull/2096) |
-| [istio/istio](https://github.com/istio/istio) | [gateway: honor exportTo when resolving Hostname backendRefs](https://github.com/istio/istio/pull/62659) |
 | [otwld/ollama-helm](https://github.com/otwld/ollama-helm) | [fix: keep service ipFamilies inside the non-Knative Service](https://github.com/otwld/ollama-helm/pull/296)<br>[fix: allow revisionHistoryLimit to be set to 0](https://github.com/otwld/ollama-helm/pull/295) |
 | [kubernetes-sigs/kwok](https://github.com/kubernetes-sigs/kwok) | [heap: update the key when pushing an existing item](https://github.com/kubernetes-sigs/kwok/pull/1801) |
 | [open-webui/helm-charts](https://github.com/open-webui/helm-charts) | [fix(terminals): match operator labels in default terminalPodSelector](https://github.com/open-webui/helm-charts/pull/459) |
@@ -221,7 +226,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [tsuru/go-tsuruclient](https://github.com/tsuru/go-tsuruclient) | [fix(config): keep token files readable only by the owner](https://github.com/tsuru/go-tsuruclient/pull/38) |
 | [tsuru/rpaas-operator](https://github.com/tsuru/rpaas-operator) | [fix: return the get error before using the rpaas instance in reconcile](https://github.com/tsuru/rpaas-operator/pull/204) |
 | [tsuru/acl-operator](https://github.com/tsuru/acl-operator) | [fix: stop requeueing deleted tsuru apps and cronjobs](https://github.com/tsuru/acl-operator/pull/14) |
-| [coredns/helm](https://github.com/coredns/helm) | [fix: default the server port when it is not set](https://github.com/coredns/helm/pull/289) |
 | [goharbor/harbor-helm](https://github.com/goharbor/harbor-helm) | [feat(core): add core.existingSecretKey for the core secret](https://github.com/goharbor/harbor-helm/pull/2432) |
 | [memcached/memcached](https://github.com/memcached/memcached) | [contrib: add a Helm chart](https://github.com/memcached/memcached/pull/1338) |
 | [flant/shell-operator](https://github.com/flant/shell-operator) | [[shell-operator] feat: add a generic Helm chart](https://github.com/flant/shell-operator/pull/963) |
