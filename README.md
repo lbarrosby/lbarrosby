@@ -15,10 +15,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-306-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-53-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-184-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-311-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-54-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-184-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts): [[stable/rds-downscaler]: use the chart service account and fix podLabels/imagePullSecrets rendering](https://github.com/deliveryhero/helm-charts/pull/823)
 - [coredns/helm](https://github.com/coredns/helm): [fix: default the server port when it is not set](https://github.com/coredns/helm/pull/289)
 - [helmfile/helmfile](https://github.com/helmfile/helmfile): [fix: return the default from get when a parent value is nil](https://github.com/helmfile/helmfile/pull/2877)
 - [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts): [[prometheus-rabbitmq-exporter] Fix service.labels rendering](https://github.com/prometheus-community/helm-charts/pull/7544)
@@ -77,6 +78,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [awslabs/eks-node-viewer](https://github.com/awslabs/eks-node-viewer) | [ci: pin actions by SHA and scope release token to the job](https://github.com/awslabs/eks-node-viewer/pull/548)<br>[fix: update node usage when a bound pod's requests change](https://github.com/awslabs/eks-node-viewer/pull/547) |
+| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [ci: pin actions by SHA and set read-only token permissions](https://github.com/luthermonson/go-proxmox/pull/357)<br>[fix(firewall): send force and digest when deleting guest ipsets](https://github.com/luthermonson/go-proxmox/pull/356) |
+| [stern/stern](https://github.com/stern/stern) | [Harden GitHub Actions workflows](https://github.com/stern/stern/pull/408)<br>[fix: compile the highlight regexp once per tail](https://github.com/stern/stern/pull/406) |
+| [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts) | [[stable/no-chart] ci: pin actions by SHA and set read-only token permissions](https://github.com/deliveryhero/helm-charts/pull/824)<br>[[stable/prometheus-cloudflare-exporter]: render podLabels on the pod template](https://github.com/deliveryhero/helm-charts/pull/820) |
+| [fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka) | [ci: set least-privilege GITHUB_TOKEN permissions in workflows](https://github.com/fluent/fluent-plugin-kafka/pull/605) |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | [fix(controller): apply retry backoff when retryStrategy has no limit](https://github.com/argoproj/argo-workflows/pull/17464) |
 | [argoproj/argo-rollouts](https://github.com/argoproj/argo-rollouts) | [fix(trafficrouting): skip ingress paths without a service backend in nginx](https://github.com/argoproj/argo-rollouts/pull/5172) |
 | [falcosecurity/falcoctl](https://github.com/falcosecurity/falcoctl) | [fix(follower): release wait group when canceled during startup jitter](https://github.com/falcosecurity/falcoctl/pull/1131) |
@@ -88,7 +94,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [falcosecurity/charts](https://github.com/falcosecurity/charts) | [fix(falco-talon): read the elasticsearch, loki url and aws access key values](https://github.com/falcosecurity/charts/pull/1087)<br>[fix(falcosidekick): use notlsport for the http-notls container port](https://github.com/falcosecurity/charts/pull/1086) |
 | [fluent/fluentd-kubernetes-daemonset](https://github.com/fluent/fluentd-kubernetes-daemonset) | [Fix opensearch https failing with ENOENT when client cert env vars are unset](https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1702) |
 | [falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick) | [fix(outputs): escape special characters in the InfluxDB line protocol payload](https://github.com/falcosecurity/falcosidekick/pull/1479) |
-| [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts) | [[stable/rds-downscaler]: use the chart service account and fix podLabels/imagePullSecrets rendering](https://github.com/deliveryhero/helm-charts/pull/823)<br>[[stable/prometheus-cloudflare-exporter]: render podLabels on the pod template](https://github.com/deliveryhero/helm-charts/pull/820) |
 | [huaweicloud/terraform-provider-huaweicloud](https://github.com/huaweicloud/terraform-provider-huaweicloud) | [docs(CCE): explain how to use the add-on template spec with huaweicloud_cce_addon](https://github.com/huaweicloud/terraform-provider-huaweicloud/pull/10537)<br>[fix(OBS): remove bucket sub-resources from the state when the bucket is gone](https://github.com/huaweicloud/terraform-provider-huaweicloud/pull/10536)<br>[fix(OBS): leave connection retries to the OBS SDK so retries are signed again](https://github.com/huaweicloud/terraform-provider-huaweicloud/pull/10535) |
 | [kaito-project/kaito](https://github.com/kaito-project/kaito) | [fix: read max-model-len from inference_config.yaml with a YAML parser](https://github.com/kaito-project/kaito/pull/2515) |
 | [kubeai-project/kubeai](https://github.com/kubeai-project/kubeai) | [fix: reject resource profile multiples below 1](https://github.com/kubeai-project/kubeai/pull/793) |
@@ -114,7 +119,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [kubernetes/cloud-provider-openstack](https://github.com/kubernetes/cloud-provider-openstack) | [[occm] Rename listener when its pool already has the new cluster-name](https://github.com/kubernetes/cloud-provider-openstack/pull/3283) |
 | [headlamp-k8s/plugins](https://github.com/headlamp-k8s/plugins) | [flux: HelmRelease: Show the chart name in the Chart field](https://github.com/headlamp-k8s/plugins/pull/1463) |
 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | [cloud-provider: test route controller triggers and route_sync_total labels](https://github.com/kubernetes/kubernetes/pull/143871) |
-| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(firewall): send force and digest when deleting guest ipsets](https://github.com/luthermonson/go-proxmox/pull/356) |
 | [proxmoxer/proxmoxer](https://github.com/proxmoxer/proxmoxer) | [Fix Tasks.decode_log for log pages that do not start at line 1](https://github.com/proxmoxer/proxmoxer/pull/233) |
 | [openbq-org/OpenBB](https://github.com/openbq-org/OpenBB) | [[BugFix] `openbb-core`: Build combined certificate path from the file name](https://github.com/openbq-org/OpenBB/pull/7818) |
 | [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Fix lag-0 mirror marks counted as edges in graph comparison plots](https://github.com/bloomberg/causal-ts/pull/96) |
@@ -202,7 +206,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [stakater/Reloader](https://github.com/stakater/Reloader) | [fix(handler): treat non-2xx --webhook-url responses as failures](https://github.com/stakater/Reloader/pull/1269) |
 | [aws/aws-cli](https://github.com/aws/aws-cli) | [Write JSON file cache entries atomically](https://github.com/aws/aws-cli/pull/10856) |
 | [cloudflare/cfssl](https://github.com/cloudflare/cfssl) | [signer: trim spaces and skip empty entries in SplitHosts](https://github.com/cloudflare/cfssl/pull/1463) |
-| [awslabs/eks-node-viewer](https://github.com/awslabs/eks-node-viewer) | [fix: update node usage when a bound pod's requests change](https://github.com/awslabs/eks-node-viewer/pull/547) |
 | [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets) | [fix(kubeseal): fail on malformed documents instead of skipping them](https://github.com/bitnami/sealed-secrets/pull/2097)<br>[fix(helm): use the container ports in the NetworkPolicy ingress rule](https://github.com/bitnami/sealed-secrets/pull/2096) |
 | [otwld/ollama-helm](https://github.com/otwld/ollama-helm) | [fix: keep service ipFamilies inside the non-Knative Service](https://github.com/otwld/ollama-helm/pull/296)<br>[fix: allow revisionHistoryLimit to be set to 0](https://github.com/otwld/ollama-helm/pull/295) |
 | [kubernetes-sigs/kwok](https://github.com/kubernetes-sigs/kwok) | [heap: update the key when pushing an existing item](https://github.com/kubernetes-sigs/kwok/pull/1801) |
@@ -232,7 +235,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [gruntwork-io/terragrunt](https://github.com/gruntwork-io/terragrunt) | [fix: include init in get_terraform_commands_that_need_vars for OpenTofu >= 1.8](https://github.com/gruntwork-io/terragrunt/pull/7252) |
 | [ray-project/ray](https://github.com/ray-project/ray) | [[Java] Bump log4j to 2.25.5 and jackson-databind to 2.18.11](https://github.com/ray-project/ray/pull/67828) |
 | [argoproj-labs/terraform-provider-argocd](https://github.com/argoproj-labs/terraform-provider-argocd) | [feat(account_token): add optional token_id attribute](https://github.com/argoproj-labs/terraform-provider-argocd/pull/975) |
-| [stern/stern](https://github.com/stern/stern) | [fix: compile the highlight regexp once per tail](https://github.com/stern/stern/pull/406) |
 | [goharbor/harbor](https://github.com/goharbor/harbor) | [fix: return 404 for role ids outside the int32 range](https://github.com/goharbor/harbor/pull/24308) |
 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | [feat(health): add health checks for Strimzi KafkaMirrorMaker and KafkaMirrorMaker2 (#5048)](https://github.com/argoproj/argo-cd/pull/30778)<br>[fix(cli): include argocd-cmd-params-cm in admin export/import (#9506)](https://github.com/argoproj/argo-cd/pull/30759)<br>[fix(cli): report server version as unavailable in core mode (#9747)](https://github.com/argoproj/argo-cd/pull/30758) |
 | [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | [frontend: resourceMap: Use targetRefs for backend policy relations](https://github.com/kubernetes-sigs/headlamp/pull/8256) |
