@@ -15,10 +15,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-280-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-41-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-171-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-281-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-42-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-171-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter): [fix: count usec for commands with _ or - in the latency histogram sum](https://github.com/oliver006/redis_exporter/pull/1214)
 - [fluent/fluentd-kubernetes-daemonset](https://github.com/fluent/fluentd-kubernetes-daemonset): [Fix kafka, kafka2 and kinesis settings that are empty when unset](https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1698)
 - [fluent/fluentd-kubernetes-daemonset](https://github.com/fluent/fluentd-kubernetes-daemonset): [Fix entrypoint.sh exiting early on elasticsearch and opensearch images](https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1697)
 - [knative/eventing](https://github.com/knative/eventing): [fix(trigger): track the subscriber with the Trigger as observer](https://github.com/knative/eventing/pull/9509)
@@ -65,6 +66,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [fluent/fluentd-kubernetes-daemonset](https://github.com/fluent/fluentd-kubernetes-daemonset) | [Fix FLUENT_CONTAINER_TAIL_EXCLUDE_PATH in JSON array format](https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1699) |
 | [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [:bug: (API): keep the target's line endings in UncommentCode and CommentCode](https://github.com/kubernetes-sigs/kubebuilder/pull/6160) |
 | [kubernetes-sigs/controller-tools](https://github.com/kubernetes-sigs/controller-tools) | [:bug: markers: parse bool-prefixed bare strings as strings](https://github.com/kubernetes-sigs/controller-tools/pull/1505) |
 | [falcosecurity/charts](https://github.com/falcosecurity/charts) | [fix(falcosidekick): use notlsport for the http-notls container port](https://github.com/falcosecurity/charts/pull/1086) |
@@ -128,7 +130,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [qdrant/qdrant-helm](https://github.com/qdrant/qdrant-helm) | [Fix readiness probe path for non-semver image tags](https://github.com/qdrant/qdrant-helm/pull/531) |
 | [ansible-collections/community.aws](https://github.com/ansible-collections/community.aws) | [elasticache - do not report changes for wildcard engine versions](https://github.com/ansible-collections/community.aws/pull/2542) |
 | [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) | [fix(aur): install every binary of the archive in the default package](https://github.com/goreleaser/goreleaser/pull/7284) |
-| [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: count usec for commands with _ or - in the latency histogram sum](https://github.com/oliver006/redis_exporter/pull/1214) |
 | [ansible-collections/kubernetes.core](https://github.com/ansible-collections/kubernetes.core) | [fix(k8s): match set-based label selectors on prefixed keys](https://github.com/ansible-collections/kubernetes.core/pull/1282) |
 | [terraform-aws-modules/terraform-aws-eks](https://github.com/terraform-aws-modules/terraform-aws-eks) | [fix: Remove unused cluster_primary_security_group_id from eks_managed_node_groups type](https://github.com/terraform-aws-modules/terraform-aws-eks/pull/3767) |
 | [knative/eventing](https://github.com/knative/eventing) | [fix(apiserversource): drop deleted ApiServerSources from the tracker](https://github.com/knative/eventing/pull/9511) |
