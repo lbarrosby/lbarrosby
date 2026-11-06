@@ -15,10 +15,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-300-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-51-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-179-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-301-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-52-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-180-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [helmfile/helmfile](https://github.com/helmfile/helmfile): [fix: return the default from get when a parent value is nil](https://github.com/helmfile/helmfile/pull/2877)
 - [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts): [[prometheus-rabbitmq-exporter] Fix service.labels rendering](https://github.com/prometheus-community/helm-charts/pull/7544)
 - [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts): [fix(mysqldump): keep the s3 and ssh upload steps on their own line](https://github.com/kokuwaio/helm-charts/pull/252)
 - [openebs/zfs-localpv](https://github.com/openebs/zfs-localpv): [fix(helm): render zfsNode and zfsController updateStrategy](https://github.com/openebs/zfs-localpv/pull/791)
@@ -75,8 +76,8 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [falcosecurity/falco](https://github.com/falcosecurity/falco) | [fix(chart): use falcosidekick.listenPort in the Falcosidekick URL](https://github.com/falcosecurity/falco/pull/4069) |
 | [zammad/zammad-helm](https://github.com/zammad/zammad-helm) | [fix: render podDisruptionBudget minAvailable/maxUnavailable when set to 0](https://github.com/zammad/zammad-helm/pull/506)<br>[fix: set REDIS_USERNAME in sentinel mode when zammadConfig.redis.username is set](https://github.com/zammad/zammad-helm/pull/504) |
-| [helmfile/helmfile](https://github.com/helmfile/helmfile) | [fix: return the default from get when a parent value is nil](https://github.com/helmfile/helmfile/pull/2877) |
 | [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: don't report unknown stream group lag and entries-read as 0](https://github.com/oliver006/redis_exporter/pull/1215) |
 | [falcosecurity/charts](https://github.com/falcosecurity/charts) | [fix(falco-talon): read the elasticsearch, loki url and aws access key values](https://github.com/falcosecurity/charts/pull/1087)<br>[fix(falcosidekick): use notlsport for the http-notls container port](https://github.com/falcosecurity/charts/pull/1086) |
 | [fluent/fluentd-kubernetes-daemonset](https://github.com/fluent/fluentd-kubernetes-daemonset) | [Fix opensearch https failing with ENOENT when client cert env vars are unset](https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1702) |
