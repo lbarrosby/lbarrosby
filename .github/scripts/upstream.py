@@ -63,6 +63,18 @@ def cncf_label(repo, repos, orgs):
     return f"CNCF {level.capitalize()} ({project})"
 
 
+COLORS = {"graduated": "0086FF", "incubating": "8957E5", "sandbox": "6E7781"}
+
+
+def cncf_badge(repo, repos, orgs):
+    label = cncf_label(repo, repos, orgs)
+    if not label:
+        return ""
+    level = label.split()[1].lower()
+    project = label.split("(", 1)[1].rstrip(")")
+    return f'<img src="https://img.shields.io/badge/CNCF-{level.capitalize()}-{COLORS[level]}?style=flat-square&logo=cncf&logoColor=white" alt="CNCF {level}" title="{project}: CNCF {level}">'
+
+
 def status(pr):
     if pr["pull_request"].get("merged_at"):
         return "merged"
@@ -91,8 +103,8 @@ def main():
         for p in sorted(done, key=lambda p: p["pull_request"]["merged_at"], reverse=True):
             repo = p["repository_url"].split("/repos/")[1]
             title = p["title"].replace("|", "\\|")
-            label = cncf_label(repo, repos_cncf, orgs_cncf)
-            tag = f" `{label}`" if label else ""
+            badge = cncf_badge(repo, repos_cncf, orgs_cncf)
+            tag = f" {badge}" if badge else ""
             lines.append(f"- [{repo}](https://github.com/{repo}){tag}: [{title}]({p['html_url']})")
         lines.append("")
     open_repos = {r: [p for p in items if status(p) == "open"] for r, items in repos.items()}
@@ -101,8 +113,8 @@ def main():
     lines += ["**In review**", "", "| Project | CNCF | Pull requests |", "|---|---|---|"]
     for repo, items in ordered:
         links = "<br>".join(f"[{p['title'].replace('|', chr(92) + '|')}]({p['html_url']})" for p in items)
-        label = cncf_label(repo, repos_cncf, orgs_cncf).removeprefix("CNCF ")
-        lines.append(f"| [{repo}](https://github.com/{repo}) | {label} | {links} |")
+        badge = cncf_badge(repo, repos_cncf, orgs_cncf)
+        lines.append(f"| [{repo}](https://github.com/{repo}) | {badge} | {links} |")
     block = "\n".join(lines)
     readme = open("README.md").read()
     readme = re.sub(r"(<!--START_SECTION:activity-->\n).*?(<!--END_SECTION:activity-->)", lambda m: m.group(1) + block + "\n" + m.group(2), readme, flags=re.S)
