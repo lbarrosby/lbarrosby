@@ -15,10 +15,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-280-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-40-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-171-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-280-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-41-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-171-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [fluent/fluentd-kubernetes-daemonset](https://github.com/fluent/fluentd-kubernetes-daemonset): [Fix kafka, kafka2 and kinesis settings that are empty when unset](https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1698)
 - [fluent/fluentd-kubernetes-daemonset](https://github.com/fluent/fluentd-kubernetes-daemonset): [Fix entrypoint.sh exiting early on elasticsearch and opensearch images](https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1697)
 - [knative/eventing](https://github.com/knative/eventing): [fix(trigger): track the subscriber with the Trigger as observer](https://github.com/knative/eventing/pull/9509)
 - [fluent/fluentd](https://github.com/fluent/fluentd): [parser_syslog, in_syslog: fix handling of a priority on a later line](https://github.com/fluent/fluentd/pull/5598)
@@ -89,7 +90,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Fix lag-0 mirror marks counted as edges in graph comparison plots](https://github.com/bloomberg/causal-ts/pull/96) |
 | [losisin/helm-values-schema-json](https://github.com/losisin/helm-values-schema-json) | [fix: resolve YAML aliases and merge keys in values](https://github.com/losisin/helm-values-schema-json/pull/417) |
 | [sergelogvinov/helm-charts](https://github.com/sergelogvinov/helm-charts) | [fix(mongodb-backup): apply podLabels to job pods](https://github.com/sergelogvinov/helm-charts/pull/541) |
-| [fluent/fluentd-kubernetes-daemonset](https://github.com/fluent/fluentd-kubernetes-daemonset) | [Fix kafka, kafka2 and kinesis settings that are empty when unset](https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1698) |
 | [containerd/nerdctl](https://github.com/containerd/nerdctl) | [fix(compose): honor deploy.restart_policy condition on-failure](https://github.com/containerd/nerdctl/pull/5331) |
 | [DataDog/integrations-extras](https://github.com/DataDog/integrations-extras) | [Add Xinference integration](https://github.com/DataDog/integrations-extras/pull/3274)<br>[Add LocalAI integration](https://github.com/DataDog/integrations-extras/pull/3273)<br>[Add vLLM Production Stack integration](https://github.com/DataDog/integrations-extras/pull/3272)<br>[Add Volcano integration](https://github.com/DataDog/integrations-extras/pull/3271)<br>[Add Hugging Face TEI integration](https://github.com/DataDog/integrations-extras/pull/3270)<br>[Add llama.cpp integration](https://github.com/DataDog/integrations-extras/pull/3269) |
 | [bank-of-england/forecast_evaluation](https://github.com/bank-of-england/forecast_evaluation) | [Accept a single extra_ids string and name missing columns in validation errors](https://github.com/bank-of-england/forecast_evaluation/pull/51) |
