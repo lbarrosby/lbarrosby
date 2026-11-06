@@ -107,17 +107,18 @@ def main():
             repo = p["repository_url"].split("/repos/")[1]
             title = p["title"].replace("|", "\\|")
             badge = cncf_badge(repo, repos_cncf, orgs_cncf)
-            tag = f" {badge}" if badge else ""
-            lines.append(f"- [{repo}](https://github.com/{repo}){tag}: [{title}]({p['html_url']})")
+            tag = f"{badge} " if badge else ""
+            lines.append(f"- {tag}[{repo}](https://github.com/{repo}): [{title}]({p['html_url']})")
         lines.append("")
     open_repos = {r: [p for p in items if status(p) == "open"] for r, items in repos.items()}
     open_repos = {r: items for r, items in open_repos.items() if items}
     ordered = sorted(open_repos.items(), key=lambda kv: kv[1][0]["created_at"], reverse=True)
-    lines += ["**In review**", "", "| Project | CNCF | Pull requests |", "|---|---|---|"]
+    lines += ["**In review**", "", "| Project | Pull requests |", "|---|---|"]
     for repo, items in ordered:
         links = "<br>".join(f"[{p['title'].replace('|', chr(92) + '|')}]({p['html_url']})" for p in items)
         badge = cncf_badge(repo, repos_cncf, orgs_cncf)
-        lines.append(f"| [{repo}](https://github.com/{repo}) | {badge} | {links} |")
+        tag = f"{badge}<br>" if badge else ""
+        lines.append(f"| {tag}[{repo}](https://github.com/{repo}) | {links} |")
     block = "\n".join(lines)
     readme = open("README.md").read()
     readme = re.sub(r"(<!--START_SECTION:activity-->\n).*?(<!--END_SECTION:activity-->)", lambda m: m.group(1) + block + "\n" + m.group(2), readme, flags=re.S)
