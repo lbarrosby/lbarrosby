@@ -21,6 +21,48 @@ def search():
     return items
 
 
+SHARED_ORGS = {"nvidia", "kubernetes", "kubernetes-sigs"}
+EXTRA_ORGS = {"prometheus-community": ("graduated", "Prometheus")}
+RANK = {"sandbox": 1, "incubating": 2, "graduated": 3}
+
+
+def cncf_levels():
+    try:
+        data = json.load(urllib.request.urlopen("https://landscape.cncf.io/data/full.json", timeout=60))
+    except Exception:
+        return {}, {}
+    repos, orgs = {}, {}
+    for item in data["items"]:
+        level = item.get("maturity")
+        if level not in RANK:
+            continue
+        for r in item.get("repositories") or []:
+            parts = r["url"].rstrip("/").lower().split("github.com/")[-1].split("/")
+            if len(parts) < 2:
+                continue
+            repos["/".join(parts[:2])] = (level, item["name"])
+            if RANK[level] > RANK.get(orgs.get(parts[0], ("", ""))[0], 0):
+                orgs[parts[0]] = (level, item["name"])
+    for org in SHARED_ORGS:
+        orgs.pop(org, None)
+    orgs.update(EXTRA_ORGS)
+    return repos, orgs
+
+
+def cncf_label(repo, repos, orgs):
+    name = repo.lower()
+    org = name.split("/")[0]
+    if org in ("kubernetes", "kubernetes-sigs"):
+        level, project = "graduated", "Kubernetes"
+    elif name in repos:
+        level, project = repos[name]
+    elif org in orgs:
+        level, project = orgs[org]
+    else:
+        return ""
+    return f"CNCF {level.capitalize()} ({project})"
+
+
 def status(pr):
     if pr["pull_request"].get("merged_at"):
         return "merged"
@@ -38,6 +80,10 @@ def main():
     if merged:
         badges.append(f'<img src="https://img.shields.io/badge/merged-{merged}-8957E5?style=flat-square" alt="Merged">')
     badges.append(f'<img src="https://img.shields.io/badge/projects-{len(repos)}-2EA043?style=flat-square" alt="Projects">')
+    repos_cncf, orgs_cncf = cncf_levels()
+    graduated = sum(1 for p in prs if status(p) == "merged" and "Graduated" in cncf_label(p["repository_url"].split("/repos/")[1], repos_cncf, orgs_cncf))
+    if graduated:
+        badges.append(f'<img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-{graduated}-0086FF?style=flat-square" alt="Merged in CNCF graduated projects">')
     lines = [" ".join(badges), ""]
     done = [p for p in prs if status(p) == "merged"]
     if done:
@@ -45,15 +91,18 @@ def main():
         for p in sorted(done, key=lambda p: p["pull_request"]["merged_at"], reverse=True):
             repo = p["repository_url"].split("/repos/")[1]
             title = p["title"].replace("|", "\\|")
-            lines.append(f"- [{repo}](https://github.com/{repo}): [{title}]({p['html_url']})")
+            label = cncf_label(repo, repos_cncf, orgs_cncf)
+            tag = f" `{label}`" if label else ""
+            lines.append(f"- [{repo}](https://github.com/{repo}){tag}: [{title}]({p['html_url']})")
         lines.append("")
     open_repos = {r: [p for p in items if status(p) == "open"] for r, items in repos.items()}
     open_repos = {r: items for r, items in open_repos.items() if items}
     ordered = sorted(open_repos.items(), key=lambda kv: kv[1][0]["created_at"], reverse=True)
-    lines += ["**In review**", "", "| Project | Pull requests |", "|---|---|"]
+    lines += ["**In review**", "", "| Project | CNCF | Pull requests |", "|---|---|---|"]
     for repo, items in ordered:
         links = "<br>".join(f"[{p['title'].replace('|', chr(92) + '|')}]({p['html_url']})" for p in items)
-        lines.append(f"| [{repo}](https://github.com/{repo}) | {links} |")
+        label = cncf_label(repo, repos_cncf, orgs_cncf).removeprefix("CNCF ")
+        lines.append(f"| [{repo}](https://github.com/{repo}) | {label} | {links} |")
     block = "\n".join(lines)
     readme = open("README.md").read()
     readme = re.sub(r"(<!--START_SECTION:activity-->\n).*?(<!--END_SECTION:activity-->)", lambda m: m.group(1) + block + "\n" + m.group(2), readme, flags=re.S)
