@@ -71,8 +71,11 @@ def cncf_badge(repo, repos, orgs):
     if not label:
         return ""
     level = label.split()[1].lower()
-    project = label.split("(", 1)[1].rstrip(")")
-    return f'<img src="https://img.shields.io/badge/CNCF-{level.capitalize()}-{COLORS[level]}?style=flat-square&logo=cncf&logoColor=white" alt="CNCF {level}" title="{project}: CNCF {level}">'
+    project = label.split("(", 1)[1][:-1]
+    if "(" in project:
+        project = project.split("(", 1)[1].rstrip(")")
+    name = urllib.parse.quote(project.replace("-", "--").replace("_", "__"))
+    return f'<img src="https://img.shields.io/badge/{name}-CNCF%20{level.capitalize()}-{COLORS[level]}?style=flat-square&logo=cncf&logoColor=white" alt="{project}: CNCF {level}" title="{project}: CNCF {level}">'
 
 
 def status(pr):
