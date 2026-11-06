@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-274-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-39-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-165-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-280-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-39-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-171-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
@@ -63,6 +63,12 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [:bug: (API): keep the target's line endings in UncommentCode and CommentCode](https://github.com/kubernetes-sigs/kubebuilder/pull/6160) |
+| [kubernetes-sigs/controller-tools](https://github.com/kubernetes-sigs/controller-tools) | [:bug: markers: parse bool-prefixed bare strings as strings](https://github.com/kubernetes-sigs/controller-tools/pull/1505) |
+| [falcosecurity/charts](https://github.com/falcosecurity/charts) | [fix(falcosidekick): use notlsport for the http-notls container port](https://github.com/falcosecurity/charts/pull/1086) |
+| [helm/chart-testing](https://github.com/helm/chart-testing) | [fix(exec): stop RunProcess from hanging on large stderr output](https://github.com/helm/chart-testing/pull/882) |
+| [velero-io/velero-plugin-for-gcp](https://github.com/velero-io/velero-plugin-for-gcp) | [Retry regional disk snapshots without labels when setLabels is missing](https://github.com/velero-io/velero-plugin-for-gcp/pull/284) |
+| [aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | [fix: render settings.vmMemoryOverheadPercent when it is 0](https://github.com/aws/karpenter-provider-aws/pull/9852) |
 | [kyverno/policies](https://github.com/kyverno/policies) | [fix(best-practices-vpol): check only regular containers in require-ro-rootfs](https://github.com/kyverno/policies/pull/1705)<br>[fix(psp-migration-mpol): mutate Pods only in add-apparmor, add-capabilities and add-runtimeClassName](https://github.com/kyverno/policies/pull/1704) |
 | [kyverno/kyverno](https://github.com/kyverno/kyverno) | [fix(cel): select the highest-priority exception when priorities are negative](https://github.com/kyverno/kyverno/pull/18486)<br>[fix(dpol): resolve wildcard apiGroups and apiVersions against discovery](https://github.com/kyverno/kyverno/pull/18477) |
 | [kubernetes-sigs/external-dns](https://github.com/kubernetes-sigs/external-dns) | [fix(cloudflare): ignore spaces and empty entries in custom hostnames](https://github.com/kubernetes-sigs/external-dns/pull/6931)<br>[refactor(validation): return field.ErrorList from config validators](https://github.com/kubernetes-sigs/external-dns/pull/6929) |
