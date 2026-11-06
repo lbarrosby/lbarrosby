@@ -15,10 +15,12 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-219-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-33-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-129-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-219-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-35-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-129-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api): [access: do not modify the provider exec config](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/93)
+- [kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api): [access: sort profile-sourced exec env vars by name](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/96)
 - [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor): [fix: match -o json and -o yaml case-insensitively like kubectl](https://github.com/kubecolor/kubecolor/pull/386)
 - [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts): [[prometheus-pingdom-exporter] Fix ServiceAccount annotations indentation](https://github.com/prometheus-community/helm-charts/pull/7536)
 - [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts): [[prometheus-mysql-exporter] Honor cloudsqlproxy.image.pullPolicy](https://github.com/prometheus-community/helm-charts/pull/7533)
@@ -120,7 +122,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [Mongey/terraform-provider-kafka](https://github.com/Mongey/terraform-provider-kafka) | [Support importing kafka_quota](https://github.com/Mongey/terraform-provider-kafka/pull/690) |
 | [vultr/terraform-provider-vultr](https://github.com/vultr/terraform-provider-vultr) | [Mark credential attributes as sensitive](https://github.com/vultr/terraform-provider-vultr/pull/811)<br>[Remove database sub-resources from state when the database is gone](https://github.com/vultr/terraform-provider-vultr/pull/810) |
 | [digitalocean/terraform-provider-digitalocean](https://github.com/digitalocean/terraform-provider-digitalocean) | [spaces: remove bucket CORS configuration from state when it is gone](https://github.com/digitalocean/terraform-provider-digitalocean/pull/1633) |
-| [kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api) | [access: sort profile-sourced exec env vars by name](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/96)<br>[access: do not modify the provider exec config](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/93) |
 | [exoscale/terraform-provider-exoscale](https://github.com/exoscale/terraform-provider-exoscale) | [fix(block_storage_volume_snapshot): remove from state when deleted outside of Terraform](https://github.com/exoscale/terraform-provider-exoscale/pull/642) |
 | [kubernetes-sigs/e2e-framework](https://github.com/kubernetes-sigs/e2e-framework) | [conditions: wait for observed generation in DaemonSetReady](https://github.com/kubernetes-sigs/e2e-framework/pull/607)<br>[utils: use go env to find the go install directory](https://github.com/kubernetes-sigs/e2e-framework/pull/605)<br>[watcher: stop the event loop when the watch ends](https://github.com/kubernetes-sigs/e2e-framework/pull/603) |
 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | [fix(pki): accept lowercase attribute type names in literalSubject](https://github.com/cert-manager/cert-manager/pull/9556) |
