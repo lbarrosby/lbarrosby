@@ -15,10 +15,12 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-316-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-62-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-186-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-318-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-64-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-188-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [argoproj/argo-helm](https://github.com/argoproj/argo-helm): [fix(argocd-image-updater): Allow webhook port in NetworkPolicy when service.enabled is set](https://github.com/argoproj/argo-helm/pull/4204)
+- [argoproj/argo-helm](https://github.com/argoproj/argo-helm): [fix(argocd-image-updater): mount the secret created by certificateSecret](https://github.com/argoproj/argo-helm/pull/4207)
 - [linode/linode-cloud-controller-manager](https://github.com/linode/linode-cloud-controller-manager): [[fix] trim whitespace and skip empty entries in linode-loadbalancer-tags](https://github.com/linode/linode-cloud-controller-manager/pull/654)
 - [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts): [Fix lag-0 mirror marks counted as edges in graph comparison plots](https://github.com/bloomberg/causal-ts/pull/96)
 - [kubernetes-sigs/external-dns](https://github.com/kubernetes-sigs/external-dns): [refactor(validation): return field.ErrorList from config validators](https://github.com/kubernetes-sigs/external-dns/pull/6929)
@@ -86,6 +88,8 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [jenkinsci/mcp-server-plugin](https://github.com/jenkinsci/mcp-server-plugin) | [Count open SSE and Streamable HTTP clients in /mcp-health activeConnections](https://github.com/jenkinsci/mcp-server-plugin/pull/293) |
+| [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: keep "-- " and "++ " lines in auto-fix diffs and end created files with a newline](https://github.com/jenkinsci/explain-error-plugin/pull/267) |
 | [kubernetes-sigs/agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) | [fix(sandbox-router): keep the request body open across dial retries](https://github.com/kubernetes-sigs/agent-sandbox/pull/2202) |
 | [kubernetes-sigs/gateway-api-inference-extension](https://github.com/kubernetes-sigs/gateway-api-inference-extension) | [fix(lwepp): respond with 503 when no endpoint is eligible](https://github.com/kubernetes-sigs/gateway-api-inference-extension/pull/3084) |
 | [headlamp-k8s/plugins](https://github.com/headlamp-k8s/plugins) | [ai-assistant: security: Redact last-applied annotation on Secrets](https://github.com/headlamp-k8s/plugins/pull/1466)<br>[flux: HelmRelease: Show the chart name in the Chart field](https://github.com/headlamp-k8s/plugins/pull/1463) |
@@ -190,7 +194,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [dapr/components-contrib](https://github.com/dapr/components-contrib) | [fix(state/redis): return empty results instead of an error when a query matches nothing](https://github.com/dapr/components-contrib/pull/4742) |
 | [projectcontour/contour](https://github.com/projectcontour/contour) | [Set alt_stat_name for DNS name clusters](https://github.com/projectcontour/contour/pull/7821) |
 | [kubernetes-sigs/aws-ebs-csi-driver](https://github.com/kubernetes-sigs/aws-ebs-csi-driver) | [Honor leaderElection values for csi-resizer and allow lease tuning in the chart schema](https://github.com/kubernetes-sigs/aws-ebs-csi-driver/pull/3101) |
-| [argoproj/argo-helm](https://github.com/argoproj/argo-helm) | [fix(argocd-image-updater): mount the secret created by certificateSecret](https://github.com/argoproj/argo-helm/pull/4207)<br>[fix(argo-cd): render server.service.externalIPs as a list](https://github.com/argoproj/argo-helm/pull/4206)<br>[fix(argocd-image-updater): Allow webhook port in NetworkPolicy when service.enabled is set](https://github.com/argoproj/argo-helm/pull/4204) |
+| [argoproj/argo-helm](https://github.com/argoproj/argo-helm) | [fix(argo-cd): render server.service.externalIPs as a list](https://github.com/argoproj/argo-helm/pull/4206) |
 | [sergelogvinov/proxmox-csi-plugin](https://github.com/sergelogvinov/proxmox-csi-plugin) | [docs: explain why volume snapshots need the root@pam password](https://github.com/sergelogvinov/proxmox-csi-plugin/pull/687) |
 | [goharbor/terraform-provider-harbor](https://github.com/goharbor/terraform-provider-harbor) | [fix(#650): retention policy replaced on every plan when scope is a plain project ID](https://github.com/goharbor/terraform-provider-harbor/pull/666) |
 | [tsuru/terraform-provider-tsuru](https://github.com/tsuru/terraform-provider-tsuru) | [fix: reject malformed import IDs for tsuru_cluster_pool and tsuru_pool_constraint](https://github.com/tsuru/terraform-provider-tsuru/pull/106)<br>[fix: report non-API errors from retried tsuru calls](https://github.com/tsuru/terraform-provider-tsuru/pull/105)<br>[feat: add tsuru_pool data source](https://github.com/tsuru/terraform-provider-tsuru/pull/102)<br>[fix: drop tsuru_app_cname and tsuru_app_router from state when removed outside terraform](https://github.com/tsuru/terraform-provider-tsuru/pull/98) |
