@@ -15,10 +15,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-311-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-54-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-184-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-311-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-55-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-184-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [jenkinsci/helm-charts](https://github.com/jenkinsci/helm-charts): [fix(jenkins): read the documented controller.clusterIP value](https://github.com/jenkinsci/helm-charts/pull/1814)
 - [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts): [[stable/rds-downscaler]: use the chart service account and fix podLabels/imagePullSecrets rendering](https://github.com/deliveryhero/helm-charts/pull/823)
 - [coredns/helm](https://github.com/coredns/helm): [fix: default the server port when it is not set](https://github.com/coredns/helm/pull/289)
 - [helmfile/helmfile](https://github.com/helmfile/helmfile): [fix: return the default from get when a parent value is nil](https://github.com/helmfile/helmfile/pull/2877)
@@ -168,7 +169,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [lima-vm/lima](https://github.com/lima-vm/lima) | [downloader: don't leave a partial file at the local path](https://github.com/lima-vm/lima/pull/5751)<br>[limatmpl: strip native arch aliases from image-derived instance names](https://github.com/lima-vm/lima/pull/5747)<br>[guestagent: don't run kubectl when no kubeconfig is found](https://github.com/lima-vm/lima/pull/5746) |
 | [kubernetes-sigs/cluster-api-provider-aws](https://github.com/kubernetes-sigs/cluster-api-provider-aws) | [🐛 fix(eks): resolve sourceSecurityGroupRoles in additional control plane ingress rules](https://github.com/kubernetes-sigs/cluster-api-provider-aws/pull/6345)<br>[🐛 fix(eks): handle nil taint key and value in TaintsFromSDK](https://github.com/kubernetes-sigs/cluster-api-provider-aws/pull/6344) |
 | [openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(rbac): limit zfs controller access to namespaces to read-only](https://github.com/openebs/zfs-localpv/pull/792) |
-| [jenkinsci/helm-charts](https://github.com/jenkinsci/helm-charts) | [fix(jenkins): read the documented controller.clusterIP value](https://github.com/jenkinsci/helm-charts/pull/1814) |
 | [fluent/fluent-operator](https://github.com/fluent/fluent-operator) | [fix(helm): honor buffer.enable in the Fluentd outputs](https://github.com/fluent/fluent-operator/pull/2118)<br>[fix(helm): use the buffer scope in the Fluentd OpenSearch output](https://github.com/fluent/fluent-operator/pull/2115)<br>[fix(helm): honor logstashFormat: false in the Fluentd ES and OpenSearch outputs](https://github.com/fluent/fluent-operator/pull/2114) |
 | [terraform-aws-modules/terraform-aws-ecs](https://github.com/terraform-aws-modules/terraform-aws-ecs) | [fix: Pass `cluster_capacity_providers_wait_duration` through the root module](https://github.com/terraform-aws-modules/terraform-aws-ecs/pull/430) |
 | [stackrox/kube-linter](https://github.com/stackrox/kube-linter) | [fix(pdb-min-available): match deployments with matchExpressions selectors](https://github.com/stackrox/kube-linter/pull/1292) |
