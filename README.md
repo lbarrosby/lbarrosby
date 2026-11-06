@@ -15,10 +15,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-216-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-32-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-127-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-219-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-33-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-129-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor): [fix: match -o json and -o yaml case-insensitively like kubectl](https://github.com/kubecolor/kubecolor/pull/386)
 - [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts): [[prometheus-pingdom-exporter] Fix ServiceAccount annotations indentation](https://github.com/prometheus-community/helm-charts/pull/7536)
 - [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts): [[prometheus-mysql-exporter] Honor cloudsqlproxy.image.pullPolicy](https://github.com/prometheus-community/helm-charts/pull/7533)
 - [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts): [[prometheus-pgbouncer-exporter] Fix ServiceAccount annotations and NetworkPolicy labels rendering](https://github.com/prometheus-community/helm-charts/pull/7537)
@@ -56,6 +57,8 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [latitudesh/agent](https://github.com/latitudesh/agent) | [fix(firewall): parse IPv6-only UFW rules so removed ones get deleted](https://github.com/latitudesh/agent/pull/34)<br>[fix(client): time out API requests so a stalled call can't freeze the sync loop](https://github.com/latitudesh/agent/pull/33) |
+| [kubevirt/containerized-data-importer](https://github.com/kubevirt/containerized-data-importer) | [importer: derive the S3 region from dual-stack and FIPS endpoints](https://github.com/kubevirt/containerized-data-importer/pull/4337) |
 | [goharbor/harbor-cli](https://github.com/goharbor/harbor-cli) | [fix(retention): create a policy when the project has none](https://github.com/goharbor/harbor-cli/pull/1140) |
 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [fix(helm): point the ingress at the service named by service.name](https://github.com/aquasecurity/trivy/pull/11564) |
 | [project-zot/helm-charts](https://github.com/project-zot/helm-charts) | [fix(zot): select the service namespace in the ServiceMonitor](https://github.com/project-zot/helm-charts/pull/149) |
@@ -75,7 +78,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [ansible-collections/kubernetes.core](https://github.com/ansible-collections/kubernetes.core) | [fix(k8s): match set-based label selectors on prefixed keys](https://github.com/ansible-collections/kubernetes.core/pull/1282) |
 | [terraform-aws-modules/terraform-aws-eks](https://github.com/terraform-aws-modules/terraform-aws-eks) | [fix: Remove unused cluster_primary_security_group_id from eks_managed_node_groups type](https://github.com/terraform-aws-modules/terraform-aws-eks/pull/3767) |
 | [knative/eventing](https://github.com/knative/eventing) | [fix(apiserversource): drop deleted ApiServerSources from the tracker](https://github.com/knative/eventing/pull/9511)<br>[fix(trigger): track the subscriber with the Trigger as observer](https://github.com/knative/eventing/pull/9509) |
-| [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [fix: match -o json and -o yaml case-insensitively like kubectl](https://github.com/kubecolor/kubecolor/pull/386)<br>[fix: honor =false on --no-headers, --watch, --follow and --interactive](https://github.com/kubecolor/kubecolor/pull/385) |
 | [kyverno/policies](https://github.com/kyverno/policies) | [fix(psp-migration-mpol): mutate Pods only in add-apparmor, add-capabilities and add-runtimeClassName](https://github.com/kyverno/policies/pull/1704) |
 | [lima-vm/lima](https://github.com/lima-vm/lima) | [downloader: don't leave a partial file at the local path](https://github.com/lima-vm/lima/pull/5751)<br>[limatmpl: strip native arch aliases from image-derived instance names](https://github.com/lima-vm/lima/pull/5747)<br>[guestagent: don't run kubectl when no kubeconfig is found](https://github.com/lima-vm/lima/pull/5746) |
 | [kyverno/kyverno](https://github.com/kyverno/kyverno) | [fix(dpol): resolve wildcard apiGroups and apiVersions against discovery](https://github.com/kyverno/kyverno/pull/18477) |
@@ -89,6 +91,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [terraform-aws-modules/terraform-aws-ecs](https://github.com/terraform-aws-modules/terraform-aws-ecs) | [fix: Pass `cluster_capacity_providers_wait_duration` through the root module](https://github.com/terraform-aws-modules/terraform-aws-ecs/pull/430) |
 | [stackrox/kube-linter](https://github.com/stackrox/kube-linter) | [fix(pdb-min-available): match deployments with matchExpressions selectors](https://github.com/stackrox/kube-linter/pull/1292) |
 | [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) | [Make sure ResetOpenAPI() is called in tests, even if the tests failed](https://github.com/kubernetes-sigs/kustomize/pull/6354) |
+| [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [fix: honor =false on --no-headers, --watch, --follow and --interactive](https://github.com/kubecolor/kubecolor/pull/385) |
 | [external-secrets/external-secrets](https://github.com/external-secrets/external-secrets) | [fix(bitwarden): honor name.regexp in GetAllSecrets find](https://github.com/external-secrets/external-secrets/pull/7250) |
 | [kubernetes-sigs/aws-load-balancer-controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller) | [feat: add opt-in --leader-election-lease-duration flag](https://github.com/kubernetes-sigs/aws-load-balancer-controller/pull/4948)<br>[feat(helm): make failurePolicy configurable for TargetGroupBinding, IngressClassParams and pod server id webhooks](https://github.com/kubernetes-sigs/aws-load-balancer-controller/pull/4947)<br>[fix(helm): quote default-tags and aws-vpc-tags args](https://github.com/kubernetes-sigs/aws-load-balancer-controller/pull/4943) |
 | [kubernetes-sigs/dra-example-driver](https://github.com/kubernetes-sigs/dra-example-driver) | [Remove the temp checkpoint file when writing the checkpoint fails](https://github.com/kubernetes-sigs/dra-example-driver/pull/297) |
