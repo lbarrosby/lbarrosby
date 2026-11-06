@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-219-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-36-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-129-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-221-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-36-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-130-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
@@ -60,6 +60,8 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [fluent/fluentd](https://github.com/fluent/fluentd) | [parser_syslog, in_syslog: match the priority only at the start of the message](https://github.com/fluent/fluentd/pull/5598) |
+| [civo/terraform-provider-civo](https://github.com/civo/terraform-provider-civo) | [fix(instances): drop reserved IP assignment from state when it drifts](https://github.com/civo/terraform-provider-civo/pull/437) |
 | [latitudesh/agent](https://github.com/latitudesh/agent) | [fix(firewall): parse IPv6-only UFW rules so removed ones get deleted](https://github.com/latitudesh/agent/pull/34)<br>[fix(client): time out API requests so a stalled call can't freeze the sync loop](https://github.com/latitudesh/agent/pull/33) |
 | [kubevirt/containerized-data-importer](https://github.com/kubevirt/containerized-data-importer) | [importer: derive the S3 region from dual-stack and FIPS endpoints](https://github.com/kubevirt/containerized-data-importer/pull/4337) |
 | [goharbor/harbor-cli](https://github.com/goharbor/harbor-cli) | [fix(retention): create a policy when the project has none](https://github.com/goharbor/harbor-cli/pull/1140) |
