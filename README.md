@@ -15,10 +15,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-316-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-58-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-186-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-316-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-59-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-186-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick): [fix(outputs): escape special characters in the InfluxDB line protocol payload](https://github.com/falcosecurity/falcosidekick/pull/1479)
 - [prometheus-community/helm-charts](https://github.com/prometheus-community/helm-charts): [[prometheus-nats-exporter] Render extraContainers in the Deployment](https://github.com/prometheus-community/helm-charts/pull/7526)
 - [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio): [fix(replication): set the ID before removing unused remote targets](https://github.com/aminueza/terraform-provider-minio/pull/1263)
 - [openebs/zfs-localpv](https://github.com/openebs/zfs-localpv): [fix(rbac): limit zfs controller access to namespaces to read-only](https://github.com/openebs/zfs-localpv/pull/792)
@@ -102,7 +103,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: don't report unknown stream group lag and entries-read as 0](https://github.com/oliver006/redis_exporter/pull/1215) |
 | [falcosecurity/charts](https://github.com/falcosecurity/charts) | [fix(falco-talon): read the elasticsearch, loki url and aws access key values](https://github.com/falcosecurity/charts/pull/1087)<br>[fix(falcosidekick): use notlsport for the http-notls container port](https://github.com/falcosecurity/charts/pull/1086) |
 | [fluent/fluentd-kubernetes-daemonset](https://github.com/fluent/fluentd-kubernetes-daemonset) | [Fix opensearch https failing with ENOENT when client cert env vars are unset](https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1702) |
-| [falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick) | [fix(outputs): escape special characters in the InfluxDB line protocol payload](https://github.com/falcosecurity/falcosidekick/pull/1479) |
 | [huaweicloud/terraform-provider-huaweicloud](https://github.com/huaweicloud/terraform-provider-huaweicloud) | [docs(CCE): explain how to use the add-on template spec with huaweicloud_cce_addon](https://github.com/huaweicloud/terraform-provider-huaweicloud/pull/10537)<br>[fix(OBS): remove bucket sub-resources from the state when the bucket is gone](https://github.com/huaweicloud/terraform-provider-huaweicloud/pull/10536)<br>[fix(OBS): leave connection retries to the OBS SDK so retries are signed again](https://github.com/huaweicloud/terraform-provider-huaweicloud/pull/10535) |
 | [kaito-project/kaito](https://github.com/kaito-project/kaito) | [fix: read max-model-len from inference_config.yaml with a YAML parser](https://github.com/kaito-project/kaito/pull/2515) |
 | [kubeai-project/kubeai](https://github.com/kubeai-project/kubeai) | [fix: reject resource profile multiples below 1](https://github.com/kubeai-project/kubeai/pull/793) |
@@ -112,7 +112,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [fluent/fluent-plugin-opensearch](https://github.com/fluent/fluent-plugin-opensearch) | [Add client_chain to send intermediate certificates with excon](https://github.com/fluent/fluent-plugin-opensearch/pull/201) |
 | [fluent-plugins-nursery/fluent-plugin-out-http](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http) | [Send the intermediate certificates of client_cert_path](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/95) |
 | [fluent-plugins-nursery/fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat) | [Fix streams mixing when the tag or identity contains a colon](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/161) |
-| [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [:bug: (API): keep the target's line endings in UncommentCode and CommentCode](https://github.com/kubernetes-sigs/kubebuilder/pull/6160) |
+| [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [🐛 (API): keep the target's line endings in UncommentCode and CommentCode](https://github.com/kubernetes-sigs/kubebuilder/pull/6160) |
 | [kubernetes-sigs/controller-tools](https://github.com/kubernetes-sigs/controller-tools) | [:bug: markers: parse bool-prefixed bare strings as strings](https://github.com/kubernetes-sigs/controller-tools/pull/1505) |
 | [helm/chart-testing](https://github.com/helm/chart-testing) | [fix(exec): stop RunProcess from hanging on large stderr output](https://github.com/helm/chart-testing/pull/882) |
 | [velero-io/velero-plugin-for-gcp](https://github.com/velero-io/velero-plugin-for-gcp) | [Retry regional disk snapshots without labels when setLabels is missing](https://github.com/velero-io/velero-plugin-for-gcp/pull/284) |
