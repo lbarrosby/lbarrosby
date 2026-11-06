@@ -15,10 +15,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-219-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-35-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-129-2EA043?style=flat-square" alt="Projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-219-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-36-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-129-2EA043?style=flat-square" alt="Projects">
 
 **Merged**
 
+- [fluent/fluentd](https://github.com/fluent/fluentd): [record_accessor: raise ConfigError for a non-integer array index](https://github.com/fluent/fluentd/pull/5596)
 - [kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api): [access: do not modify the provider exec config](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/93)
 - [kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api): [access: sort profile-sourced exec env vars by name](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/96)
 - [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor): [fix: match -o json and -o yaml case-insensitively like kubectl](https://github.com/kubecolor/kubecolor/pull/386)
@@ -109,7 +110,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [sergelogvinov/proxmox-csi-plugin](https://github.com/sergelogvinov/proxmox-csi-plugin) | [docs: explain why volume snapshots need the root@pam password](https://github.com/sergelogvinov/proxmox-csi-plugin/pull/687) |
 | [goharbor/terraform-provider-harbor](https://github.com/goharbor/terraform-provider-harbor) | [fix(#650): retention policy replaced on every plan when scope is a plain project ID](https://github.com/goharbor/terraform-provider-harbor/pull/666) |
 | [tsuru/terraform-provider-tsuru](https://github.com/tsuru/terraform-provider-tsuru) | [fix: reject malformed import IDs for tsuru_cluster_pool and tsuru_pool_constraint](https://github.com/tsuru/terraform-provider-tsuru/pull/106)<br>[fix: report non-API errors from retried tsuru calls](https://github.com/tsuru/terraform-provider-tsuru/pull/105)<br>[feat: add tsuru_pool data source](https://github.com/tsuru/terraform-provider-tsuru/pull/102)<br>[fix: drop tsuru_app_cname and tsuru_app_router from state when removed outside terraform](https://github.com/tsuru/terraform-provider-tsuru/pull/98) |
-| [fluent/fluentd](https://github.com/fluent/fluentd) | [record_accessor: raise ConfigError for a non-integer array index](https://github.com/fluent/fluentd/pull/5596) |
 | [tsuru/nginx-operator](https://github.com/tsuru/nginx-operator) | [fix: don't panic updating an ingress when nginx sets no ingress annotations](https://github.com/tsuru/nginx-operator/pull/59) |
 | [scaleway/terraform-provider-scaleway](https://github.com/scaleway/terraform-provider-scaleway) | [fix: #4587 accept offer-specific private network options on baremetal servers](https://github.com/scaleway/terraform-provider-scaleway/pull/4590) |
 | [tsuru/deploy-agent](https://github.com/tsuru/deploy-agent) | [fix: return an error instead of panicking on a truncated build context archive](https://github.com/tsuru/deploy-agent/pull/58) |
