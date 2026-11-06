@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-321-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-66-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-191-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-36-0086FF?style=flat-square" alt="Merged in CNCF graduated projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-322-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-66-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-192-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-36-0086FF?style=flat-square" alt="Merged in CNCF graduated projects">
 
 **Merged**
 
@@ -90,6 +90,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [controlplaneio-fluxcd/flux-operator](https://github.com/controlplaneio-fluxcd/flux-operator) | [mcp: keep cluster-scoped kinds out of the target namespace in diff](https://github.com/controlplaneio-fluxcd/flux-operator/pull/1099) |
 | [awslabs/mcp](https://github.com/awslabs/mcp) | [fix(ecs-mcp-server): send valid CloudWatch Logs requests in fetch_task_logs](https://github.com/awslabs/mcp/pull/5043) |
 | [pab1it0/prometheus-mcp-server](https://github.com/pab1it0/prometheus-mcp-server) | [fix: keep the Prometheus error message on 4xx responses](https://github.com/pab1it0/prometheus-mcp-server/pull/207) |
 | [strowk/mcp-k8s-go](https://github.com/strowk/mcp-k8s-go) | [fix: mask secrets regardless of how kind and version are spelled](https://github.com/strowk/mcp-k8s-go/pull/81) |
