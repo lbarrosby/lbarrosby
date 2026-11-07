@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-390-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-85-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-227-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-44-0086FF?style=flat-square" alt="Merged in CNCF graduated projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-405-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-85-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-240-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-44-0086FF?style=flat-square" alt="Merged in CNCF graduated projects">
 
 **Merged**
 
@@ -109,6 +109,19 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [jianyuan/terraform-provider-sentry](https://github.com/jianyuan/terraform-provider-sentry) | [fix: remove resources deleted outside of Terraform from state on read](https://github.com/jianyuan/terraform-provider-sentry/pull/1002) |
+| [moov-io/go-sftp](https://github.com/moov-io/go-sftp) | [fix: only skip the directory that returned SkipDir in Walk](https://github.com/moov-io/go-sftp/pull/363) |
+| [equinix/terraform-equinix-fabric](https://github.com/equinix/terraform-equinix-fabric) | [fix: cloud router module provider pin and ignored routing protocol inputs](https://github.com/equinix/terraform-equinix-fabric/pull/275)<br>[fix: streaming module outputs, Terraform version and Splunk example inputs](https://github.com/equinix/terraform-equinix-fabric/pull/274) |
+| [globocom/go-m3u8](https://github.com/globocom/go-m3u8) | [ci: set up Go once from go.mod](https://github.com/globocom/go-m3u8/pull/33) |
+| [tailscale/terraform-provider-tailscale](https://github.com/tailscale/terraform-provider-tailscale) | [tailscale: handle webhooks and posture integrations deleted outside Terraform](https://github.com/tailscale/terraform-provider-tailscale/pull/849) |
+| [render-oss/terraform-provider-render](https://github.com/render-oss/terraform-provider-render) | [fix(registrycredential): remove credential from state when Read gets 404](https://github.com/render-oss/terraform-provider-render/pull/119) |
+| [supabase/terraform-provider-supabase](https://github.com/supabase/terraform-provider-supabase) | [fix(project): report error when project fails to become active on create](https://github.com/supabase/terraform-provider-supabase/pull/394)<br>[fix(project): remove project from state when Read gets 404](https://github.com/supabase/terraform-provider-supabase/pull/393) |
+| [buildkite/terraform-provider-buildkite](https://github.com/buildkite/terraform-provider-buildkite) | [fix(portal): clear description and allowed_ip_addresses when removed](https://github.com/buildkite/terraform-provider-buildkite/pull/1336) |
+| [moov-io/imagecashletter](https://github.com/moov-io/imagecashletter) | [cashLetter: keep caller-set BOFDItemSequenceNumber on returns](https://github.com/moov-io/imagecashletter/pull/529) |
+| [PrefectHQ/terraform-provider-prefect](https://github.com/PrefectHQ/terraform-provider-prefect) | [fix(block_schema): handle read errors instead of panicking](https://github.com/PrefectHQ/terraform-provider-prefect/pull/735) |
+| [dbt-labs/terraform-provider-dbtcloud](https://github.com/dbt-labs/terraform-provider-dbtcloud) | [fix: remove databricks and spark credentials from state on 404](https://github.com/dbt-labs/terraform-provider-dbtcloud/pull/797) |
+| [OpenBanking-Brasil/fin_search](https://github.com/OpenBanking-Brasil/fin_search) | [fix: restaura o Maven Wrapper e corrige instruções de execução](https://github.com/OpenBanking-Brasil/fin_search/pull/4) |
+| [astronomer/terraform-provider-astro](https://github.com/astronomer/terraform-provider-astro) | [Keep secret variable link overrides from the plan on read](https://github.com/astronomer/terraform-provider-astro/pull/365) |
 | [elastic/terraform-provider-ec](https://github.com/elastic/terraform-provider-ec) | [Honor size_resource when counting nodes for dedicated masters](https://github.com/elastic/terraform-provider-ec/pull/1108) |
 | [latitudesh/examples](https://github.com/latitudesh/examples) | [fix(nomad-consul): add the private network resources the example references](https://github.com/latitudesh/examples/pull/69) |
 | [latitudesh/cli](https://github.com/latitudesh/cli) | [fix(cli): walk every page in firewalls, firewall assignments and elastic-ips list](https://github.com/latitudesh/cli/pull/100)<br>[fix(cli): send SDK requests to the host set by --hostname/--scheme/--base-path](https://github.com/latitudesh/cli/pull/99) |
