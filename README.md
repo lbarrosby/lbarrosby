@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-417-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-91-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-247-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-44-0086FF?style=flat-square" alt="Merged in CNCF graduated projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-418-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-91-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-248-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-44-0086FF?style=flat-square" alt="Merged in CNCF graduated projects">
 
 **Merged**
 
@@ -115,6 +115,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [gestaogovbr/Ro-dou](https://github.com/gestaogovbr/Ro-dou) | [fix: grava os dados do PostgreSQL em subdiretório do volume no Helm](https://github.com/gestaogovbr/Ro-dou/pull/379) |
 | [OHF-Voice/piper1-gpl](https://github.com/OHF-Voice/piper1-gpl) | [Put the --sentence-silence pause between lines of input too](https://github.com/OHF-Voice/piper1-gpl/pull/354)<br>[Write a valid, empty WAV file when the text has nothing to speak](https://github.com/OHF-Voice/piper1-gpl/pull/353) |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | [Honor --disable-metadata in Save WEBM and Save SVG](https://github.com/Comfy-Org/ComfyUI/pull/17599)<br>[Don't require images in WanPhantomSubjectToVideo](https://github.com/Comfy-Org/ComfyUI/pull/17598) |
 | [elastic/integrations](https://github.com/elastic/integrations) | [[New Integration] Add Qdrant integration](https://github.com/elastic/integrations/pull/22347)<br>[[New Integration] Add vLLM integration](https://github.com/elastic/integrations/pull/22346) |
