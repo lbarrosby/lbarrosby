@@ -15,10 +15,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-412-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-90-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-245-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-44-0086FF?style=flat-square" alt="Merged in CNCF graduated projects">
+<img src="https://img.shields.io/badge/upstream%20PRs-417-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-91-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-247-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-44-0086FF?style=flat-square" alt="Merged in CNCF graduated projects">
 
 **Merged**
 
+- <img src="https://img.shields.io/badge/zot-CNCF%20Sandbox-6E7781?style=flat-square&logo=cncf&logoColor=white" alt="zot: CNCF sandbox" title="zot: CNCF sandbox"> [project-zot/helm-charts](https://github.com/project-zot/helm-charts): [fix(zot): select the service namespace in the ServiceMonitor](https://github.com/project-zot/helm-charts/pull/149)
 - [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox): [fix(proxmox_vm_info): return network info without requiring config](https://github.com/ansible-collections/community.proxmox/pull/563)
 - [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox): [fix(proxmox_kvm): return newid when the clone target already exists](https://github.com/ansible-collections/community.proxmox/pull/559)
 - [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio): [fix(kms_key): report read errors instead of dropping the key from state](https://github.com/aminueza/terraform-provider-minio/pull/1268)
@@ -114,6 +115,9 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 | Project | Pull requests |
 |---|---|
+| [OHF-Voice/piper1-gpl](https://github.com/OHF-Voice/piper1-gpl) | [Put the --sentence-silence pause between lines of input too](https://github.com/OHF-Voice/piper1-gpl/pull/354)<br>[Write a valid, empty WAV file when the text has nothing to speak](https://github.com/OHF-Voice/piper1-gpl/pull/353) |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | [Honor --disable-metadata in Save WEBM and Save SVG](https://github.com/Comfy-Org/ComfyUI/pull/17599)<br>[Don't require images in WanPhantomSubjectToVideo](https://github.com/Comfy-Org/ComfyUI/pull/17598) |
+| [elastic/integrations](https://github.com/elastic/integrations) | [[New Integration] Add Qdrant integration](https://github.com/elastic/integrations/pull/22347)<br>[[New Integration] Add vLLM integration](https://github.com/elastic/integrations/pull/22346) |
 | [xorbitsai/inference](https://github.com/xorbitsai/inference) | [fix(video): run Wan2.2 image-to-video without max_area or image encoder](https://github.com/xorbitsai/inference/pull/6035) |
 | [ansible-collections/community.aws](https://github.com/ansible-collections/community.aws) | [feat(elb_target_group): add ip_address_type option](https://github.com/ansible-collections/community.aws/pull/2547)<br>[elasticache - do not report changes for wildcard engine versions](https://github.com/ansible-collections/community.aws/pull/2542) |
 | [topfreegames/pitaya](https://github.com/topfreegames/pitaya) | [fix(xk6-pitaya): build the k6 image with a supported Go and k6 v1](https://github.com/topfreegames/pitaya/pull/512) |
@@ -171,7 +175,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [openlit/openlit](https://github.com/openlit/openlit) | [fix(go-sdk): read chat and embedding prices from assets/pricing.json](https://github.com/openlit/openlit/pull/1924) |
 | [splunk/observability-content-contrib](https://github.com/splunk/observability-content-contrib) | [terraform-jumpstart: add vLLM module](https://github.com/splunk/observability-content-contrib/pull/93) |
 | [newrelic/newrelic-quickstarts](https://github.com/newrelic/newrelic-quickstarts) | [feat: add vLLM quickstart](https://github.com/newrelic/newrelic-quickstarts/pull/2980) |
-| [elastic/integrations](https://github.com/elastic/integrations) | [[New Integration] Add vLLM integration](https://github.com/elastic/integrations/pull/22346) |
 | [OHF-Voice/wyoming-piper](https://github.com/OHF-Voice/wyoming-piper) | [Answer a plain synthesize sent after a text stream](https://github.com/OHF-Voice/wyoming-piper/pull/72) |
 | [OHF-Voice/wyoming](https://github.com/OHF-Voice/wyoming) | [Return None from async_read_event when the stream closes mid-event](https://github.com/OHF-Voice/wyoming/pull/67)<br>[Average channels when converting stereo to mono](https://github.com/OHF-Voice/wyoming/pull/66) |
 | [remsky/Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) | [fix(audio): keep chunk audio when GAP_TRIM_MS is 0](https://github.com/remsky/Kokoro-FastAPI/pull/593) |
@@ -248,7 +251,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/KubeVirt-CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="KubeVirt: CNCF graduated" title="KubeVirt: CNCF graduated"><br>[kubevirt/containerized-data-importer](https://github.com/kubevirt/containerized-data-importer) | [importer: derive the S3 region from dual-stack and FIPS endpoints](https://github.com/kubevirt/containerized-data-importer/pull/4337) |
 | <img src="https://img.shields.io/badge/Harbor-CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Harbor: CNCF graduated" title="Harbor: CNCF graduated"><br>[goharbor/harbor-cli](https://github.com/goharbor/harbor-cli) | [fix(retention): create a policy when the project has none](https://github.com/goharbor/harbor-cli/pull/1140) |
 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | [fix(helm): point the ingress at the service named by service.name](https://github.com/aquasecurity/trivy/pull/11564) |
-| <img src="https://img.shields.io/badge/zot-CNCF%20Sandbox-6E7781?style=flat-square&logo=cncf&logoColor=white" alt="zot: CNCF sandbox" title="zot: CNCF sandbox"><br>[project-zot/helm-charts](https://github.com/project-zot/helm-charts) | [fix(zot): select the service namespace in the ServiceMonitor](https://github.com/project-zot/helm-charts/pull/149) |
 | [ansible-collections/community.grafana](https://github.com/ansible-collections/community.grafana) | [fix(grafana_contact_point): ignore provenance when checking for changes](https://github.com/ansible-collections/community.grafana/pull/459) |
 | [wal-g/wal-g](https://github.com/wal-g/wal-g) | [fix(mysql): don't pass --apply-log-only to mariadb-backup](https://github.com/wal-g/wal-g/pull/2771) |
 | [ansible-collections/community.zabbix](https://github.com/ansible-collections/community.zabbix) | [zabbix_host: compare inventory_zabbix values as strings](https://github.com/ansible-collections/community.zabbix/pull/1799) |
