@@ -47,6 +47,7 @@ td:nth-child(5),td:nth-child(6){white-space:nowrap}
 <div class="stats" id="stats"></div>
 <div class="filters">
   <div class="group" id="f-level"><label>Maturity</label></div>
+  <div class="group" id="f-scope"><label>Repository</label></div>
   <div class="group" id="f-status"><label>Status</label></div>
   <div class="group"><label>Project</label><select id="f-repo"><option value="">All projects</option></select></div>
   <div class="group"><label>Merged by</label><select id="f-by"><option value="">Anyone</option></select></div>
@@ -64,7 +65,8 @@ td:nth-child(5),td:nth-child(6){white-space:nowrap}
 const LEVELS = {graduated: "CNCF Graduated", incubating: "CNCF Incubating", sandbox: "CNCF Sandbox", other: "Other"};
 const RANK = {graduated: 0, incubating: 1, sandbox: 2, other: 3};
 const esc = s => String(s || "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
-const state = {level: new Set(), status: new Set(), repo: "", by: "", thanks: false};
+const SCOPES = {core: "Main project repo", sig: "Kubernetes SIG", org: "Project org"};
+const state = {level: new Set(), scope: new Set(), status: new Set(), repo: "", by: "", thanks: false};
 
 fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(rows => {
   const merged = rows.filter(r => r.status === "merged");
@@ -90,6 +92,7 @@ fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(rows => {
     });
   };
   chips("f-level", Object.keys(LEVELS).filter(l => rows.some(r => r.level === l)), "level", v => LEVELS[v]);
+  chips("f-scope", Object.keys(SCOPES).filter(k => rows.some(r => r.scope === k)), "scope", v => SCOPES[v]);
   chips("f-status", ["merged", "open"], "status", v => v[0].toUpperCase() + v.slice(1));
 
   const fill = (id, values) => {
@@ -105,6 +108,7 @@ fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(rows => {
   DataTable.ext.search.push((settings, data, i, r) => {
 
     if (state.level.size && !state.level.has(r.level)) return false;
+    if (state.scope.size && !state.scope.has(r.scope)) return false;
     if (state.status.size && !state.status.has(r.status)) return false;
     if (state.repo && r.repo !== state.repo) return false;
     if (state.by && r.merged_by !== state.by) return false;
@@ -119,7 +123,7 @@ fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(rows => {
     order: [[0, "asc"], [5, "desc"], [4, "desc"]],
     columns: [
       {data: "level", render: (v, t) => t === "sort" ? RANK[v] : `<span class="pill l-${v}">${LEVELS[v]}</span>`},
-      {data: "repo", render: (v, t, r) => t === "display" ? `<div class="repo"><a href="https://github.com/${esc(v)}">${esc(v)}</a>${r.project ? `<small>${esc(r.project)}</small>` : ""}</div>` : v},
+      {data: "repo", render: (v, t, r) => t === "display" ? `<div class="repo"><a href="https://github.com/${esc(v)}">${esc(v)}</a>${r.project ? `<small>${esc(r.project)}${r.scope ? " · " + SCOPES[r.scope] : ""}</small>` : ""}</div>` : v},
       {data: "title", render: (v, t, r) => t === "display" ? `<a href="${esc(r.url)}">${esc(v)}</a>` : v},
       {data: "status", render: (v, t) => t === "display" ? `<span class="pill s-${v}">${v}</span>` : v},
       {data: "opened"},
