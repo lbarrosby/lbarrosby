@@ -78,6 +78,58 @@ def cncf_badge(repo, repos, orgs):
     return f'<img src="https://img.shields.io/badge/{name}-CNCF%20{level.capitalize()}-{COLORS[level]}?style=flat-square&logo=cncf&logoColor=white" alt="{project}: CNCF {level}" title="{project}: CNCF {level}">'
 
 
+BOTS = {"poiana", "k8s-ci-robot", "codecov-commenter", "coveralls", "netlify", "vercel", "linux-foundation-easycla"}
+THANKS = re.compile(r"thank|thx|appreciate|great|awesome|nice|good catch|well done|excellent|🙏|💚|❤", re.I)
+CACHE = ".github/data/merged.json"
+
+
+def api(path):
+    req = urllib.request.Request("https://api.github.com/" + path, headers={"Accept": "application/vnd.github+json", "Authorization": f"Bearer {TOKEN}"} if TOKEN else {})
+    return json.load(urllib.request.urlopen(req, timeout=60))
+
+
+def human(u):
+    return u and u.get("type") != "Bot" and u["login"] != USER and u["login"].lower() not in BOTS
+
+
+def short(text):
+    text = re.sub(r"`|\*|_|<[^>]+>|\[|\]\([^)]*\)|@" + USER, "", text)
+    text = re.sub(r"(^|\s)/[a-z-]+", " ", text)
+    text = re.sub(r"\s+([,.!?])", r"\1", " ".join(text.split()))
+    text = re.sub(r",([.!?])", r"\1", text)
+    parts = [x.strip() for x in re.split(r"(?<=[.!?])\s", text) if x.strip()]
+    hits = sorted((x for x in parts if THANKS.search(x)), key=lambda x: THANKS.search(x).start())
+    first = hits[0] if hits else (parts[0] if parts else "")
+    m = THANKS.search(first)
+    if len(first) > 90 and m and m.start() > 40:
+        first = first[m.start():]
+        first = first[0].upper() + first[1:]
+    if len(first) > 90:
+        first = first[:87].rsplit(" ", 1)[0] + "…"
+    return first.replace("|", "/").replace('"', "'")
+
+
+def details(pr, cache):
+    url = pr["html_url"]
+    if url in cache:
+        return cache[url]
+    repo = pr["repository_url"].split("/repos/")[1]
+    n = pr["number"]
+    info = {"merged_by": "", "thanks": None}
+    try:
+        info["merged_by"] = (api(f"repos/{repo}/pulls/{n}").get("merged_by") or {}).get("login", "")
+        notes = [(c["user"], c["body"] or "", c["html_url"]) for c in api(f"repos/{repo}/issues/{n}/comments?per_page=100")]
+        notes += [(r["user"], r["body"] or "", r["html_url"]) for r in api(f"repos/{repo}/pulls/{n}/reviews?per_page=100")]
+        for user, body, link in notes:
+            if human(user) and THANKS.search(body) and "first PR" not in body:
+                info["thanks"] = {"login": user["login"], "quote": short(body), "url": link}
+                break
+    except Exception:
+        return info
+    cache[url] = info
+    return info
+
+
 def status(pr):
     if pr["pull_request"].get("merged_at"):
         return "merged"
@@ -102,13 +154,29 @@ def main():
     lines = [" ".join(badges), ""]
     done = [p for p in prs if status(p) == "merged"]
     if done:
+        try:
+            cache = json.load(open(CACHE))
+        except Exception:
+            cache = {}
+        info = {p["html_url"]: details(p, cache) for p in done}
+        os.makedirs(os.path.dirname(CACHE), exist_ok=True)
+        json.dump(cache, open(CACHE, "w"), indent=1, sort_keys=True, ensure_ascii=False)
+        thanked = sum(1 for v in info.values() if v["thanks"])
+        lines[0] += f' <img src="https://img.shields.io/badge/thanked%20by%20maintainers-{thanked}-DB61A2?style=flat-square" alt="Thanked by maintainers">'
         lines += ["**Merged**", ""]
         for p in sorted(done, key=lambda p: p["pull_request"]["merged_at"], reverse=True):
             repo = p["repository_url"].split("/repos/")[1]
             title = p["title"].replace("|", "\\|")
             badge = cncf_badge(repo, repos_cncf, orgs_cncf)
             tag = f"{badge} " if badge else ""
-            lines.append(f"- {tag}[{repo}](https://github.com/{repo}): [{title}]({p['html_url']})")
+            d = info[p["html_url"]]
+            extra = ""
+            if d["merged_by"] and not d["merged_by"].endswith("[bot]"):
+                extra += f" · merged by [@{d['merged_by']}](https://github.com/{d['merged_by']})"
+            if d["thanks"]:
+                t = d["thanks"]
+                extra += f' · 🙏 [@{t["login"]}]({t["url"]}): <i>"{t["quote"]}"</i>'
+            lines.append(f"- {tag}[{repo}](https://github.com/{repo}): [{title}]({p['html_url']}){extra}")
         lines.append("")
     open_repos = {r: [p for p in items if status(p) == "open"] for r, items in repos.items()}
     open_repos = {r: items for r, items in open_repos.items() if items}

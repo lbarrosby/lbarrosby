@@ -1,0 +1,626 @@
+{
+ "https://github.com/AsyncFuncAI/deepwiki-open/pull/621": {
+  "merged_by": "sng-asyncfunc",
+  "thanks": null
+ },
+ "https://github.com/AsyncFuncAI/deepwiki-open/pull/624": {
+  "merged_by": "sng-asyncfunc",
+  "thanks": null
+ },
+ "https://github.com/adriannovegil/awesome-observability/pull/203": {
+  "merged_by": "adriannovegil",
+  "thanks": {
+   "login": "adriannovegil",
+   "quote": "Thanks for the contribution!",
+   "url": "https://github.com/adriannovegil/awesome-observability/pull/203#issuecomment-6707856975"
+  }
+ },
+ "https://github.com/adriannovegil/awesome-observability/pull/204": {
+  "merged_by": "adriannovegil",
+  "thanks": {
+   "login": "adriannovegil",
+   "quote": "Thanks for the contribution!",
+   "url": "https://github.com/adriannovegil/awesome-observability/pull/204#issuecomment-6707856717"
+  }
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1262": {
+  "merged_by": "aminueza",
+  "thanks": null
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1263": {
+  "merged_by": "aminueza",
+  "thanks": {
+   "login": "aminueza",
+   "quote": "Thanks, nice test with the stub server.",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1263#pullrequestreview-5790039589"
+  }
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1264": {
+  "merged_by": "aminueza",
+  "thanks": null
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1267": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "felladrin",
+   "quote": "Thanks for the fix!",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1267#issuecomment-6712376261"
+  }
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1268": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "felladrin",
+   "quote": "Thanks for this one too!",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1268#issuecomment-6712376657"
+  }
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1270": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "felladrin",
+   "quote": "Thanks!",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1270#pullrequestreview-5816500476"
+  }
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1273": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "felladrin",
+   "quote": "Thanks!",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1273#pullrequestreview-5817693773"
+  }
+ },
+ "https://github.com/ansible-collections/community.proxmox/pull/559": {
+  "merged_by": "Thulium-Drake",
+  "thanks": {
+   "login": "Thulium-Drake",
+   "quote": "Thanks for this work!",
+   "url": "https://github.com/ansible-collections/community.proxmox/pull/559#issuecomment-6712691578"
+  }
+ },
+ "https://github.com/ansible-collections/community.proxmox/pull/563": {
+  "merged_by": "Thulium-Drake",
+  "thanks": {
+   "login": "Thulium-Drake",
+   "quote": "Thanks for this work!",
+   "url": "https://github.com/ansible-collections/community.proxmox/pull/563#issuecomment-6712757206"
+  }
+ },
+ "https://github.com/argoproj/argo-helm/pull/4204": {
+  "merged_by": "tico24",
+  "thanks": null
+ },
+ "https://github.com/argoproj/argo-helm/pull/4206": {
+  "merged_by": "tico24",
+  "thanks": null
+ },
+ "https://github.com/argoproj/argo-helm/pull/4207": {
+  "merged_by": "tico24",
+  "thanks": null
+ },
+ "https://github.com/bloomberg/causal-ts/pull/96": {
+  "merged_by": "fesanghary",
+  "thanks": {
+   "login": "fesanghary",
+   "quote": "Thanks for the clear report and fix!",
+   "url": "https://github.com/bloomberg/causal-ts/pull/96#issuecomment-6689923258"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3258": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Hey 👋🏼 Thanks for the clean fix!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3258#pullrequestreview-5816023530"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3259": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Hey 👋🏼 Thanks for this one too!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3259#pullrequestreview-5816178424"
+  }
+ },
+ "https://github.com/coredns/coredns/pull/8749": {
+  "merged_by": "yongtang",
+  "thanks": null
+ },
+ "https://github.com/coredns/helm/pull/288": {
+  "merged_by": "hagaibarel",
+  "thanks": {
+   "login": "hagaibarel",
+   "quote": "Thanks for the PR!",
+   "url": "https://github.com/coredns/helm/pull/288#issuecomment-6640382338"
+  }
+ },
+ "https://github.com/coredns/helm/pull/289": {
+  "merged_by": "hagaibarel",
+  "thanks": {
+   "login": "hagaibarel",
+   "quote": "Thanks for the PR!",
+   "url": "https://github.com/coredns/helm/pull/289#issuecomment-6685667658"
+  }
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/819": {
+  "merged_by": "max-rocket-internet",
+  "thanks": {
+   "login": "max-rocket-internet",
+   "quote": "Thanks 💚",
+   "url": "https://github.com/deliveryhero/helm-charts/pull/819#pullrequestreview-5797719393"
+  }
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/821": {
+  "merged_by": "max-rocket-internet",
+  "thanks": {
+   "login": "max-rocket-internet",
+   "quote": "Nice, thanks",
+   "url": "https://github.com/deliveryhero/helm-charts/pull/821#pullrequestreview-5797693608"
+  }
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/823": {
+  "merged_by": "max-rocket-internet",
+  "thanks": null
+ },
+ "https://github.com/falcosecurity/falcosidekick/pull/1478": {
+  "merged_by": "poiana",
+  "thanks": null
+ },
+ "https://github.com/falcosecurity/falcosidekick/pull/1479": {
+  "merged_by": "poiana",
+  "thanks": null
+ },
+ "https://github.com/falcosecurity/falcosidekick/pull/1480": {
+  "merged_by": "poiana",
+  "thanks": null
+ },
+ "https://github.com/falcosecurity/falcosidekick/pull/1481": {
+  "merged_by": "poiana",
+  "thanks": null
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289#pullrequestreview-5796859115"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/157": {
+  "merged_by": "Watson1978",
+  "thanks": null
+ },
+ "https://github.com/fluent/fluent-operator/pull/2113": {
+  "merged_by": "joshuabaird",
+  "thanks": {
+   "login": "joshuabaird",
+   "quote": "Thanks, this looks good.",
+   "url": "https://github.com/fluent/fluent-operator/pull/2113#pullrequestreview-5786386610"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-kafka/pull/598": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for porting the #592 handling to both group inputs.",
+   "url": "https://github.com/fluent/fluent-plugin-kafka/pull/598#pullrequestreview-5779566139"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-kafka/pull/601": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-kafka/pull/601#pullrequestreview-5786919545"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-kafka/pull/605": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the follow-up to #550.",
+   "url": "https://github.com/fluent/fluent-plugin-kafka/pull/605#pullrequestreview-5811604875"
+  }
+ },
+ "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1697": {
+  "merged_by": "kenhys",
+  "thanks": {
+   "login": "kenhys",
+   "quote": "Thanks!, it seems that it is reasolable fix.",
+   "url": "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1697#issuecomment-6677127412"
+  }
+ },
+ "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1698": {
+  "merged_by": "kenhys",
+  "thanks": null
+ },
+ "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1699": {
+  "merged_by": "kenhys",
+  "thanks": {
+   "login": "kenhys",
+   "quote": "Thanks.",
+   "url": "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1699#issuecomment-6680727316"
+  }
+ },
+ "https://github.com/fluent/fluentd/pull/5596": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks!",
+   "url": "https://github.com/fluent/fluentd/pull/5596#pullrequestreview-5794474836"
+  }
+ },
+ "https://github.com/fluent/fluentd/pull/5598": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks!",
+   "url": "https://github.com/fluent/fluentd/pull/5598#pullrequestreview-5795032353"
+  }
+ },
+ "https://github.com/helmfile/helmfile/pull/2873": {
+  "merged_by": "yxxhero",
+  "thanks": null
+ },
+ "https://github.com/helmfile/helmfile/pull/2877": {
+  "merged_by": "yxxhero",
+  "thanks": null
+ },
+ "https://github.com/helmfile/helmfile/pull/2880": {
+  "merged_by": "yxxhero",
+  "thanks": null
+ },
+ "https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411": {
+  "merged_by": "lukasmetzner",
+  "thanks": {
+   "login": "lukasmetzner",
+   "quote": "Hey, thank you for the contribution.",
+   "url": "https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411#issuecomment-6652351427"
+  }
+ },
+ "https://github.com/jenkinsci/explain-error-plugin/pull/267": {
+  "merged_by": "shenxianpeng",
+  "thanks": {
+   "login": "shenxianpeng",
+   "quote": "Thanks for your PR!",
+   "url": "https://github.com/jenkinsci/explain-error-plugin/pull/267#pullrequestreview-5805050706"
+  }
+ },
+ "https://github.com/jenkinsci/helm-charts/pull/1814": {
+  "merged_by": "timja",
+  "thanks": null
+ },
+ "https://github.com/jenkinsci/helm-charts/pull/1818": {
+  "merged_by": "timja",
+  "thanks": null
+ },
+ "https://github.com/kedacore/charts/pull/926": {
+  "merged_by": "linkvt",
+  "thanks": {
+   "login": "linkvt",
+   "quote": "Thanks again!",
+   "url": "https://github.com/kedacore/charts/pull/926#issuecomment-6710734132"
+  }
+ },
+ "https://github.com/knative/eventing/pull/9509": {
+  "merged_by": "knative-prow[bot]",
+  "thanks": null
+ },
+ "https://github.com/kokuwaio/helm-charts/pull/251": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/kokuwaio/helm-charts/pull/252": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/kokuwaio/helm-charts/pull/253": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/kubecolor/kubecolor/pull/385": {
+  "merged_by": "applejag",
+  "thanks": null
+ },
+ "https://github.com/kubecolor/kubecolor/pull/386": {
+  "merged_by": "applejag",
+  "thanks": {
+   "login": "applejag",
+   "quote": "Very much an edge case, but it does make it more correct Thank you!",
+   "url": "https://github.com/kubecolor/kubecolor/pull/386#issuecomment-6673000240"
+  }
+ },
+ "https://github.com/kubecolor/kubecolor/pull/387": {
+  "merged_by": "applejag",
+  "thanks": {
+   "login": "applejag",
+   "quote": "Thank you for this!",
+   "url": "https://github.com/kubecolor/kubecolor/pull/387#issuecomment-6721121832"
+  }
+ },
+ "https://github.com/kubecolor/kubecolor/pull/389": {
+  "merged_by": "applejag",
+  "thanks": {
+   "login": "applejag",
+   "quote": "Thank you for this!",
+   "url": "https://github.com/kubecolor/kubecolor/pull/389#pullrequestreview-5818014197"
+  }
+ },
+ "https://github.com/kubernetes-sigs/agent-sandbox/pull/2202": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/93": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": {
+   "login": "kahirokunn",
+   "quote": "Thx!",
+   "url": "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/93#issuecomment-6674363925"
+  }
+ },
+ "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/96": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": {
+   "login": "kahirokunn",
+   "quote": "Thx 🙏",
+   "url": "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/96#issuecomment-6674101360"
+  }
+ },
+ "https://github.com/kubernetes-sigs/dra-example-driver/pull/296": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/external-dns/pull/6929": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": {
+   "login": "Kunalbehbud",
+   "quote": "thanks for picking this up, I never got back to the rebase.",
+   "url": "https://github.com/kubernetes-sigs/external-dns/pull/6929#issuecomment-6690279742"
+  }
+ },
+ "https://github.com/kubernetes-sigs/gateway-api-inference-extension/pull/3084": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": {
+   "login": "nicolexin",
+   "quote": "Thanks for fixing this!",
+   "url": "https://github.com/kubernetes-sigs/gateway-api-inference-extension/pull/3084#pullrequestreview-5804822918"
+  }
+ },
+ "https://github.com/kubernetes-sigs/headlamp/pull/8245": {
+  "merged_by": "skoeva",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/headlamp/pull/8254": {
+  "merged_by": "skoeva",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/headlamp/pull/8259": {
+  "merged_by": "skoeva",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/headlamp/pull/8262": {
+  "merged_by": "skoeva",
+  "thanks": {
+   "login": "skoeva",
+   "quote": "lgtm, thanks",
+   "url": "https://github.com/kubernetes-sigs/headlamp/pull/8262#pullrequestreview-5785420953"
+  }
+ },
+ "https://github.com/kubernetes-sigs/jobset/pull/1389": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/jobset/pull/1392": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": {
+   "login": "kannon92",
+   "quote": "thank you!",
+   "url": "https://github.com/kubernetes-sigs/jobset/pull/1392#issuecomment-6695844574"
+  }
+ },
+ "https://github.com/kubernetes-sigs/kubebuilder/pull/6160": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": {
+   "login": "camilamacedo86",
+   "quote": "Thank you for raise this one 👍",
+   "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6160#issuecomment-6689035654"
+  }
+ },
+ "https://github.com/lima-vm/lima/pull/5738": {
+  "merged_by": "unsuman",
+  "thanks": {
+   "login": "AkihiroSuda",
+   "quote": "Thanks",
+   "url": "https://github.com/lima-vm/lima/pull/5738#pullrequestreview-5784793825"
+  }
+ },
+ "https://github.com/lima-vm/lima/pull/5743": {
+  "merged_by": "AkihiroSuda",
+  "thanks": null
+ },
+ "https://github.com/linode/linode-cloud-controller-manager/pull/654": {
+  "merged_by": "komer3",
+  "thanks": {
+   "login": "komer3",
+   "quote": "Thanks for contribution :)",
+   "url": "https://github.com/linode/linode-cloud-controller-manager/pull/654#pullrequestreview-5802360165"
+  }
+ },
+ "https://github.com/luthermonson/go-proxmox/pull/356": {
+  "merged_by": "luthermonson",
+  "thanks": null
+ },
+ "https://github.com/luthermonson/go-proxmox/pull/357": {
+  "merged_by": "luthermonson",
+  "thanks": null
+ },
+ "https://github.com/luthermonson/go-proxmox/pull/363": {
+  "merged_by": "luthermonson",
+  "thanks": null
+ },
+ "https://github.com/oliver006/redis_exporter/pull/1214": {
+  "merged_by": "oliver006",
+  "thanks": {
+   "login": "oliver006",
+   "quote": "Thanks for the PR!",
+   "url": "https://github.com/oliver006/redis_exporter/pull/1214#pullrequestreview-5796358851"
+  }
+ },
+ "https://github.com/open-feature/java-sdk-contrib/pull/1967": {
+  "merged_by": "toddbaert",
+  "thanks": null
+ },
+ "https://github.com/openebs/lvm-localpv/pull/528": {
+  "merged_by": "mergify[bot]",
+  "thanks": null
+ },
+ "https://github.com/openebs/zfs-localpv/pull/791": {
+  "merged_by": "mergify[bot]",
+  "thanks": null
+ },
+ "https://github.com/openebs/zfs-localpv/pull/792": {
+  "merged_by": "mergify[bot]",
+  "thanks": null
+ },
+ "https://github.com/openobserve/openobserve-helm-chart/pull/286": {
+  "merged_by": "mmosarafO2",
+  "thanks": null
+ },
+ "https://github.com/openobserve/terraform-provider-openobserve/pull/17": {
+  "merged_by": "chaitanya-sistla",
+  "thanks": {
+   "login": "chaitanya-sistla",
+   "quote": "Thanks.",
+   "url": "https://github.com/openobserve/terraform-provider-openobserve/pull/17#issuecomment-6668738402"
+  }
+ },
+ "https://github.com/project-zot/helm-charts/pull/149": {
+  "merged_by": "andaaron",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7505": {
+  "merged_by": "zeritti",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7507": {
+  "merged_by": "zeritti",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7518": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7526": {
+  "merged_by": "okgolove",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7529": {
+  "merged_by": "zeritti",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7530": {
+  "merged_by": "zeritti",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7531": {
+  "merged_by": "zeritti",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7533": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7536": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7537": {
+  "merged_by": "zeritti",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7544": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/rook/rook/pull/18686": {
+  "merged_by": "arttor",
+  "thanks": {
+   "login": "arttor",
+   "quote": "thanks for the fix.",
+   "url": "https://github.com/rook/rook/pull/18686#pullrequestreview-5789316361"
+  }
+ },
+ "https://github.com/samber/awesome-prometheus-alerts/pull/661": {
+  "merged_by": "samber",
+  "thanks": null
+ },
+ "https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/349": {
+  "merged_by": "sergelogvinov",
+  "thanks": {
+   "login": "sergelogvinov",
+   "quote": "Thank you!",
+   "url": "https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/349#issuecomment-6660810166"
+  }
+ },
+ "https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/350": {
+  "merged_by": "sergelogvinov",
+  "thanks": {
+   "login": "sergelogvinov",
+   "quote": "Thank you",
+   "url": "https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/350#issuecomment-6661857505"
+  }
+ },
+ "https://github.com/stern/stern/pull/406": {
+  "merged_by": "superbrothers",
+  "thanks": {
+   "login": "superbrothers",
+   "quote": "Thank you for your contribution!",
+   "url": "https://github.com/stern/stern/pull/406#issuecomment-6715093822"
+  }
+ },
+ "https://github.com/stern/stern/pull/408": {
+  "merged_by": "superbrothers",
+  "thanks": {
+   "login": "superbrothers",
+   "quote": "Thank you for the PR!",
+   "url": "https://github.com/stern/stern/pull/408#issuecomment-6715123395"
+  }
+ },
+ "https://github.com/tsuru/charts/pull/53": {
+  "merged_by": "ravilock",
+  "thanks": null
+ },
+ "https://github.com/tsuru/charts/pull/55": {
+  "merged_by": "ravilock",
+  "thanks": null
+ },
+ "https://github.com/tsuru/tsuru-client/pull/283": {
+  "merged_by": "ravilock",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6026": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6027": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6030": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6031": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6035": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6038": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ }
+}
