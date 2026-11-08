@@ -555,6 +555,14 @@
   "merged_by": "samber",
   "thanks": null
  },
+ "https://github.com/samber/awesome-prometheus-alerts/pull/662": {
+  "merged_by": "samber",
+  "thanks": {
+   "login": "samber",
+   "quote": "Thanks for this contrib",
+   "url": "https://github.com/samber/awesome-prometheus-alerts/pull/662#issuecomment-6722639960"
+  }
+ },
  "https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/349": {
   "merged_by": "sergelogvinov",
   "thanks": {
