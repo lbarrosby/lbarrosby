@@ -7,6 +7,10 @@
   "merged_by": "sng-asyncfunc",
   "thanks": null
  },
+ "https://github.com/AsyncFuncAI/deepwiki-open/pull/626": {
+  "merged_by": "sng-asyncfunc",
+  "thanks": null
+ },
  "https://github.com/adriannovegil/awesome-observability/pull/203": {
   "merged_by": "adriannovegil",
   "thanks": {
@@ -319,6 +323,14 @@
   "merged_by": "monotek",
   "thanks": null
  },
+ "https://github.com/kokuwaio/helm-charts/pull/254": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/kokuwaio/helm-charts/pull/255": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
  "https://github.com/kubecolor/kubecolor/pull/385": {
   "merged_by": "applejag",
   "thanks": null
@@ -348,6 +360,14 @@
   }
  },
  "https://github.com/kubernetes-sigs/agent-sandbox/pull/2202": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/agent-sandbox/pull/2218": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/agent-sandbox/pull/2221": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
  },
@@ -623,6 +643,14 @@
   "merged_by": "ravilock",
   "thanks": null
  },
+ "https://github.com/vantage-sh/ec2instances.info/pull/1014": {
+  "merged_by": "alex-wanger",
+  "thanks": {
+   "login": "alex-wanger",
+   "quote": "Looks good to me, thanks for submitting this!",
+   "url": "https://github.com/vantage-sh/ec2instances.info/pull/1014#issuecomment-6725380613"
+  }
+ },
  "https://github.com/xorbitsai/inference/pull/6026": {
   "merged_by": "qinxuye",
   "thanks": null
@@ -644,6 +672,10 @@
   "thanks": null
  },
  "https://github.com/xorbitsai/inference/pull/6038": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6040": {
   "merged_by": "qinxuye",
   "thanks": null
  }
