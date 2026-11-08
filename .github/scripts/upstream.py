@@ -99,6 +99,11 @@ def cncf_badge(repo, repos, orgs):
     return f'<img src="https://img.shields.io/badge/{name}-CNCF%20{level.capitalize()}-{color}?style=flat-square&logo=cncf&logoColor=white" alt="{hint}" title="{hint}">'
 
 
+BOTS = {"poiana", "k8s-ci-robot", "codecov-commenter", "coveralls", "netlify", "vercel", "linux-foundation-easycla"}
+THANKS = re.compile(r"thank|thx|appreciate|great|awesome|nice|good catch|well done|excellent|🙏|💚|❤", re.I)
+CACHE = ".github/data/merged.json"
+
+
 def api(path):
     req = urllib.request.Request("https://api.github.com/" + path, headers={"Accept": "application/vnd.github+json", "Authorization": f"Bearer {TOKEN}"} if TOKEN else {})
     return json.load(urllib.request.urlopen(req, timeout=60))
