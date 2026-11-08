@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upstream contributions · Lucas Barros</title>
+<meta name="description" content="Every upstream pull request by Lucas Barros (lbarrosby), filterable by CNCF maturity, project, status and maintainer.">
+<link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css">
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--line:#30363d;--text:#e6edf3;--muted:#8b949e;--link:#58a6ff;--grad:#0086ff;--inc:#8957e5;--sand:#6e7781;--other:#2ea043;--open:#d29922;--merged:#8957e5}
+@media (prefers-color-scheme: light){:root{--bg:#ffffff;--panel:#f6f8fa;--line:#d0d7de;--text:#1f2328;--muted:#59636e;--link:#0969da}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+main{max-width:1280px;margin:0 auto;padding:28px 16px 48px}
+h1{font-size:24px;margin:0 0 4px}
+p.sub{color:var(--muted);margin:0 0 20px}
+a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-size:22px}.stat span{color:var(--muted);font-size:12px}
+.filters{display:flex;flex-wrap:wrap;gap:16px;margin-bottom:14px;align-items:flex-start}
+.group{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.group>label{color:var(--muted);font-size:12px;margin-right:2px;text-transform:uppercase;letter-spacing:.04em}
+.chip{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer}
+.chip[aria-pressed="true"]{border-color:var(--link);background:color-mix(in srgb,var(--link) 18%,transparent)}
+select{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:5px 8px;font-size:13px;max-width:260px}
+.pill{display:inline-block;border-radius:999px;padding:1px 8px;font-size:12px;color:#fff;white-space:nowrap}
+.l-graduated{background:var(--grad)}.l-incubating{background:var(--inc)}.l-sandbox{background:var(--sand)}.l-other{background:var(--other)}
+.s-merged{background:var(--merged)}.s-open{background:var(--open);color:#111}
+.quote{color:var(--muted);font-style:italic}
+table.dataTable{color:var(--text)}
+table.dataTable thead th{border-bottom:1px solid var(--line)!important}
+table.dataTable tbody td{border-top:1px solid var(--line)!important;vertical-align:top}
+table.dataTable.stripe>tbody>tr:nth-child(odd)>*{box-shadow:inset 0 0 0 9999px color-mix(in srgb,var(--panel) 70%,transparent)!important}
+.dt-container .dt-search input,.dt-container .dt-length select{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:5px 8px}
+.dt-container,.dt-container .dt-info,.dt-container .dt-paging .dt-paging-button{color:var(--text)!important}
+.dt-container .dt-paging .dt-paging-button.current{background:var(--panel)!important;border-color:var(--line)!important;color:var(--text)!important}
+.wrap{overflow-x:auto}
+.repo small{display:block;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>Upstream contributions</h1>
+<p class="sub">Pull requests by <a href="https://github.com/lbarrosby">@lbarrosby</a> to projects I don't own, refreshed every hour. Sorted by CNCF maturity first.</p>
+<div class="stats" id="stats"></div>
+<div class="filters">
+  <div class="group" id="f-level"><label>Maturity</label></div>
+  <div class="group" id="f-status"><label>Status</label></div>
+  <div class="group"><label>Project</label><select id="f-repo"><option value="">All projects</option></select></div>
+  <div class="group"><label>Merged by</label><select id="f-by"><option value="">Anyone</option></select></div>
+  <div class="group"><button class="chip" id="f-thanks" aria-pressed="false">🙏 Thanked only</button></div>
+</div>
+<div class="wrap">
+<table id="prs" class="stripe" style="width:100%">
+<thead><tr><th>Maturity</th><th>Project</th><th>Pull request</th><th>Status</th><th>Opened</th><th>Merged</th><th>Merged by</th><th>Kind words</th></tr></thead>
+</table>
+</div>
+</main>
+<script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+<script>
+const LEVELS = {graduated: "CNCF Graduated", incubating: "CNCF Incubating", sandbox: "CNCF Sandbox", other: "Other"};
+const RANK = {graduated: 0, incubating: 1, sandbox: 2, other: 3};
+const esc = s => String(s || "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const state = {level: new Set(), status: new Set(), repo: "", by: "", thanks: false};
+
+fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(rows => {
+  const merged = rows.filter(r => r.status === "merged");
+  const stat = (v, t) => `<div class="stat"><b>${v}</b><span>${t}</span></div>`;
+  document.getElementById("stats").innerHTML =
+    stat(rows.length, "pull requests") + stat(merged.length, "merged") +
+    stat(merged.filter(r => r.level === "graduated").length, "merged in CNCF graduated") +
+    stat(new Set(rows.map(r => r.repo)).size, "projects") +
+    stat(merged.filter(r => r.thanks_by).length, "thanked by maintainers");
+
+  const chips = (id, values, key, render) => {
+    const box = document.getElementById(id);
+    values.forEach(v => {
+      const b = document.createElement("button");
+      b.className = "chip"; b.setAttribute("aria-pressed", "false");
+      b.innerHTML = render(v) + ` <span style="color:var(--muted)">${rows.filter(r => r[key] === v).length}</span>`;
+      b.onclick = () => {
+        const on = !state[key].has(v);
+        on ? state[key].add(v) : state[key].delete(v);
+        b.setAttribute("aria-pressed", on); table.draw();
+      };
+      box.appendChild(b);
+    });
+  };
+  chips("f-level", Object.keys(LEVELS).filter(l => rows.some(r => r.level === l)), "level", v => LEVELS[v]);
+  chips("f-status", ["merged", "open"], "status", v => v[0].toUpperCase() + v.slice(1));
+
+  const fill = (id, values) => {
+    const sel = document.getElementById(id);
+    values.forEach(v => sel.add(new Option(v, v)));
+    sel.onchange = () => { state[id === "f-repo" ? "repo" : "by"] = sel.value; table.draw(); };
+  };
+  fill("f-repo", [...new Set(rows.map(r => r.repo))].sort((a, b) => a.localeCompare(b, undefined, {sensitivity: "base"})));
+  fill("f-by", [...new Set(merged.map(r => r.merged_by).filter(Boolean))].sort((a, b) => a.localeCompare(b, undefined, {sensitivity: "base"})));
+  const th = document.getElementById("f-thanks");
+  th.onclick = () => { state.thanks = !state.thanks; th.setAttribute("aria-pressed", state.thanks); table.draw(); };
+
+  DataTable.ext.search.push((settings, data, i, r) => {
+
+    if (state.level.size && !state.level.has(r.level)) return false;
+    if (state.status.size && !state.status.has(r.status)) return false;
+    if (state.repo && r.repo !== state.repo) return false;
+    if (state.by && r.merged_by !== state.by) return false;
+    if (state.thanks && !r.thanks_by) return false;
+    return true;
+  });
+
+  const table = new DataTable("#prs", {
+    data: rows,
+    pageLength: 50,
+    lengthMenu: [25, 50, 100, 500],
+    order: [[0, "asc"], [5, "desc"], [4, "desc"]],
+    columns: [
+      {data: "level", render: (v, t) => t === "sort" ? RANK[v] : `<span class="pill l-${v}">${LEVELS[v]}</span>`},
+      {data: "repo", render: (v, t, r) => t === "display" ? `<div class="repo"><a href="https://github.com/${esc(v)}">${esc(v)}</a>${r.project ? `<small>${esc(r.project)}</small>` : ""}</div>` : v},
+      {data: "title", render: (v, t, r) => t === "display" ? `<a href="${esc(r.url)}">${esc(v)}</a>` : v},
+      {data: "status", render: (v, t) => t === "display" ? `<span class="pill s-${v}">${v}</span>` : v},
+      {data: "opened"},
+      {data: "merged", defaultContent: ""},
+      {data: "merged_by", render: (v, t) => t === "display" && v && v !== "Prow" ? `<a href="https://github.com/${esc(v)}">@${esc(v)}</a>` : v},
+      {data: "thanks", orderable: false, render: (v, t, r) => t === "display" && r.thanks_by ? `🙏 <a href="${esc(r.thanks_url)}">@${esc(r.thanks_by)}</a> <span class="quote">"${esc(v)}"</span>` : (r.thanks_by + " " + v)}
+    ]
+  });
+});
+</script>
+</body>
+</html>

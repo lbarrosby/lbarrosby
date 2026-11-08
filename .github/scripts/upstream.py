@@ -151,42 +151,85 @@ def main():
     graduated = sum(1 for p in prs if status(p) == "merged" and "Graduated" in cncf_label(p["repository_url"].split("/repos/")[1], repos_cncf, orgs_cncf))
     if graduated:
         badges.append(f'<img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-{graduated}-0086FF?style=flat-square" alt="Merged in CNCF graduated projects">')
+    site = "https://lbarrosby.github.io/lbarrosby/"
+    badges.append(f'<a href="{site}"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a>')
     lines = [" ".join(badges), ""]
     done = [p for p in prs if status(p) == "merged"]
-    if done:
-        try:
-            cache = json.load(open(CACHE))
-        except Exception:
-            cache = {}
-        info = {p["html_url"]: details(p, cache) for p in done}
-        os.makedirs(os.path.dirname(CACHE), exist_ok=True)
-        json.dump(cache, open(CACHE, "w"), indent=1, sort_keys=True, ensure_ascii=False)
-        thanked = sum(1 for v in info.values() if v["thanks"])
+    try:
+        cache = json.load(open(CACHE))
+    except Exception:
+        cache = {}
+    info = {p["html_url"]: details(p, cache) for p in done}
+    os.makedirs(os.path.dirname(CACHE), exist_ok=True)
+    json.dump(cache, open(CACHE, "w"), indent=1, sort_keys=True, ensure_ascii=False)
+    thanked = sum(1 for v in info.values() if v["thanks"])
+    if thanked:
         lines[0] += f' <img src="https://img.shields.io/badge/thanked%20by%20maintainers-{thanked}-DB61A2?style=flat-square" alt="Thanked by maintainers">'
-        lines += ["**Merged**", "", "| Project | Pull request | Merged by | Kind words |", "|---|---|---|---|"]
-        for p in sorted(done, key=lambda p: p["pull_request"]["merged_at"], reverse=True):
-            repo = p["repository_url"].split("/repos/")[1]
-            title = p["title"].replace("|", "\\|")
-            badge = cncf_badge(repo, repos_cncf, orgs_cncf)
-            tag = f"{badge}<br>" if badge else ""
-            d = info[p["html_url"]]
-            by = d["merged_by"]
-            who = f"[@{by}](https://github.com/{by})" if by and not by.endswith("[bot]") else ("Prow" if by else "")
-            words = ""
-            if d["thanks"]:
-                t = d["thanks"]
-                words = f'🙏 [@{t["login"]}]({t["url"]}): <i>"{t["quote"]}"</i>'
-            lines.append(f"| {tag}[{repo}](https://github.com/{repo}) | [{title}]({p['html_url']}) | {who} | {words} |")
-        lines.append("")
-    open_repos = {r: [p for p in items if status(p) == "open"] for r, items in repos.items()}
-    open_repos = {r: items for r, items in open_repos.items() if items}
-    ordered = sorted(open_repos.items(), key=lambda kv: kv[1][0]["created_at"], reverse=True)
-    lines += ["**In review**", "", "| Project | Pull requests |", "|---|---|"]
-    for repo, items in ordered:
-        links = "<br>".join(f"[{p['title'].replace('|', chr(92) + '|')}]({p['html_url']})" for p in items)
+
+    def level(repo):
+        label = cncf_label(repo, repos_cncf, orgs_cncf)
+        return label.split()[1].lower() if label else "other"
+
+    groups = [("graduated", "CNCF Graduated"), ("incubating", "CNCF Incubating"), ("sandbox", "CNCF Sandbox"), ("other", "Other projects")]
+
+    def merged_row(p):
+        repo = p["repository_url"].split("/repos/")[1]
+        title = p["title"].replace("|", "\\|")
         badge = cncf_badge(repo, repos_cncf, orgs_cncf)
         tag = f"{badge}<br>" if badge else ""
-        lines.append(f"| {tag}[{repo}](https://github.com/{repo}) | {links} |")
+        d = info[p["html_url"]]
+        by = d["merged_by"]
+        who = f"[@{by}](https://github.com/{by})" if by and not by.endswith("[bot]") else ("Prow" if by else "")
+        words = ""
+        if d["thanks"]:
+            t = d["thanks"]
+            words = f'🙏 [@{t["login"]}]({t["url"]}): <i>"{t["quote"]}"</i>'
+        return f"| {tag}[{repo}](https://github.com/{repo}) | [{title}]({p['html_url']}) | {p['pull_request']['merged_at'][:10]} | {who} | {words} |"
+
+    if done:
+        lines += [f"**Merged** · sorted by CNCF maturity · [filter and search]({site})", ""]
+        for key, name in groups:
+            items = [p for p in done if level(p["repository_url"].split("/repos/")[1]) == key]
+            if not items:
+                continue
+            items.sort(key=lambda p: p["pull_request"]["merged_at"], reverse=True)
+            items.sort(key=lambda p: p["repository_url"].split("/repos/")[1].lower())
+            nrepos = len({p["repository_url"] for p in items})
+            opened = " open" if key == "graduated" else ""
+            lines += [f"<details{opened}><summary><b>{name}</b> · {len(items)} merged in {nrepos} repos</summary>", "", "| Project | Pull request | Merged | Merged by | Kind words |", "|---|---|---|---|---|"]
+            lines += [merged_row(p) for p in items]
+            lines += ["", "</details>", ""]
+    open_repos = {r: [p for p in items if status(p) == "open"] for r, items in repos.items()}
+    open_repos = {r: items for r, items in open_repos.items() if items}
+    lines += ["**In review** · sorted by CNCF maturity", ""]
+    for key, name in groups:
+        sel = sorted((kv for kv in open_repos.items() if level(kv[0]) == key), key=lambda kv: kv[0].lower())
+        if not sel:
+            continue
+        n = sum(len(v) for _, v in sel)
+        lines += [f"<details><summary><b>{name}</b> · {n} open in {len(sel)} repos</summary>", "", "| Project | Pull requests |", "|---|---|"]
+        for repo, items in sel:
+            links = "<br>".join(f"[{p['title'].replace('|', chr(92) + '|')}]({p['html_url']})" for p in items)
+            badge = cncf_badge(repo, repos_cncf, orgs_cncf)
+            tag = f"{badge}<br>" if badge else ""
+            lines.append(f"| {tag}[{repo}](https://github.com/{repo}) | {links} |")
+        lines += ["", "</details>", ""]
+    rows = []
+    for p in prs:
+        repo = p["repository_url"].split("/repos/")[1]
+        label = cncf_label(repo, repos_cncf, orgs_cncf)
+        d = info.get(p["html_url"], {})
+        t = d.get("thanks") or {}
+        by = d.get("merged_by", "")
+        rows.append({
+            "repo": repo, "org": repo.split("/")[0], "title": p["title"], "url": p["html_url"], "status": status(p),
+            "level": level(repo), "project": label.split("(", 1)[1].rstrip(")") if label else "",
+            "opened": p["created_at"][:10], "merged": (p["pull_request"].get("merged_at") or "")[:10],
+            "merged_by": "Prow" if by.endswith("[bot]") else by,
+            "thanks_by": t.get("login", ""), "thanks": t.get("quote", ""), "thanks_url": t.get("url", ""),
+        })
+    os.makedirs("docs", exist_ok=True)
+    json.dump(rows, open("docs/data.json", "w"), indent=0, ensure_ascii=False)
     block = "\n".join(lines)
     readme = open("README.md").read()
     readme = re.sub(r"(<!--START_SECTION:activity-->\n).*?(<!--END_SECTION:activity-->)", lambda m: m.group(1) + block + "\n" + m.group(2), readme, flags=re.S)
