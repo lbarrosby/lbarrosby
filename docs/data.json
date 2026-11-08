@@ -1,5 +1,21 @@
 [
 {
+"repo": "kubernetes-sigs/kubebuilder",
+"org": "kubernetes-sigs",
+"title": "🐛 (helm/v2-alpha): keep the manager replicas from the kustomize manifest",
+"url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6168",
+"status": "open",
+"level": "ecosystem",
+"project": "Kubernetes",
+"scope": "sig",
+"opened": "2026-11-08",
+"merged": "",
+"merged_by": "",
+"thanks_by": "",
+"thanks": "",
+"thanks_url": ""
+},
+{
 "repo": "kokuwaio/helm-charts",
 "org": "kokuwaio",
 "title": "fix(nginx-php-fpm): use php.livenessProbe for the php container",
