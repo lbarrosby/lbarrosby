@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-509-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-109-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-253-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-46-0086FF?style=flat-square" alt="Merged in CNCF graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-47-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-510-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-109-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-253-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated-46-0086FF?style=flat-square" alt="Merged in CNCF graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-47-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
 **Merged** · sorted by CNCF maturity · [filter and search](https://lbarrosby.github.io/lbarrosby/)
 
@@ -264,7 +264,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Other projects</b> · 242 open in 162 repos</summary>
+<details><summary><b>Other projects</b> · 243 open in 163 repos</summary>
 
 | Project | Pull requests |
 |---|---|
@@ -342,6 +342,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(mysqldump): keep the OpenStack password when mysql.existingSecret is set](https://github.com/kokuwaio/helm-charts/pull/254) |
 | [kreuzwerker/terraform-provider-docker](https://github.com/kreuzwerker/terraform-provider-docker) | [fix(container): read cpus back without replacing the container](https://github.com/kreuzwerker/terraform-provider-docker/pull/1017) |
 | [kubeai-project/kubeai](https://github.com/kubeai-project/kubeai) | [fix: reject resource profile multiples below 1](https://github.com/kubeai-project/kubeai/pull/793) |
+| [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [fix: color "Last State" of init containers in kubectl describe](https://github.com/kubecolor/kubecolor/pull/390) |
 | [kubermatic/machine-controller](https://github.com/kubermatic/machine-controller) | [KubeVirt: honor the instancetype kind set in the provider spec](https://github.com/kubermatic/machine-controller/pull/2119) |
 | [latitudesh/agent](https://github.com/latitudesh/agent) | [fix(firewall): parse IPv6-only UFW rules so removed ones get deleted](https://github.com/latitudesh/agent/pull/34)<br>[fix(client): time out API requests so a stalled call can't freeze the sync loop](https://github.com/latitudesh/agent/pull/33) |
 | [latitudesh/cli](https://github.com/latitudesh/cli) | [fix(cli): walk every page in firewalls, firewall assignments and elastic-ips list](https://github.com/latitudesh/cli/pull/100)<br>[fix(cli): send SDK requests to the host set by --hostname/--scheme/--base-path](https://github.com/latitudesh/cli/pull/99) |

@@ -1,5 +1,20 @@
 [
 {
+"repo": "kubecolor/kubecolor",
+"org": "kubecolor",
+"title": "fix: color \"Last State\" of init containers in kubectl describe",
+"url": "https://github.com/kubecolor/kubecolor/pull/390",
+"status": "open",
+"level": "other",
+"project": "",
+"opened": "2026-11-08",
+"merged": "",
+"merged_by": "",
+"thanks_by": "",
+"thanks": "",
+"thanks_url": ""
+},
+{
 "repo": "aminueza/terraform-provider-minio",
 "org": "aminueza",
 "title": "fix(object): compare RFC3339 timestamps as instants",
