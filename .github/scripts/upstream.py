@@ -163,20 +163,20 @@ def main():
         json.dump(cache, open(CACHE, "w"), indent=1, sort_keys=True, ensure_ascii=False)
         thanked = sum(1 for v in info.values() if v["thanks"])
         lines[0] += f' <img src="https://img.shields.io/badge/thanked%20by%20maintainers-{thanked}-DB61A2?style=flat-square" alt="Thanked by maintainers">'
-        lines += ["**Merged**", ""]
+        lines += ["**Merged**", "", "| Project | Pull request | Merged by | Kind words |", "|---|---|---|---|"]
         for p in sorted(done, key=lambda p: p["pull_request"]["merged_at"], reverse=True):
             repo = p["repository_url"].split("/repos/")[1]
             title = p["title"].replace("|", "\\|")
             badge = cncf_badge(repo, repos_cncf, orgs_cncf)
-            tag = f"{badge} " if badge else ""
+            tag = f"{badge}<br>" if badge else ""
             d = info[p["html_url"]]
-            extra = ""
-            if d["merged_by"] and not d["merged_by"].endswith("[bot]"):
-                extra += f" · merged by [@{d['merged_by']}](https://github.com/{d['merged_by']})"
+            by = d["merged_by"]
+            who = f"[@{by}](https://github.com/{by})" if by and not by.endswith("[bot]") else ("Prow" if by else "")
+            words = ""
             if d["thanks"]:
                 t = d["thanks"]
-                extra += f' · 🙏 [@{t["login"]}]({t["url"]}): <i>"{t["quote"]}"</i>'
-            lines.append(f"- {tag}[{repo}](https://github.com/{repo}): [{title}]({p['html_url']}){extra}")
+                words = f'🙏 [@{t["login"]}]({t["url"]}): <i>"{t["quote"]}"</i>'
+            lines.append(f"| {tag}[{repo}](https://github.com/{repo}) | [{title}]({p['html_url']}) | {who} | {words} |")
         lines.append("")
     open_repos = {r: [p for p in items if status(p) == "open"] for r, items in repos.items()}
     open_repos = {r: items for r, items in open_repos.items() if items}
