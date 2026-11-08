@@ -92,11 +92,13 @@ def cncf_badge(repo, repos, orgs):
     if "(" in project:
         project = project.split("(", 1)[1].rstrip(")")
     scope = cncf_scope(repo, repos, orgs)
-    shown = project + SCOPE_TEXT[scope]
-    name = urllib.parse.quote(shown.replace("-", "--").replace("_", "__"))
-    color = COLORS[level] if scope == "core" else LIGHT[level]
-    hint = f"{shown}: CNCF {level}, {SCOPE_HINT[scope]}"
-    return f'<img src="https://img.shields.io/badge/{name}-CNCF%20{level.capitalize()}-{color}?style=flat-square&logo=cncf&logoColor=white" alt="{hint}" title="{hint}">'
+    if scope == "core":
+        name = urllib.parse.quote(project.replace("-", "--").replace("_", "__"))
+        hint = f"{project}: official repository of a CNCF {level} project"
+        return f'<img src="https://img.shields.io/badge/{name}-official%20·%20CNCF%20{level.capitalize()}-{COLORS[level]}?style=flat-square&logo=cncf&logoColor=white" alt="{hint}" title="{hint}">'
+    kind = "Kubernetes SIG subproject" if scope == "sig" else f"{project} ecosystem"
+    hint = f"{kind}: not the main {project} repository"
+    return f'<img src="https://img.shields.io/badge/{urllib.parse.quote(kind.replace("-", "--"))}-not%20the%20main%20repo-555?style=flat-square" alt="{hint}" title="{hint}">'
 
 
 BOTS = {"poiana", "k8s-ci-robot", "codecov-commenter", "coveralls", "netlify", "vercel", "linux-foundation-easycla"}
@@ -172,9 +174,8 @@ def main():
     grad = [p["repository_url"].split("/repos/")[1] for p in prs if status(p) == "merged" and "Graduated" in cncf_label(p["repository_url"].split("/repos/")[1], repos_cncf, orgs_cncf)]
     core = sum(1 for r in grad if cncf_scope(r, repos_cncf, orgs_cncf) == "core")
     if core:
-        badges.append(f'<img src="https://img.shields.io/badge/merged%20in%20CNCF%20graduated%20core%20repos-{core}-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects">')
-    if len(grad) - core:
-        badges.append(f'<img src="https://img.shields.io/badge/merged%20in%20official%20subprojects-{len(grad) - core}-5AAEFF?style=flat-square" alt="Merged in official subprojects of CNCF graduated projects (project org or kubernetes-sigs)">')
+        badges.append(f'<img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-{core}-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects">')
+
     site = "https://lbarrosby.github.io/lbarrosby/"
     badges.append(f'<a href="{site}"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a>')
     lines = [" ".join(badges), ""]
@@ -192,9 +193,13 @@ def main():
 
     def level(repo):
         label = cncf_label(repo, repos_cncf, orgs_cncf)
-        return label.split()[1].lower() if label else "other"
+        if not label:
+            return "other"
+        if cncf_scope(repo, repos_cncf, orgs_cncf) != "core":
+            return "ecosystem"
+        return label.split()[1].lower()
 
-    groups = [("graduated", "CNCF Graduated"), ("incubating", "CNCF Incubating"), ("sandbox", "CNCF Sandbox"), ("other", "Other projects")]
+    groups = [("graduated", "Official CNCF Graduated projects"), ("incubating", "Official CNCF Incubating projects"), ("sandbox", "Official CNCF Sandbox projects"), ("ecosystem", "CNCF ecosystem (Helm charts, plugins, SIG subprojects, not the main repos)"), ("other", "Other projects")]
 
     def merged_row(p):
         repo = p["repository_url"].split("/repos/")[1]
@@ -212,7 +217,7 @@ def main():
         return f"| {tag}[{repo}](https://github.com/{repo}) | [{title}]({p['html_url']}) | {p['pull_request']['merged_at'][:10]} | {who} | {words} |"
 
     if done:
-        lines += [f"**Merged** · sorted by CNCF maturity · [filter and search]({site})", "", "<sub>Dark badge: a repository the CNCF lists for the project (e.g. kubernetes/*, fluent/fluentd, rook/rook). Light badge with <i>org</i> or <i>SIG</i>: an official repository in the project's GitHub org or in kubernetes-sigs, not the main repository.</sub>", ""]
+        lines += [f"**Merged** · official CNCF project repositories first · [filter and search]({site})", ""]
         for key, name in groups:
             items = [p for p in done if level(p["repository_url"].split("/repos/")[1]) == key]
             if not items:
@@ -221,7 +226,7 @@ def main():
             items.sort(key=lambda p: p["repository_url"].split("/repos/")[1].lower())
             items.sort(key=lambda p: {"core": 0, "sig": 1, "org": 2}.get(cncf_scope(p["repository_url"].split("/repos/")[1], repos_cncf, orgs_cncf), 3))
             nrepos = len({p["repository_url"] for p in items})
-            opened = " open" if key == "graduated" else ""
+            opened = " open" if key in ("graduated", "incubating", "sandbox") else ""
             lines += [f"<details{opened}><summary><b>{name}</b> · {len(items)} merged in {nrepos} repos</summary>", "", "| Project | Pull request | Merged | Merged by | Kind words |", "|---|---|---|---|---|"]
             lines += [merged_row(p) for p in items]
             lines += ["", "</details>", ""]

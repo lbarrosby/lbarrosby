@@ -25,7 +25,7 @@ a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
 .chip[aria-pressed="true"]{border-color:var(--link);background:color-mix(in srgb,var(--link) 18%,transparent)}
 select{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:5px 8px;font-size:13px;max-width:260px}
 .pill{display:inline-block;border-radius:999px;padding:1px 8px;font-size:12px;color:#fff;white-space:nowrap}
-.l-graduated{background:var(--grad)}.l-incubating{background:var(--inc)}.l-sandbox{background:var(--sand)}.l-other{background:var(--other)}
+.l-graduated{background:var(--grad)}.l-incubating{background:var(--inc)}.l-sandbox{background:var(--sand)}.l-other{background:var(--other)}.l-ecosystem{background:#555}
 .s-merged{background:var(--merged)}.s-open{background:var(--open);color:#111}
 .quote{color:var(--muted);font-style:italic}
 table.dataTable{color:var(--text)}
@@ -62,8 +62,8 @@ td:nth-child(5),td:nth-child(6){white-space:nowrap}
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
 <script>
-const LEVELS = {graduated: "CNCF Graduated", incubating: "CNCF Incubating", sandbox: "CNCF Sandbox", other: "Other"};
-const RANK = {graduated: 0, incubating: 1, sandbox: 2, other: 3};
+const LEVELS = {graduated: "Official · CNCF Graduated", incubating: "Official · CNCF Incubating", sandbox: "Official · CNCF Sandbox", ecosystem: "CNCF ecosystem (not main repo)", other: "Other"};
+const RANK = {graduated: 0, incubating: 1, sandbox: 2, ecosystem: 3, other: 4};
 const esc = s => String(s || "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
 const SCOPES = {core: "Main project repo", sig: "Kubernetes SIG", org: "Project org"};
 const state = {level: new Set(), scope: new Set(), status: new Set(), repo: "", by: "", thanks: false};
@@ -73,7 +73,7 @@ fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(rows => {
   const stat = (v, t) => `<div class="stat"><b>${v}</b><span>${t}</span></div>`;
   document.getElementById("stats").innerHTML =
     stat(rows.length, "pull requests") + stat(merged.length, "merged") +
-    stat(merged.filter(r => r.level === "graduated").length, "merged in CNCF graduated") +
+    stat(merged.filter(r => r.level === "graduated").length, "merged in official CNCF graduated repos") +
     stat(new Set(rows.map(r => r.repo)).size, "projects") +
     stat(merged.filter(r => r.thanks_by).length, "thanked by maintainers");
 
