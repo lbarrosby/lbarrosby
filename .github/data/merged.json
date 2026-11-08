@@ -499,6 +499,14 @@
   "merged_by": "andaaron",
   "thanks": null
  },
+ "https://github.com/project-zot/helm-charts/pull/150": {
+  "merged_by": "andaaron",
+  "thanks": {
+   "login": "andaaron",
+   "quote": "Thank you for the PR",
+   "url": "https://github.com/project-zot/helm-charts/pull/150#pullrequestreview-5818520425"
+  }
+ },
  "https://github.com/prometheus-community/helm-charts/pull/7505": {
   "merged_by": "zeritti",
   "thanks": null
@@ -593,6 +601,14 @@
    "login": "superbrothers",
    "quote": "Thank you for the PR!",
    "url": "https://github.com/stern/stern/pull/408#issuecomment-6715123395"
+  }
+ },
+ "https://github.com/terraform-linters/tflint/pull/2688": {
+  "merged_by": "wata727",
+  "thanks": {
+   "login": "wata727",
+   "quote": "Thanks!",
+   "url": "https://github.com/terraform-linters/tflint/pull/2688#pullrequestreview-5818553187"
   }
  },
  "https://github.com/tsuru/charts/pull/53": {
