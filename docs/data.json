@@ -309,7 +309,7 @@
 "project": "Falco",
 "opened": "2026-11-08",
 "merged": "2026-11-08",
-"merged_by": "poiana",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
@@ -939,7 +939,7 @@
 "project": "Falco",
 "opened": "2026-11-08",
 "merged": "2026-11-08",
-"merged_by": "poiana",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
@@ -2934,7 +2934,7 @@
 "project": "Kubernetes",
 "opened": "2026-11-06",
 "merged": "2026-11-06",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
@@ -2949,7 +2949,7 @@
 "project": "Kubernetes",
 "opened": "2026-11-06",
 "merged": "2026-11-06",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "nicolexin",
 "thanks": "Thanks for fixing this!",
 "thanks_url": "https://github.com/kubernetes-sigs/gateway-api-inference-extension/pull/3084#pullrequestreview-5804822918"
@@ -2979,7 +2979,7 @@
 "project": "Kubernetes",
 "opened": "2026-11-06",
 "merged": "2026-11-06",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "kannon92",
 "thanks": "thank you!",
 "thanks_url": "https://github.com/kubernetes-sigs/jobset/pull/1392#issuecomment-6695844574"
@@ -3264,7 +3264,7 @@
 "project": "Falco",
 "opened": "2026-11-06",
 "merged": "2026-11-06",
-"merged_by": "poiana",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
@@ -3474,7 +3474,7 @@
 "project": "Kubernetes",
 "opened": "2026-11-06",
 "merged": "2026-11-07",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "camilamacedo86",
 "thanks": "Thank you for raise this one 👍",
 "thanks_url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6160#issuecomment-6689035654"
@@ -4929,7 +4929,7 @@
 "project": "Kubernetes",
 "opened": "2026-11-05",
 "merged": "2026-11-06",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "Kunalbehbud",
 "thanks": "thanks for picking this up, I never got back to the rebase.",
 "thanks_url": "https://github.com/kubernetes-sigs/external-dns/pull/6929#issuecomment-6690279742"
@@ -4944,7 +4944,7 @@
 "project": "OpenEBS",
 "opened": "2026-11-05",
 "merged": "2026-11-06",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
@@ -5214,7 +5214,7 @@
 "project": "Knative",
 "opened": "2026-11-05",
 "merged": "2026-11-06",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
@@ -5229,7 +5229,7 @@
 "project": "Falco",
 "opened": "2026-11-05",
 "merged": "2026-11-06",
-"merged_by": "poiana",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
@@ -5694,7 +5694,7 @@
 "project": "OpenEBS",
 "opened": "2026-11-05",
 "merged": "2026-11-06",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
@@ -5844,7 +5844,7 @@
 "project": "Kubernetes",
 "opened": "2026-11-05",
 "merged": "2026-11-06",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "kahirokunn",
 "thanks": "Thx 🙏",
 "thanks_url": "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/96#issuecomment-6674101360"
@@ -6189,7 +6189,7 @@
 "project": "Kubernetes",
 "opened": "2026-11-05",
 "merged": "2026-11-06",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "kahirokunn",
 "thanks": "Thx!",
 "thanks_url": "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/93#issuecomment-6674363925"
@@ -6504,7 +6504,7 @@
 "project": "Kubernetes",
 "opened": "2026-11-05",
 "merged": "2026-11-07",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
@@ -6564,7 +6564,7 @@
 "project": "Kubernetes",
 "opened": "2026-11-05",
 "merged": "2026-11-05",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
@@ -7299,7 +7299,7 @@
 "project": "OpenEBS",
 "opened": "2026-11-04",
 "merged": "2026-11-05",
-"merged_by": "Prow",
+"merged_by": "bot",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""

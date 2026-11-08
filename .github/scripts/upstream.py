@@ -179,7 +179,8 @@ def main():
         tag = f"{badge}<br>" if badge else ""
         d = info[p["html_url"]]
         by = d["merged_by"]
-        who = f"[@{by}](https://github.com/{by})" if by and not by.endswith("[bot]") else ("Prow" if by else "")
+        bot = by.endswith("[bot]") or by.lower() in BOTS
+        who = f"[@{by}](https://github.com/{by})" if by and not bot else ("bot" if by else "")
         words = ""
         if d["thanks"]:
             t = d["thanks"]
@@ -225,7 +226,7 @@ def main():
             "repo": repo, "org": repo.split("/")[0], "title": p["title"], "url": p["html_url"], "status": status(p),
             "level": level(repo), "project": label.split("(", 1)[1].rstrip(")") if label else "",
             "opened": p["created_at"][:10], "merged": (p["pull_request"].get("merged_at") or "")[:10],
-            "merged_by": "Prow" if by.endswith("[bot]") else by,
+            "merged_by": "bot" if by and (by.endswith("[bot]") or by.lower() in BOTS) else by,
             "thanks_by": t.get("login", ""), "thanks": t.get("quote", ""), "thanks_url": t.get("url", ""),
         })
     os.makedirs("docs", exist_ok=True)

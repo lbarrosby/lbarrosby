@@ -36,6 +36,7 @@ table.dataTable.stripe>tbody>tr:nth-child(odd)>*{box-shadow:inset 0 0 0 9999px c
 .dt-container,.dt-container .dt-info,.dt-container .dt-paging .dt-paging-button{color:var(--text)!important}
 .dt-container .dt-paging .dt-paging-button.current{background:var(--panel)!important;border-color:var(--line)!important;color:var(--text)!important}
 .wrap{overflow-x:auto}
+td:nth-child(5),td:nth-child(6){white-space:nowrap}
 .repo small{display:block;color:var(--muted)}
 </style>
 </head>
@@ -123,7 +124,7 @@ fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(rows => {
       {data: "status", render: (v, t) => t === "display" ? `<span class="pill s-${v}">${v}</span>` : v},
       {data: "opened"},
       {data: "merged", defaultContent: ""},
-      {data: "merged_by", render: (v, t) => t === "display" && v && v !== "Prow" ? `<a href="https://github.com/${esc(v)}">@${esc(v)}</a>` : v},
+      {data: "merged_by", render: (v, t) => t === "display" && v && v !== "bot" ? `<a href="https://github.com/${esc(v)}">@${esc(v)}</a>` : v},
       {data: "thanks", orderable: false, render: (v, t, r) => t === "display" && r.thanks_by ? `🙏 <a href="${esc(r.thanks_url)}">@${esc(r.thanks_by)}</a> <span class="quote">"${esc(v)}"</span>` : (r.thanks_by + " " + v)}
     ]
   });
