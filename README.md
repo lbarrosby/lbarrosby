@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-553-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-148-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-253-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-4-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-68-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-553-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-150-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-253-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-4-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-68-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
 **Merged** · official CNCF project repositories first · [filter and search](https://lbarrosby.github.io/lbarrosby/)
 
@@ -107,12 +107,14 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Other projects</b> · 88 merged in 33 repos</summary>
+<details><summary><b>Other projects</b> · 90 merged in 33 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
 | [adriannovegil/awesome-observability](https://github.com/adriannovegil/awesome-observability) | [Add AI observability pack to GPU Observability](https://github.com/adriannovegil/awesome-observability/pull/203) | 2026-11-07 | [@adriannovegil](https://github.com/adriannovegil) | 🙏 [@adriannovegil](https://github.com/adriannovegil/awesome-observability/pull/203#issuecomment-6707856975): <i>"Thanks for the contribution!"</i> |
 | [adriannovegil/awesome-observability](https://github.com/adriannovegil/awesome-observability) | [Add RKE2 observability pack to Dashboarding](https://github.com/adriannovegil/awesome-observability/pull/204) | 2026-11-07 | [@adriannovegil](https://github.com/adriannovegil) | 🙏 [@adriannovegil](https://github.com/adriannovegil/awesome-observability/pull/204#issuecomment-6707856717): <i>"Thanks for the contribution!"</i> |
+| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(iam_group_policy): report read errors instead of dropping from state](https://github.com/aminueza/terraform-provider-minio/pull/1276) | 2026-11-09 | [@felladrin](https://github.com/felladrin) |  |
+| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(object): compare RFC3339 timestamps as instants](https://github.com/aminueza/terraform-provider-minio/pull/1274) | 2026-11-09 | [@felladrin](https://github.com/felladrin) |  |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(ilm): report read errors instead of dropping the policy from state](https://github.com/aminueza/terraform-provider-minio/pull/1275) | 2026-11-09 | [@felladrin](https://github.com/felladrin) | 🙏 [@aminueza](https://github.com/aminueza/terraform-provider-minio/pull/1275#pullrequestreview-5826291783): <i>"Thanks!"</i> |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(server_side_encryption): ignore kms_key_id diff for AES256](https://github.com/aminueza/terraform-provider-minio/pull/1273) | 2026-11-08 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1273#pullrequestreview-5817693773): <i>"Thanks!"</i> |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(server_side_encryption): report read errors instead of dropping from state](https://github.com/aminueza/terraform-provider-minio/pull/1270) | 2026-11-08 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1270#pullrequestreview-5816500476): <i>"Thanks!"</i> |
@@ -314,12 +316,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Other projects</b> · 235 open in 151 repos</summary>
+<details><summary><b>Other projects</b> · 233 open in 150 repos</summary>
 
 | Project | Pull requests |
 |---|---|
 | [adriannovegil/awesome-observability](https://github.com/adriannovegil/awesome-observability) | [Add Pyrra to Alerts](https://github.com/adriannovegil/awesome-observability/pull/209)<br>[Add OpenObserve to APM](https://github.com/adriannovegil/awesome-observability/pull/208) |
-| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(iam_group_policy): report read errors instead of dropping from state](https://github.com/aminueza/terraform-provider-minio/pull/1276)<br>[fix(object): compare RFC3339 timestamps as instants](https://github.com/aminueza/terraform-provider-minio/pull/1274) |
 | [ansible-collections/ansible.posix](https://github.com/ansible-collections/ansible.posix) | [at: do not schedule jobs from the module temporary directory](https://github.com/ansible-collections/ansible.posix/pull/816) |
 | [ansible-collections/community.aws](https://github.com/ansible-collections/community.aws) | [feat(elb_target_group): add ip_address_type option](https://github.com/ansible-collections/community.aws/pull/2547)<br>[elasticache - do not report changes for wildcard engine versions](https://github.com/ansible-collections/community.aws/pull/2542) |
 | [ansible-collections/community.grafana](https://github.com/ansible-collections/community.grafana) | [fix(grafana_contact_point): ignore provenance when checking for changes](https://github.com/ansible-collections/community.grafana/pull/459) |
