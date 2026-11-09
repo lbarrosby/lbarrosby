@@ -183,6 +183,14 @@
    "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3272#pullrequestreview-5820888608"
   }
  },
+ "https://github.com/buildkite/terraform-provider-buildkite/pull/1336": {
+  "merged_by": "petetomasik",
+  "thanks": {
+   "login": "petetomasik",
+   "quote": "Thanks for the contribution!",
+   "url": "https://github.com/buildkite/terraform-provider-buildkite/pull/1336#pullrequestreview-5828002945"
+  }
+ },
  "https://github.com/civo/terraform-provider-civo/pull/437": {
   "merged_by": "fulviodenza",
   "thanks": {
@@ -551,6 +559,10 @@
    "url": "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/96#issuecomment-6674101360"
   }
  },
+ "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/98": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
  "https://github.com/kubernetes-sigs/dra-example-driver/pull/296": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
@@ -682,6 +694,10 @@
    "quote": "Thanks.",
    "url": "https://github.com/openobserve/terraform-provider-openobserve/pull/17#issuecomment-6668738402"
   }
+ },
+ "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3616": {
+  "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
  },
  "https://github.com/pengovbr/mod-wssei/pull/136": {
   "merged_by": "caduvieira",
