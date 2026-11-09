@@ -217,34 +217,34 @@ def main():
         return f"| {tag}[{repo}](https://github.com/{repo}) | [{title}]({p['html_url']}) | {p['pull_request']['merged_at'][:10]} | {who} | {words} |"
 
     if done:
-        lines += [f"**Merged** · official CNCF project repositories first · [filter and search]({site})", ""]
-        for key, name in groups:
-            items = [p for p in done if level(p["repository_url"].split("/repos/")[1]) == key]
+        lines += [f"**Merged** · official CNCF project repositories first · [see all {len(done)} with filters]({site})", ""]
+        official = [p for p in done if level(p["repository_url"].split("/repos/")[1]) in ("graduated", "incubating", "sandbox")]
+        rest = [p for p in done if p not in official]
+        for key, name in groups[:3]:
+            items = [p for p in official if level(p["repository_url"].split("/repos/")[1]) == key]
             if not items:
                 continue
             items.sort(key=lambda p: p["pull_request"]["merged_at"], reverse=True)
-            items.sort(key=lambda p: p["repository_url"].split("/repos/")[1].lower())
-            items.sort(key=lambda p: {"core": 0, "sig": 1, "org": 2}.get(cncf_scope(p["repository_url"].split("/repos/")[1], repos_cncf, orgs_cncf), 3))
             nrepos = len({p["repository_url"] for p in items})
-            opened = " open" if key in ("graduated", "incubating", "sandbox") else ""
-            lines += [f"<details{opened}><summary><b>{name}</b> · {len(items)} merged in {nrepos} repos</summary>", "", "| Project | Pull request | Merged | Merged by | Kind words |", "|---|---|---|---|---|"]
+            lines += [f"<details open><summary><b>{name}</b> · {len(items)} merged in {nrepos} repos</summary>", "", "| Project | Pull request | Merged | Merged by | Kind words |", "|---|---|---|---|---|"]
             lines += [merged_row(p) for p in items]
             lines += ["", "</details>", ""]
+        recent = sorted(rest, key=lambda p: p["pull_request"]["merged_at"], reverse=True)[:15]
+        if recent:
+            lines += [f"<details><summary><b>Latest merges elsewhere</b> · 15 most recent of {len(rest)} (ecosystem, Terraform providers, Helm charts, tools)</summary>", "", "| Project | Pull request | Merged | Merged by | Kind words |", "|---|---|---|---|---|"]
+            lines += [merged_row(p) for p in recent]
+            lines += ["", f"[All {len(rest)} of them, with filters]({site})", "", "</details>", ""]
     open_repos = {r: [p for p in items if status(p) == "open"] for r, items in repos.items()}
     open_repos = {r: items for r, items in open_repos.items() if items}
-    lines += ["**In review** · sorted by CNCF maturity", ""]
+    counts = []
     for key, name in groups:
-        sel = sorted((kv for kv in open_repos.items() if level(kv[0]) == key), key=lambda kv: kv[0].lower())
-        if not sel:
-            continue
-        n = sum(len(v) for _, v in sel)
-        lines += [f"<details><summary><b>{name}</b> · {n} open in {len(sel)} repos</summary>", "", "| Project | Pull requests |", "|---|---|"]
-        for repo, items in sel:
-            links = "<br>".join(f"[{p['title'].replace('|', chr(92) + '|')}]({p['html_url']})" for p in items)
-            badge = cncf_badge(repo, repos_cncf, orgs_cncf)
-            tag = f"{badge}<br>" if badge else ""
-            lines.append(f"| {tag}[{repo}](https://github.com/{repo}) | {links} |")
-        lines += ["", "</details>", ""]
+        sel = [kv for kv in open_repos.items() if level(kv[0]) == key]
+        if sel:
+            counts.append(f"{name.replace(' projects', '').replace(' (Helm charts, plugins, SIG subprojects, not the main repos)', '')}: {sum(len(v) for _, v in sel)} in {len(sel)} repos")
+    total_open = sum(len(v) for v in open_repos.values())
+    lines += [f"**In review** · {total_open} open pull requests · [browse and filter]({site})", ""]
+    lines += ["- " + c for c in counts]
+    lines += [""]
     rows = []
     for p in prs:
         repo = p["repository_url"].split("/repos/")[1]
