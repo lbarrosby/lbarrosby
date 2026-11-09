@@ -223,6 +223,22 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289#pullrequestreview-5796859115"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/291": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/291#pullrequestreview-5821766918"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/292": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/292#pullrequestreview-5821918943"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/157": {
   "merged_by": "Watson1978",
   "thanks": null
@@ -234,6 +250,10 @@
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/161#pullrequestreview-5796694997"
   }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/165": {
+  "merged_by": "Watson1978",
+  "thanks": null
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/95": {
   "merged_by": "Watson1978",
@@ -637,6 +657,10 @@
  },
  "https://github.com/prometheus-community/helm-charts/pull/7544": {
   "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7563": {
+  "merged_by": "rpahli",
   "thanks": null
  },
  "https://github.com/rook/rook/pull/18686": {
