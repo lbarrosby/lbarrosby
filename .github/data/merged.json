@@ -279,6 +279,10 @@
    "url": "https://github.com/equinix/terraform-provider-equinix/pull/1100#pullrequestreview-5828930106"
   }
  },
+ "https://github.com/equinix/terraform-provider-equinix/pull/1101": {
+  "merged_by": "ctreatma",
+  "thanks": null
+ },
  "https://github.com/falcosecurity/falcosidekick/pull/1478": {
   "merged_by": "poiana",
   "thanks": null

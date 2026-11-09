@@ -1,5 +1,21 @@
 [
 {
+"repo": "fluent-plugins-nursery/fluent-plugin-cloudwatch-logs",
+"org": "fluent-plugins-nursery",
+"title": "Truncate max_message_length by UTF-8 bytes",
+"url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/295",
+"status": "open",
+"level": "other",
+"project": "",
+"scope": "",
+"opened": "2026-11-09",
+"merged": "",
+"merged_by": "",
+"thanks_by": "",
+"thanks": "",
+"thanks_url": ""
+},
+{
 "repo": "latitudesh/cli",
 "org": "latitudesh",
 "title": "fix(pagination): stop reporting more results after a short page",
@@ -7860,13 +7876,13 @@
 "org": "equinix",
 "title": "fix: mark Fabric credential attributes as sensitive",
 "url": "https://github.com/equinix/terraform-provider-equinix/pull/1101",
-"status": "open",
+"status": "merged",
 "level": "other",
 "project": "",
 "scope": "",
 "opened": "2026-11-05",
-"merged": "",
-"merged_by": "",
+"merged": "2026-11-09",
+"merged_by": "ctreatma",
 "thanks_by": "",
 "thanks": "",
 "thanks_url": ""
