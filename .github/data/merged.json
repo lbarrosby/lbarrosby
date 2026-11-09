@@ -203,6 +203,14 @@
    "url": "https://github.com/deliveryhero/helm-charts/pull/819#pullrequestreview-5797719393"
   }
  },
+ "https://github.com/deliveryhero/helm-charts/pull/820": {
+  "merged_by": "max-rocket-internet",
+  "thanks": {
+   "login": "max-rocket-internet",
+   "quote": "Thanks 🩵",
+   "url": "https://github.com/deliveryhero/helm-charts/pull/820#pullrequestreview-5797701270"
+  }
+ },
  "https://github.com/deliveryhero/helm-charts/pull/821": {
   "merged_by": "max-rocket-internet",
   "thanks": {
@@ -212,6 +220,18 @@
   }
  },
  "https://github.com/deliveryhero/helm-charts/pull/823": {
+  "merged_by": "max-rocket-internet",
+  "thanks": null
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/827": {
+  "merged_by": "max-rocket-internet",
+  "thanks": null
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/828": {
+  "merged_by": "max-rocket-internet",
+  "thanks": null
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/829": {
   "merged_by": "max-rocket-internet",
   "thanks": null
  },
