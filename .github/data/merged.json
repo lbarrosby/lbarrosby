@@ -127,6 +127,38 @@
    "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3259#pullrequestreview-5816178424"
   }
  },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3268": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Hey 👋🏼 Nice one, and thanks for the clean test!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3268#pullrequestreview-5821082277"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3270": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Hey 👋🏼 Thanks for picking this up so quickly!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3270#pullrequestreview-5820619230"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3271": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Hey 👋🏼 Thanks for the fix!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3271#pullrequestreview-5820864828"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3272": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Hey 👋🏼 Thanks for filling this gap!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3272#pullrequestreview-5820888608"
+  }
+ },
  "https://github.com/coredns/coredns/pull/8749": {
   "merged_by": "yongtang",
   "thanks": null
@@ -195,6 +227,30 @@
   "merged_by": "Watson1978",
   "thanks": null
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/161": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/161#pullrequestreview-5796694997"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/95": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix and the clear tests.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/95#pullrequestreview-5796777164"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/92": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for working on this.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/92#pullrequestreview-5797200803"
+  }
+ },
  "https://github.com/fluent/fluent-operator/pull/2113": {
   "merged_by": "joshuabaird",
   "thanks": {
@@ -225,6 +281,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the follow-up to #550.",
    "url": "https://github.com/fluent/fluent-plugin-kafka/pull/605#pullrequestreview-5811604875"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-opensearch/pull/201": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for working on this.",
+   "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/201#pullrequestreview-5796960417"
   }
  },
  "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1697": {
