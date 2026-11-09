@@ -631,6 +631,14 @@
    "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6160#issuecomment-6689035654"
   }
  },
+ "https://github.com/latitudesh/agent/pull/33": {
+  "merged_by": "leandroh",
+  "thanks": {
+   "login": "leandroh",
+   "quote": "Nice catch!",
+   "url": "https://github.com/latitudesh/agent/pull/33#pullrequestreview-5830558918"
+  }
+ },
  "https://github.com/lima-vm/lima/pull/5738": {
   "merged_by": "unsuman",
   "thanks": {
