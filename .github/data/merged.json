@@ -135,6 +135,14 @@
    "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3268#pullrequestreview-5821082277"
   }
  },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3269": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Hey 👋🏼 Thanks for adding this!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3269#pullrequestreview-5825527828"
+  }
+ },
  "https://github.com/bpg/terraform-provider-proxmox/pull/3270": {
   "merged_by": "bpg-dev",
   "thanks": {
@@ -387,6 +395,10 @@
    "url": "https://github.com/jenkinsci/explain-error-plugin/pull/267#pullrequestreview-5805050706"
   }
  },
+ "https://github.com/jenkinsci/explain-error-plugin/pull/269": {
+  "merged_by": "shenxianpeng",
+  "thanks": null
+ },
  "https://github.com/jenkinsci/helm-charts/pull/1814": {
   "merged_by": "timja",
   "thanks": null
@@ -615,6 +627,14 @@
    "url": "https://github.com/openobserve/terraform-provider-openobserve/pull/17#issuecomment-6668738402"
   }
  },
+ "https://github.com/pengovbr/mod-wssei/pull/136": {
+  "merged_by": "caduvieira",
+  "thanks": null
+ },
+ "https://github.com/pengovbr/mod-wssei/pull/137": {
+  "merged_by": "caduvieira",
+  "thanks": null
+ },
  "https://github.com/project-zot/helm-charts/pull/149": {
   "merged_by": "andaaron",
   "thanks": null
@@ -625,6 +645,14 @@
    "login": "andaaron",
    "quote": "Thank you for the PR",
    "url": "https://github.com/project-zot/helm-charts/pull/150#pullrequestreview-5818520425"
+  }
+ },
+ "https://github.com/projectcontour/contour/pull/7821": {
+  "merged_by": "tsaarni",
+  "thanks": {
+   "login": "tsaarni",
+   "quote": "Thank you for contributing!",
+   "url": "https://github.com/projectcontour/contour/pull/7821#pullrequestreview-5803527120"
   }
  },
  "https://github.com/prometheus-community/helm-charts/pull/7505": {
