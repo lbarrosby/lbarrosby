@@ -275,6 +275,10 @@
   "merged_by": "yxxhero",
   "thanks": null
  },
+ "https://github.com/helmfile/helmfile/pull/2881": {
+  "merged_by": "yxxhero",
+  "thanks": null
+ },
  "https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411": {
   "merged_by": "lukasmetzner",
   "thanks": {

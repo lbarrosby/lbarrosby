@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-553-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-119-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-253-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-4-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-51-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-553-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-120-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-253-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-4-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-51-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
 **Merged** · official CNCF project repositories first · [filter and search](https://lbarrosby.github.io/lbarrosby/)
 
@@ -103,7 +103,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Other projects</b> · 63 merged in 28 repos</summary>
+<details><summary><b>Other projects</b> · 64 merged in 28 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
@@ -129,6 +129,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts) | [[stable/dregsy]: fix podLabels value name and render it on Deployment pods](https://github.com/deliveryhero/helm-charts/pull/821) | 2026-11-06 | [@max-rocket-internet](https://github.com/max-rocket-internet) | 🙏 [@max-rocket-internet](https://github.com/deliveryhero/helm-charts/pull/821#pullrequestreview-5797693608): <i>"Nice, thanks"</i> |
 | [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Fix InvalidParameterException when a record has an empty log group or stream name](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289) | 2026-11-08 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289#pullrequestreview-5796859115): <i>"Thanks for the fix."</i> |
 | [fluent-plugins-nursery/fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat) | [Fix timeout flush truncating tags that contain a colon](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/157) | 2026-11-06 | [@Watson1978](https://github.com/Watson1978) |  |
+| [helmfile/helmfile](https://github.com/helmfile/helmfile) | [docs: list the env vars that disable insecure template functions and hooks](https://github.com/helmfile/helmfile/pull/2881) | 2026-11-09 | [@yxxhero](https://github.com/yxxhero) |  |
 | [helmfile/helmfile](https://github.com/helmfile/helmfile) | [fix: let a later --state-values-set assignment replace a value of another type](https://github.com/helmfile/helmfile/pull/2880) | 2026-11-08 | [@yxxhero](https://github.com/yxxhero) |  |
 | [helmfile/helmfile](https://github.com/helmfile/helmfile) | [fix: return the default from get when a parent value is nil](https://github.com/helmfile/helmfile/pull/2877) | 2026-11-06 | [@yxxhero](https://github.com/yxxhero) |  |
 | [helmfile/helmfile](https://github.com/helmfile/helmfile) | [fix: keep elements added to an existing array by --state-values-set](https://github.com/helmfile/helmfile/pull/2873) | 2026-11-06 | [@yxxhero](https://github.com/yxxhero) |  |
@@ -287,7 +288,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Other projects</b> · 260 open in 159 repos</summary>
+<details><summary><b>Other projects</b> · 259 open in 158 repos</summary>
 
 | Project | Pull requests |
 |---|---|
@@ -349,7 +350,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) | [fix(aur): install every binary of the archive in the default package](https://github.com/goreleaser/goreleaser/pull/7284) |
 | [gruntwork-io/terragrunt](https://github.com/gruntwork-io/terragrunt) | [fix: include init in get_terraform_commands_that_need_vars for OpenTofu >= 1.8](https://github.com/gruntwork-io/terragrunt/pull/7252) |
 | [headlamp-k8s/plugins](https://github.com/headlamp-k8s/plugins) | [ai-assistant: security: Redact last-applied annotation on Secrets](https://github.com/headlamp-k8s/plugins/pull/1466)<br>[flux: HelmRelease: Show the chart name in the Chart field](https://github.com/headlamp-k8s/plugins/pull/1463) |
-| [helmfile/helmfile](https://github.com/helmfile/helmfile) | [docs: list the env vars that disable insecure template functions and hooks](https://github.com/helmfile/helmfile/pull/2881) |
 | [hetznercloud/hcloud-go](https://github.com/hetznercloud/hcloud-go) | [fix(exp): escape backslashes in TXT records and keep escapes in one chunk](https://github.com/hetznercloud/hcloud-go/pull/963) |
 | [hetznercloud/terraform-provider-hcloud](https://github.com/hetznercloud/terraform-provider-hcloud) | [fix(server): do not delete primary ip already assigned to the server](https://github.com/hetznercloud/terraform-provider-hcloud/pull/1558) |
 | [huaweicloud/terraform-provider-huaweicloud](https://github.com/huaweicloud/terraform-provider-huaweicloud) | [docs(CCE): explain how to use the add-on template spec with huaweicloud_cce_addon](https://github.com/huaweicloud/terraform-provider-huaweicloud/pull/10537)<br>[fix(OBS): remove bucket sub-resources from the state when the bucket is gone](https://github.com/huaweicloud/terraform-provider-huaweicloud/pull/10536)<br>[fix(OBS): leave connection retries to the OBS SDK so retries are signed again](https://github.com/huaweicloud/terraform-provider-huaweicloud/pull/10535) |
