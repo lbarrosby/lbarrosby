@@ -75,6 +75,14 @@
    "url": "https://github.com/aminueza/terraform-provider-minio/pull/1273#pullrequestreview-5817693773"
   }
  },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1275": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "aminueza",
+   "quote": "Thanks!",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1275#pullrequestreview-5826291783"
+  }
+ },
  "https://github.com/ansible-collections/community.proxmox/pull/559": {
   "merged_by": "Thulium-Drake",
   "thanks": {
@@ -166,6 +174,18 @@
    "quote": "Hey 👋🏼 Thanks for filling this gap!",
    "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3272#pullrequestreview-5820888608"
   }
+ },
+ "https://github.com/civo/terraform-provider-civo/pull/437": {
+  "merged_by": "fulviodenza",
+  "thanks": {
+   "login": "fulviodenza",
+   "quote": "Hi, thanks for contributing to Civo!",
+   "url": "https://github.com/civo/terraform-provider-civo/pull/437#issuecomment-6742236517"
+  }
+ },
+ "https://github.com/civo/terraform-provider-civo/pull/438": {
+  "merged_by": "fulviodenza",
+  "thanks": null
  },
  "https://github.com/coredns/coredns/pull/8749": {
   "merged_by": "yongtang",
@@ -413,6 +433,14 @@
    "login": "shenxianpeng",
    "quote": "Thanks for your PR!",
    "url": "https://github.com/jenkinsci/explain-error-plugin/pull/267#pullrequestreview-5805050706"
+  }
+ },
+ "https://github.com/jenkinsci/explain-error-plugin/pull/268": {
+  "merged_by": "shenxianpeng",
+  "thanks": {
+   "login": "shenxianpeng",
+   "quote": "Hi, thanks for your PR.",
+   "url": "https://github.com/jenkinsci/explain-error-plugin/pull/268#issuecomment-6739138381"
   }
  },
  "https://github.com/jenkinsci/explain-error-plugin/pull/269": {
