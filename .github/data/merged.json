@@ -179,6 +179,14 @@
    "url": "https://github.com/coredns/helm/pull/289#issuecomment-6685667658"
   }
  },
+ "https://github.com/coredns/helm/pull/295": {
+  "merged_by": "hagaibarel",
+  "thanks": {
+   "login": "hagaibarel",
+   "quote": "Thanks for the PR!",
+   "url": "https://github.com/coredns/helm/pull/295#issuecomment-6737796956"
+  }
+ },
  "https://github.com/deliveryhero/helm-charts/pull/819": {
   "merged_by": "max-rocket-internet",
   "thanks": {
@@ -567,6 +575,10 @@
   "merged_by": "luthermonson",
   "thanks": null
  },
+ "https://github.com/mp-ac/verifica-ai/pull/62": {
+  "merged_by": "antonioanerao",
+  "thanks": null
+ },
  "https://github.com/oliver006/redis_exporter/pull/1214": {
   "merged_by": "oliver006",
   "thanks": {
@@ -768,6 +780,10 @@
   "thanks": null
  },
  "https://github.com/xorbitsai/inference/pull/6040": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6041": {
   "merged_by": "qinxuye",
   "thanks": null
  }

@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-553-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-132-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-253-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-4-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-61-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-553-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-135-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-253-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-4-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-62-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
 **Merged** · official CNCF project repositories first · [filter and search](https://lbarrosby.github.io/lbarrosby/)
 
@@ -50,7 +50,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>CNCF ecosystem (Helm charts, plugins, SIG subprojects, not the main repos)</b> · 48 merged in 21 repos</summary>
+<details><summary><b>CNCF ecosystem (Helm charts, plugins, SIG subprojects, not the main repos)</b> · 49 merged in 21 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
@@ -68,6 +68,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/Argo%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Argo ecosystem: not the main Argo repository" title="Argo ecosystem: not the main Argo repository"><br>[argoproj/argo-helm](https://github.com/argoproj/argo-helm) | [fix(argo-cd): render server.service.externalIPs as a list](https://github.com/argoproj/argo-helm/pull/4206) | 2026-11-07 | [@tico24](https://github.com/tico24) |  |
 | <img src="https://img.shields.io/badge/Argo%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Argo ecosystem: not the main Argo repository" title="Argo ecosystem: not the main Argo repository"><br>[argoproj/argo-helm](https://github.com/argoproj/argo-helm) | [fix(argocd-image-updater): Allow webhook port in NetworkPolicy when service.enabled is set](https://github.com/argoproj/argo-helm/pull/4204) | 2026-11-06 | [@tico24](https://github.com/tico24) |  |
 | <img src="https://img.shields.io/badge/Argo%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Argo ecosystem: not the main Argo repository" title="Argo ecosystem: not the main Argo repository"><br>[argoproj/argo-helm](https://github.com/argoproj/argo-helm) | [fix(argocd-image-updater): mount the secret created by certificateSecret](https://github.com/argoproj/argo-helm/pull/4207) | 2026-11-06 | [@tico24](https://github.com/tico24) |  |
+| <img src="https://img.shields.io/badge/CoreDNS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="CoreDNS ecosystem: not the main CoreDNS repository" title="CoreDNS ecosystem: not the main CoreDNS repository"><br>[coredns/helm](https://github.com/coredns/helm) | [docs: document missing values and drop the stale dnsConfig row](https://github.com/coredns/helm/pull/295) | 2026-11-09 | [@hagaibarel](https://github.com/hagaibarel) | 🙏 [@hagaibarel](https://github.com/coredns/helm/pull/295#issuecomment-6737796956): <i>"Thanks for the PR!"</i> |
 | <img src="https://img.shields.io/badge/CoreDNS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="CoreDNS ecosystem: not the main CoreDNS repository" title="CoreDNS ecosystem: not the main CoreDNS repository"><br>[coredns/helm](https://github.com/coredns/helm) | [fix: default the server port when it is not set](https://github.com/coredns/helm/pull/289) | 2026-11-06 | [@hagaibarel](https://github.com/hagaibarel) | 🙏 [@hagaibarel](https://github.com/coredns/helm/pull/289#issuecomment-6685667658): <i>"Thanks for the PR!"</i> |
 | <img src="https://img.shields.io/badge/CoreDNS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="CoreDNS ecosystem: not the main CoreDNS repository" title="CoreDNS ecosystem: not the main CoreDNS repository"><br>[coredns/helm](https://github.com/coredns/helm) | [docs: note that the ServiceMonitor needs the metrics Service](https://github.com/coredns/helm/pull/288) | 2026-11-04 | [@hagaibarel](https://github.com/hagaibarel) | 🙏 [@hagaibarel](https://github.com/coredns/helm/pull/288#issuecomment-6640382338): <i>"Thanks for the PR!"</i> |
 | <img src="https://img.shields.io/badge/Falco%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Falco ecosystem: not the main Falco repository" title="Falco ecosystem: not the main Falco repository"><br>[falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick) | [fix(outputs): sanitize Loki label names built from output fields](https://github.com/falcosecurity/falcosidekick/pull/1481) | 2026-11-08 | bot |  |
@@ -105,7 +106,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Other projects</b> · 74 merged in 30 repos</summary>
+<details><summary><b>Other projects</b> · 76 merged in 31 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
@@ -162,6 +163,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(vm): return the API error from AgentExec](https://github.com/luthermonson/go-proxmox/pull/363) | 2026-11-07 | [@luthermonson](https://github.com/luthermonson) |  |
 | [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [ci: pin actions by SHA and set read-only token permissions](https://github.com/luthermonson/go-proxmox/pull/357) | 2026-11-07 | [@luthermonson](https://github.com/luthermonson) |  |
 | [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(firewall): send force and digest when deleting guest ipsets](https://github.com/luthermonson/go-proxmox/pull/356) | 2026-11-07 | [@luthermonson](https://github.com/luthermonson) |  |
+| [mp-ac/verifica-ai](https://github.com/mp-ac/verifica-ai) | [fix: evita que o uv run instale o grupo dev ao iniciar os contêineres](https://github.com/mp-ac/verifica-ai/pull/62) | 2026-11-09 | [@antonioanerao](https://github.com/antonioanerao) |  |
 | [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: count usec for commands with _ or - in the latency histogram sum](https://github.com/oliver006/redis_exporter/pull/1214) | 2026-11-06 | [@oliver006](https://github.com/oliver006) | 🙏 [@oliver006](https://github.com/oliver006/redis_exporter/pull/1214#pullrequestreview-5796358851): <i>"Thanks for the PR!"</i> |
 | [openobserve/openobserve-helm-chart](https://github.com/openobserve/openobserve-helm-chart) | [fix(openobserve-collector): apply image.pullPolicy to the collectors](https://github.com/openobserve/openobserve-helm-chart/pull/286) | 2026-11-05 | [@mmosarafO2](https://github.com/mmosarafO2) |  |
 | [openobserve/terraform-provider-openobserve](https://github.com/openobserve/terraform-provider-openobserve) | [fix: keep the configured JSON text when the server document matches](https://github.com/openobserve/terraform-provider-openobserve/pull/17) | 2026-11-05 | [@chaitanya-sistla](https://github.com/chaitanya-sistla) | 🙏 [@chaitanya-sistla](https://github.com/openobserve/terraform-provider-openobserve/pull/17#issuecomment-6668738402): <i>"Thanks."</i> |
@@ -176,6 +178,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [tsuru/charts](https://github.com/tsuru/charts) | [ci: publish charts as OCI artifacts to GHCR](https://github.com/tsuru/charts/pull/55) | 2026-11-05 | [@ravilock](https://github.com/ravilock) |  |
 | [tsuru/tsuru-client](https://github.com/tsuru/tsuru-client) | [fix: keep the current target in sync on target update](https://github.com/tsuru/tsuru-client/pull/283) | 2026-11-04 | [@ravilock](https://github.com/ravilock) |  |
 | [vantage-sh/ec2instances.info](https://github.com/vantage-sh/ec2instances.info) | [fix(ec2): correct CUDA compute capability for g6f, gr6f and p6-b300](https://github.com/vantage-sh/ec2instances.info/pull/1014) | 2026-11-08 | [@alex-wanger](https://github.com/alex-wanger) | 🙏 [@alex-wanger](https://github.com/vantage-sh/ec2instances.info/pull/1014#issuecomment-6725380613): <i>"Looks good to me, thanks for submitting this!"</i> |
+| [xorbitsai/inference](https://github.com/xorbitsai/inference) | [fix(client): accept image paths and URLs in image_to_image, inpainting and ocr](https://github.com/xorbitsai/inference/pull/6041) | 2026-11-09 | [@qinxuye](https://github.com/qinxuye) |  |
 | [xorbitsai/inference](https://github.com/xorbitsai/inference) | [fix(client): read image file paths in image_to_video and flf_to_video](https://github.com/xorbitsai/inference/pull/6040) | 2026-11-08 | [@qinxuye](https://github.com/qinxuye) |  |
 | [xorbitsai/inference](https://github.com/xorbitsai/inference) | [fix(llm): download each DeepSeek-VL2 image from its own URL](https://github.com/xorbitsai/inference/pull/6038) | 2026-11-08 | [@qinxuye](https://github.com/qinxuye) |  |
 | [xorbitsai/inference](https://github.com/xorbitsai/inference) | [fix(video): run Wan2.2 image-to-video without max_area or image encoder](https://github.com/xorbitsai/inference/pull/6035) | 2026-11-08 | [@qinxuye](https://github.com/qinxuye) |  |
@@ -235,7 +238,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>CNCF ecosystem (Helm charts, plugins, SIG subprojects, not the main repos)</b> · 115 open in 57 repos</summary>
+<details><summary><b>CNCF ecosystem (Helm charts, plugins, SIG subprojects, not the main repos)</b> · 114 open in 57 repos</summary>
 
 | Project | Pull requests |
 |---|---|
@@ -245,7 +248,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/Carvel%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Carvel ecosystem: not the main Carvel repository" title="Carvel ecosystem: not the main Carvel repository"><br>[carvel-dev/vendir](https://github.com/carvel-dev/vendir) | [Explain when a github release has no assets to fetch](https://github.com/carvel-dev/vendir/pull/482) |
 | <img src="https://img.shields.io/badge/containerd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="containerd ecosystem: not the main containerd repository" title="containerd ecosystem: not the main containerd repository"><br>[containerd/nerdctl](https://github.com/containerd/nerdctl) | [fix(compose): honor deploy.restart_policy condition on-failure](https://github.com/containerd/nerdctl/pull/5331) |
 | <img src="https://img.shields.io/badge/composefs%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="composefs ecosystem: not the main composefs repository" title="composefs ecosystem: not the main composefs repository"><br>[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | [fix(core): accept valid field selectors rejected by the schema pattern](https://github.com/containers/kubernetes-mcp-server/pull/1642) |
-| <img src="https://img.shields.io/badge/CoreDNS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="CoreDNS ecosystem: not the main CoreDNS repository" title="CoreDNS ecosystem: not the main CoreDNS repository"><br>[coredns/helm](https://github.com/coredns/helm) | [docs: document missing values and drop the stale dnsConfig row](https://github.com/coredns/helm/pull/295)<br>[fix: keep trafficDistribution inside the deployment.enabled guard](https://github.com/coredns/helm/pull/290) |
+| <img src="https://img.shields.io/badge/CoreDNS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="CoreDNS ecosystem: not the main CoreDNS repository" title="CoreDNS ecosystem: not the main CoreDNS repository"><br>[coredns/helm](https://github.com/coredns/helm) | [fix: keep trafficDistribution inside the deployment.enabled guard](https://github.com/coredns/helm/pull/290) |
 | <img src="https://img.shields.io/badge/Dapr%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Dapr ecosystem: not the main Dapr repository" title="Dapr ecosystem: not the main Dapr repository"><br>[dapr/components-contrib](https://github.com/dapr/components-contrib) | [fix(state/redis): return empty results instead of an error when a query matches nothing](https://github.com/dapr/components-contrib/pull/4742) |
 | <img src="https://img.shields.io/badge/Envoy%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Envoy ecosystem: not the main Envoy repository" title="Envoy ecosystem: not the main Envoy repository"><br>[envoyproxy/gateway](https://github.com/envoyproxy/gateway) | [fix(status): merge policy ancestor status across controllers](https://github.com/envoyproxy/gateway/pull/10516)<br>[docs: move Gateway Exported Metrics from Tasks to Concepts](https://github.com/envoyproxy/gateway/pull/10515) |
 | <img src="https://img.shields.io/badge/etcd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="etcd ecosystem: not the main etcd repository" title="etcd ecosystem: not the main etcd repository"><br>[etcd-io/auger](https://github.com/etcd-io/auger) | [Skip tombstone revisions when listing key summaries](https://github.com/etcd-io/auger/pull/540) |
@@ -299,7 +302,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Other projects</b> · 249 open in 156 repos</summary>
+<details><summary><b>Other projects</b> · 247 open in 154 repos</summary>
 
 | Project | Pull requests |
 |---|---|
@@ -391,7 +394,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [moov-io/go-sftp](https://github.com/moov-io/go-sftp) | [fix: only skip the directory that returned SkipDir in Walk](https://github.com/moov-io/go-sftp/pull/363) |
 | [moov-io/imagecashletter](https://github.com/moov-io/imagecashletter) | [cashLetter: keep caller-set BOFDItemSequenceNumber on returns](https://github.com/moov-io/imagecashletter/pull/529) |
 | [moov-io/watchman](https://github.com/moov-io/watchman) | [download: apply Options passed to New](https://github.com/moov-io/watchman/pull/1014) |
-| [mp-ac/verifica-ai](https://github.com/mp-ac/verifica-ai) | [fix: evita que o uv run instale o grupo dev ao iniciar os contêineres](https://github.com/mp-ac/verifica-ai/pull/62) |
 | [newrelic/newrelic-quickstarts](https://github.com/newrelic/newrelic-quickstarts) | [feat: add vLLM quickstart](https://github.com/newrelic/newrelic-quickstarts/pull/2980) |
 | [NVIDIA/k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin) | [Inspect embedded config.map entries before adding SYS_ADMIN](https://github.com/NVIDIA/k8s-device-plugin/pull/2155) |
 | [OHF-Voice/piper1-gpl](https://github.com/OHF-Voice/piper1-gpl) | [Put the --sentence-silence pause between lines of input too](https://github.com/OHF-Voice/piper1-gpl/pull/354)<br>[Write a valid, empty WAV file when the text has nothing to speak](https://github.com/OHF-Voice/piper1-gpl/pull/353) |
@@ -456,7 +458,6 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [vultr/vultr-cloud-controller-manager](https://github.com/vultr/vultr-cloud-controller-manager) | [Trim whitespace in https-ports and firewall-rules annotations](https://github.com/vultr/vultr-cloud-controller-manager/pull/364) |
 | [wal-g/wal-g](https://github.com/wal-g/wal-g) | [fix(mysql): don't pass --apply-log-only to mariadb-backup](https://github.com/wal-g/wal-g/pull/2771) |
 | [wpjunior/argo-cd](https://github.com/wpjunior/argo-cd) | [Sync with master and fix OCI ref digest reuse in GetAppDetails](https://github.com/wpjunior/argo-cd/pull/2) |
-| [xorbitsai/inference](https://github.com/xorbitsai/inference) | [fix(client): accept image paths and URLs in image_to_image, inpainting and ocr](https://github.com/xorbitsai/inference/pull/6041) |
 | [zammad/zammad-helm](https://github.com/zammad/zammad-helm) | [fix: render podDisruptionBudget minAvailable/maxUnavailable when set to 0](https://github.com/zammad/zammad-helm/pull/506)<br>[fix: set REDIS_USERNAME in sentinel mode when zammadConfig.redis.username is set](https://github.com/zammad/zammad-helm/pull/504) |
 | [zilliztech/milvus-helm](https://github.com/zilliztech/milvus-helm) | [[tei] fix: render labels, annotations, volumes and topologySpreadConstraints](https://github.com/zilliztech/milvus-helm/pull/330) |
 
