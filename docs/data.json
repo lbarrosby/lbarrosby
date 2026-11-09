@@ -978,7 +978,7 @@
 {
 "repo": "open-feature/java-sdk-contrib",
 "org": "open-feature",
-"title": "fix(ofrep): coerce numbers between integer and double when lossless",
+"title": "fix(ofrep): convert numbers between integer and double when lossless",
 "url": "https://github.com/open-feature/java-sdk-contrib/pull/1971",
 "status": "open",
 "level": "ecosystem",
