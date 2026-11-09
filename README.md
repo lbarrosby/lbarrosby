@@ -10,6 +10,12 @@ Over the last years that meant running a fleet of 330 clusters behind ArgoCD, At
 
 I care about boring, predictable infrastructure: everything in code, every change reviewed, upgrades that nobody notices.
 
+**Open to work** &nbsp;<a href="mailto:lucasbarros.kam@gmail.com"><img src="https://img.shields.io/badge/available%20for%20hire-contract%20%C2%B7%20consulting-2EA043?style=flat-square" alt="Available for hire"></a>
+
+Running Kubernetes, Terraform or Proxmox in production and stuck on something? I help teams with platform engineering: EKS and multi-cluster setups, GitOps with Argo CD, Terraform/Terragrunt pipelines, observability with Prometheus and Grafana, and cost reviews. Contract or consulting, remote from Brazil (UTC-3), English and Portuguese.
+
+📩 [lucasbarros.kam@gmail.com](mailto:lucasbarros.kam@gmail.com) · [LinkedIn](https://www.linkedin.com/in/lucas-rbarros)
+
 **Open source**
 
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
