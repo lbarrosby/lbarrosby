@@ -15,7 +15,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-556-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-153-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-254-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-4-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-69-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-556-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-154-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-254-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-4-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-70-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
 **Merged** · official CNCF project repositories first · [filter and search](https://lbarrosby.github.io/lbarrosby/)
 
@@ -108,7 +108,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Other projects</b> · 92 merged in 35 repos</summary>
+<details><summary><b>Other projects</b> · 93 merged in 36 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
@@ -147,6 +147,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts) | [[stable/rds-downscaler]: use the chart service account and fix podLabels/imagePullSecrets rendering](https://github.com/deliveryhero/helm-charts/pull/823) | 2026-11-06 | [@max-rocket-internet](https://github.com/max-rocket-internet) |  |
 | [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts) | [[stable/kubecost-reports-exporter]: use the chart service account and render scheduling values](https://github.com/deliveryhero/helm-charts/pull/819) | 2026-11-06 | [@max-rocket-internet](https://github.com/max-rocket-internet) | 🙏 [@max-rocket-internet](https://github.com/deliveryhero/helm-charts/pull/819#pullrequestreview-5797719393): <i>"Thanks 💚"</i> |
 | [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts) | [[stable/dregsy]: fix podLabels value name and render it on Deployment pods](https://github.com/deliveryhero/helm-charts/pull/821) | 2026-11-06 | [@max-rocket-internet](https://github.com/max-rocket-internet) | 🙏 [@max-rocket-internet](https://github.com/deliveryhero/helm-charts/pull/821#pullrequestreview-5797693608): <i>"Nice, thanks"</i> |
+| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: stop mutating the shared Network Edge client user agent](https://github.com/equinix/terraform-provider-equinix/pull/1100) | 2026-11-09 | [@ctreatma](https://github.com/ctreatma) | 🙏 [@ctreatma](https://github.com/equinix/terraform-provider-equinix/pull/1100#pullrequestreview-5828930106): <i>"Thank you for the contribution!"</i> |
 | [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Fix metadata log_group_name showing the prefix instead of the matched log group](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/292) | 2026-11-09 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/292#pullrequestreview-5821918943): <i>"Thanks for the fix."</i> |
 | [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Fix NameError when log_group_aws_tags or retention_in_days is set with its _key parameter](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/291) | 2026-11-09 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/291#pullrequestreview-5821766918): <i>"Thanks for the fix."</i> |
 | [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Fix InvalidParameterException when a record has an empty log group or stream name](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289) | 2026-11-08 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289#pullrequestreview-5796859115): <i>"Thanks for the fix."</i> |
@@ -319,7 +320,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Other projects</b> · 231 open in 148 repos</summary>
+<details><summary><b>Other projects</b> · 230 open in 148 repos</summary>
 
 | Project | Pull requests |
 |---|---|
@@ -361,7 +362,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [elastic/terraform-provider-ec](https://github.com/elastic/terraform-provider-ec) | [Honor size_resource when counting nodes for dedicated masters](https://github.com/elastic/terraform-provider-ec/pull/1108) |
 | [equinix/cli](https://github.com/equinix/cli) | [fix: read the config file passed with --config](https://github.com/equinix/cli/pull/68) |
 | [equinix/terraform-equinix-fabric](https://github.com/equinix/terraform-equinix-fabric) | [fix: cloud router module provider pin and ignored routing protocol inputs](https://github.com/equinix/terraform-equinix-fabric/pull/275)<br>[fix: streaming module outputs, Terraform version and Splunk example inputs](https://github.com/equinix/terraform-equinix-fabric/pull/274) |
-| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_connection from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1103)<br>[fix: mark Fabric credential attributes as sensitive](https://github.com/equinix/terraform-provider-equinix/pull/1101)<br>[fix: stop mutating the shared Network Edge client user agent](https://github.com/equinix/terraform-provider-equinix/pull/1100) |
+| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_connection from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1103)<br>[fix: mark Fabric credential attributes as sensitive](https://github.com/equinix/terraform-provider-equinix/pull/1101) |
 | [exoscale/terraform-provider-exoscale](https://github.com/exoscale/terraform-provider-exoscale) | [fix(block_storage_volume_snapshot): remove from state when deleted outside of Terraform](https://github.com/exoscale/terraform-provider-exoscale/pull/642) |
 | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | [fix: reject an unknown reference_id instead of creating its directory](https://github.com/fishaudio/fish-speech/pull/1374) |
 | [flant/shell-operator](https://github.com/flant/shell-operator) | [[shell-operator] feat: add a generic Helm chart](https://github.com/flant/shell-operator/pull/963) |

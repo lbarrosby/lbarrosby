@@ -7796,16 +7796,16 @@
 "org": "equinix",
 "title": "fix: stop mutating the shared Network Edge client user agent",
 "url": "https://github.com/equinix/terraform-provider-equinix/pull/1100",
-"status": "open",
+"status": "merged",
 "level": "other",
 "project": "",
 "scope": "",
 "opened": "2026-11-05",
-"merged": "",
-"merged_by": "",
-"thanks_by": "",
-"thanks": "",
-"thanks_url": ""
+"merged": "2026-11-09",
+"merged_by": "ctreatma",
+"thanks_by": "ctreatma",
+"thanks": "Thank you for the contribution!",
+"thanks_url": "https://github.com/equinix/terraform-provider-equinix/pull/1100#pullrequestreview-5828930106"
 },
 {
 "repo": "aziontech/lib",

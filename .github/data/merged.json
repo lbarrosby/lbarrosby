@@ -271,6 +271,14 @@
   "merged_by": "max-rocket-internet",
   "thanks": null
  },
+ "https://github.com/equinix/terraform-provider-equinix/pull/1100": {
+  "merged_by": "ctreatma",
+  "thanks": {
+   "login": "ctreatma",
+   "quote": "Thank you for the contribution!",
+   "url": "https://github.com/equinix/terraform-provider-equinix/pull/1100#pullrequestreview-5828930106"
+  }
+ },
  "https://github.com/falcosecurity/falcosidekick/pull/1478": {
   "merged_by": "poiana",
   "thanks": null
