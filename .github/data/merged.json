@@ -511,6 +511,10 @@
   "merged_by": "monotek",
   "thanks": null
  },
+ "https://github.com/kube-vip/kube-vip/pull/1838": {
+  "merged_by": "Cellebyte",
+  "thanks": null
+ },
  "https://github.com/kubecolor/kubecolor/pull/385": {
   "merged_by": "applejag",
   "thanks": null
@@ -539,6 +543,18 @@
    "url": "https://github.com/kubecolor/kubecolor/pull/389#pullrequestreview-5818014197"
   }
  },
+ "https://github.com/kubecolor/kubecolor/pull/390": {
+  "merged_by": "prune998",
+  "thanks": null
+ },
+ "https://github.com/kubecolor/kubecolor/pull/391": {
+  "merged_by": "prune998",
+  "thanks": null
+ },
+ "https://github.com/kubecolor/kubecolor/pull/392": {
+  "merged_by": "prune998",
+  "thanks": null
+ },
  "https://github.com/kubernetes-sigs/agent-sandbox/pull/2202": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
@@ -548,6 +564,14 @@
   "thanks": null
  },
  "https://github.com/kubernetes-sigs/agent-sandbox/pull/2221": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/agent-sandbox/pull/2223": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/agent-sandbox/pull/2225": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
  },
@@ -785,6 +809,10 @@
  },
  "https://github.com/prometheus-community/helm-charts/pull/7544": {
   "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/helm-charts/pull/7562": {
+  "merged_by": "zeritti",
   "thanks": null
  },
  "https://github.com/prometheus-community/helm-charts/pull/7563": {
