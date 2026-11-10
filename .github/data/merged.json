@@ -307,6 +307,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289#pullrequestreview-5796859115"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/290": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/290#pullrequestreview-5821683645"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/291": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -335,9 +343,21 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/161#pullrequestreview-5796694997"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/164": {
+  "merged_by": "Watson1978",
+  "thanks": null
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/165": {
   "merged_by": "Watson1978",
   "thanks": null
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix and the test.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438#pullrequestreview-5821215808"
+  }
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/95": {
   "merged_by": "Watson1978",
@@ -741,6 +761,10 @@
  },
  "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3616": {
   "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
+ },
+ "https://github.com/otwld/ollama-helm/pull/295": {
+  "merged_by": "jdetroyes",
   "thanks": null
  },
  "https://github.com/pengovbr/mod-wssei/pull/136": {
