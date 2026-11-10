@@ -511,6 +511,10 @@
    "url": "https://github.com/fluent/fluentd/pull/5608#pullrequestreview-5835281054"
   }
  },
+ "https://github.com/goreleaser/goreleaser/pull/7284": {
+  "merged_by": "caarlos0",
+  "thanks": null
+ },
  "https://github.com/helmfile/helmfile/pull/2873": {
   "merged_by": "yxxhero",
   "thanks": null
