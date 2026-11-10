@@ -267,6 +267,10 @@
   "merged_by": "max-rocket-internet",
   "thanks": null
  },
+ "https://github.com/deliveryhero/helm-charts/pull/824": {
+  "merged_by": "max-rocket-internet",
+  "thanks": null
+ },
  "https://github.com/deliveryhero/helm-charts/pull/827": {
   "merged_by": "max-rocket-internet",
   "thanks": null
@@ -278,6 +282,14 @@
  "https://github.com/deliveryhero/helm-charts/pull/829": {
   "merged_by": "max-rocket-internet",
   "thanks": null
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/835": {
+  "merged_by": "max-rocket-internet",
+  "thanks": {
+   "login": "max-rocket-internet",
+   "quote": "Thanks 🩵",
+   "url": "https://github.com/deliveryhero/helm-charts/pull/835#pullrequestreview-5843112024"
+  }
  },
  "https://github.com/equinix/terraform-provider-equinix/pull/1100": {
   "merged_by": "ctreatma",
@@ -316,6 +328,10 @@
   "thanks": null
  },
  "https://github.com/falcosecurity/falcosidekick/pull/1484": {
+  "merged_by": "poiana",
+  "thanks": null
+ },
+ "https://github.com/falcosecurity/falcosidekick/pull/1485": {
   "merged_by": "poiana",
   "thanks": null
  },
@@ -523,6 +539,14 @@
    "url": "https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411#issuecomment-6652351427"
   }
  },
+ "https://github.com/ionos-cloud/terraform-provider-ionoscloud/pull/1061": {
+  "merged_by": "adeatcu-ionos",
+  "thanks": {
+   "login": "cristiGuranIonos",
+   "quote": "Thanks for creating this!",
+   "url": "https://github.com/ionos-cloud/terraform-provider-ionoscloud/pull/1061#issuecomment-6763548400"
+  }
+ },
  "https://github.com/jenkinsci/explain-error-plugin/pull/267": {
   "merged_by": "shenxianpeng",
   "thanks": {
@@ -650,6 +674,10 @@
    "quote": "Thank you for this!",
    "url": "https://github.com/kubecolor/kubecolor/pull/393#issuecomment-6761940787"
   }
+ },
+ "https://github.com/kubecolor/kubecolor/pull/397": {
+  "merged_by": "prune998",
+  "thanks": null
  },
  "https://github.com/kubernetes-sigs/agent-sandbox/pull/2202": {
   "merged_by": "kubernetes-prow[bot]",
@@ -806,6 +834,14 @@
  "https://github.com/open-feature/java-sdk-contrib/pull/1967": {
   "merged_by": "toddbaert",
   "thanks": null
+ },
+ "https://github.com/opencost/opencost/pull/4175": {
+  "merged_by": "ameijer",
+  "thanks": {
+   "login": "ameijer",
+   "quote": "thank you cc @simanadler",
+   "url": "https://github.com/opencost/opencost/pull/4175#pullrequestreview-5843570063"
+  }
  },
  "https://github.com/openebs/lvm-localpv/pull/528": {
   "merged_by": "mergify[bot]",

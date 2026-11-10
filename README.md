@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-655-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-185-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-80-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-660-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-191-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-83-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 185 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 191 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -28,10 +28,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details open><summary><b>Official CNCF Incubating projects</b> · 3 merged in 2 repos</summary>
+<details open><summary><b>Official CNCF Incubating projects</b> · 4 merged in 3 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/OpenCost-official%20·%20CNCF%20Incubating-8957E5?style=flat-square&logo=cncf&logoColor=white" alt="OpenCost: official repository of a CNCF incubating project" title="OpenCost: official repository of a CNCF incubating project"><br>[opencost/opencost](https://github.com/opencost/opencost) | [fix(inferencecost): keep only grouped properties when aggregating](https://github.com/opencost/opencost/pull/4175) | 2026-11-10 | [@ameijer](https://github.com/ameijer) | 🙏 [@ameijer](https://github.com/opencost/opencost/pull/4175#pullrequestreview-5843570063): <i>"thank you cc @simanadler"</i> |
 | <img src="https://img.shields.io/badge/Contour-official%20·%20CNCF%20Incubating-8957E5?style=flat-square&logo=cncf&logoColor=white" alt="Contour: official repository of a CNCF incubating project" title="Contour: official repository of a CNCF incubating project"><br>[projectcontour/contour](https://github.com/projectcontour/contour) | [Set alt_stat_name for DNS name clusters](https://github.com/projectcontour/contour/pull/7821) | 2026-11-09 | [@tsaarni](https://github.com/tsaarni) | 🙏 [@tsaarni](https://github.com/projectcontour/contour/pull/7821#pullrequestreview-5803527120): <i>"Thank you for contributing!"</i> |
 | <img src="https://img.shields.io/badge/Lima-official%20·%20CNCF%20Incubating-8957E5?style=flat-square&logo=cncf&logoColor=white" alt="Lima: official repository of a CNCF incubating project" title="Lima: official repository of a CNCF incubating project"><br>[lima-vm/lima](https://github.com/lima-vm/lima) | [limactl edit: warn when changing the VM type of an existing instance](https://github.com/lima-vm/lima/pull/5743) | 2026-11-05 | [@AkihiroSuda](https://github.com/AkihiroSuda) |  |
 | <img src="https://img.shields.io/badge/Lima-official%20·%20CNCF%20Incubating-8957E5?style=flat-square&logo=cncf&logoColor=white" alt="Lima: official repository of a CNCF incubating project" title="Lima: official repository of a CNCF incubating project"><br>[lima-vm/lima](https://github.com/lima-vm/lima) | [limayaml: don't panic when the latest config fails to load](https://github.com/lima-vm/lima/pull/5738) | 2026-11-05 | [@unsuman](https://github.com/unsuman) | 🙏 [@AkihiroSuda](https://github.com/lima-vm/lima/pull/5738#pullrequestreview-5784793825): <i>"Thanks"</i> |
@@ -50,10 +51,15 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 171 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 176 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts) | [[stable/prometheus-sentry-exporter]: pass the environment values to the container](https://github.com/deliveryhero/helm-charts/pull/835) | 2026-11-10 | [@max-rocket-internet](https://github.com/max-rocket-internet) | 🙏 [@max-rocket-internet](https://github.com/deliveryhero/helm-charts/pull/835#pullrequestreview-5843112024): <i>"Thanks 🩵"</i> |
+| [ionos-cloud/terraform-provider-ionoscloud](https://github.com/ionos-cloud/terraform-provider-ionoscloud) | [fix: remove nsg, nfs and wireguard resources from state on 404](https://github.com/ionos-cloud/terraform-provider-ionoscloud/pull/1061) | 2026-11-10 | [@adeatcu-ionos](https://github.com/adeatcu-ionos) | 🙏 [@cristiGuranIonos](https://github.com/ionos-cloud/terraform-provider-ionoscloud/pull/1061#issuecomment-6763548400): <i>"Thanks for creating this!"</i> |
+| [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts) | [[stable/no-chart] ci: pin actions by SHA and set read-only token permissions](https://github.com/deliveryhero/helm-charts/pull/824) | 2026-11-10 | [@max-rocket-internet](https://github.com/max-rocket-internet) |  |
+| <img src="https://img.shields.io/badge/Falco%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Falco ecosystem: not the main Falco repository" title="Falco ecosystem: not the main Falco repository"><br>[falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick) | [fix(outputs): close the SMTP connection after each message](https://github.com/falcosecurity/falcosidekick/pull/1485) | 2026-11-10 | bot |  |
+| [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [fix: color pruned resources in kubectl apply --prune](https://github.com/kubecolor/kubecolor/pull/397) | 2026-11-10 | [@prune998](https://github.com/prune998) |  |
 | [pengovbr/mod-wssei](https://github.com/pengovbr/mod-wssei) | [feat: aceita nomeArvore ao criar e alterar documento externo](https://github.com/pengovbr/mod-wssei/pull/138) | 2026-11-10 | [@caduvieira](https://github.com/caduvieira) |  |
 | <img src="https://img.shields.io/badge/Falco%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Falco ecosystem: not the main Falco repository" title="Falco ecosystem: not the main Falco repository"><br>[falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick) | [fix(outputs): report GCP Cloud Functions and AWS Security Lake metrics under their own names](https://github.com/falcosecurity/falcosidekick/pull/1484) | 2026-11-10 | bot |  |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(visual-regression-tracker): mount the configured env-config and seed secrets](https://github.com/kokuwaio/helm-charts/pull/259) | 2026-11-10 | [@monotek](https://github.com/monotek) |  |
@@ -64,23 +70,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-opensearch](https://github.com/fluent/fluent-plugin-opensearch) | [out_opensearch,in_opensearch: rebuild the client when only the port, scheme or path of a host changes](https://github.com/fluent/fluent-plugin-opensearch/pull/202) | 2026-11-10 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-opensearch/pull/202#pullrequestreview-5839113640): <i>"Thanks for the fix."</i> |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(mysqldump): delete expired backups again in housekeeping](https://github.com/kokuwaio/helm-charts/pull/258) | 2026-11-10 | [@monotek](https://github.com/monotek) |  |
 | <img src="https://img.shields.io/badge/CoreDNS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="CoreDNS ecosystem: not the main CoreDNS repository" title="CoreDNS ecosystem: not the main CoreDNS repository"><br>[coredns/helm](https://github.com/coredns/helm) | [fix: keep trafficDistribution inside the deployment.enabled guard](https://github.com/coredns/helm/pull/290) | 2026-11-10 | [@hagaibarel](https://github.com/hagaibarel) | 🙏 [@hagaibarel](https://github.com/coredns/helm/pull/290#issuecomment-6762305088): <i>"Thanks for the PR!"</i> |
-| [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [feat: colorize kubectl taint output](https://github.com/kubecolor/kubecolor/pull/393) | 2026-11-10 | [@applejag](https://github.com/applejag) | 🙏 [@applejag](https://github.com/kubecolor/kubecolor/pull/393#issuecomment-6761940787): <i>"Thank you for this!"</i> |
-| [tensorchord/Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps) | [Add AI observability pack to Observability](https://github.com/tensorchord/Awesome-LLMOps/pull/1126) | 2026-11-10 | [@NeroHin](https://github.com/NeroHin) | 🙏 [@NeroHin](https://github.com/tensorchord/Awesome-LLMOps/pull/1126#pullrequestreview-5837612769): <i>"Thanks!"</i> |
-| [helmfile/helmfile](https://github.com/helmfile/helmfile) | [docs: document trackFailOnError and helmStuckGrace](https://github.com/helmfile/helmfile/pull/2886) | 2026-11-10 | [@yxxhero](https://github.com/yxxhero) |  |
-| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: keep the configured stream_id in stream subscription and alert rule data sources](https://github.com/equinix/terraform-provider-equinix/pull/1133) | 2026-11-10 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
-| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_connection from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1103) | 2026-11-10 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
 
-[All 171 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 176 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 470 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 469 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 16 repos
-- Official CNCF Incubating: 10 in 3 repos
+- Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
 - CNCF ecosystem: 135 in 60 repos
-- Other: 274 in 161 repos
+- Other: 274 in 160 repos
 
 <!--END_SECTION:activity-->
 
