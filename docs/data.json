@@ -1,5 +1,21 @@
 [
 {
+"repo": "fluent-plugins-nursery/fluent-plugin-out-http",
+"org": "fluent-plugins-nursery",
+"title": "Send a gzip buffer chunk as is only for compressed bulk requests",
+"url": "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/96",
+"status": "open",
+"level": "other",
+"project": "",
+"scope": "",
+"opened": "2026-11-10",
+"merged": "",
+"merged_by": "",
+"thanks_by": "",
+"thanks": "",
+"thanks_url": ""
+},
+{
 "repo": "civo/terraform-provider-civo",
 "org": "civo",
 "title": "fix(kubernetes): drop a node pool deleted outside Terraform from state",
