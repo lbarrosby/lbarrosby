@@ -11,6 +11,10 @@
   "merged_by": "sng-asyncfunc",
   "thanks": null
  },
+ "https://github.com/Flux159/mcp-server-kubernetes/pull/396": {
+  "merged_by": "Flux159",
+  "thanks": null
+ },
  "https://github.com/adriannovegil/awesome-observability/pull/203": {
   "merged_by": "adriannovegil",
   "thanks": {
@@ -587,6 +591,10 @@
   "merged_by": "timja",
   "thanks": null
  },
+ "https://github.com/jenkinsci/helm-charts/pull/1819": {
+  "merged_by": "timja",
+  "thanks": null
+ },
  "https://github.com/karmada-io/karmada/pull/8029": {
   "merged_by": "karmada-bot",
   "thanks": {
@@ -803,6 +811,10 @@
    "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6160#issuecomment-6689035654"
   }
  },
+ "https://github.com/kubevirt/containerized-data-importer/pull/4337": {
+  "merged_by": "kubevirt-prow[bot]",
+  "thanks": null
+ },
  "https://github.com/latitudesh/agent/pull/33": {
   "merged_by": "leandroh",
   "thanks": {
@@ -1011,6 +1023,22 @@
    "url": "https://github.com/samber/awesome-prometheus-alerts/pull/662#issuecomment-6722639960"
   }
  },
+ "https://github.com/samber/awesome-prometheus-alerts/pull/663": {
+  "merged_by": "samber",
+  "thanks": null
+ },
+ "https://github.com/samber/awesome-prometheus-alerts/pull/664": {
+  "merged_by": "samber",
+  "thanks": null
+ },
+ "https://github.com/samber/awesome-prometheus-alerts/pull/665": {
+  "merged_by": "samber",
+  "thanks": {
+   "login": "samber",
+   "quote": "thanks!",
+   "url": "https://github.com/samber/awesome-prometheus-alerts/pull/665#issuecomment-6781101261"
+  }
+ },
  "https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/349": {
   "merged_by": "sergelogvinov",
   "thanks": {
@@ -1072,6 +1100,10 @@
   "thanks": null
  },
  "https://github.com/tsuru/tsuru-client/pull/283": {
+  "merged_by": "ravilock",
+  "thanks": null
+ },
+ "https://github.com/tsuru/tsuru/pull/2934": {
   "merged_by": "ravilock",
   "thanks": null
  },
