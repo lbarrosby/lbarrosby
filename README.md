@@ -21,9 +21,9 @@ Running Kubernetes, Terraform or Proxmox in production and stuck on something? I
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-567-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-167-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-4-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-73-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-567-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-168-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-4-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-73-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 167 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 168 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 4 merged in 3 repos</summary>
 
@@ -58,10 +58,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 155 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 156 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [otwld/ollama-helm](https://github.com/otwld/ollama-helm) | [fix: keep service ipFamilies inside the non-Knative Service](https://github.com/otwld/ollama-helm/pull/296) | 2026-11-10 | [@jdetroyes](https://github.com/jdetroyes) |  |
 | [otwld/ollama-helm](https://github.com/otwld/ollama-helm) | [fix: allow revisionHistoryLimit to be set to 0](https://github.com/otwld/ollama-helm/pull/295) | 2026-11-10 | [@jdetroyes](https://github.com/jdetroyes) |  |
 | [fluent-plugins-nursery/fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat) | [Fix timeout flush stopping when a partial_ordinal cannot be converted](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/164) | 2026-11-10 | [@Watson1978](https://github.com/Watson1978) |  |
 | [fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter) | [Point the container to the pod once a later lookup finds it](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438) | 2026-11-10 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438#pullrequestreview-5821215808): <i>"Thanks for the fix and the test."</i> |
@@ -76,19 +77,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [latitudesh/agent](https://github.com/latitudesh/agent) | [fix(client): time out API requests so a stalled call can't freeze the sync loop](https://github.com/latitudesh/agent/pull/33) | 2026-11-09 | [@leandroh](https://github.com/leandroh) | 🙏 [@leandroh](https://github.com/latitudesh/agent/pull/33#pullrequestreview-5830558918): <i>"Nice catch!"</i> |
 | [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: stop mutating the shared Network Edge client user agent](https://github.com/equinix/terraform-provider-equinix/pull/1100) | 2026-11-09 | [@ctreatma](https://github.com/ctreatma) | 🙏 [@ctreatma](https://github.com/equinix/terraform-provider-equinix/pull/1100#pullrequestreview-5828930106): <i>"Thank you for the contribution!"</i> |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api) | [access: only set rest.Config.Proxy when the profile has a proxy URL](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/98) | 2026-11-09 | bot |  |
-| [buildkite/terraform-provider-buildkite](https://github.com/buildkite/terraform-provider-buildkite) | [fix(portal): clear description and allowed_ip_addresses when removed](https://github.com/buildkite/terraform-provider-buildkite/pull/1336) | 2026-11-09 | [@petetomasik](https://github.com/petetomasik) | 🙏 [@petetomasik](https://github.com/buildkite/terraform-provider-buildkite/pull/1336#pullrequestreview-5828002945): <i>"Thanks for the contribution!"</i> |
 
-[All 155 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 156 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 400 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 399 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 37 in 17 repos
 - Official CNCF Incubating: 10 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
 - CNCF ecosystem: 114 in 56 repos
-- Other: 224 in 144 repos
+- Other: 223 in 143 repos
 
 <!--END_SECTION:activity-->
 
