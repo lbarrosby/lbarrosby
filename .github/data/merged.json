@@ -315,6 +315,10 @@
   "merged_by": "poiana",
   "thanks": null
  },
+ "https://github.com/falcosecurity/falcosidekick/pull/1484": {
+  "merged_by": "poiana",
+  "thanks": null
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -381,6 +385,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix and the clear tests.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/95#pullrequestreview-5796777164"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/96": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix and the clear description.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/96#pullrequestreview-5839358667"
   }
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/92": {
@@ -580,6 +592,10 @@
   "thanks": null
  },
  "https://github.com/kokuwaio/helm-charts/pull/258": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/kokuwaio/helm-charts/pull/259": {
   "merged_by": "monotek",
   "thanks": null
  },
@@ -819,6 +835,10 @@
   "merged_by": "otc-zuul-prod[bot]",
   "thanks": null
  },
+ "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3618": {
+  "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
+ },
  "https://github.com/otwld/ollama-helm/pull/295": {
   "merged_by": "jdetroyes",
   "thanks": null
@@ -942,6 +962,10 @@
    "quote": "Thank you",
    "url": "https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/350#issuecomment-6661857505"
   }
+ },
+ "https://github.com/stakater/Reloader/pull/1269": {
+  "merged_by": "msafwankarim",
+  "thanks": null
  },
  "https://github.com/stern/stern/pull/406": {
   "merged_by": "superbrothers",

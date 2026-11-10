@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-627-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-179-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-79-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-644-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-184-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-80-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 179 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 184 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -50,10 +50,15 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 165 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 170 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/Falco%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Falco ecosystem: not the main Falco repository" title="Falco ecosystem: not the main Falco repository"><br>[falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick) | [fix(outputs): report GCP Cloud Functions and AWS Security Lake metrics under their own names](https://github.com/falcosecurity/falcosidekick/pull/1484) | 2026-11-10 | bot |  |
+| [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(visual-regression-tracker): mount the configured env-config and seed secrets](https://github.com/kokuwaio/helm-charts/pull/259) | 2026-11-10 | [@monotek](https://github.com/monotek) |  |
+| [stakater/Reloader](https://github.com/stakater/Reloader) | [fix(handler): treat non-2xx --webhook-url responses as failures](https://github.com/stakater/Reloader/pull/1269) | 2026-11-10 | [@msafwankarim](https://github.com/msafwankarim) |  |
+| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] Enterprise VPN: remove deleted resources from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3618) | 2026-11-10 | bot |  |
+| [fluent-plugins-nursery/fluent-plugin-out-http](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http) | [Fix broken requests with a gzip-compressed buffer](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/96) | 2026-11-10 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/96#pullrequestreview-5839358667): <i>"Thanks for the fix and the clear description."</i> |
 | [xorbitsai/inference](https://github.com/xorbitsai/inference) | [fix(audio): flush the StreamWriter tail when streaming speech on torchaudio < 2.9](https://github.com/xorbitsai/inference/pull/6061) | 2026-11-10 | [@qinxuye](https://github.com/qinxuye) |  |
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-opensearch](https://github.com/fluent/fluent-plugin-opensearch) | [out_opensearch,in_opensearch: rebuild the client when only the port, scheme or path of a host changes](https://github.com/fluent/fluent-plugin-opensearch/pull/202) | 2026-11-10 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-opensearch/pull/202#pullrequestreview-5839113640): <i>"Thanks for the fix."</i> |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(mysqldump): delete expired backups again in housekeeping](https://github.com/kokuwaio/helm-charts/pull/258) | 2026-11-10 | [@monotek](https://github.com/monotek) |  |
@@ -64,23 +69,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: keep the configured stream_id in stream subscription and alert rule data sources](https://github.com/equinix/terraform-provider-equinix/pull/1133) | 2026-11-10 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
 | [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_connection from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1103) | 2026-11-10 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
 | [otwld/ollama-helm](https://github.com/otwld/ollama-helm) | [fix: keep service ipFamilies inside the non-Knative Service](https://github.com/otwld/ollama-helm/pull/296) | 2026-11-10 | [@jdetroyes](https://github.com/jdetroyes) |  |
-| [otwld/ollama-helm](https://github.com/otwld/ollama-helm) | [fix: allow revisionHistoryLimit to be set to 0](https://github.com/otwld/ollama-helm/pull/295) | 2026-11-10 | [@jdetroyes](https://github.com/jdetroyes) |  |
-| [fluent-plugins-nursery/fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat) | [Fix timeout flush stopping when a partial_ordinal cannot be converted](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/164) | 2026-11-10 | [@Watson1978](https://github.com/Watson1978) |  |
-| [fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter) | [Point the container to the pod once a later lookup finds it](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438) | 2026-11-10 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438#pullrequestreview-5821215808): <i>"Thanks for the fix and the test."</i> |
-| [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Fix log_group_aws_tags placeholders resolved only for the first chunk](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/290) | 2026-11-10 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/290#pullrequestreview-5821683645): <i>"Thanks for the fix."</i> |
-| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: mark Fabric credential attributes as sensitive](https://github.com/equinix/terraform-provider-equinix/pull/1101) | 2026-11-09 | [@ctreatma](https://github.com/ctreatma) |  |
 
-[All 165 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 170 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 448 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 460 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 16 repos
 - Official CNCF Incubating: 10 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 127 in 60 repos
-- Other: 260 in 159 repos
+- CNCF ecosystem: 131 in 60 repos
+- Other: 268 in 162 repos
 
 <!--END_SECTION:activity-->
 
