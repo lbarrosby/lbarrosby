@@ -623,6 +623,10 @@
   "merged_by": "monotek",
   "thanks": null
  },
+ "https://github.com/kokuwaio/helm-charts/pull/260": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
  "https://github.com/kube-vip/kube-vip/pull/1838": {
   "merged_by": "Cellebyte",
   "thanks": null
