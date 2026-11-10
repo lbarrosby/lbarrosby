@@ -1,5 +1,37 @@
 [
 {
+"repo": "samber/awesome-prometheus-alerts",
+"org": "samber",
+"title": "feat(rules): add KEDA alerts",
+"url": "https://github.com/samber/awesome-prometheus-alerts/pull/665",
+"status": "open",
+"level": "other",
+"project": "",
+"scope": "",
+"opened": "2026-11-10",
+"merged": "",
+"merged_by": "",
+"thanks_by": "",
+"thanks": "",
+"thanks_url": ""
+},
+{
+"repo": "project-zot/helm-charts",
+"org": "project-zot",
+"title": "docs(zot): declare the values the templates read but values.yaml omits",
+"url": "https://github.com/project-zot/helm-charts/pull/153",
+"status": "open",
+"level": "ecosystem",
+"project": "zot",
+"scope": "org",
+"opened": "2026-11-10",
+"merged": "",
+"merged_by": "",
+"thanks_by": "",
+"thanks": "",
+"thanks_url": ""
+},
+{
 "repo": "opentelekomcloud/terraform-provider-opentelekomcloud",
 "org": "opentelekomcloud",
 "title": "[Fix] SDRS: remove deleted replication pairs from state on read",
