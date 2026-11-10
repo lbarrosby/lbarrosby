@@ -627,6 +627,14 @@
   "merged_by": "monotek",
   "thanks": null
  },
+ "https://github.com/kreuzwerker/terraform-provider-docker/pull/1017": {
+  "merged_by": "Junkern",
+  "thanks": {
+   "login": "Junkern",
+   "quote": "Thanks for the PR!",
+   "url": "https://github.com/kreuzwerker/terraform-provider-docker/pull/1017#pullrequestreview-5845772106"
+  }
+ },
  "https://github.com/kube-vip/kube-vip/pull/1838": {
   "merged_by": "Cellebyte",
   "thanks": null

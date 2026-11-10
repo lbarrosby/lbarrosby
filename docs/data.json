@@ -4468,16 +4468,16 @@
 "org": "kreuzwerker",
 "title": "fix(container): read cpus back without replacing the container",
 "url": "https://github.com/kreuzwerker/terraform-provider-docker/pull/1017",
-"status": "open",
+"status": "merged",
 "level": "other",
 "project": "",
 "scope": "",
 "opened": "2026-11-07",
-"merged": "",
-"merged_by": "",
-"thanks_by": "",
-"thanks": "",
-"thanks_url": ""
+"merged": "2026-11-10",
+"merged_by": "Junkern",
+"thanks_by": "Junkern",
+"thanks": "Thanks for the PR!",
+"thanks_url": "https://github.com/kreuzwerker/terraform-provider-docker/pull/1017#pullrequestreview-5845772106"
 },
 {
 "repo": "terraform-linters/tflint",
