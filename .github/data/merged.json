@@ -223,6 +223,14 @@
    "url": "https://github.com/coredns/helm/pull/289#issuecomment-6685667658"
   }
  },
+ "https://github.com/coredns/helm/pull/290": {
+  "merged_by": "hagaibarel",
+  "thanks": {
+   "login": "hagaibarel",
+   "quote": "Thanks for the PR!",
+   "url": "https://github.com/coredns/helm/pull/290#issuecomment-6762305088"
+  }
+ },
  "https://github.com/coredns/helm/pull/295": {
   "merged_by": "hagaibarel",
   "thanks": {
@@ -281,6 +289,14 @@
  },
  "https://github.com/equinix/terraform-provider-equinix/pull/1101": {
   "merged_by": "ctreatma",
+  "thanks": null
+ },
+ "https://github.com/equinix/terraform-provider-equinix/pull/1103": {
+  "merged_by": "tng1-equinix",
+  "thanks": null
+ },
+ "https://github.com/equinix/terraform-provider-equinix/pull/1133": {
+  "merged_by": "tng1-equinix",
   "thanks": null
  },
  "https://github.com/falcosecurity/falcosidekick/pull/1478": {
@@ -415,6 +431,14 @@
    "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/201#pullrequestreview-5796960417"
   }
  },
+ "https://github.com/fluent/fluent-plugin-opensearch/pull/202": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/202#pullrequestreview-5839113640"
+  }
+ },
  "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1697": {
   "merged_by": "kenhys",
   "thanks": {
@@ -451,6 +475,14 @@
    "url": "https://github.com/fluent/fluentd/pull/5598#pullrequestreview-5795032353"
   }
  },
+ "https://github.com/fluent/fluentd/pull/5608": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks!",
+   "url": "https://github.com/fluent/fluentd/pull/5608#pullrequestreview-5835281054"
+  }
+ },
  "https://github.com/helmfile/helmfile/pull/2873": {
   "merged_by": "yxxhero",
   "thanks": null
@@ -464,6 +496,10 @@
   "thanks": null
  },
  "https://github.com/helmfile/helmfile/pull/2881": {
+  "merged_by": "yxxhero",
+  "thanks": null
+ },
+ "https://github.com/helmfile/helmfile/pull/2886": {
   "merged_by": "yxxhero",
   "thanks": null
  },
@@ -503,6 +539,14 @@
   "merged_by": "timja",
   "thanks": null
  },
+ "https://github.com/karmada-io/karmada/pull/8029": {
+  "merged_by": "karmada-bot",
+  "thanks": {
+   "login": "zhzhuang-zju",
+   "quote": "Thanks",
+   "url": "https://github.com/karmada-io/karmada/pull/8029#issuecomment-6678810771"
+  }
+ },
  "https://github.com/kedacore/charts/pull/926": {
   "merged_by": "linkvt",
   "thanks": {
@@ -532,6 +576,10 @@
   "thanks": null
  },
  "https://github.com/kokuwaio/helm-charts/pull/255": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/kokuwaio/helm-charts/pull/258": {
   "merged_by": "monotek",
   "thanks": null
  },
@@ -578,6 +626,14 @@
  "https://github.com/kubecolor/kubecolor/pull/392": {
   "merged_by": "prune998",
   "thanks": null
+ },
+ "https://github.com/kubecolor/kubecolor/pull/393": {
+  "merged_by": "applejag",
+  "thanks": {
+   "login": "applejag",
+   "quote": "Thank you for this!",
+   "url": "https://github.com/kubecolor/kubecolor/pull/393#issuecomment-6761940787"
+  }
  },
  "https://github.com/kubernetes-sigs/agent-sandbox/pull/2202": {
   "merged_by": "kubernetes-prow[bot]",
@@ -903,6 +959,14 @@
    "url": "https://github.com/stern/stern/pull/408#issuecomment-6715123395"
   }
  },
+ "https://github.com/tensorchord/Awesome-LLMOps/pull/1126": {
+  "merged_by": "NeroHin",
+  "thanks": {
+   "login": "NeroHin",
+   "quote": "Thanks!",
+   "url": "https://github.com/tensorchord/Awesome-LLMOps/pull/1126#pullrequestreview-5837612769"
+  }
+ },
  "https://github.com/terraform-linters/tflint/pull/2688": {
   "merged_by": "wata727",
   "thanks": {
@@ -960,6 +1024,10 @@
   "thanks": null
  },
  "https://github.com/xorbitsai/inference/pull/6041": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6061": {
   "merged_by": "qinxuye",
   "thanks": null
  }
