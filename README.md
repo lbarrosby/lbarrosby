@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-662-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-194-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-84-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-662-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-195-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-85-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 194 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 195 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -51,10 +51,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 179 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 180 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [equinix/cli](https://github.com/equinix/cli) | [fix: read the config file passed with --config](https://github.com/equinix/cli/pull/68) | 2026-11-10 | [@ctreatma](https://github.com/ctreatma) | 🙏 [@ctreatma](https://github.com/equinix/cli/pull/68#pullrequestreview-5847521786): <i>"Thanks for the contribution!"</i> |
 | [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) | [fix(aur): install every binary of the archive in the default package](https://github.com/goreleaser/goreleaser/pull/7284) | 2026-11-10 | [@caarlos0](https://github.com/caarlos0) |  |
 | [kreuzwerker/terraform-provider-docker](https://github.com/kreuzwerker/terraform-provider-docker) | [fix(container): read cpus back without replacing the container](https://github.com/kreuzwerker/terraform-provider-docker/pull/1017) | 2026-11-10 | [@Junkern](https://github.com/Junkern) | 🙏 [@Junkern](https://github.com/kreuzwerker/terraform-provider-docker/pull/1017#pullrequestreview-5845772106): <i>"Thanks for the PR!"</i> |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(nginx-php-fpm): use php.service.port for php-fpm and fastcgi_pass](https://github.com/kokuwaio/helm-charts/pull/260) | 2026-11-10 | [@monotek](https://github.com/monotek) |  |
@@ -69,19 +70,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [stakater/Reloader](https://github.com/stakater/Reloader) | [fix(handler): treat non-2xx --webhook-url responses as failures](https://github.com/stakater/Reloader/pull/1269) | 2026-11-10 | [@msafwankarim](https://github.com/msafwankarim) |  |
 | [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] Enterprise VPN: remove deleted resources from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3618) | 2026-11-10 | bot |  |
 | [fluent-plugins-nursery/fluent-plugin-out-http](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http) | [Fix broken requests with a gzip-compressed buffer](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/96) | 2026-11-10 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/96#pullrequestreview-5839358667): <i>"Thanks for the fix and the clear description."</i> |
-| [xorbitsai/inference](https://github.com/xorbitsai/inference) | [fix(audio): flush the StreamWriter tail when streaming speech on torchaudio < 2.9](https://github.com/xorbitsai/inference/pull/6061) | 2026-11-10 | [@qinxuye](https://github.com/qinxuye) |  |
 
-[All 179 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 180 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 468 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 467 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 16 repos
 - Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 135 in 60 repos
-- Other: 273 in 157 repos
+- CNCF ecosystem: 136 in 61 repos
+- Other: 271 in 155 repos
 
 <!--END_SECTION:activity-->
 

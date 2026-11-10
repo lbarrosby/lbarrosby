@@ -291,6 +291,14 @@
    "url": "https://github.com/deliveryhero/helm-charts/pull/835#pullrequestreview-5843112024"
   }
  },
+ "https://github.com/equinix/cli/pull/68": {
+  "merged_by": "ctreatma",
+  "thanks": {
+   "login": "ctreatma",
+   "quote": "Thanks for the contribution!",
+   "url": "https://github.com/equinix/cli/pull/68#pullrequestreview-5847521786"
+  }
+ },
  "https://github.com/equinix/terraform-provider-equinix/pull/1100": {
   "merged_by": "ctreatma",
   "thanks": {
