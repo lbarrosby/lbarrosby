@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-644-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-184-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-80-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-650-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-185-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-80-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 184 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 185 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -50,10 +50,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 170 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 171 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [pengovbr/mod-wssei](https://github.com/pengovbr/mod-wssei) | [feat: aceita nomeArvore ao criar e alterar documento externo](https://github.com/pengovbr/mod-wssei/pull/138) | 2026-11-10 | [@caduvieira](https://github.com/caduvieira) |  |
 | <img src="https://img.shields.io/badge/Falco%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Falco ecosystem: not the main Falco repository" title="Falco ecosystem: not the main Falco repository"><br>[falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick) | [fix(outputs): report GCP Cloud Functions and AWS Security Lake metrics under their own names](https://github.com/falcosecurity/falcosidekick/pull/1484) | 2026-11-10 | bot |  |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(visual-regression-tracker): mount the configured env-config and seed secrets](https://github.com/kokuwaio/helm-charts/pull/259) | 2026-11-10 | [@monotek](https://github.com/monotek) |  |
 | [stakater/Reloader](https://github.com/stakater/Reloader) | [fix(handler): treat non-2xx --webhook-url responses as failures](https://github.com/stakater/Reloader/pull/1269) | 2026-11-10 | [@msafwankarim](https://github.com/msafwankarim) |  |
@@ -68,19 +69,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [helmfile/helmfile](https://github.com/helmfile/helmfile) | [docs: document trackFailOnError and helmStuckGrace](https://github.com/helmfile/helmfile/pull/2886) | 2026-11-10 | [@yxxhero](https://github.com/yxxhero) |  |
 | [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: keep the configured stream_id in stream subscription and alert rule data sources](https://github.com/equinix/terraform-provider-equinix/pull/1133) | 2026-11-10 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
 | [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_connection from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1103) | 2026-11-10 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
-| [otwld/ollama-helm](https://github.com/otwld/ollama-helm) | [fix: keep service ipFamilies inside the non-Knative Service](https://github.com/otwld/ollama-helm/pull/296) | 2026-11-10 | [@jdetroyes](https://github.com/jdetroyes) |  |
 
-[All 170 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 171 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 460 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 465 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 16 repos
 - Official CNCF Incubating: 10 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 131 in 60 repos
-- Other: 268 in 162 repos
+- CNCF ecosystem: 132 in 60 repos
+- Other: 272 in 161 repos
 
 <!--END_SECTION:activity-->
 
