@@ -15,6 +15,10 @@
   "merged_by": "Flux159",
   "thanks": null
  },
+ "https://github.com/MagaluCloud/terraform-provider-mgc/pull/328": {
+  "merged_by": "alanfranciscos",
+  "thanks": null
+ },
  "https://github.com/adriannovegil/awesome-observability/pull/203": {
   "merged_by": "adriannovegil",
   "thanks": {
@@ -391,6 +395,14 @@
   "merged_by": "tng1-equinix",
   "thanks": null
  },
+ "https://github.com/etcd-io/auger/pull/540": {
+  "merged_by": "siyuanfoundation",
+  "thanks": {
+   "login": "siyuanfoundation",
+   "quote": "Thanks for catching this!",
+   "url": "https://github.com/etcd-io/auger/pull/540#issuecomment-6803725395"
+  }
+ },
  "https://github.com/falcosecurity/falcosidekick/pull/1478": {
   "merged_by": "poiana",
   "thanks": null
@@ -658,6 +670,14 @@
    "quote": "Thanks!",
    "url": "https://github.com/fluent/fluentd/pull/5608#pullrequestreview-5835281054"
   }
+ },
+ "https://github.com/gestaogovbr/Ro-dou/pull/379": {
+  "merged_by": "edulauer",
+  "thanks": null
+ },
+ "https://github.com/gestaogovbr/Ro-dou/pull/381": {
+  "merged_by": "edulauer",
+  "thanks": null
  },
  "https://github.com/goreleaser/goreleaser/pull/7284": {
   "merged_by": "caarlos0",
