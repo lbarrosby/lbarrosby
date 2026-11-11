@@ -459,6 +459,18 @@
   "merged_by": "joshuabaird",
   "thanks": null
  },
+ "https://github.com/fluent/fluent-operator/pull/2122": {
+  "merged_by": "joshuabaird",
+  "thanks": null
+ },
+ "https://github.com/fluent/fluent-operator/pull/2123": {
+  "merged_by": "joshuabaird",
+  "thanks": {
+   "login": "joshuabaird",
+   "quote": "Thanks for the fix and the regression test.",
+   "url": "https://github.com/fluent/fluent-operator/pull/2123#pullrequestreview-5851678343"
+  }
+ },
  "https://github.com/fluent/fluent-plugin-kafka/pull/598": {
   "merged_by": "Watson1978",
   "thanks": {

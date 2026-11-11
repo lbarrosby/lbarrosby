@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-662-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-208-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-88-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-662-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-210-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-255-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-89-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 208 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 210 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -51,10 +51,12 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 193 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 195 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-operator](https://github.com/fluent/fluent-operator) | [fix(fluentd): render name, standby and weight of a forward server](https://github.com/fluent/fluent-operator/pull/2122) | 2026-11-11 | [@joshuabaird](https://github.com/joshuabaird) |  |
+| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-operator](https://github.com/fluent/fluent-operator) | [fix(fluentbit): render timeKeep of the LTSV parser as Time_Keep](https://github.com/fluent/fluent-operator/pull/2123) | 2026-11-11 | [@joshuabaird](https://github.com/joshuabaird) | 🙏 [@joshuabaird](https://github.com/fluent/fluent-operator/pull/2123#pullrequestreview-5851678343): <i>"Thanks for the fix and the regression test."</i> |
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-operator](https://github.com/fluent/fluent-operator) | [fix(helm): honor buffer.enable in the Fluentd outputs](https://github.com/fluent/fluent-operator/pull/2118) | 2026-11-11 | [@joshuabaird](https://github.com/joshuabaird) |  |
 | [helmfile/helmfile](https://github.com/helmfile/helmfile) | [fix: reject out-of-range list indexes in --state-values-set](https://github.com/helmfile/helmfile/pull/2887) | 2026-11-11 | [@yxxhero](https://github.com/yxxhero) |  |
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-operator](https://github.com/fluent/fluent-operator) | [fix(helm): use the buffer scope in the Fluentd OpenSearch output](https://github.com/fluent/fluent-operator/pull/2115) | 2026-11-11 | [@joshuabaird](https://github.com/joshuabaird) |  |
@@ -68,19 +70,17 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) | [fix(rules): use the average total time in HAProxy HTTP slowing down](https://github.com/samber/awesome-prometheus-alerts/pull/663) | 2026-11-10 | [@samber](https://github.com/samber) |  |
 | [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) | [feat(rules): add KEDA alerts](https://github.com/samber/awesome-prometheus-alerts/pull/665) | 2026-11-10 | [@samber](https://github.com/samber) | 🙏 [@samber](https://github.com/samber/awesome-prometheus-alerts/pull/665#issuecomment-6781101261): <i>"thanks!"</i> |
 | [Flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes) | [fix: pass the kubeconfig context to the helm tools](https://github.com/Flux159/mcp-server-kubernetes/pull/396) | 2026-11-10 | [@Flux159](https://github.com/Flux159) |  |
-| [equinix/cli](https://github.com/equinix/cli) | [fix: read the config file passed with --config](https://github.com/equinix/cli/pull/68) | 2026-11-10 | [@ctreatma](https://github.com/ctreatma) | 🙏 [@ctreatma](https://github.com/equinix/cli/pull/68#pullrequestreview-5847521786): <i>"Thanks for the contribution!"</i> |
-| [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) | [fix(aur): install every binary of the archive in the default package](https://github.com/goreleaser/goreleaser/pull/7284) | 2026-11-10 | [@caarlos0](https://github.com/caarlos0) |  |
 
-[All 193 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 195 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 454 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 452 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 16 repos
 - Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 132 in 60 repos
+- CNCF ecosystem: 130 in 59 repos
 - Other: 262 in 150 repos
 
 <!--END_SECTION:activity-->
