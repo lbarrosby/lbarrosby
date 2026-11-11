@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-228-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-106-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-231-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-106-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 228 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 231 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -51,10 +51,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 213 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 216 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [stern/stern](https://github.com/stern/stern) | [fix: keep the UTC offset when removing the subsecond of a log timestamp](https://github.com/stern/stern/pull/410) | 2026-11-11 | [@superbrothers](https://github.com/superbrothers) |  |
+| <img src="https://img.shields.io/badge/zot%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="zot ecosystem: not the main zot repository" title="zot ecosystem: not the main zot repository"><br>[project-zot/helm-charts](https://github.com/project-zot/helm-charts) | [docs(zot): declare the values the templates read but values.yaml omits](https://github.com/project-zot/helm-charts/pull/153) | 2026-11-11 | [@andaaron](https://github.com/andaaron) |  |
+| [stern/stern](https://github.com/stern/stern) | [fix: ignore options without a value in the config file](https://github.com/stern/stern/pull/413) | 2026-11-11 | [@superbrothers](https://github.com/superbrothers) |  |
 | [stern/stern](https://github.com/stern/stern) | [fix: match the name in pod/<name> literally](https://github.com/stern/stern/pull/412) | 2026-11-11 | [@tksm](https://github.com/tksm) | 🙏 [@tksm](https://github.com/stern/stern/pull/412#pullrequestreview-5850640783): <i>"Thanks for the fix!"</i> |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(ilm_policy): remove the old lifecycle when only abort-only rules remain](https://github.com/aminueza/terraform-provider-minio/pull/1290) | 2026-11-11 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1290#pullrequestreview-5858680042): <i>"Good catch on the leftover lifecycle."</i> |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(ilm_policy): report read errors from the data source](https://github.com/aminueza/terraform-provider-minio/pull/1289) | 2026-11-11 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1289#pullrequestreview-5858547312): <i>"Thanks for the thorough test table!"</i> |
@@ -67,21 +70,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] DCaaS: remove deleted endpoint groups and direct connects from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3619) | 2026-11-11 | bot |  |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/controller-tools](https://github.com/kubernetes-sigs/controller-tools) | [:bug: markers: parse bool-prefixed bare strings as strings](https://github.com/kubernetes-sigs/controller-tools/pull/1505) | 2026-11-11 | bot | 🙏 [@sbueringer](https://github.com/kubernetes-sigs/controller-tools/pull/1505#issuecomment-6792868031): <i>"Thx!"</i> |
 | <img src="https://img.shields.io/badge/Keycloak%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Keycloak ecosystem: not the main Keycloak repository" title="Keycloak ecosystem: not the main Keycloak repository"><br>[keycloak/terraform-provider-keycloak](https://github.com/keycloak/terraform-provider-keycloak) | [fix: send UNANIMOUS when a v1 scope permission omits decision_strategy](https://github.com/keycloak/terraform-provider-keycloak/pull/1803) | 2026-11-11 | [@sschu](https://github.com/sschu) | 🙏 [@sschu](https://github.com/keycloak/terraform-provider-keycloak/pull/1803#pullrequestreview-5855090331): <i>"LGTM, thanks a lot!"</i> |
-| [fluent-plugins-nursery/fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat) | [Fix partial metadata streams mixing when the identity and partial ID join to the same string](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/172) | 2026-11-11 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/172#pullrequestreview-5854689801): <i>"Thanks for the fix."</i> |
-| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-opensearch](https://github.com/fluent/fluent-plugin-opensearch) | [error handler: keep the reason for unrecoverable record types and count retried items once](https://github.com/fluent/fluent-plugin-opensearch/pull/203) | 2026-11-11 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-opensearch/pull/203#pullrequestreview-5854626071): <i>"Thanks for the fix."</i> |
-| [yonahd/kor](https://github.com/yonahd/kor) | [fix(secrets): treat CSI nodePublishSecretRef as a secret reference](https://github.com/yonahd/kor/pull/645) | 2026-11-11 | [@yonahd](https://github.com/yonahd) | 🙏 [@yonahd](https://github.com/yonahd/kor/pull/645#pullrequestreview-5854581439): <i>"Thanks for the contribution"</i> |
 
-[All 213 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 216 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 451 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 448 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 16 repos
 - Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 132 in 61 repos
-- Other: 259 in 157 repos
+- CNCF ecosystem: 131 in 61 repos
+- Other: 257 in 157 repos
 
 <!--END_SECTION:activity-->
 
