@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-231-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-106-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-233-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-107-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 231 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 233 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -51,10 +51,12 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 216 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 218 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [sergelogvinov/karpenter-provider-proxmox](https://github.com/sergelogvinov/karpenter-provider-proxmox) | [fix: stop slaac from writing into net.IPv6zero](https://github.com/sergelogvinov/karpenter-provider-proxmox/pull/334) | 2026-11-11 | [@sergelogvinov](https://github.com/sergelogvinov) | 🙏 [@sergelogvinov](https://github.com/sergelogvinov/karpenter-provider-proxmox/pull/334#issuecomment-6796125515): <i>"Thank you"</i> |
+| <img src="https://img.shields.io/badge/zot%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="zot ecosystem: not the main zot repository" title="zot ecosystem: not the main zot repository"><br>[project-zot/helm-charts](https://github.com/project-zot/helm-charts) | [fix(zot): add the standard chart labels to the Ingress](https://github.com/project-zot/helm-charts/pull/152) | 2026-11-11 | [@andaaron](https://github.com/andaaron) |  |
 | [stern/stern](https://github.com/stern/stern) | [fix: keep the UTC offset when removing the subsecond of a log timestamp](https://github.com/stern/stern/pull/410) | 2026-11-11 | [@superbrothers](https://github.com/superbrothers) |  |
 | <img src="https://img.shields.io/badge/zot%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="zot ecosystem: not the main zot repository" title="zot ecosystem: not the main zot repository"><br>[project-zot/helm-charts](https://github.com/project-zot/helm-charts) | [docs(zot): declare the values the templates read but values.yaml omits](https://github.com/project-zot/helm-charts/pull/153) | 2026-11-11 | [@andaaron](https://github.com/andaaron) |  |
 | [stern/stern](https://github.com/stern/stern) | [fix: ignore options without a value in the config file](https://github.com/stern/stern/pull/413) | 2026-11-11 | [@superbrothers](https://github.com/superbrothers) |  |
@@ -68,20 +70,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(hwmapping): remove mappings from state when deleted outside terraform](https://github.com/bpg/terraform-provider-proxmox/pull/3282) | 2026-11-11 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3282#pullrequestreview-5858312485): <i>"Thanks!"</i> |
 | [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(backup): remove backup job from state when deleted outside terraform](https://github.com/bpg/terraform-provider-proxmox/pull/3281) | 2026-11-11 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3281#pullrequestreview-5858293734): <i>"Hey 👋🏼 Thanks for the fix!"</i> |
 | [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] DCaaS: remove deleted endpoint groups and direct connects from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3619) | 2026-11-11 | bot |  |
-| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/controller-tools](https://github.com/kubernetes-sigs/controller-tools) | [:bug: markers: parse bool-prefixed bare strings as strings](https://github.com/kubernetes-sigs/controller-tools/pull/1505) | 2026-11-11 | bot | 🙏 [@sbueringer](https://github.com/kubernetes-sigs/controller-tools/pull/1505#issuecomment-6792868031): <i>"Thx!"</i> |
-| <img src="https://img.shields.io/badge/Keycloak%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Keycloak ecosystem: not the main Keycloak repository" title="Keycloak ecosystem: not the main Keycloak repository"><br>[keycloak/terraform-provider-keycloak](https://github.com/keycloak/terraform-provider-keycloak) | [fix: send UNANIMOUS when a v1 scope permission omits decision_strategy](https://github.com/keycloak/terraform-provider-keycloak/pull/1803) | 2026-11-11 | [@sschu](https://github.com/sschu) | 🙏 [@sschu](https://github.com/keycloak/terraform-provider-keycloak/pull/1803#pullrequestreview-5855090331): <i>"LGTM, thanks a lot!"</i> |
 
-[All 216 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 218 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 448 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 446 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 16 repos
 - Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 131 in 61 repos
-- Other: 257 in 157 repos
+- CNCF ecosystem: 130 in 61 repos
+- Other: 256 in 156 repos
 
 <!--END_SECTION:activity-->
 

@@ -1103,6 +1103,10 @@
    "url": "https://github.com/project-zot/helm-charts/pull/150#pullrequestreview-5818520425"
   }
  },
+ "https://github.com/project-zot/helm-charts/pull/152": {
+  "merged_by": "andaaron",
+  "thanks": null
+ },
  "https://github.com/project-zot/helm-charts/pull/153": {
   "merged_by": "andaaron",
   "thanks": null
@@ -1209,6 +1213,14 @@
    "login": "samber",
    "quote": "thanks!",
    "url": "https://github.com/samber/awesome-prometheus-alerts/pull/665#issuecomment-6781101261"
+  }
+ },
+ "https://github.com/sergelogvinov/karpenter-provider-proxmox/pull/334": {
+  "merged_by": "sergelogvinov",
+  "thanks": {
+   "login": "sergelogvinov",
+   "quote": "Thank you",
+   "url": "https://github.com/sergelogvinov/karpenter-provider-proxmox/pull/334#issuecomment-6796125515"
   }
  },
  "https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/349": {
