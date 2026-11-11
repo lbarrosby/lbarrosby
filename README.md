@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-237-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-108-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-240-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-110-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 237 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 240 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -51,10 +51,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 222 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 225 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: parse Bitbucket Server HTTPS URLs under a context path](https://github.com/jenkinsci/explain-error-plugin/pull/271) | 2026-11-11 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
+| [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: ignore a trailing slash in auto-fix SCM URLs](https://github.com/jenkinsci/explain-error-plugin/pull/270) | 2026-11-11 | [@shenxianpeng](https://github.com/shenxianpeng) | 🙏 [@shenxianpeng](https://github.com/jenkinsci/explain-error-plugin/pull/270#pullrequestreview-5864188367): <i>"Thanks for the PR!"</i> |
+| [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: keep check-keys pipeline replies aligned when TYPE fails](https://github.com/oliver006/redis_exporter/pull/1216) | 2026-11-11 | [@oliver006](https://github.com/oliver006) | 🙏 [@oliver006](https://github.com/oliver006/redis_exporter/pull/1216#issuecomment-6804846565): <i>"Nice find!"</i> |
 | [MagaluCloud/terraform-provider-mgc](https://github.com/MagaluCloud/terraform-provider-mgc) | [fix(vm): remove instance from state when it no longer exists](https://github.com/MagaluCloud/terraform-provider-mgc/pull/328) | 2026-11-11 | [@alanfranciscos](https://github.com/alanfranciscos) |  |
 | [gestaogovbr/Ro-dou](https://github.com/gestaogovbr/Ro-dou) | [fix: grava os dados do PostgreSQL em subdiretório do volume no Helm](https://github.com/gestaogovbr/Ro-dou/pull/379) | 2026-11-11 | [@edulauer](https://github.com/edulauer) |  |
 | [gestaogovbr/Ro-dou](https://github.com/gestaogovbr/Ro-dou) | [chore: atualiza a imagem do git-rsync para Alpine 3.24](https://github.com/gestaogovbr/Ro-dou/pull/381) | 2026-11-11 | [@edulauer](https://github.com/edulauer) |  |
@@ -67,21 +70,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [stern/stern](https://github.com/stern/stern) | [fix: match the name in pod/<name> literally](https://github.com/stern/stern/pull/412) | 2026-11-11 | [@tksm](https://github.com/tksm) | 🙏 [@tksm](https://github.com/stern/stern/pull/412#pullrequestreview-5850640783): <i>"Thanks for the fix!"</i> |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(ilm_policy): remove the old lifecycle when only abort-only rules remain](https://github.com/aminueza/terraform-provider-minio/pull/1290) | 2026-11-11 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1290#pullrequestreview-5858680042): <i>"Good catch on the leftover lifecycle."</i> |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(ilm_policy): report read errors from the data source](https://github.com/aminueza/terraform-provider-minio/pull/1289) | 2026-11-11 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1289#pullrequestreview-5858547312): <i>"Thanks for the thorough test table!"</i> |
-| [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [chore(docs): add required_providers block to the provider examples](https://github.com/bpg/terraform-provider-proxmox/pull/3280) | 2026-11-11 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3280#pullrequestreview-5858382682): <i>"Hey 👋🏼 Thanks for picking this up."</i> |
-| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [ci: skip the link check for this repository's issue and pull request links](https://github.com/aminueza/terraform-provider-minio/pull/1291) | 2026-11-11 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1291#pullrequestreview-5858346487): <i>"Thanks!"</i> |
-| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [chore: drop the stale Garage image version from support.json](https://github.com/aminueza/terraform-provider-minio/pull/1292) | 2026-11-11 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1292#pullrequestreview-5858344770): <i>"Thanks!"</i> |
 
-[All 222 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 225 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 442 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 439 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 16 repos
 - Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
 - CNCF ecosystem: 129 in 60 repos
-- Other: 253 in 156 repos
+- Other: 250 in 156 repos
 
 <!--END_SECTION:activity-->
 

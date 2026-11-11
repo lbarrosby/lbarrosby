@@ -743,6 +743,18 @@
   "merged_by": "shenxianpeng",
   "thanks": null
  },
+ "https://github.com/jenkinsci/explain-error-plugin/pull/270": {
+  "merged_by": "shenxianpeng",
+  "thanks": {
+   "login": "shenxianpeng",
+   "quote": "Thanks for the PR!",
+   "url": "https://github.com/jenkinsci/explain-error-plugin/pull/270#pullrequestreview-5864188367"
+  }
+ },
+ "https://github.com/jenkinsci/explain-error-plugin/pull/271": {
+  "merged_by": "shenxianpeng",
+  "thanks": null
+ },
  "https://github.com/jenkinsci/helm-charts/pull/1814": {
   "merged_by": "timja",
   "thanks": null
@@ -1041,6 +1053,14 @@
    "login": "oliver006",
    "quote": "Thanks for the PR!",
    "url": "https://github.com/oliver006/redis_exporter/pull/1214#pullrequestreview-5796358851"
+  }
+ },
+ "https://github.com/oliver006/redis_exporter/pull/1216": {
+  "merged_by": "oliver006",
+  "thanks": {
+   "login": "oliver006",
+   "quote": "Nice find!",
+   "url": "https://github.com/oliver006/redis_exporter/pull/1216#issuecomment-6804846565"
   }
  },
  "https://github.com/open-feature/java-sdk-contrib/pull/1967": {
