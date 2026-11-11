@@ -767,6 +767,10 @@
   "merged_by": "timja",
   "thanks": null
  },
+ "https://github.com/kagent-dev/tools/pull/100": {
+  "merged_by": "dimetron",
+  "thanks": null
+ },
  "https://github.com/karmada-io/karmada/pull/8029": {
   "merged_by": "karmada-bot",
   "thanks": {
@@ -997,6 +1001,14 @@
    "login": "camilamacedo86",
    "quote": "Thank you for raise this one 👍",
    "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6160#issuecomment-6689035654"
+  }
+ },
+ "https://github.com/kubernetes-sigs/kubebuilder/pull/6170": {
+  "merged_by": "camilamacedo86",
+  "thanks": {
+   "login": "camilamacedo86",
+   "quote": "Great work 🥇",
+   "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6170#pullrequestreview-5860926201"
   }
  },
  "https://github.com/kubevirt/containerized-data-importer/pull/4337": {

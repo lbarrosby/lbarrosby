@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-240-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-110-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-242-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-111-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 240 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 242 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -51,10 +51,12 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 225 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 227 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/kagent%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="kagent ecosystem: not the main kagent repository" title="kagent ecosystem: not the main kagent repository"><br>[kagent-dev/tools](https://github.com/kagent-dev/tools) | [fix(logger): honor LOG_LEVEL](https://github.com/kagent-dev/tools/pull/100) | 2026-11-11 | [@dimetron](https://github.com/dimetron) |  |
+| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [🐛 (API): return the error from closing a file written by the scaffold](https://github.com/kubernetes-sigs/kubebuilder/pull/6170) | 2026-11-11 | [@camilamacedo86](https://github.com/camilamacedo86) | 🙏 [@camilamacedo86](https://github.com/kubernetes-sigs/kubebuilder/pull/6170#pullrequestreview-5860926201): <i>"Great work 🥇"</i> |
 | [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: parse Bitbucket Server HTTPS URLs under a context path](https://github.com/jenkinsci/explain-error-plugin/pull/271) | 2026-11-11 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
 | [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: ignore a trailing slash in auto-fix SCM URLs](https://github.com/jenkinsci/explain-error-plugin/pull/270) | 2026-11-11 | [@shenxianpeng](https://github.com/shenxianpeng) | 🙏 [@shenxianpeng](https://github.com/jenkinsci/explain-error-plugin/pull/270#pullrequestreview-5864188367): <i>"Thanks for the PR!"</i> |
 | [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: keep check-keys pipeline replies aligned when TYPE fails](https://github.com/oliver006/redis_exporter/pull/1216) | 2026-11-11 | [@oliver006](https://github.com/oliver006) | 🙏 [@oliver006](https://github.com/oliver006/redis_exporter/pull/1216#issuecomment-6804846565): <i>"Nice find!"</i> |
@@ -68,19 +70,17 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/zot%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="zot ecosystem: not the main zot repository" title="zot ecosystem: not the main zot repository"><br>[project-zot/helm-charts](https://github.com/project-zot/helm-charts) | [docs(zot): declare the values the templates read but values.yaml omits](https://github.com/project-zot/helm-charts/pull/153) | 2026-11-11 | [@andaaron](https://github.com/andaaron) |  |
 | [stern/stern](https://github.com/stern/stern) | [fix: ignore options without a value in the config file](https://github.com/stern/stern/pull/413) | 2026-11-11 | [@superbrothers](https://github.com/superbrothers) |  |
 | [stern/stern](https://github.com/stern/stern) | [fix: match the name in pod/<name> literally](https://github.com/stern/stern/pull/412) | 2026-11-11 | [@tksm](https://github.com/tksm) | 🙏 [@tksm](https://github.com/stern/stern/pull/412#pullrequestreview-5850640783): <i>"Thanks for the fix!"</i> |
-| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(ilm_policy): remove the old lifecycle when only abort-only rules remain](https://github.com/aminueza/terraform-provider-minio/pull/1290) | 2026-11-11 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1290#pullrequestreview-5858680042): <i>"Good catch on the leftover lifecycle."</i> |
-| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(ilm_policy): report read errors from the data source](https://github.com/aminueza/terraform-provider-minio/pull/1289) | 2026-11-11 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1289#pullrequestreview-5858547312): <i>"Thanks for the thorough test table!"</i> |
 
-[All 225 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 227 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 439 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 437 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 16 repos
 - Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 129 in 60 repos
+- CNCF ecosystem: 127 in 59 repos
 - Other: 250 in 156 repos
 
 <!--END_SECTION:activity-->
