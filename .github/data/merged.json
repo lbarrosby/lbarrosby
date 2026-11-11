@@ -95,6 +95,38 @@
   "merged_by": "felladrin",
   "thanks": null
  },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1289": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "felladrin",
+   "quote": "Thanks for the thorough test table!",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1289#pullrequestreview-5858547312"
+  }
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1290": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "felladrin",
+   "quote": "Good catch on the leftover lifecycle.",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1290#pullrequestreview-5858680042"
+  }
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1291": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "felladrin",
+   "quote": "Thanks!",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1291#pullrequestreview-5858346487"
+  }
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1292": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "felladrin",
+   "quote": "Thanks!",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1292#pullrequestreview-5858344770"
+  }
+ },
  "https://github.com/ansible-collections/community.proxmox/pull/559": {
   "merged_by": "Thulium-Drake",
   "thanks": {
@@ -185,6 +217,38 @@
    "login": "bpg-dev",
    "quote": "Hey 👋🏼 Thanks for filling this gap!",
    "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3272#pullrequestreview-5820888608"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3280": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Hey 👋🏼 Thanks for picking this up.",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3280#pullrequestreview-5858382682"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3281": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Hey 👋🏼 Thanks for the fix!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3281#pullrequestreview-5858293734"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3282": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Thanks!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3282#pullrequestreview-5858312485"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3283": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Thanks!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3283#pullrequestreview-5858331288"
   }
  },
  "https://github.com/buildkite/terraform-provider-buildkite/pull/1336": {
@@ -419,6 +483,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/171#pullrequestreview-5854091638"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/172": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/172#pullrequestreview-5854689801"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -533,6 +605,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/202#pullrequestreview-5839113640"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-opensearch/pull/203": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/203#pullrequestreview-5854626071"
   }
  },
  "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1697": {
@@ -669,6 +749,14 @@
    "login": "linkvt",
    "quote": "Thanks again!",
    "url": "https://github.com/kedacore/charts/pull/926#issuecomment-6710734132"
+  }
+ },
+ "https://github.com/keycloak/terraform-provider-keycloak/pull/1803": {
+  "merged_by": "sschu",
+  "thanks": {
+   "login": "sschu",
+   "quote": "LGTM, thanks a lot!",
+   "url": "https://github.com/keycloak/terraform-provider-keycloak/pull/1803#pullrequestreview-5855090331"
   }
  },
  "https://github.com/knative/eventing/pull/9509": {
@@ -810,6 +898,14 @@
  "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/98": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/controller-tools/pull/1505": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": {
+   "login": "sbueringer",
+   "quote": "Thx!",
+   "url": "https://github.com/kubernetes-sigs/controller-tools/pull/1505#issuecomment-6792868031"
+  }
  },
  "https://github.com/kubernetes-sigs/dra-example-driver/pull/296": {
   "merged_by": "kubernetes-prow[bot]",
@@ -968,6 +1064,10 @@
   "thanks": null
  },
  "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3618": {
+  "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
+ },
+ "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3619": {
   "merged_by": "otc-zuul-prod[bot]",
   "thanks": null
  },
@@ -1141,6 +1241,14 @@
    "login": "superbrothers",
    "quote": "Thank you for the PR!",
    "url": "https://github.com/stern/stern/pull/408#issuecomment-6715123395"
+  }
+ },
+ "https://github.com/stern/stern/pull/412": {
+  "merged_by": "tksm",
+  "thanks": {
+   "login": "tksm",
+   "quote": "Thanks for the fix!",
+   "url": "https://github.com/stern/stern/pull/412#pullrequestreview-5850640783"
   }
  },
  "https://github.com/tensorchord/Awesome-LLMOps/pull/1126": {
