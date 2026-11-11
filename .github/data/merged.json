@@ -383,6 +383,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/292#pullrequestreview-5821918943"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/297": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/297#pullrequestreview-5854112980"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/157": {
   "merged_by": "Watson1978",
   "thanks": null
@@ -403,12 +411,28 @@
   "merged_by": "Watson1978",
   "thanks": null
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/171": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/171#pullrequestreview-5854091638"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438": {
   "merged_by": "Watson1978",
   "thanks": {
    "login": "Watson1978",
    "quote": "Thanks for the fix and the test.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438#pullrequestreview-5821215808"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/441": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/441#pullrequestreview-5854195128"
   }
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/95": {
@@ -1194,5 +1218,13 @@
  "https://github.com/xorbitsai/inference/pull/6061": {
   "merged_by": "qinxuye",
   "thanks": null
+ },
+ "https://github.com/yonahd/kor/pull/645": {
+  "merged_by": "yonahd",
+  "thanks": {
+   "login": "yonahd",
+   "quote": "Thanks for the contribution",
+   "url": "https://github.com/yonahd/kor/pull/645#pullrequestreview-5854581439"
+  }
  }
 }
