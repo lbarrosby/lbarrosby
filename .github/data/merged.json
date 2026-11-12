@@ -27,6 +27,14 @@
   "merged_by": "alanfranciscos",
   "thanks": null
  },
+ "https://github.com/OHF-Voice/wyoming-piper/pull/72": {
+  "merged_by": "synesthesiam",
+  "thanks": {
+   "login": "synesthesiam",
+   "quote": "Thanks!",
+   "url": "https://github.com/OHF-Voice/wyoming-piper/pull/72#issuecomment-6831555139"
+  }
+ },
  "https://github.com/adriannovegil/awesome-observability/pull/203": {
   "merged_by": "adriannovegil",
   "thanks": {
@@ -179,6 +187,10 @@
   "merged_by": "fesanghary",
   "thanks": null
  },
+ "https://github.com/bloomberg/causal-ts/pull/108": {
+  "merged_by": "fesanghary",
+  "thanks": null
+ },
  "https://github.com/bloomberg/causal-ts/pull/96": {
   "merged_by": "fesanghary",
   "thanks": {
@@ -281,6 +293,14 @@
    "login": "petetomasik",
    "quote": "Thanks for the contribution!",
    "url": "https://github.com/buildkite/terraform-provider-buildkite/pull/1336#pullrequestreview-5828002945"
+  }
+ },
+ "https://github.com/buildkite/terraform-provider-buildkite/pull/1340": {
+  "merged_by": "petetomasik",
+  "thanks": {
+   "login": "petetomasik",
+   "quote": "Thanks for the contribution!",
+   "url": "https://github.com/buildkite/terraform-provider-buildkite/pull/1340#pullrequestreview-5879395429"
   }
  },
  "https://github.com/civo/terraform-provider-civo/pull/437": {
