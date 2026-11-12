@@ -3,11 +3,19 @@
   "merged_by": "sng-asyncfunc",
   "thanks": null
  },
+ "https://github.com/AsyncFuncAI/deepwiki-open/pull/622": {
+  "merged_by": "sng-asyncfunc",
+  "thanks": null
+ },
  "https://github.com/AsyncFuncAI/deepwiki-open/pull/624": {
   "merged_by": "sng-asyncfunc",
   "thanks": null
  },
  "https://github.com/AsyncFuncAI/deepwiki-open/pull/626": {
+  "merged_by": "sng-asyncfunc",
+  "thanks": null
+ },
+ "https://github.com/AsyncFuncAI/deepwiki-open/pull/630": {
   "merged_by": "sng-asyncfunc",
   "thanks": null
  },
@@ -157,6 +165,10 @@
  },
  "https://github.com/argoproj/argo-helm/pull/4207": {
   "merged_by": "tico24",
+  "thanks": null
+ },
+ "https://github.com/aws/karpenter-provider-aws/pull/9852": {
+  "merged_by": "AndrewSirenko",
   "thanks": null
  },
  "https://github.com/bloomberg/causal-ts/pull/96": {
@@ -543,6 +555,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/92#pullrequestreview-5797200803"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/94": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thank you for working on this.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/94#pullrequestreview-5854175620"
+  }
+ },
  "https://github.com/fluent/fluent-operator/pull/2113": {
   "merged_by": "joshuabaird",
   "thanks": {
@@ -601,6 +621,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the follow-up to #550.",
    "url": "https://github.com/fluent/fluent-plugin-kafka/pull/605#pullrequestreview-5811604875"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-kafka/pull/609": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for bringing the #577 and #603 fixes to kafkabuffered.",
+   "url": "https://github.com/fluent/fluent-plugin-kafka/pull/609#pullrequestreview-5853980162"
   }
  },
  "https://github.com/fluent/fluent-plugin-opensearch/pull/201": {
@@ -1001,6 +1029,14 @@
    "login": "camilamacedo86",
    "quote": "Thank you for raise this one 👍",
    "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6160#issuecomment-6689035654"
+  }
+ },
+ "https://github.com/kubernetes-sigs/kubebuilder/pull/6168": {
+  "merged_by": "camilamacedo86",
+  "thanks": {
+   "login": "camilamacedo86",
+   "quote": "Great job 👍",
+   "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6168#issuecomment-6799462991"
   }
  },
  "https://github.com/kubernetes-sigs/kubebuilder/pull/6170": {

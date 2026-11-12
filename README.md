@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-242-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-111-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-248-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-114-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 242 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 248 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -51,10 +51,16 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 227 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 233 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka) | [out_kafka_buffered: Fix endless retries with an invalid partition or a non-String key](https://github.com/fluent/fluent-plugin-kafka/pull/609) | 2026-11-12 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-kafka/pull/609#pullrequestreview-5853980162): <i>"Thanks for bringing the #577 and #603 fixes to kafkabuffered."</i> |
+| [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) | [fix: use the shared WebSocket URL helper in slides and workshop pages](https://github.com/AsyncFuncAI/deepwiki-open/pull/622) | 2026-11-12 | [@sng-asyncfunc](https://github.com/sng-asyncfunc) |  |
+| [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) | [fix: fall back to the bundled config file when DEEPWIKI_CONFIG_DIR lacks it](https://github.com/AsyncFuncAI/deepwiki-open/pull/630) | 2026-11-12 | [@sng-asyncfunc](https://github.com/sng-asyncfunc) |  |
+| [fluent-plugins-nursery/fluent-plugin-remote_syslog](https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog) | [Add use_event_time to send the event time as the syslog timestamp](https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/94) | 2026-11-12 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/94#pullrequestreview-5854175620): <i>"Thank you for working on this."</i> |
+| [aws/karpenter-provider-aws](https://github.com/aws/karpenter-provider-aws) | [fix: render settings.vmMemoryOverheadPercent when it is 0](https://github.com/aws/karpenter-provider-aws/pull/9852) | 2026-11-12 | [@AndrewSirenko](https://github.com/AndrewSirenko) |  |
+| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [🐛 (helm/v2-alpha): keep the manager replicas from the kustomize manifest](https://github.com/kubernetes-sigs/kubebuilder/pull/6168) | 2026-11-11 | [@camilamacedo86](https://github.com/camilamacedo86) | 🙏 [@camilamacedo86](https://github.com/kubernetes-sigs/kubebuilder/pull/6168#issuecomment-6799462991): <i>"Great job 👍"</i> |
 | <img src="https://img.shields.io/badge/kagent%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="kagent ecosystem: not the main kagent repository" title="kagent ecosystem: not the main kagent repository"><br>[kagent-dev/tools](https://github.com/kagent-dev/tools) | [fix(logger): honor LOG_LEVEL](https://github.com/kagent-dev/tools/pull/100) | 2026-11-11 | [@dimetron](https://github.com/dimetron) |  |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [🐛 (API): return the error from closing a file written by the scaffold](https://github.com/kubernetes-sigs/kubebuilder/pull/6170) | 2026-11-11 | [@camilamacedo86](https://github.com/camilamacedo86) | 🙏 [@camilamacedo86](https://github.com/kubernetes-sigs/kubebuilder/pull/6170#pullrequestreview-5860926201): <i>"Great work 🥇"</i> |
 | [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: parse Bitbucket Server HTTPS URLs under a context path](https://github.com/jenkinsci/explain-error-plugin/pull/271) | 2026-11-11 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
@@ -64,24 +70,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [gestaogovbr/Ro-dou](https://github.com/gestaogovbr/Ro-dou) | [fix: grava os dados do PostgreSQL em subdiretório do volume no Helm](https://github.com/gestaogovbr/Ro-dou/pull/379) | 2026-11-11 | [@edulauer](https://github.com/edulauer) |  |
 | [gestaogovbr/Ro-dou](https://github.com/gestaogovbr/Ro-dou) | [chore: atualiza a imagem do git-rsync para Alpine 3.24](https://github.com/gestaogovbr/Ro-dou/pull/381) | 2026-11-11 | [@edulauer](https://github.com/edulauer) |  |
 | <img src="https://img.shields.io/badge/etcd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="etcd ecosystem: not the main etcd repository" title="etcd ecosystem: not the main etcd repository"><br>[etcd-io/auger](https://github.com/etcd-io/auger) | [Skip tombstone revisions when listing key summaries](https://github.com/etcd-io/auger/pull/540) | 2026-11-11 | [@siyuanfoundation](https://github.com/siyuanfoundation) | 🙏 [@siyuanfoundation](https://github.com/etcd-io/auger/pull/540#issuecomment-6803725395): <i>"Thanks for catching this!"</i> |
-| [sergelogvinov/karpenter-provider-proxmox](https://github.com/sergelogvinov/karpenter-provider-proxmox) | [fix: stop slaac from writing into net.IPv6zero](https://github.com/sergelogvinov/karpenter-provider-proxmox/pull/334) | 2026-11-11 | [@sergelogvinov](https://github.com/sergelogvinov) | 🙏 [@sergelogvinov](https://github.com/sergelogvinov/karpenter-provider-proxmox/pull/334#issuecomment-6796125515): <i>"Thank you"</i> |
-| <img src="https://img.shields.io/badge/zot%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="zot ecosystem: not the main zot repository" title="zot ecosystem: not the main zot repository"><br>[project-zot/helm-charts](https://github.com/project-zot/helm-charts) | [fix(zot): add the standard chart labels to the Ingress](https://github.com/project-zot/helm-charts/pull/152) | 2026-11-11 | [@andaaron](https://github.com/andaaron) |  |
-| [stern/stern](https://github.com/stern/stern) | [fix: keep the UTC offset when removing the subsecond of a log timestamp](https://github.com/stern/stern/pull/410) | 2026-11-11 | [@superbrothers](https://github.com/superbrothers) |  |
-| <img src="https://img.shields.io/badge/zot%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="zot ecosystem: not the main zot repository" title="zot ecosystem: not the main zot repository"><br>[project-zot/helm-charts](https://github.com/project-zot/helm-charts) | [docs(zot): declare the values the templates read but values.yaml omits](https://github.com/project-zot/helm-charts/pull/153) | 2026-11-11 | [@andaaron](https://github.com/andaaron) |  |
-| [stern/stern](https://github.com/stern/stern) | [fix: ignore options without a value in the config file](https://github.com/stern/stern/pull/413) | 2026-11-11 | [@superbrothers](https://github.com/superbrothers) |  |
-| [stern/stern](https://github.com/stern/stern) | [fix: match the name in pod/<name> literally](https://github.com/stern/stern/pull/412) | 2026-11-11 | [@tksm](https://github.com/tksm) | 🙏 [@tksm](https://github.com/stern/stern/pull/412#pullrequestreview-5850640783): <i>"Thanks for the fix!"</i> |
 
-[All 227 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 233 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 437 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 431 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 16 repos
 - Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 127 in 59 repos
-- Other: 250 in 156 repos
+- CNCF ecosystem: 125 in 59 repos
+- Other: 246 in 155 repos
 
 <!--END_SECTION:activity-->
 
