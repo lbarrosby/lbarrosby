@@ -1079,6 +1079,10 @@
    "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6170#pullrequestreview-5860926201"
   }
  },
+ "https://github.com/kubernetes/cloud-provider-openstack/pull/3283": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
  "https://github.com/kubevirt/containerized-data-importer/pull/4337": {
   "merged_by": "kubevirt-prow[bot]",
   "thanks": null
