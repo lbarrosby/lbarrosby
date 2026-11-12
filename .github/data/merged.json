@@ -479,6 +479,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/297#pullrequestreview-5854112980"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/299": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/299#pullrequestreview-5856230295"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/157": {
   "merged_by": "Watson1978",
   "thanks": null
@@ -513,6 +521,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/172#pullrequestreview-5854689801"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/174": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/174#pullrequestreview-5856871144"
   }
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438": {
@@ -629,6 +645,14 @@
    "login": "Watson1978",
    "quote": "Thanks for bringing the #577 and #603 fixes to kafkabuffered.",
    "url": "https://github.com/fluent/fluent-plugin-kafka/pull/609#pullrequestreview-5853980162"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-kafka/pull/610": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks.",
+   "url": "https://github.com/fluent/fluent-plugin-kafka/pull/610#pullrequestreview-5854076131"
   }
  },
  "https://github.com/fluent/fluent-plugin-opensearch/pull/201": {
@@ -972,6 +996,10 @@
   }
  },
  "https://github.com/kubernetes-sigs/dra-example-driver/pull/296": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
+ "https://github.com/kubernetes-sigs/dra-example-driver/pull/297": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
  },
