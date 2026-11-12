@@ -835,6 +835,10 @@
   "merged_by": "shenxianpeng",
   "thanks": null
  },
+ "https://github.com/jenkinsci/explain-error-plugin/pull/272": {
+  "merged_by": "shenxianpeng",
+  "thanks": null
+ },
  "https://github.com/jenkinsci/helm-charts/pull/1814": {
   "merged_by": "timja",
   "thanks": null
@@ -1453,6 +1457,22 @@
    "login": "wata727",
    "quote": "Thanks!",
    "url": "https://github.com/terraform-linters/tflint/pull/2688#pullrequestreview-5818553187"
+  }
+ },
+ "https://github.com/tofuutils/tenv/pull/651": {
+  "merged_by": "kvendingoldo",
+  "thanks": {
+   "login": "kvendingoldo",
+   "quote": "Thanks!",
+   "url": "https://github.com/tofuutils/tenv/pull/651#pullrequestreview-5881316718"
+  }
+ },
+ "https://github.com/tofuutils/tenv/pull/652": {
+  "merged_by": "kvendingoldo",
+  "thanks": {
+   "login": "kvendingoldo",
+   "quote": "Thanks",
+   "url": "https://github.com/tofuutils/tenv/pull/652#pullrequestreview-5881293441"
   }
  },
  "https://github.com/tsuru/charts/pull/53": {

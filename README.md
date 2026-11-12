@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-688-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-262-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-272-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-7-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-119-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-688-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-265-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-272-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-7-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-121-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 262 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 265 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 7 merged in 5 repos</summary>
 
@@ -52,10 +52,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 246 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 249 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [tofuutils/tenv](https://github.com/tofuutils/tenv) | [fix(versionfinder): keep Terragrunt beta versions intact in Clean](https://github.com/tofuutils/tenv/pull/651) | 2026-11-12 | [@kvendingoldo](https://github.com/kvendingoldo) | 🙏 [@kvendingoldo](https://github.com/tofuutils/tenv/pull/651#pullrequestreview-5881316718): <i>"Thanks!"</i> |
+| [tofuutils/tenv](https://github.com/tofuutils/tenv) | [fix(uninstall): return an error instead of panicking on empty not-used-for duration](https://github.com/tofuutils/tenv/pull/652) | 2026-11-12 | [@kvendingoldo](https://github.com/kvendingoldo) | 🙏 [@kvendingoldo](https://github.com/tofuutils/tenv/pull/652#pullrequestreview-5881293441): <i>"Thanks"</i> |
+| [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: percent-encode file paths in auto-fix SCM file URLs](https://github.com/jenkinsci/explain-error-plugin/pull/272) | 2026-11-12 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
 | [OHF-Voice/wyoming-piper](https://github.com/OHF-Voice/wyoming-piper) | [Answer a plain synthesize sent after a text stream](https://github.com/OHF-Voice/wyoming-piper/pull/72) | 2026-11-12 | [@synesthesiam](https://github.com/synesthesiam) | 🙏 [@synesthesiam](https://github.com/OHF-Voice/wyoming-piper/pull/72#issuecomment-6831555139): <i>"Thanks!"</i> |
 | [buildkite/terraform-provider-buildkite](https://github.com/buildkite/terraform-provider-buildkite) | [fix(portals): read every page of the portals list](https://github.com/buildkite/terraform-provider-buildkite/pull/1340) | 2026-11-12 | [@petetomasik](https://github.com/petetomasik) | 🙏 [@petetomasik](https://github.com/buildkite/terraform-provider-buildkite/pull/1340#pullrequestreview-5879395429): <i>"Thanks for the contribution!"</i> |
 | [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Follow lag-0 mirror marks in extract_subgraph](https://github.com/bloomberg/causal-ts/pull/108) | 2026-11-12 | [@fesanghary](https://github.com/fesanghary) |  |
@@ -68,21 +71,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/dra-example-driver](https://github.com/kubernetes-sigs/dra-example-driver) | [Remove the temp checkpoint file when writing the checkpoint fails](https://github.com/kubernetes-sigs/dra-example-driver/pull/297) | 2026-11-12 | bot |  |
 | [fluent-plugins-nursery/fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat) | [Keep the timestamp of a standalone line after a multiline with use_first_timestamp](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/174) | 2026-11-12 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/174#pullrequestreview-5856871144): <i>"Thanks for the fix."</i> |
 | [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Keep the chunk when retention_in_days_key has an invalid value](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/299) | 2026-11-12 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/299#pullrequestreview-5856230295): <i>"Thanks for the fix."</i> |
-| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka) | [out_rdkafka: Fix write failing on every chunk with Fluentd v1](https://github.com/fluent/fluent-plugin-kafka/pull/610) | 2026-11-12 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-kafka/pull/610#pullrequestreview-5854076131): <i>"Thanks."</i> |
-| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka) | [out_kafka_buffered: Fix endless retries with an invalid partition or a non-String key](https://github.com/fluent/fluent-plugin-kafka/pull/609) | 2026-11-12 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-kafka/pull/609#pullrequestreview-5853980162): <i>"Thanks for bringing the #577 and #603 fixes to kafkabuffered."</i> |
-| [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) | [fix: use the shared WebSocket URL helper in slides and workshop pages](https://github.com/AsyncFuncAI/deepwiki-open/pull/622) | 2026-11-12 | [@sng-asyncfunc](https://github.com/sng-asyncfunc) |  |
 
-[All 246 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 249 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 426 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 423 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 15 repos
 - Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
 - CNCF ecosystem: 127 in 63 repos
-- Other: 239 in 151 repos
+- Other: 236 in 149 repos
 
 <!--END_SECTION:activity-->
 
