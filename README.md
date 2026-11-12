@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-679-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-252-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-268-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-117-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-682-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-254-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-270-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-6-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-117-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 252 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 254 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 6 merged in 4 repos</summary>
 
@@ -51,10 +51,12 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 237 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 239 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] SDRS: remove deleted replication pairs from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3620) | 2026-11-12 | bot |  |
+| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/dra-example-driver](https://github.com/kubernetes-sigs/dra-example-driver) | [Reject GPU sharing configs that set the other strategy's config](https://github.com/kubernetes-sigs/dra-example-driver/pull/298) | 2026-11-12 | bot |  |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/dra-example-driver](https://github.com/kubernetes-sigs/dra-example-driver) | [Remove the temp checkpoint file when writing the checkpoint fails](https://github.com/kubernetes-sigs/dra-example-driver/pull/297) | 2026-11-12 | bot |  |
 | [fluent-plugins-nursery/fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat) | [Keep the timestamp of a standalone line after a multiline with use_first_timestamp](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/174) | 2026-11-12 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/174#pullrequestreview-5856871144): <i>"Thanks for the fix."</i> |
 | [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Keep the chunk when retention_in_days_key has an invalid value](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/299) | 2026-11-12 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/299#pullrequestreview-5856230295): <i>"Thanks for the fix."</i> |
@@ -68,19 +70,17 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/kagent%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="kagent ecosystem: not the main kagent repository" title="kagent ecosystem: not the main kagent repository"><br>[kagent-dev/tools](https://github.com/kagent-dev/tools) | [fix(logger): honor LOG_LEVEL](https://github.com/kagent-dev/tools/pull/100) | 2026-11-11 | [@dimetron](https://github.com/dimetron) |  |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [🐛 (API): return the error from closing a file written by the scaffold](https://github.com/kubernetes-sigs/kubebuilder/pull/6170) | 2026-11-11 | [@camilamacedo86](https://github.com/camilamacedo86) | 🙏 [@camilamacedo86](https://github.com/kubernetes-sigs/kubebuilder/pull/6170#pullrequestreview-5860926201): <i>"Great work 🥇"</i> |
 | [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: parse Bitbucket Server HTTPS URLs under a context path](https://github.com/jenkinsci/explain-error-plugin/pull/271) | 2026-11-11 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
-| [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: ignore a trailing slash in auto-fix SCM URLs](https://github.com/jenkinsci/explain-error-plugin/pull/270) | 2026-11-11 | [@shenxianpeng](https://github.com/shenxianpeng) | 🙏 [@shenxianpeng](https://github.com/jenkinsci/explain-error-plugin/pull/270#pullrequestreview-5864188367): <i>"Thanks for the PR!"</i> |
-| [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: keep check-keys pipeline replies aligned when TYPE fails](https://github.com/oliver006/redis_exporter/pull/1216) | 2026-11-11 | [@oliver006](https://github.com/oliver006) | 🙏 [@oliver006](https://github.com/oliver006/redis_exporter/pull/1216#issuecomment-6804846565): <i>"Nice find!"</i> |
 
-[All 237 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 239 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 427 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 428 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
-- Official CNCF Graduated: 36 in 16 repos
+- Official CNCF Graduated: 37 in 16 repos
 - Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 123 in 58 repos
+- CNCF ecosystem: 123 in 59 repos
 - Other: 244 in 155 repos
 
 <!--END_SECTION:activity-->

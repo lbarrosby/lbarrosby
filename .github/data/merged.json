@@ -1003,6 +1003,10 @@
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
  },
+ "https://github.com/kubernetes-sigs/dra-example-driver/pull/298": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
  "https://github.com/kubernetes-sigs/external-dns/pull/6929": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": {
@@ -1184,6 +1188,10 @@
   "thanks": null
  },
  "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3619": {
+  "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
+ },
+ "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3620": {
   "merged_by": "otc-zuul-prod[bot]",
   "thanks": null
  },
