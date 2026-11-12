@@ -171,6 +171,14 @@
   "merged_by": "AndrewSirenko",
   "thanks": null
  },
+ "https://github.com/bloomberg/causal-ts/pull/106": {
+  "merged_by": "fesanghary",
+  "thanks": null
+ },
+ "https://github.com/bloomberg/causal-ts/pull/107": {
+  "merged_by": "fesanghary",
+  "thanks": null
+ },
  "https://github.com/bloomberg/causal-ts/pull/96": {
   "merged_by": "fesanghary",
   "thanks": {
@@ -1168,6 +1176,14 @@
   "thanks": null
  },
  "https://github.com/openebs/zfs-localpv/pull/792": {
+  "merged_by": "mergify[bot]",
+  "thanks": null
+ },
+ "https://github.com/openebs/zfs-localpv/pull/793": {
+  "merged_by": "mergify[bot]",
+  "thanks": null
+ },
+ "https://github.com/openebs/zfs-localpv/pull/798": {
   "merged_by": "mergify[bot]",
   "thanks": null
  },
