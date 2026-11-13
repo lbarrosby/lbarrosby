@@ -1,5 +1,37 @@
 [
 {
+"repo": "kagent-dev/tools",
+"org": "kagent-dev",
+"title": "fix(helm): disable tracing when otel.tracing.enabled is false",
+"url": "https://github.com/kagent-dev/tools/pull/109",
+"status": "open",
+"level": "ecosystem",
+"project": "kagent",
+"scope": "org",
+"opened": "2026-11-13",
+"merged": "",
+"merged_by": "",
+"thanks_by": "",
+"thanks": "",
+"thanks_url": ""
+},
+{
+"repo": "stakater/Reloader",
+"org": "stakater",
+"title": "fix(handler): keep reloading other workloads when one update fails",
+"url": "https://github.com/stakater/Reloader/pull/1282",
+"status": "open",
+"level": "other",
+"project": "",
+"scope": "",
+"opened": "2026-11-13",
+"merged": "",
+"merged_by": "",
+"thanks_by": "",
+"thanks": "",
+"thanks_url": ""
+},
+{
 "repo": "fluent/fluent-plugin-kafka",
 "org": "fluent",
 "title": "in_kafka, in_kafka_group: Emit a tag that can be changed in place",
