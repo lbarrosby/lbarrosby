@@ -19,6 +19,14 @@
   "merged_by": "sng-asyncfunc",
   "thanks": null
  },
+ "https://github.com/AsyncFuncAI/deepwiki-open/pull/631": {
+  "merged_by": "sng-asyncfunc",
+  "thanks": null
+ },
+ "https://github.com/CloudPirates-io/helm-charts/pull/1918": {
+  "merged_by": "zOnlyKroks",
+  "thanks": null
+ },
  "https://github.com/Flux159/mcp-server-kubernetes/pull/396": {
   "merged_by": "Flux159",
   "thanks": null
@@ -927,6 +935,10 @@
   "merged_by": "monotek",
   "thanks": null
  },
+ "https://github.com/kokuwaio/helm-charts/pull/261": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
  "https://github.com/kreuzwerker/terraform-provider-docker/pull/1017": {
   "merged_by": "Junkern",
   "thanks": {
@@ -1403,6 +1415,14 @@
    "url": "https://github.com/remsky/Kokoro-FastAPI/pull/597#issuecomment-6847630831"
   }
  },
+ "https://github.com/remsky/Kokoro-FastAPI/pull/599": {
+  "merged_by": "remsky",
+  "thanks": {
+   "login": "remsky",
+   "quote": "Looks good, thanks",
+   "url": "https://github.com/remsky/Kokoro-FastAPI/pull/599#issuecomment-6863127815"
+  }
+ },
  "https://github.com/rook/rook/pull/18686": {
   "merged_by": "arttor",
   "thanks": {
@@ -1410,6 +1430,10 @@
    "quote": "thanks for the fix.",
    "url": "https://github.com/rook/rook/pull/18686#pullrequestreview-5789316361"
   }
+ },
+ "https://github.com/rook/rook/pull/18754": {
+  "merged_by": "travisn",
+  "thanks": null
  },
  "https://github.com/samber/awesome-prometheus-alerts/pull/661": {
   "merged_by": "samber",
@@ -1540,6 +1564,10 @@
   "thanks": null
  },
  "https://github.com/tsuru/tsuru-client/pull/283": {
+  "merged_by": "ravilock",
+  "thanks": null
+ },
+ "https://github.com/tsuru/tsuru-client/pull/286": {
   "merged_by": "ravilock",
   "thanks": null
  },

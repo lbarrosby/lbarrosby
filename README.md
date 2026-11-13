@@ -11,14 +11,15 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-732-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-276-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-272-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-7-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-124-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-763-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-282-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-282-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-8-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-125-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 276 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 282 with filters](https://lbarrosby.github.io/lbarrosby/)
 
-<details open><summary><b>Official CNCF Graduated projects</b> · 7 merged in 5 repos</summary>
+<details open><summary><b>Official CNCF Graduated projects</b> · 8 merged in 5 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/Rook-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Rook: official repository of a CNCF graduated project" title="Rook: official repository of a CNCF graduated project"><br>[rook/rook](https://github.com/rook/rook) | [helm: render CephBlockPool storage class labels as YAML](https://github.com/rook/rook/pull/18754) | 2026-11-13 | [@travisn](https://github.com/travisn) |  |
 | <img src="https://img.shields.io/badge/Kubernetes-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Kubernetes: official repository of a CNCF graduated project" title="Kubernetes: official repository of a CNCF graduated project"><br>[kubernetes/cloud-provider-openstack](https://github.com/kubernetes/cloud-provider-openstack) | [[occm] Rename listener when its pool already has the new cluster-name](https://github.com/kubernetes/cloud-provider-openstack/pull/3283) | 2026-11-12 | bot |  |
 | <img src="https://img.shields.io/badge/Karmada-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Karmada: official repository of a CNCF graduated project" title="Karmada: official repository of a CNCF graduated project"><br>[karmada-io/karmada](https://github.com/karmada-io/karmada) | [fix(resourceinterpreter): skip Ingress TLS entries without secretName in dependencies](https://github.com/karmada-io/karmada/pull/8029) | 2026-11-10 | [@karmada-bot](https://github.com/karmada-bot) | 🙏 [@zhzhuang-zju](https://github.com/karmada-io/karmada/pull/8029#issuecomment-6678810771): <i>"Thanks"</i> |
 | <img src="https://img.shields.io/badge/Fluentd-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Fluentd: official repository of a CNCF graduated project" title="Fluentd: official repository of a CNCF graduated project"><br>[fluent/fluentd](https://github.com/fluent/fluentd) | [in_tcp: fix inflated output emit_count when a message arrives in several reads](https://github.com/fluent/fluentd/pull/5608) | 2026-11-10 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluentd/pull/5608#pullrequestreview-5835281054): <i>"Thanks!"</i> |
@@ -53,10 +54,15 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 259 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 264 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [remsky/Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) | [fix(normalizer): read money with more than two decimals as a decimal number](https://github.com/remsky/Kokoro-FastAPI/pull/599) | 2026-11-13 | [@remsky](https://github.com/remsky) | 🙏 [@remsky](https://github.com/remsky/Kokoro-FastAPI/pull/599#issuecomment-6863127815): <i>"Looks good, thanks"</i> |
+| [tsuru/tsuru-client](https://github.com/tsuru/tsuru-client) | [chore(docker): bump runtime image to alpine 3.24.3](https://github.com/tsuru/tsuru-client/pull/286) | 2026-11-13 | [@ravilock](https://github.com/ravilock) |  |
+| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[rabbitmq-cluster-operator] Render loadBalancerSourceRanges as a YAML list](https://github.com/CloudPirates-io/helm-charts/pull/1918) | 2026-11-13 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
+| [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(visual-regression-tracker): skip the seed volume when no seed secret is rendered](https://github.com/kokuwaio/helm-charts/pull/261) | 2026-11-13 | [@monotek](https://github.com/monotek) |  |
+| [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) | [fix: decode XML entities in wiki structures salvaged by regex](https://github.com/AsyncFuncAI/deepwiki-open/pull/631) | 2026-11-13 | [@sng-asyncfunc](https://github.com/sng-asyncfunc) |  |
 | [qdrant/qdrant-helm](https://github.com/qdrant/qdrant-helm) | [Fix readiness probe path for non-semver image tags](https://github.com/qdrant/qdrant-helm/pull/531) | 2026-11-13 | [@bashofmann](https://github.com/bashofmann) |  |
 | [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] IMS: remove deleted images from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3627) | 2026-11-13 | bot |  |
 | [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] DDM: remove deleted instances and schemas from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3626) | 2026-11-13 | bot |  |
@@ -67,23 +73,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: keep the backticks of a code span at either end of a title](https://github.com/jenkinsci/explain-error-plugin/pull/273) | 2026-11-13 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
 | [Flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes) | [fix: load every file listed in KUBECONFIG](https://github.com/Flux159/mcp-server-kubernetes/pull/397) | 2026-11-13 | [@Flux159](https://github.com/Flux159) |  |
 | [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Include every p-value setting in the CPU CMIKNN cache key](https://github.com/bloomberg/causal-ts/pull/116) | 2026-11-13 | [@fesanghary](https://github.com/fesanghary) |  |
-| [tofuutils/tenv](https://github.com/tofuutils/tenv) | [fix(versionfinder): keep Terragrunt beta versions intact in Clean](https://github.com/tofuutils/tenv/pull/651) | 2026-11-12 | [@kvendingoldo](https://github.com/kvendingoldo) | 🙏 [@kvendingoldo](https://github.com/tofuutils/tenv/pull/651#pullrequestreview-5881316718): <i>"Thanks!"</i> |
-| [tofuutils/tenv](https://github.com/tofuutils/tenv) | [fix(uninstall): return an error instead of panicking on empty not-used-for duration](https://github.com/tofuutils/tenv/pull/652) | 2026-11-12 | [@kvendingoldo](https://github.com/kvendingoldo) | 🙏 [@kvendingoldo](https://github.com/tofuutils/tenv/pull/652#pullrequestreview-5881293441): <i>"Thanks"</i> |
-| [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: percent-encode file paths in auto-fix SCM file URLs](https://github.com/jenkinsci/explain-error-plugin/pull/272) | 2026-11-12 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
-| [OHF-Voice/wyoming-piper](https://github.com/OHF-Voice/wyoming-piper) | [Answer a plain synthesize sent after a text stream](https://github.com/OHF-Voice/wyoming-piper/pull/72) | 2026-11-12 | [@synesthesiam](https://github.com/synesthesiam) | 🙏 [@synesthesiam](https://github.com/OHF-Voice/wyoming-piper/pull/72#issuecomment-6831555139): <i>"Thanks!"</i> |
-| [buildkite/terraform-provider-buildkite](https://github.com/buildkite/terraform-provider-buildkite) | [fix(portals): read every page of the portals list](https://github.com/buildkite/terraform-provider-buildkite/pull/1340) | 2026-11-12 | [@petetomasik](https://github.com/petetomasik) | 🙏 [@petetomasik](https://github.com/buildkite/terraform-provider-buildkite/pull/1340#pullrequestreview-5879395429): <i>"Thanks for the contribution!"</i> |
 
-[All 259 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 264 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 456 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 481 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
-- Official CNCF Graduated: 36 in 15 repos
+- Official CNCF Graduated: 35 in 15 repos
 - Official CNCF Incubating: 8 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 135 in 69 repos
-- Other: 262 in 155 repos
+- CNCF ecosystem: 138 in 71 repos
+- Other: 285 in 170 repos
 
 <!--END_SECTION:activity-->
 
