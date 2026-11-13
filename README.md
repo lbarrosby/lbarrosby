@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-690-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-265-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-272-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-7-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-121-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-732-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-269-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-272-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-7-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-121-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 265 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 269 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 7 merged in 5 repos</summary>
 
@@ -52,10 +52,14 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 249 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 253 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(deploy): set capacity-ownerref-level for csi-provisioner](https://github.com/openebs/zfs-localpv/pull/795) | 2026-11-13 | bot |  |
+| [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: keep the backticks of a code span at either end of a title](https://github.com/jenkinsci/explain-error-plugin/pull/273) | 2026-11-13 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
+| [Flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes) | [fix: load every file listed in KUBECONFIG](https://github.com/Flux159/mcp-server-kubernetes/pull/397) | 2026-11-13 | [@Flux159](https://github.com/Flux159) |  |
+| [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Include every p-value setting in the CPU CMIKNN cache key](https://github.com/bloomberg/causal-ts/pull/116) | 2026-11-13 | [@fesanghary](https://github.com/fesanghary) |  |
 | [tofuutils/tenv](https://github.com/tofuutils/tenv) | [fix(versionfinder): keep Terragrunt beta versions intact in Clean](https://github.com/tofuutils/tenv/pull/651) | 2026-11-12 | [@kvendingoldo](https://github.com/kvendingoldo) | 🙏 [@kvendingoldo](https://github.com/tofuutils/tenv/pull/651#pullrequestreview-5881316718): <i>"Thanks!"</i> |
 | [tofuutils/tenv](https://github.com/tofuutils/tenv) | [fix(uninstall): return an error instead of panicking on empty not-used-for duration](https://github.com/tofuutils/tenv/pull/652) | 2026-11-12 | [@kvendingoldo](https://github.com/kvendingoldo) | 🙏 [@kvendingoldo](https://github.com/tofuutils/tenv/pull/652#pullrequestreview-5881293441): <i>"Thanks"</i> |
 | [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: percent-encode file paths in auto-fix SCM file URLs](https://github.com/jenkinsci/explain-error-plugin/pull/272) | 2026-11-12 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
@@ -67,22 +71,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(controller): keep node expansion on a retried ControllerExpandVolume](https://github.com/openebs/zfs-localpv/pull/793) | 2026-11-12 | bot |  |
 | <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [docs(chart): document the zfsNode, zfsPlugin and snapshotter values](https://github.com/openebs/zfs-localpv/pull/798) | 2026-11-12 | bot |  |
 | [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] SDRS: remove deleted replication pairs from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3620) | 2026-11-12 | bot |  |
-| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/dra-example-driver](https://github.com/kubernetes-sigs/dra-example-driver) | [Reject GPU sharing configs that set the other strategy's config](https://github.com/kubernetes-sigs/dra-example-driver/pull/298) | 2026-11-12 | bot |  |
-| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/dra-example-driver](https://github.com/kubernetes-sigs/dra-example-driver) | [Remove the temp checkpoint file when writing the checkpoint fails](https://github.com/kubernetes-sigs/dra-example-driver/pull/297) | 2026-11-12 | bot |  |
-| [fluent-plugins-nursery/fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat) | [Keep the timestamp of a standalone line after a multiline with use_first_timestamp](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/174) | 2026-11-12 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/174#pullrequestreview-5856871144): <i>"Thanks for the fix."</i> |
-| [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Keep the chunk when retention_in_days_key has an invalid value](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/299) | 2026-11-12 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/299#pullrequestreview-5856230295): <i>"Thanks for the fix."</i> |
 
-[All 249 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 253 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 425 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 463 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 15 repos
 - Official CNCF Incubating: 9 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 128 in 64 repos
-- Other: 237 in 149 repos
+- CNCF ecosystem: 135 in 69 repos
+- Other: 268 in 159 repos
 
 <!--END_SECTION:activity-->
 

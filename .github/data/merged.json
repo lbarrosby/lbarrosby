@@ -23,6 +23,10 @@
   "merged_by": "Flux159",
   "thanks": null
  },
+ "https://github.com/Flux159/mcp-server-kubernetes/pull/397": {
+  "merged_by": "Flux159",
+  "thanks": null
+ },
  "https://github.com/MagaluCloud/terraform-provider-mgc/pull/328": {
   "merged_by": "alanfranciscos",
   "thanks": null
@@ -188,6 +192,10 @@
   "thanks": null
  },
  "https://github.com/bloomberg/causal-ts/pull/108": {
+  "merged_by": "fesanghary",
+  "thanks": null
+ },
+ "https://github.com/bloomberg/causal-ts/pull/116": {
   "merged_by": "fesanghary",
   "thanks": null
  },
@@ -839,6 +847,10 @@
   "merged_by": "shenxianpeng",
   "thanks": null
  },
+ "https://github.com/jenkinsci/explain-error-plugin/pull/273": {
+  "merged_by": "shenxianpeng",
+  "thanks": null
+ },
  "https://github.com/jenkinsci/helm-charts/pull/1814": {
   "merged_by": "timja",
   "thanks": null
@@ -1204,6 +1216,10 @@
   "thanks": null
  },
  "https://github.com/openebs/zfs-localpv/pull/793": {
+  "merged_by": "mergify[bot]",
+  "thanks": null
+ },
+ "https://github.com/openebs/zfs-localpv/pull/795": {
   "merged_by": "mergify[bot]",
   "thanks": null
  },
