@@ -935,6 +935,14 @@
    "url": "https://github.com/kreuzwerker/terraform-provider-docker/pull/1017#pullrequestreview-5845772106"
   }
  },
+ "https://github.com/kreuzwerker/terraform-provider-docker/pull/1025": {
+  "merged_by": "Junkern",
+  "thanks": {
+   "login": "Junkern",
+   "quote": "Thanks!",
+   "url": "https://github.com/kreuzwerker/terraform-provider-docker/pull/1025#pullrequestreview-5887938336"
+  }
+ },
  "https://github.com/kube-vip/kube-vip/pull/1838": {
   "merged_by": "Cellebyte",
   "thanks": null
@@ -1195,6 +1203,14 @@
   "merged_by": "toddbaert",
   "thanks": null
  },
+ "https://github.com/opencost/opencost/pull/4173": {
+  "merged_by": "ameijer",
+  "thanks": {
+   "login": "ameijer",
+   "quote": "good catch!",
+   "url": "https://github.com/opencost/opencost/pull/4173#pullrequestreview-5894171351"
+  }
+ },
  "https://github.com/opencost/opencost/pull/4175": {
   "merged_by": "ameijer",
   "thanks": {
@@ -1252,6 +1268,18 @@
   "thanks": null
  },
  "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3620": {
+  "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
+ },
+ "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3625": {
+  "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
+ },
+ "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3626": {
+  "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
+ },
+ "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3627": {
   "merged_by": "otc-zuul-prod[bot]",
   "thanks": null
  },
@@ -1355,12 +1383,24 @@
   "merged_by": "rpahli",
   "thanks": null
  },
+ "https://github.com/qdrant/qdrant-helm/pull/531": {
+  "merged_by": "bashofmann",
+  "thanks": null
+ },
  "https://github.com/remsky/Kokoro-FastAPI/pull/593": {
   "merged_by": "remsky",
   "thanks": {
    "login": "remsky",
    "quote": "Hey ; good fix, and thanks for catching it",
    "url": "https://github.com/remsky/Kokoro-FastAPI/pull/593#issuecomment-6781957831"
+  }
+ },
+ "https://github.com/remsky/Kokoro-FastAPI/pull/597": {
+  "merged_by": "remsky",
+  "thanks": {
+   "login": "remsky",
+   "quote": "Thanks, good fix and coverage.",
+   "url": "https://github.com/remsky/Kokoro-FastAPI/pull/597#issuecomment-6847630831"
   }
  },
  "https://github.com/rook/rook/pull/18686": {

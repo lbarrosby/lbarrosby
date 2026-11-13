@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-732-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-269-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-272-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-7-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-121-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-732-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-276-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-272-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-7-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-124-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 269 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 276 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 7 merged in 5 repos</summary>
 
@@ -29,10 +29,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details open><summary><b>Official CNCF Incubating projects</b> · 4 merged in 3 repos</summary>
+<details open><summary><b>Official CNCF Incubating projects</b> · 5 merged in 3 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/OpenCost-official%20·%20CNCF%20Incubating-8957E5?style=flat-square&logo=cncf&logoColor=white" alt="OpenCost: official repository of a CNCF incubating project" title="OpenCost: official repository of a CNCF incubating project"><br>[opencost/opencost](https://github.com/opencost/opencost) | [fix(metrics): scale container_gpu_allocation on time-sliced and vGPU nodes](https://github.com/opencost/opencost/pull/4173) | 2026-11-13 | [@ameijer](https://github.com/ameijer) | 🙏 [@ameijer](https://github.com/opencost/opencost/pull/4173#pullrequestreview-5894171351): <i>"good catch!"</i> |
 | <img src="https://img.shields.io/badge/OpenCost-official%20·%20CNCF%20Incubating-8957E5?style=flat-square&logo=cncf&logoColor=white" alt="OpenCost: official repository of a CNCF incubating project" title="OpenCost: official repository of a CNCF incubating project"><br>[opencost/opencost](https://github.com/opencost/opencost) | [fix(inferencecost): keep only grouped properties when aggregating](https://github.com/opencost/opencost/pull/4175) | 2026-11-10 | [@ameijer](https://github.com/ameijer) | 🙏 [@ameijer](https://github.com/opencost/opencost/pull/4175#pullrequestreview-5843570063): <i>"thank you cc @simanadler"</i> |
 | <img src="https://img.shields.io/badge/Contour-official%20·%20CNCF%20Incubating-8957E5?style=flat-square&logo=cncf&logoColor=white" alt="Contour: official repository of a CNCF incubating project" title="Contour: official repository of a CNCF incubating project"><br>[projectcontour/contour](https://github.com/projectcontour/contour) | [Set alt_stat_name for DNS name clusters](https://github.com/projectcontour/contour/pull/7821) | 2026-11-09 | [@tsaarni](https://github.com/tsaarni) | 🙏 [@tsaarni](https://github.com/projectcontour/contour/pull/7821#pullrequestreview-5803527120): <i>"Thank you for contributing!"</i> |
 | <img src="https://img.shields.io/badge/Lima-official%20·%20CNCF%20Incubating-8957E5?style=flat-square&logo=cncf&logoColor=white" alt="Lima: official repository of a CNCF incubating project" title="Lima: official repository of a CNCF incubating project"><br>[lima-vm/lima](https://github.com/lima-vm/lima) | [limactl edit: warn when changing the VM type of an existing instance](https://github.com/lima-vm/lima/pull/5743) | 2026-11-05 | [@AkihiroSuda](https://github.com/AkihiroSuda) |  |
@@ -52,10 +53,16 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 253 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 259 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [qdrant/qdrant-helm](https://github.com/qdrant/qdrant-helm) | [Fix readiness probe path for non-semver image tags](https://github.com/qdrant/qdrant-helm/pull/531) | 2026-11-13 | [@bashofmann](https://github.com/bashofmann) |  |
+| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] IMS: remove deleted images from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3627) | 2026-11-13 | bot |  |
+| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] DDM: remove deleted instances and schemas from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3626) | 2026-11-13 | bot |  |
+| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] CBR: remove deleted vaults from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3625) | 2026-11-13 | bot |  |
+| [remsky/Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) | [fix(normalizer): read the whole part of money with cents correctly](https://github.com/remsky/Kokoro-FastAPI/pull/597) | 2026-11-13 | [@remsky](https://github.com/remsky) | 🙏 [@remsky](https://github.com/remsky/Kokoro-FastAPI/pull/597#issuecomment-6847630831): <i>"Thanks, good fix and coverage."</i> |
+| [kreuzwerker/terraform-provider-docker](https://github.com/kreuzwerker/terraform-provider-docker) | [fix: only drop config, secret, network and plugin from state when they are gone](https://github.com/kreuzwerker/terraform-provider-docker/pull/1025) | 2026-11-13 | [@Junkern](https://github.com/Junkern) | 🙏 [@Junkern](https://github.com/kreuzwerker/terraform-provider-docker/pull/1025#pullrequestreview-5887938336): <i>"Thanks!"</i> |
 | <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(deploy): set capacity-ownerref-level for csi-provisioner](https://github.com/openebs/zfs-localpv/pull/795) | 2026-11-13 | bot |  |
 | [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: keep the backticks of a code span at either end of a title](https://github.com/jenkinsci/explain-error-plugin/pull/273) | 2026-11-13 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
 | [Flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes) | [fix: load every file listed in KUBECONFIG](https://github.com/Flux159/mcp-server-kubernetes/pull/397) | 2026-11-13 | [@Flux159](https://github.com/Flux159) |  |
@@ -65,24 +72,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: percent-encode file paths in auto-fix SCM file URLs](https://github.com/jenkinsci/explain-error-plugin/pull/272) | 2026-11-12 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
 | [OHF-Voice/wyoming-piper](https://github.com/OHF-Voice/wyoming-piper) | [Answer a plain synthesize sent after a text stream](https://github.com/OHF-Voice/wyoming-piper/pull/72) | 2026-11-12 | [@synesthesiam](https://github.com/synesthesiam) | 🙏 [@synesthesiam](https://github.com/OHF-Voice/wyoming-piper/pull/72#issuecomment-6831555139): <i>"Thanks!"</i> |
 | [buildkite/terraform-provider-buildkite](https://github.com/buildkite/terraform-provider-buildkite) | [fix(portals): read every page of the portals list](https://github.com/buildkite/terraform-provider-buildkite/pull/1340) | 2026-11-12 | [@petetomasik](https://github.com/petetomasik) | 🙏 [@petetomasik](https://github.com/buildkite/terraform-provider-buildkite/pull/1340#pullrequestreview-5879395429): <i>"Thanks for the contribution!"</i> |
-| [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Follow lag-0 mirror marks in extract_subgraph](https://github.com/bloomberg/causal-ts/pull/108) | 2026-11-12 | [@fesanghary](https://github.com/fesanghary) |  |
-| [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Do not count <-> as an edge in graph comparison plots, reject non-DAG ground truth](https://github.com/bloomberg/causal-ts/pull/107) | 2026-11-12 | [@fesanghary](https://github.com/fesanghary) |  |
-| [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Read bytes edge marks in tigramite_graph_to_binary](https://github.com/bloomberg/causal-ts/pull/106) | 2026-11-12 | [@fesanghary](https://github.com/fesanghary) |  |
-| <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(controller): keep node expansion on a retried ControllerExpandVolume](https://github.com/openebs/zfs-localpv/pull/793) | 2026-11-12 | bot |  |
-| <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [docs(chart): document the zfsNode, zfsPlugin and snapshotter values](https://github.com/openebs/zfs-localpv/pull/798) | 2026-11-12 | bot |  |
-| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] SDRS: remove deleted replication pairs from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3620) | 2026-11-12 | bot |  |
 
-[All 253 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 259 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 463 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 456 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 36 in 15 repos
-- Official CNCF Incubating: 9 in 3 repos
+- Official CNCF Incubating: 8 in 3 repos
 - Official CNCF Sandbox: 15 in 6 repos
 - CNCF ecosystem: 135 in 69 repos
-- Other: 268 in 159 repos
+- Other: 262 in 155 repos
 
 <!--END_SECTION:activity-->
 
