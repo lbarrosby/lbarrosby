@@ -367,6 +367,22 @@
    "url": "https://github.com/coredns/helm/pull/295#issuecomment-6737796956"
   }
  },
+ "https://github.com/creativeprojects/resticprofile/pull/701": {
+  "merged_by": "creativeprojects",
+  "thanks": {
+   "login": "creativeprojects",
+   "quote": "Thanks for this PR!",
+   "url": "https://github.com/creativeprojects/resticprofile/pull/701#pullrequestreview-5898748742"
+  }
+ },
+ "https://github.com/creativeprojects/resticprofile/pull/703": {
+  "merged_by": "creativeprojects",
+  "thanks": {
+   "login": "creativeprojects",
+   "quote": "Thank you for this PR 😉",
+   "url": "https://github.com/creativeprojects/resticprofile/pull/703#pullrequestreview-5898654880"
+  }
+ },
  "https://github.com/deliveryhero/helm-charts/pull/819": {
   "merged_by": "max-rocket-internet",
   "thanks": {
@@ -1195,6 +1211,10 @@
   "merged_by": "antonioanerao",
   "thanks": null
  },
+ "https://github.com/netbox-community/netbox-chart/pull/1492": {
+  "merged_by": "LeoColomb",
+  "thanks": null
+ },
  "https://github.com/oliver006/redis_exporter/pull/1214": {
   "merged_by": "oliver006",
   "thanks": {
@@ -1431,6 +1451,10 @@
    "url": "https://github.com/rook/rook/pull/18686#pullrequestreview-5789316361"
   }
  },
+ "https://github.com/rook/rook/pull/18753": {
+  "merged_by": "travisn",
+  "thanks": null
+ },
  "https://github.com/rook/rook/pull/18754": {
   "merged_by": "travisn",
   "thanks": null
@@ -1462,6 +1486,14 @@
    "quote": "thanks!",
    "url": "https://github.com/samber/awesome-prometheus-alerts/pull/665#issuecomment-6781101261"
   }
+ },
+ "https://github.com/samber/awesome-prometheus-alerts/pull/667": {
+  "merged_by": "samber",
+  "thanks": null
+ },
+ "https://github.com/samber/awesome-prometheus-alerts/pull/668": {
+  "merged_by": "samber",
+  "thanks": null
  },
  "https://github.com/sergelogvinov/karpenter-provider-proxmox/pull/334": {
   "merged_by": "sergelogvinov",
