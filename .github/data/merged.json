@@ -391,6 +391,14 @@
    "url": "https://github.com/creativeprojects/resticprofile/pull/703#pullrequestreview-5898654880"
   }
  },
+ "https://github.com/creativeprojects/resticprofile/pull/706": {
+  "merged_by": "creativeprojects",
+  "thanks": {
+   "login": "creativeprojects",
+   "quote": "Thanks for this update 👍🏻",
+   "url": "https://github.com/creativeprojects/resticprofile/pull/706#pullrequestreview-5907681288"
+  }
+ },
  "https://github.com/deliveryhero/helm-charts/pull/819": {
   "merged_by": "max-rocket-internet",
   "thanks": {
@@ -892,6 +900,10 @@
   "thanks": null
  },
  "https://github.com/jenkinsci/helm-charts/pull/1819": {
+  "merged_by": "timja",
+  "thanks": null
+ },
+ "https://github.com/jenkinsci/helm-charts/pull/1824": {
   "merged_by": "timja",
   "thanks": null
  },
@@ -1528,6 +1540,10 @@
   "thanks": null
  },
  "https://github.com/samber/awesome-prometheus-alerts/pull/670": {
+  "merged_by": "samber",
+  "thanks": null
+ },
+ "https://github.com/samber/awesome-prometheus-alerts/pull/671": {
   "merged_by": "samber",
   "thanks": null
  },

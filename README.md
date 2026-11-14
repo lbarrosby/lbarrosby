@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-820-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-300-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-9-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-128-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-820-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-303-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-9-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-129-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 300 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 303 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 9 merged in 5 repos</summary>
 
@@ -55,10 +55,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 281 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 284 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [creativeprojects/resticprofile](https://github.com/creativeprojects/resticprofile) | [docs: list the configuration folders resticprofile really searches](https://github.com/creativeprojects/resticprofile/pull/706) | 2026-11-14 | [@creativeprojects](https://github.com/creativeprojects) | 🙏 [@creativeprojects](https://github.com/creativeprojects/resticprofile/pull/706#pullrequestreview-5907681288): <i>"Thanks for this update 👍🏻"</i> |
+| [jenkinsci/helm-charts](https://github.com/jenkinsci/helm-charts) | [feat(jenkins): add agent.agentInjection for the default pod template](https://github.com/jenkinsci/helm-charts/pull/1824) | 2026-11-14 | [@timja](https://github.com/timja) |  |
+| [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) | [feat(rules): add Cluster Autoscaler alerts](https://github.com/samber/awesome-prometheus-alerts/pull/671) | 2026-11-14 | [@samber](https://github.com/samber) |  |
 | [yonahd/kor](https://github.com/yonahd/kor) | [fix(configmaps): stop counting init container mount names as ConfigMaps](https://github.com/yonahd/kor/pull/647) | 2026-11-14 | [@yonahd](https://github.com/yonahd) |  |
 | [sentry-kubernetes/charts](https://github.com/sentry-kubernetes/charts) | [fix(sentry): render symbolicator StatefulSet accessModes as a list](https://github.com/sentry-kubernetes/charts/pull/2327) | 2026-11-14 | [@Mokto](https://github.com/Mokto) |  |
 | [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) | [feat(rules): add Karpenter alerts](https://github.com/samber/awesome-prometheus-alerts/pull/670) | 2026-11-14 | [@samber](https://github.com/samber) |  |
@@ -71,21 +74,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(tasks): stream Watch log lines in order and up to the task end](https://github.com/luthermonson/go-proxmox/pull/364) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
 | [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(nodes): wire client, node and storage into VzTmpls results](https://github.com/luthermonson/go-proxmox/pull/368) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
 | [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(snapshot): send the description so UpdateConfig can clear it](https://github.com/luthermonson/go-proxmox/pull/367) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
-| [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) | [feat(rules): add External Secrets Operator alerts](https://github.com/samber/awesome-prometheus-alerts/pull/667) | 2026-11-13 | [@samber](https://github.com/samber) |  |
-| [creativeprojects/resticprofile](https://github.com/creativeprojects/resticprofile) | [fix: pass exclude-cloud-files to restic on macOS](https://github.com/creativeprojects/resticprofile/pull/701) | 2026-11-13 | [@creativeprojects](https://github.com/creativeprojects) | 🙏 [@creativeprojects](https://github.com/creativeprojects/resticprofile/pull/701#pullrequestreview-5898748742): <i>"Thanks for this PR!"</i> |
-| [creativeprojects/resticprofile](https://github.com/creativeprojects/resticprofile) | [fix: report circular profile inheritance instead of crashing](https://github.com/creativeprojects/resticprofile/pull/703) | 2026-11-13 | [@creativeprojects](https://github.com/creativeprojects) | 🙏 [@creativeprojects](https://github.com/creativeprojects/resticprofile/pull/703#pullrequestreview-5898654880): <i>"Thank you for this PR 😉"</i> |
 
-[All 281 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 284 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 520 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 517 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 38 in 16 repos
 - Official CNCF Incubating: 8 in 3 repos
 - Official CNCF Sandbox: 16 in 7 repos
 - CNCF ecosystem: 142 in 72 repos
-- Other: 316 in 183 repos
+- Other: 313 in 181 repos
 
 <!--END_SECTION:activity-->
 
