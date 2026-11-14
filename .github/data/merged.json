@@ -1531,6 +1531,10 @@
   "merged_by": "samber",
   "thanks": null
  },
+ "https://github.com/sentry-kubernetes/charts/pull/2327": {
+  "merged_by": "Mokto",
+  "thanks": null
+ },
  "https://github.com/sergelogvinov/karpenter-provider-proxmox/pull/334": {
   "merged_by": "sergelogvinov",
   "thanks": {
@@ -1702,5 +1706,9 @@
    "quote": "Thanks for the contribution",
    "url": "https://github.com/yonahd/kor/pull/645#pullrequestreview-5854581439"
   }
+ },
+ "https://github.com/yonahd/kor/pull/647": {
+  "merged_by": "yonahd",
+  "thanks": null
  }
 }
