@@ -11,7 +11,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-763-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-288-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-282-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-9-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-127-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-772-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-288-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-282-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-9-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-127-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
 **Merged** · official CNCF project repositories first · [see all 288 with filters](https://lbarrosby.github.io/lbarrosby/)
 
@@ -79,13 +79,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-**In review** · 475 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 484 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
-- Official CNCF Graduated: 34 in 15 repos
+- Official CNCF Graduated: 37 in 16 repos
 - Official CNCF Incubating: 8 in 3 repos
-- Official CNCF Sandbox: 15 in 6 repos
-- CNCF ecosystem: 138 in 71 repos
-- Other: 280 in 168 repos
+- Official CNCF Sandbox: 16 in 7 repos
+- CNCF ecosystem: 140 in 71 repos
+- Other: 283 in 169 repos
 
 <!--END_SECTION:activity-->
 
