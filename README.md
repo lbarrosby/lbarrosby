@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-790-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-294-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-282-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-9-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-128-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-801-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-298-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-282-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-9-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-128-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 294 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 298 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 9 merged in 5 repos</summary>
 
@@ -55,10 +55,14 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 275 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 279 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) | [feat(rules): add Karpenter alerts](https://github.com/samber/awesome-prometheus-alerts/pull/670) | 2026-11-14 | [@samber](https://github.com/samber) |  |
+| [xorbitsai/inference](https://github.com/xorbitsai/inference) | [fix(embedding): honor the request dimensions on the sentence_transformers engine](https://github.com/xorbitsai/inference/pull/6065) | 2026-11-14 | [@qinxuye](https://github.com/qinxuye) |  |
+| [xorbitsai/inference](https://github.com/xorbitsai/inference) | [fix(api): clear the model-not-found cache after launch_model_by_version](https://github.com/xorbitsai/inference/pull/6063) | 2026-11-14 | [@qinxuye](https://github.com/qinxuye) |  |
+| [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) | [feat(rules): add Longhorn alerts](https://github.com/samber/awesome-prometheus-alerts/pull/666) | 2026-11-14 | [@samber](https://github.com/samber) |  |
 | [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(vm): detach the cdrom drive when the cdrom block is removed](https://github.com/bpg/terraform-provider-proxmox/pull/3298) | 2026-11-14 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3298#pullrequestreview-5901836724): <i>"Hey 👋🏼 Thanks for picking this one up!"</i> |
 | [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(storage): fill the backup volid from the requested name](https://github.com/luthermonson/go-proxmox/pull/366) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
 | [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(client): keep integer query params out of exponent notation](https://github.com/luthermonson/go-proxmox/pull/365) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
@@ -70,22 +74,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [creativeprojects/resticprofile](https://github.com/creativeprojects/resticprofile) | [fix: report circular profile inheritance instead of crashing](https://github.com/creativeprojects/resticprofile/pull/703) | 2026-11-13 | [@creativeprojects](https://github.com/creativeprojects) | 🙏 [@creativeprojects](https://github.com/creativeprojects/resticprofile/pull/703#pullrequestreview-5898654880): <i>"Thank you for this PR 😉"</i> |
 | [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) | [fix(rules): alert on new failed and lost Nomad allocations](https://github.com/samber/awesome-prometheus-alerts/pull/668) | 2026-11-13 | [@samber](https://github.com/samber) |  |
 | [netbox-community/netbox-chart](https://github.com/netbox-community/netbox-chart) | [fix(netbox): render service externalIPs and loadBalancerSourceRanges](https://github.com/netbox-community/netbox-chart/pull/1492) | 2026-11-13 | [@LeoColomb](https://github.com/LeoColomb) |  |
-| [remsky/Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) | [fix(normalizer): read money with more than two decimals as a decimal number](https://github.com/remsky/Kokoro-FastAPI/pull/599) | 2026-11-13 | [@remsky](https://github.com/remsky) | 🙏 [@remsky](https://github.com/remsky/Kokoro-FastAPI/pull/599#issuecomment-6863127815): <i>"Looks good, thanks"</i> |
-| [tsuru/tsuru-client](https://github.com/tsuru/tsuru-client) | [chore(docker): bump runtime image to alpine 3.24.3](https://github.com/tsuru/tsuru-client/pull/286) | 2026-11-13 | [@ravilock](https://github.com/ravilock) |  |
-| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[rabbitmq-cluster-operator] Render loadBalancerSourceRanges as a YAML list](https://github.com/CloudPirates-io/helm-charts/pull/1918) | 2026-11-13 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
-| [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(visual-regression-tracker): skip the seed volume when no seed secret is rendered](https://github.com/kokuwaio/helm-charts/pull/261) | 2026-11-13 | [@monotek](https://github.com/monotek) |  |
 
-[All 275 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 279 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 496 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 503 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 38 in 16 repos
 - Official CNCF Incubating: 8 in 3 repos
 - Official CNCF Sandbox: 16 in 7 repos
 - CNCF ecosystem: 141 in 71 repos
-- Other: 293 in 172 repos
+- Other: 300 in 173 repos
 
 <!--END_SECTION:activity-->
 

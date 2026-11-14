@@ -1515,11 +1515,19 @@
    "url": "https://github.com/samber/awesome-prometheus-alerts/pull/665#issuecomment-6781101261"
   }
  },
+ "https://github.com/samber/awesome-prometheus-alerts/pull/666": {
+  "merged_by": "samber",
+  "thanks": null
+ },
  "https://github.com/samber/awesome-prometheus-alerts/pull/667": {
   "merged_by": "samber",
   "thanks": null
  },
  "https://github.com/samber/awesome-prometheus-alerts/pull/668": {
+  "merged_by": "samber",
+  "thanks": null
+ },
+ "https://github.com/samber/awesome-prometheus-alerts/pull/670": {
   "merged_by": "samber",
   "thanks": null
  },
@@ -1676,6 +1684,14 @@
   "thanks": null
  },
  "https://github.com/xorbitsai/inference/pull/6061": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6063": {
+  "merged_by": "qinxuye",
+  "thanks": null
+ },
+ "https://github.com/xorbitsai/inference/pull/6065": {
   "merged_by": "qinxuye",
   "thanks": null
  },
