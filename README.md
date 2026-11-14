@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-772-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-288-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-282-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-9-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-127-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-790-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-294-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-282-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-9-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-128-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 288 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 294 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 9 merged in 5 repos</summary>
 
@@ -55,10 +55,16 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 269 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 275 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(vm): detach the cdrom drive when the cdrom block is removed](https://github.com/bpg/terraform-provider-proxmox/pull/3298) | 2026-11-14 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3298#pullrequestreview-5901836724): <i>"Hey 👋🏼 Thanks for picking this one up!"</i> |
+| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(storage): fill the backup volid from the requested name](https://github.com/luthermonson/go-proxmox/pull/366) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
+| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(client): keep integer query params out of exponent notation](https://github.com/luthermonson/go-proxmox/pull/365) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
+| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(tasks): stream Watch log lines in order and up to the task end](https://github.com/luthermonson/go-proxmox/pull/364) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
+| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(nodes): wire client, node and storage into VzTmpls results](https://github.com/luthermonson/go-proxmox/pull/368) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
+| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(snapshot): send the description so UpdateConfig can clear it](https://github.com/luthermonson/go-proxmox/pull/367) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
 | [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) | [feat(rules): add External Secrets Operator alerts](https://github.com/samber/awesome-prometheus-alerts/pull/667) | 2026-11-13 | [@samber](https://github.com/samber) |  |
 | [creativeprojects/resticprofile](https://github.com/creativeprojects/resticprofile) | [fix: pass exclude-cloud-files to restic on macOS](https://github.com/creativeprojects/resticprofile/pull/701) | 2026-11-13 | [@creativeprojects](https://github.com/creativeprojects) | 🙏 [@creativeprojects](https://github.com/creativeprojects/resticprofile/pull/701#pullrequestreview-5898748742): <i>"Thanks for this PR!"</i> |
 | [creativeprojects/resticprofile](https://github.com/creativeprojects/resticprofile) | [fix: report circular profile inheritance instead of crashing](https://github.com/creativeprojects/resticprofile/pull/703) | 2026-11-13 | [@creativeprojects](https://github.com/creativeprojects) | 🙏 [@creativeprojects](https://github.com/creativeprojects/resticprofile/pull/703#pullrequestreview-5898654880): <i>"Thank you for this PR 😉"</i> |
@@ -68,24 +74,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [tsuru/tsuru-client](https://github.com/tsuru/tsuru-client) | [chore(docker): bump runtime image to alpine 3.24.3](https://github.com/tsuru/tsuru-client/pull/286) | 2026-11-13 | [@ravilock](https://github.com/ravilock) |  |
 | [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[rabbitmq-cluster-operator] Render loadBalancerSourceRanges as a YAML list](https://github.com/CloudPirates-io/helm-charts/pull/1918) | 2026-11-13 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(visual-regression-tracker): skip the seed volume when no seed secret is rendered](https://github.com/kokuwaio/helm-charts/pull/261) | 2026-11-13 | [@monotek](https://github.com/monotek) |  |
-| [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) | [fix: decode XML entities in wiki structures salvaged by regex](https://github.com/AsyncFuncAI/deepwiki-open/pull/631) | 2026-11-13 | [@sng-asyncfunc](https://github.com/sng-asyncfunc) |  |
-| [qdrant/qdrant-helm](https://github.com/qdrant/qdrant-helm) | [Fix readiness probe path for non-semver image tags](https://github.com/qdrant/qdrant-helm/pull/531) | 2026-11-13 | [@bashofmann](https://github.com/bashofmann) |  |
-| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] IMS: remove deleted images from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3627) | 2026-11-13 | bot |  |
-| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] DDM: remove deleted instances and schemas from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3626) | 2026-11-13 | bot |  |
-| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] CBR: remove deleted vaults from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3625) | 2026-11-13 | bot |  |
-| [remsky/Kokoro-FastAPI](https://github.com/remsky/Kokoro-FastAPI) | [fix(normalizer): read the whole part of money with cents correctly](https://github.com/remsky/Kokoro-FastAPI/pull/597) | 2026-11-13 | [@remsky](https://github.com/remsky) | 🙏 [@remsky](https://github.com/remsky/Kokoro-FastAPI/pull/597#issuecomment-6847630831): <i>"Thanks, good fix and coverage."</i> |
 
-[All 269 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 275 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 484 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 496 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
-- Official CNCF Graduated: 37 in 16 repos
+- Official CNCF Graduated: 38 in 16 repos
 - Official CNCF Incubating: 8 in 3 repos
 - Official CNCF Sandbox: 16 in 7 repos
-- CNCF ecosystem: 140 in 71 repos
-- Other: 283 in 169 repos
+- CNCF ecosystem: 141 in 71 repos
+- Other: 293 in 172 repos
 
 <!--END_SECTION:activity-->
 

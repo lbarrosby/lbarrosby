@@ -303,6 +303,14 @@
    "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3283#pullrequestreview-5858331288"
   }
  },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3298": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Hey 👋🏼 Thanks for picking this one up!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3298#pullrequestreview-5901836724"
+  }
+ },
  "https://github.com/buildkite/terraform-provider-buildkite/pull/1336": {
   "merged_by": "petetomasik",
   "thanks": {
@@ -1204,6 +1212,26 @@
   "thanks": null
  },
  "https://github.com/luthermonson/go-proxmox/pull/363": {
+  "merged_by": "luthermonson",
+  "thanks": null
+ },
+ "https://github.com/luthermonson/go-proxmox/pull/364": {
+  "merged_by": "luthermonson",
+  "thanks": null
+ },
+ "https://github.com/luthermonson/go-proxmox/pull/365": {
+  "merged_by": "luthermonson",
+  "thanks": null
+ },
+ "https://github.com/luthermonson/go-proxmox/pull/366": {
+  "merged_by": "luthermonson",
+  "thanks": null
+ },
+ "https://github.com/luthermonson/go-proxmox/pull/367": {
+  "merged_by": "luthermonson",
+  "thanks": null
+ },
+ "https://github.com/luthermonson/go-proxmox/pull/368": {
   "merged_by": "luthermonson",
   "thanks": null
  },
