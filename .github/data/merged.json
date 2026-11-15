@@ -31,6 +31,18 @@
   "merged_by": "zOnlyKroks",
   "thanks": null
  },
+ "https://github.com/CloudPirates-io/helm-charts/pull/1919": {
+  "merged_by": "zOnlyKroks",
+  "thanks": null
+ },
+ "https://github.com/CloudPirates-io/helm-charts/pull/1920": {
+  "merged_by": "zOnlyKroks",
+  "thanks": null
+ },
+ "https://github.com/CloudPirates-io/helm-charts/pull/1921": {
+  "merged_by": "zOnlyKroks",
+  "thanks": null
+ },
  "https://github.com/Flux159/mcp-server-kubernetes/pull/396": {
   "merged_by": "Flux159",
   "thanks": null
@@ -914,6 +926,22 @@
  "https://github.com/goreleaser/goreleaser/pull/7284": {
   "merged_by": "caarlos0",
   "thanks": null
+ },
+ "https://github.com/goreleaser/goreleaser/pull/7315": {
+  "merged_by": "caarlos0",
+  "thanks": {
+   "login": "caarlos0",
+   "quote": "thanks!",
+   "url": "https://github.com/goreleaser/goreleaser/pull/7315#issuecomment-6898198945"
+  }
+ },
+ "https://github.com/goreleaser/goreleaser/pull/7320": {
+  "merged_by": "caarlos0",
+  "thanks": {
+   "login": "caarlos0",
+   "quote": "thank you!",
+   "url": "https://github.com/goreleaser/goreleaser/pull/7320#pullrequestreview-5911870085"
+  }
  },
  "https://github.com/helmfile/helmfile/pull/2873": {
   "merged_by": "yxxhero",
