@@ -7,6 +7,10 @@
   "merged_by": "sng-asyncfunc",
   "thanks": null
  },
+ "https://github.com/AsyncFuncAI/deepwiki-open/pull/623": {
+  "merged_by": "sng-asyncfunc",
+  "thanks": null
+ },
  "https://github.com/AsyncFuncAI/deepwiki-open/pull/624": {
   "merged_by": "sng-asyncfunc",
   "thanks": null
@@ -515,6 +519,14 @@
   "merged_by": "poiana",
   "thanks": null
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/231": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix and the clear write-up.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/231#pullrequestreview-5884843886"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -563,6 +575,22 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/299#pullrequestreview-5856230295"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/300": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix and the clear description.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/300#pullrequestreview-5885563728"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/301": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/301#pullrequestreview-5887570344"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/157": {
   "merged_by": "Watson1978",
   "thanks": null
@@ -607,6 +635,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/174#pullrequestreview-5856871144"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/176": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for this.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/176#pullrequestreview-5887006875"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -621,6 +657,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/441#pullrequestreview-5854195128"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/443": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for fixing the default and documenting the other two parameters.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/443#pullrequestreview-5887037524"
   }
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/95": {
@@ -653,6 +697,14 @@
    "login": "Watson1978",
    "quote": "Thank you for working on this.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/94#pullrequestreview-5854175620"
+  }
+ },
+ "https://github.com/fluent/fluent-logger-ruby/pull/118": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix and the clear reproduction.",
+   "url": "https://github.com/fluent/fluent-logger-ruby/pull/118#pullrequestreview-5884788120"
   }
  },
  "https://github.com/fluent/fluent-operator/pull/2113": {
@@ -731,6 +783,22 @@
    "url": "https://github.com/fluent/fluent-plugin-kafka/pull/610#pullrequestreview-5854076131"
   }
  },
+ "https://github.com/fluent/fluent-plugin-kafka/pull/627": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-kafka/pull/627#pullrequestreview-5884823184"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-kafka/pull/628": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-kafka/pull/628#pullrequestreview-5886889723"
+  }
+ },
  "https://github.com/fluent/fluent-plugin-opensearch/pull/201": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -753,6 +821,30 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/203#pullrequestreview-5854626071"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-prometheus/pull/275": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-prometheus/pull/275#pullrequestreview-5884796513"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-s3/pull/496": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix and the clear reproduction.",
+   "url": "https://github.com/fluent/fluent-plugin-s3/pull/496#pullrequestreview-5884809244"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-webhdfs/pull/112": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-webhdfs/pull/112#pullrequestreview-5884852717"
   }
  },
  "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1697": {
@@ -797,6 +889,14 @@
    "login": "Watson1978",
    "quote": "Thanks!",
    "url": "https://github.com/fluent/fluentd/pull/5608#pullrequestreview-5835281054"
+  }
+ },
+ "https://github.com/fluent/fluentd/pull/5634": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the clear report and the reproduction.",
+   "url": "https://github.com/fluent/fluentd/pull/5634#pullrequestreview-5884939807"
   }
  },
  "https://github.com/gestaogovbr/Ro-dou/pull/379": {
@@ -911,6 +1011,10 @@
   "merged_by": "timja",
   "thanks": null
  },
+ "https://github.com/jianyuan/terraform-provider-sentry/pull/1002": {
+  "merged_by": "jianyuan",
+  "thanks": null
+ },
  "https://github.com/kagent-dev/tools/pull/100": {
   "merged_by": "dimetron",
   "thanks": null
@@ -976,6 +1080,18 @@
   "thanks": null
  },
  "https://github.com/kokuwaio/helm-charts/pull/261": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/kokuwaio/helm-charts/pull/262": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/kokuwaio/helm-charts/pull/263": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
+ "https://github.com/kokuwaio/helm-charts/pull/264": {
   "merged_by": "monotek",
   "thanks": null
  },
@@ -1227,6 +1343,22 @@
   "merged_by": "AkihiroSuda",
   "thanks": null
  },
+ "https://github.com/lima-vm/lima/pull/5747": {
+  "merged_by": "jandubois",
+  "thanks": {
+   "login": "jandubois",
+   "quote": "Thanks, LGTM",
+   "url": "https://github.com/lima-vm/lima/pull/5747#pullrequestreview-5908820167"
+  }
+ },
+ "https://github.com/lima-vm/lima/pull/5751": {
+  "merged_by": "jandubois",
+  "thanks": {
+   "login": "jandubois",
+   "quote": "Thanks, LGTM",
+   "url": "https://github.com/lima-vm/lima/pull/5751#pullrequestreview-5908833280"
+  }
+ },
  "https://github.com/linode/linode-cloud-controller-manager/pull/654": {
   "merged_by": "komer3",
   "thanks": {
@@ -1274,6 +1406,14 @@
  "https://github.com/netbox-community/netbox-chart/pull/1492": {
   "merged_by": "LeoColomb",
   "thanks": null
+ },
+ "https://github.com/nicolargo/glances/pull/3851": {
+  "merged_by": "nicolargo",
+  "thanks": {
+   "login": "nicolargo",
+   "quote": "Thanks for the PR Just merged into develop.",
+   "url": "https://github.com/nicolargo/glances/pull/3851#issuecomment-6891361974"
+  }
  },
  "https://github.com/oliver006/redis_exporter/pull/1214": {
   "merged_by": "oliver006",
