@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-820-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-303-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-9-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-129-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-820-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-306-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-9-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-131-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 303 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 306 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 9 merged in 5 repos</summary>
 
@@ -55,10 +55,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 284 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 287 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [🐛 (go/v4): use k8s.io/api/rbac as the import path for the rbac.authorization core group](https://github.com/kubernetes-sigs/kubebuilder/pull/6167) | 2026-11-15 | [@camilamacedo86](https://github.com/camilamacedo86) | 🙏 [@camilamacedo86](https://github.com/kubernetes-sigs/kubebuilder/pull/6167#pullrequestreview-5908123825): <i>"Thank you so much for this one"</i> |
+| [helmfile/helmfile](https://github.com/helmfile/helmfile) | [fix: stringify non-string map keys in values files](https://github.com/helmfile/helmfile/pull/2899) | 2026-11-15 | [@yxxhero](https://github.com/yxxhero) |  |
+| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) | [🐛 (API): make the title template function in DefaultFuncMap usable](https://github.com/kubernetes-sigs/kubebuilder/pull/6166) | 2026-11-15 | [@camilamacedo86](https://github.com/camilamacedo86) | 🙏 [@camilamacedo86](https://github.com/kubernetes-sigs/kubebuilder/pull/6166#pullrequestreview-5903702031): <i>"Teh nit is not a blocker Thank you so much 🥇"</i> |
 | [creativeprojects/resticprofile](https://github.com/creativeprojects/resticprofile) | [docs: list the configuration folders resticprofile really searches](https://github.com/creativeprojects/resticprofile/pull/706) | 2026-11-14 | [@creativeprojects](https://github.com/creativeprojects) | 🙏 [@creativeprojects](https://github.com/creativeprojects/resticprofile/pull/706#pullrequestreview-5907681288): <i>"Thanks for this update 👍🏻"</i> |
 | [jenkinsci/helm-charts](https://github.com/jenkinsci/helm-charts) | [feat(jenkins): add agent.agentInjection for the default pod template](https://github.com/jenkinsci/helm-charts/pull/1824) | 2026-11-14 | [@timja](https://github.com/timja) |  |
 | [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) | [feat(rules): add Cluster Autoscaler alerts](https://github.com/samber/awesome-prometheus-alerts/pull/671) | 2026-11-14 | [@samber](https://github.com/samber) |  |
@@ -71,21 +74,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(vm): detach the cdrom drive when the cdrom block is removed](https://github.com/bpg/terraform-provider-proxmox/pull/3298) | 2026-11-14 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3298#pullrequestreview-5901836724): <i>"Hey 👋🏼 Thanks for picking this one up!"</i> |
 | [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(storage): fill the backup volid from the requested name](https://github.com/luthermonson/go-proxmox/pull/366) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
 | [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(client): keep integer query params out of exponent notation](https://github.com/luthermonson/go-proxmox/pull/365) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
-| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(tasks): stream Watch log lines in order and up to the task end](https://github.com/luthermonson/go-proxmox/pull/364) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
-| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(nodes): wire client, node and storage into VzTmpls results](https://github.com/luthermonson/go-proxmox/pull/368) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
-| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(snapshot): send the description so UpdateConfig can clear it](https://github.com/luthermonson/go-proxmox/pull/367) | 2026-11-14 | [@luthermonson](https://github.com/luthermonson) |  |
 
-[All 284 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 287 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 517 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 514 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 38 in 16 repos
 - Official CNCF Incubating: 8 in 3 repos
 - Official CNCF Sandbox: 16 in 7 repos
-- CNCF ecosystem: 142 in 72 repos
-- Other: 313 in 181 repos
+- CNCF ecosystem: 140 in 72 repos
+- Other: 312 in 180 repos
 
 <!--END_SECTION:activity-->
 

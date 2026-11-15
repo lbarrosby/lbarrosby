@@ -835,6 +835,10 @@
   "merged_by": "yxxhero",
   "thanks": null
  },
+ "https://github.com/helmfile/helmfile/pull/2899": {
+  "merged_by": "yxxhero",
+  "thanks": null
+ },
  "https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411": {
   "merged_by": "lukasmetzner",
   "thanks": {
@@ -1161,6 +1165,22 @@
    "login": "camilamacedo86",
    "quote": "Thank you for raise this one 👍",
    "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6160#issuecomment-6689035654"
+  }
+ },
+ "https://github.com/kubernetes-sigs/kubebuilder/pull/6166": {
+  "merged_by": "camilamacedo86",
+  "thanks": {
+   "login": "camilamacedo86",
+   "quote": "Teh nit is not a blocker Thank you so much 🥇",
+   "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6166#pullrequestreview-5903702031"
+  }
+ },
+ "https://github.com/kubernetes-sigs/kubebuilder/pull/6167": {
+  "merged_by": "camilamacedo86",
+  "thanks": {
+   "login": "camilamacedo86",
+   "quote": "Thank you so much for this one",
+   "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/6167#pullrequestreview-5908123825"
   }
  },
  "https://github.com/kubernetes-sigs/kubebuilder/pull/6168": {
