@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-820-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-326-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-10-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-146-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-820-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-330-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-10-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-147-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 326 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 330 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 10 merged in 5 repos</summary>
 
@@ -58,10 +58,14 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 304 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 308 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [awslabs/eks-node-viewer](https://github.com/awslabs/eks-node-viewer) | [fix: update node usage when a bound pod's requests change](https://github.com/awslabs/eks-node-viewer/pull/547) | 2026-11-15 | [@tzneal](https://github.com/tzneal) |  |
+| [stern/stern](https://github.com/stern/stern) | [fix: give targets in different namespaces distinct IDs](https://github.com/stern/stern/pull/416) | 2026-11-15 | [@tksm](https://github.com/tksm) |  |
+| [stern/stern](https://github.com/stern/stern) | [fix: accept a group-qualified resource type in <resource>/<name>](https://github.com/stern/stern/pull/415) | 2026-11-15 | [@tksm](https://github.com/tksm) | 🙏 [@tksm](https://github.com/stern/stern/pull/415#pullrequestreview-5910366523): <i>"Nice improvement 👍"</i> |
+| [huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) | [Redact --api-key in the startup log](https://github.com/huggingface/text-embeddings-inference/pull/966) | 2026-11-15 | [@alvarobartt](https://github.com/alvarobartt) |  |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(mysqldump): use upload.googlestoragebucket.serviceAccountName again](https://github.com/kokuwaio/helm-charts/pull/263) | 2026-11-15 | [@monotek](https://github.com/monotek) |  |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(visual-regression-tracker): point the ingresses at the api and ui services](https://github.com/kokuwaio/helm-charts/pull/262) | 2026-11-15 | [@monotek](https://github.com/monotek) |  |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(nginx-php-fpm): use php.fpmConfig.pm for the process manager](https://github.com/kokuwaio/helm-charts/pull/264) | 2026-11-15 | [@monotek](https://github.com/monotek) |  |
@@ -73,22 +77,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-prometheus](https://github.com/fluent/fluent-plugin-prometheus) | [Fix /aggregated_metrics failing with content_encoding gzip](https://github.com/fluent/fluent-plugin-prometheus/pull/275) | 2026-11-15 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-prometheus/pull/275#pullrequestreview-5884796513): <i>"Thanks for the fix."</i> |
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-s3](https://github.com/fluent/fluent-plugin-s3) | [out_s3: fix gzip_command and parquet uploading compressed bytes with a compressed file buffer](https://github.com/fluent/fluent-plugin-s3/pull/496) | 2026-11-15 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-s3/pull/496#pullrequestreview-5884809244): <i>"Thanks for the fix and the clear reproduction."</i> |
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-webhdfs](https://github.com/fluent/fluent-plugin-webhdfs) | [Fix localtime and utc being ignored for line timestamps with output_data_type](https://github.com/fluent/fluent-plugin-webhdfs/pull/112) | 2026-11-15 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-webhdfs/pull/112#pullrequestreview-5884852717): <i>"Thanks for the fix."</i> |
-| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-logger-ruby](https://github.com/fluent/fluent-logger-ruby) | [Keep the nanosecond event time in the JSON fallback](https://github.com/fluent/fluent-logger-ruby/pull/118) | 2026-11-15 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-logger-ruby/pull/118#pullrequestreview-5884788120): <i>"Thanks for the fix and the clear reproduction."</i> |
-| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka) | [in_kafka, in_kafka_group: Fix FrozenError in outputs that change the tag in place](https://github.com/fluent/fluent-plugin-kafka/pull/628) | 2026-11-15 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-kafka/pull/628#pullrequestreview-5886889723): <i>"Thanks for the fix."</i> |
-| [fluent-plugins-nursery/fluent-plugin-bigquery](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery) | [Send time_partitioning_expiration as an integer number of milliseconds](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/231) | 2026-11-15 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/231#pullrequestreview-5884843886): <i>"Thanks for the fix and the clear write-up."</i> |
-| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka) | [out_kafka_buffered: Fix a whole chunk failing on a record with an empty or non-String topic](https://github.com/fluent/fluent-plugin-kafka/pull/627) | 2026-11-15 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-kafka/pull/627#pullrequestreview-5884823184): <i>"Thanks for the fix."</i> |
 
-[All 304 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 308 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 494 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 490 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 37 in 16 repos
 - Official CNCF Incubating: 6 in 3 repos
 - Official CNCF Sandbox: 16 in 7 repos
 - CNCF ecosystem: 134 in 68 repos
-- Other: 301 in 175 repos
+- Other: 297 in 175 repos
 
 <!--END_SECTION:activity-->
 

@@ -195,6 +195,10 @@
   "merged_by": "AndrewSirenko",
   "thanks": null
  },
+ "https://github.com/awslabs/eks-node-viewer/pull/547": {
+  "merged_by": "tzneal",
+  "thanks": null
+ },
  "https://github.com/bloomberg/causal-ts/pull/106": {
   "merged_by": "fesanghary",
   "thanks": null
@@ -946,6 +950,10 @@
    "quote": "Hey, thank you for the contribution.",
    "url": "https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411#issuecomment-6652351427"
   }
+ },
+ "https://github.com/huggingface/text-embeddings-inference/pull/966": {
+  "merged_by": "alvarobartt",
+  "thanks": null
  },
  "https://github.com/ionos-cloud/terraform-provider-ionoscloud/pull/1061": {
   "merged_by": "adeatcu-ionos",
@@ -1769,6 +1777,18 @@
  },
  "https://github.com/stern/stern/pull/413": {
   "merged_by": "superbrothers",
+  "thanks": null
+ },
+ "https://github.com/stern/stern/pull/415": {
+  "merged_by": "tksm",
+  "thanks": {
+   "login": "tksm",
+   "quote": "Nice improvement 👍",
+   "url": "https://github.com/stern/stern/pull/415#pullrequestreview-5910366523"
+  }
+ },
+ "https://github.com/stern/stern/pull/416": {
+  "merged_by": "tksm",
   "thanks": null
  },
  "https://github.com/tensorchord/Awesome-LLMOps/pull/1126": {
