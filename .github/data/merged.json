@@ -63,6 +63,22 @@
    "url": "https://github.com/OHF-Voice/wyoming-piper/pull/72#issuecomment-6831555139"
   }
  },
+ "https://github.com/OHF-Voice/wyoming/pull/66": {
+  "merged_by": "synesthesiam",
+  "thanks": {
+   "login": "synesthesiam",
+   "quote": "Thanks!",
+   "url": "https://github.com/OHF-Voice/wyoming/pull/66#issuecomment-6928733195"
+  }
+ },
+ "https://github.com/OHF-Voice/wyoming/pull/67": {
+  "merged_by": "synesthesiam",
+  "thanks": {
+   "login": "synesthesiam",
+   "quote": "Thanks!",
+   "url": "https://github.com/OHF-Voice/wyoming/pull/67#issuecomment-6928916041"
+  }
+ },
  "https://github.com/PrefectHQ/terraform-provider-prefect/pull/735": {
   "merged_by": "mitchnielsen",
   "thanks": {
@@ -1417,6 +1433,14 @@
    "login": "kannon92",
    "quote": "thank you!",
    "url": "https://github.com/kubernetes-sigs/jobset/pull/1392#issuecomment-6695844574"
+  }
+ },
+ "https://github.com/kubernetes-sigs/jobset/pull/1394": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": {
+   "login": "jianqiaol",
+   "quote": "Thanks for the fix!",
+   "url": "https://github.com/kubernetes-sigs/jobset/pull/1394#issuecomment-6907220734"
   }
  },
  "https://github.com/kubernetes-sigs/jobset/pull/1398": {

@@ -11,9 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-852-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-374-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-13-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-164-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-852-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-377-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-13-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-167-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
-**Merged** · official CNCF project repositories first · [see all 374 with filters](https://lbarrosby.github.io/lbarrosby/)
+☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
+
+**Merged** · official CNCF project repositories first · [see all 377 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 13 merged in 6 repos</summary>
 
@@ -61,10 +63,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 349 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 352 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [OHF-Voice/wyoming](https://github.com/OHF-Voice/wyoming) | [Return None from async_read_event when the stream closes mid-event](https://github.com/OHF-Voice/wyoming/pull/67) | 2026-11-16 | [@synesthesiam](https://github.com/synesthesiam) | 🙏 [@synesthesiam](https://github.com/OHF-Voice/wyoming/pull/67#issuecomment-6928916041): <i>"Thanks!"</i> |
+| [OHF-Voice/wyoming](https://github.com/OHF-Voice/wyoming) | [Average channels when converting stereo to mono](https://github.com/OHF-Voice/wyoming/pull/66) | 2026-11-16 | [@synesthesiam](https://github.com/synesthesiam) | 🙏 [@synesthesiam](https://github.com/OHF-Voice/wyoming/pull/66#issuecomment-6928733195): <i>"Thanks!"</i> |
+| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | [Reject invalid onJobFailureMessagePatterns in the webhook](https://github.com/kubernetes-sigs/jobset/pull/1394) | 2026-11-16 | bot | 🙏 [@jianqiaol](https://github.com/kubernetes-sigs/jobset/pull/1394#issuecomment-6907220734): <i>"Thanks for the fix!"</i> |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) | [fix(sandboxd): return 404 for a path under a regular file](https://github.com/kubernetes-sigs/agent-sandbox/pull/2220) | 2026-11-16 | bot |  |
 | [PrefectHQ/terraform-provider-prefect](https://github.com/PrefectHQ/terraform-provider-prefect) | [fix(block_schema): handle read errors instead of panicking](https://github.com/PrefectHQ/terraform-provider-prefect/pull/735) | 2026-11-16 | [@mitchnielsen](https://github.com/mitchnielsen) | 🙏 [@mitchnielsen](https://github.com/PrefectHQ/terraform-provider-prefect/pull/735#issuecomment-6924382921): <i>"Thanks for the contribution!"</i> |
 | [moov-io/watchman](https://github.com/moov-io/watchman) | [download: apply Options passed to New](https://github.com/moov-io/watchman/pull/1014) | 2026-11-16 | [@adamdecaf](https://github.com/adamdecaf) | 🙏 [@adamdecaf](https://github.com/moov-io/watchman/pull/1014#issuecomment-6924134467): <i>"Thanks"</i> |
@@ -77,21 +82,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] CSS: remove deleted clusters from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3630) | 2026-11-16 | bot |  |
 | [gestaogovbr/Ro-dou](https://github.com/gestaogovbr/Ro-dou) | [fix: ignora YAML inválido sem impedir a geração das demais DAGs](https://github.com/gestaogovbr/Ro-dou/pull/382) | 2026-11-16 | [@edulauer](https://github.com/edulauer) |  |
 | [pengovbr/mod-wssei](https://github.com/pengovbr/mod-wssei) | [docs: documenta o endpoint de processos relacionados no swagger](https://github.com/pengovbr/mod-wssei/pull/140) | 2026-11-16 | [@caduvieira](https://github.com/caduvieira) |  |
-| <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(helm): use the service account name helpers](https://github.com/openebs/zfs-localpv/pull/797) | 2026-11-16 | bot |  |
-| [pengovbr/mod-wssei](https://github.com/pengovbr/mod-wssei) | [docs: documenta limit e start no histórico de marcador do processo](https://github.com/pengovbr/mod-wssei/pull/139) | 2026-11-16 | [@caduvieira](https://github.com/caduvieira) |  |
-| [huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) | [Document the real default of truncate in the OpenAPI schema](https://github.com/huggingface/text-embeddings-inference/pull/967) | 2026-11-16 | [@alvarobartt](https://github.com/alvarobartt) | 🙏 [@alvarobartt](https://github.com/huggingface/text-embeddings-inference/pull/967#pullrequestreview-5919480447): <i>"LGTM thanks!"</i> |
 
-[All 349 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 352 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 478 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 475 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 35 in 17 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 16 in 7 repos
-- CNCF ecosystem: 130 in 66 repos
-- Other: 290 in 173 repos
+- CNCF ecosystem: 129 in 66 repos
+- Other: 288 in 172 repos
 
 <!--END_SECTION:activity-->
 
