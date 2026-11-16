@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-852-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-377-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-13-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-167-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-852-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-380-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-13-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-167-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 377 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 380 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 13 merged in 6 repos</summary>
 
@@ -63,10 +63,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 352 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 355 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(visual-regression-tracker): point NOTES at the api and ui services](https://github.com/kokuwaio/helm-charts/pull/266) | 2026-11-16 | [@monotek](https://github.com/monotek) |  |
+| [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(mysqldump): select the backup job pods in NOTES](https://github.com/kokuwaio/helm-charts/pull/267) | 2026-11-16 | [@monotek](https://github.com/monotek) |  |
+| [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(nginx-php-fpm): point NOTES at the nginx service and pods](https://github.com/kokuwaio/helm-charts/pull/265) | 2026-11-16 | [@monotek](https://github.com/monotek) |  |
 | [OHF-Voice/wyoming](https://github.com/OHF-Voice/wyoming) | [Return None from async_read_event when the stream closes mid-event](https://github.com/OHF-Voice/wyoming/pull/67) | 2026-11-16 | [@synesthesiam](https://github.com/synesthesiam) | 🙏 [@synesthesiam](https://github.com/OHF-Voice/wyoming/pull/67#issuecomment-6928916041): <i>"Thanks!"</i> |
 | [OHF-Voice/wyoming](https://github.com/OHF-Voice/wyoming) | [Average channels when converting stereo to mono](https://github.com/OHF-Voice/wyoming/pull/66) | 2026-11-16 | [@synesthesiam](https://github.com/synesthesiam) | 🙏 [@synesthesiam](https://github.com/OHF-Voice/wyoming/pull/66#issuecomment-6928733195): <i>"Thanks!"</i> |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | [Reject invalid onJobFailureMessagePatterns in the webhook](https://github.com/kubernetes-sigs/jobset/pull/1394) | 2026-11-16 | bot | 🙏 [@jianqiaol](https://github.com/kubernetes-sigs/jobset/pull/1394#issuecomment-6907220734): <i>"Thanks for the fix!"</i> |
@@ -79,21 +82,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] DWS: remove deleted clusters from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3632) | 2026-11-16 | bot |  |
 | [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] DCS: remove deleted v1 instances from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3631) | 2026-11-16 | bot |  |
 | <img src="https://img.shields.io/badge/Falco%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Falco ecosystem: not the main Falco repository" title="Falco ecosystem: not the main Falco repository"><br>[falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick) | [fix(outputs): count SMTP deliveries in the Prometheus and OTLP metrics](https://github.com/falcosecurity/falcosidekick/pull/1508) | 2026-11-16 | bot |  |
-| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] CSS: remove deleted clusters from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3630) | 2026-11-16 | bot |  |
-| [gestaogovbr/Ro-dou](https://github.com/gestaogovbr/Ro-dou) | [fix: ignora YAML inválido sem impedir a geração das demais DAGs](https://github.com/gestaogovbr/Ro-dou/pull/382) | 2026-11-16 | [@edulauer](https://github.com/edulauer) |  |
-| [pengovbr/mod-wssei](https://github.com/pengovbr/mod-wssei) | [docs: documenta o endpoint de processos relacionados no swagger](https://github.com/pengovbr/mod-wssei/pull/140) | 2026-11-16 | [@caduvieira](https://github.com/caduvieira) |  |
 
-[All 352 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 355 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 475 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 472 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 35 in 17 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 16 in 7 repos
 - CNCF ecosystem: 129 in 66 repos
-- Other: 288 in 172 repos
+- Other: 285 in 171 repos
 
 <!--END_SECTION:activity-->
 
