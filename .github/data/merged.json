@@ -491,6 +491,14 @@
   "merged_by": "max-rocket-internet",
   "thanks": null
  },
+ "https://github.com/elastic/terraform-provider-ec/pull/1108": {
+  "merged_by": "dimuon",
+  "thanks": {
+   "login": "dimuon",
+   "quote": "Thanks for picking up #1015.",
+   "url": "https://github.com/elastic/terraform-provider-ec/pull/1108#pullrequestreview-5878153103"
+  }
+ },
  "https://github.com/equinix/cli/pull/68": {
   "merged_by": "ctreatma",
   "thanks": {
@@ -523,6 +531,10 @@
   "merged_by": "tng1-equinix",
   "thanks": null
  },
+ "https://github.com/equinix/terraform-provider-equinix/pull/1136": {
+  "merged_by": "tng1-equinix",
+  "thanks": null
+ },
  "https://github.com/etcd-io/auger/pull/540": {
   "merged_by": "siyuanfoundation",
   "thanks": {
@@ -552,6 +564,10 @@
   "thanks": null
  },
  "https://github.com/falcosecurity/falcosidekick/pull/1485": {
+  "merged_by": "poiana",
+  "thanks": null
+ },
+ "https://github.com/falcosecurity/falcosidekick/pull/1508": {
   "merged_by": "poiana",
   "thanks": null
  },
@@ -991,6 +1007,10 @@
   "merged_by": "edulauer",
   "thanks": null
  },
+ "https://github.com/gestaogovbr/Ro-dou/pull/382": {
+  "merged_by": "edulauer",
+  "thanks": null
+ },
  "https://github.com/goreleaser/goreleaser/pull/7284": {
   "merged_by": "caarlos0",
   "thanks": null
@@ -1050,6 +1070,14 @@
  "https://github.com/huggingface/text-embeddings-inference/pull/966": {
   "merged_by": "alvarobartt",
   "thanks": null
+ },
+ "https://github.com/huggingface/text-embeddings-inference/pull/967": {
+  "merged_by": "alvarobartt",
+  "thanks": {
+   "login": "alvarobartt",
+   "quote": "LGTM thanks!",
+   "url": "https://github.com/huggingface/text-embeddings-inference/pull/967#pullrequestreview-5919480447"
+  }
  },
  "https://github.com/ionos-cloud/terraform-provider-ionoscloud/pull/1061": {
   "merged_by": "adeatcu-ionos",
@@ -1379,6 +1407,10 @@
    "url": "https://github.com/kubernetes-sigs/jobset/pull/1392#issuecomment-6695844574"
   }
  },
+ "https://github.com/kubernetes-sigs/jobset/pull/1398": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
  "https://github.com/kubernetes-sigs/kubebuilder/pull/6160": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": {
@@ -1420,6 +1452,10 @@
   }
  },
  "https://github.com/kubernetes/cloud-provider-openstack/pull/3283": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
+ "https://github.com/kubernetes/kubernetes/pull/143991": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
  },
@@ -1539,6 +1575,14 @@
   "merged_by": "toddbaert",
   "thanks": null
  },
+ "https://github.com/open-policy-agent/java-opa-sdk/pull/269": {
+  "merged_by": "sspaink",
+  "thanks": {
+   "login": "sspaink",
+   "quote": "Thank you!",
+   "url": "https://github.com/open-policy-agent/java-opa-sdk/pull/269#pullrequestreview-5922992866"
+  }
+ },
  "https://github.com/opencost/opencost/pull/4173": {
   "merged_by": "ameijer",
   "thanks": {
@@ -1559,6 +1603,14 @@
   "merged_by": "mergify[bot]",
   "thanks": null
  },
+ "https://github.com/openebs/lvm-localpv/pull/538": {
+  "merged_by": "mergify[bot]",
+  "thanks": {
+   "login": "rohan2794",
+   "quote": "Thanks",
+   "url": "https://github.com/openebs/lvm-localpv/pull/538#issuecomment-6788340843"
+  }
+ },
  "https://github.com/openebs/zfs-localpv/pull/791": {
   "merged_by": "mergify[bot]",
   "thanks": null
@@ -1572,6 +1624,10 @@
   "thanks": null
  },
  "https://github.com/openebs/zfs-localpv/pull/795": {
+  "merged_by": "mergify[bot]",
+  "thanks": null
+ },
+ "https://github.com/openebs/zfs-localpv/pull/797": {
   "merged_by": "mergify[bot]",
   "thanks": null
  },
@@ -1619,6 +1675,18 @@
   "merged_by": "otc-zuul-prod[bot]",
   "thanks": null
  },
+ "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3630": {
+  "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
+ },
+ "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3631": {
+  "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
+ },
+ "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3632": {
+  "merged_by": "otc-zuul-prod[bot]",
+  "thanks": null
+ },
  "https://github.com/otwld/ollama-helm/pull/295": {
   "merged_by": "jdetroyes",
   "thanks": null
@@ -1636,6 +1704,14 @@
   "thanks": null
  },
  "https://github.com/pengovbr/mod-wssei/pull/138": {
+  "merged_by": "caduvieira",
+  "thanks": null
+ },
+ "https://github.com/pengovbr/mod-wssei/pull/139": {
+  "merged_by": "caduvieira",
+  "thanks": null
+ },
+ "https://github.com/pengovbr/mod-wssei/pull/140": {
   "merged_by": "caduvieira",
   "thanks": null
  },
@@ -1721,6 +1797,10 @@
  },
  "https://github.com/prometheus-community/helm-charts/pull/7563": {
   "merged_by": "rpahli",
+  "thanks": null
+ },
+ "https://github.com/prometheus-community/prom-label-proxy/pull/456": {
+  "merged_by": "simonpasquier",
   "thanks": null
  },
  "https://github.com/qdrant/qdrant-helm/pull/531": {
@@ -2030,5 +2110,21 @@
  "https://github.com/yonahd/kor/pull/647": {
   "merged_by": "yonahd",
   "thanks": null
+ },
+ "https://github.com/zammad/zammad-helm/pull/504": {
+  "merged_by": "mgruner",
+  "thanks": {
+   "login": "mgruner",
+   "quote": "Thanks for the fix!",
+   "url": "https://github.com/zammad/zammad-helm/pull/504#issuecomment-6910422576"
+  }
+ },
+ "https://github.com/zammad/zammad-helm/pull/506": {
+  "merged_by": "mgruner",
+  "thanks": {
+   "login": "mgruner",
+   "quote": "Thanks a lot",
+   "url": "https://github.com/zammad/zammad-helm/pull/506#issuecomment-6913175609"
+  }
  }
 }
