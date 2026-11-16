@@ -11,9 +11,9 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-825-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-337-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-10-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-150-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-825-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-340-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-10-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-150-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 337 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 340 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 10 merged in 5 repos</summary>
 
@@ -58,10 +58,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 315 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 318 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [tensorchord/Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps) | [Add Dynamo to Frameworks/Servers for Serving](https://github.com/tensorchord/Awesome-LLMOps/pull/1173) | 2026-11-16 | [@NeroHin](https://github.com/NeroHin) |  |
+| [tensorchord/Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps) | [Add LMCache to Optimizations](https://github.com/tensorchord/Awesome-LLMOps/pull/1175) | 2026-11-16 | [@NeroHin](https://github.com/NeroHin) |  |
+| [tensorchord/Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps) | [Add GuideLLM to Profiling](https://github.com/tensorchord/Awesome-LLMOps/pull/1176) | 2026-11-16 | [@NeroHin](https://github.com/NeroHin) |  |
 | [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Accept the default z=None in CondIndTest.run_test_raw](https://github.com/bloomberg/causal-ts/pull/117) | 2026-11-16 | [@fesanghary](https://github.com/fesanghary) |  |
 | [fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter) | [Fix configure failure when ignore_nil is set](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/442) | 2026-11-16 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/442#pullrequestreview-5885585866): <i>"Thanks for the fix."</i> |
 | [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[redis] Accept an integer service.nodePort and metrics.service.nodePort](https://github.com/CloudPirates-io/helm-charts/pull/1921) | 2026-11-15 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
@@ -74,21 +77,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [stern/stern](https://github.com/stern/stern) | [fix: accept a group-qualified resource type in <resource>/<name>](https://github.com/stern/stern/pull/415) | 2026-11-15 | [@tksm](https://github.com/tksm) | 🙏 [@tksm](https://github.com/stern/stern/pull/415#pullrequestreview-5910366523): <i>"Nice improvement 👍"</i> |
 | [huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) | [Redact --api-key in the startup log](https://github.com/huggingface/text-embeddings-inference/pull/966) | 2026-11-15 | [@alvarobartt](https://github.com/alvarobartt) |  |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(mysqldump): use upload.googlestoragebucket.serviceAccountName again](https://github.com/kokuwaio/helm-charts/pull/263) | 2026-11-15 | [@monotek](https://github.com/monotek) |  |
-| [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(visual-regression-tracker): point the ingresses at the api and ui services](https://github.com/kokuwaio/helm-charts/pull/262) | 2026-11-15 | [@monotek](https://github.com/monotek) |  |
-| [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(nginx-php-fpm): use php.fpmConfig.pm for the process manager](https://github.com/kokuwaio/helm-charts/pull/264) | 2026-11-15 | [@monotek](https://github.com/monotek) |  |
-| [nicolargo/glances](https://github.com/nicolargo/glances) | [fix(prometheus): keep dotted item keys as one label value](https://github.com/nicolargo/glances/pull/3851) | 2026-11-15 | [@nicolargo](https://github.com/nicolargo) | 🙏 [@nicolargo](https://github.com/nicolargo/glances/pull/3851#issuecomment-6891361974): <i>"Thanks for the PR Just merged into develop."</i> |
 
-[All 315 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 318 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 488 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 485 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 38 in 17 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 16 in 7 repos
 - CNCF ecosystem: 137 in 70 repos
-- Other: 290 in 172 repos
+- Other: 287 in 171 repos
 
 <!--END_SECTION:activity-->
 
