@@ -63,6 +63,14 @@
    "url": "https://github.com/OHF-Voice/wyoming-piper/pull/72#issuecomment-6831555139"
   }
  },
+ "https://github.com/PrefectHQ/terraform-provider-prefect/pull/735": {
+  "merged_by": "mitchnielsen",
+  "thanks": {
+   "login": "mitchnielsen",
+   "quote": "Thanks for the contribution!",
+   "url": "https://github.com/PrefectHQ/terraform-provider-prefect/pull/735#issuecomment-6924382921"
+  }
+ },
  "https://github.com/adriannovegil/awesome-observability/pull/203": {
   "merged_by": "adriannovegil",
   "thanks": {
@@ -1307,6 +1315,10 @@
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
  },
+ "https://github.com/kubernetes-sigs/agent-sandbox/pull/2220": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
  "https://github.com/kubernetes-sigs/agent-sandbox/pull/2221": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
@@ -1538,6 +1550,14 @@
  "https://github.com/luthermonson/go-proxmox/pull/368": {
   "merged_by": "luthermonson",
   "thanks": null
+ },
+ "https://github.com/moov-io/watchman/pull/1014": {
+  "merged_by": "adamdecaf",
+  "thanks": {
+   "login": "adamdecaf",
+   "quote": "Thanks",
+   "url": "https://github.com/moov-io/watchman/pull/1014#issuecomment-6924134467"
+  }
  },
  "https://github.com/mp-ac/verifica-ai/pull/62": {
   "merged_by": "antonioanerao",
@@ -1844,6 +1864,10 @@
   "thanks": null
  },
  "https://github.com/rook/rook/pull/18754": {
+  "merged_by": "travisn",
+  "thanks": null
+ },
+ "https://github.com/rook/rook/pull/18802": {
   "merged_by": "travisn",
   "thanks": null
  },

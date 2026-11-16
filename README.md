@@ -11,14 +11,15 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-852-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-370-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-12-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-162-DB61A2?style=flat-square" alt="Thanked by maintainers">
+<img src="https://img.shields.io/badge/upstream%20PRs-852-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-374-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-13-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-164-DB61A2?style=flat-square" alt="Thanked by maintainers">
 
-**Merged** · official CNCF project repositories first · [see all 370 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 374 with filters](https://lbarrosby.github.io/lbarrosby/)
 
-<details open><summary><b>Official CNCF Graduated projects</b> · 12 merged in 6 repos</summary>
+<details open><summary><b>Official CNCF Graduated projects</b> · 13 merged in 6 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/Rook-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Rook: official repository of a CNCF graduated project" title="Rook: official repository of a CNCF graduated project"><br>[rook/rook](https://github.com/rook/rook) | [helm: honor allowVolumeExpansion false on pool storage classes](https://github.com/rook/rook/pull/18802) | 2026-11-16 | [@travisn](https://github.com/travisn) |  |
 | <img src="https://img.shields.io/badge/Kubernetes-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Kubernetes: official repository of a CNCF graduated project" title="Kubernetes: official repository of a CNCF graduated project"><br>[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) | 2026-11-16 | bot |  |
 | <img src="https://img.shields.io/badge/Fluentd-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Fluentd: official repository of a CNCF graduated project" title="Fluentd: official repository of a CNCF graduated project"><br>[fluent/fluentd](https://github.com/fluent/fluentd) | [in_syslog: Treat a PRI above 191 as invalid](https://github.com/fluent/fluentd/pull/5635) | 2026-11-16 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluentd/pull/5635#pullrequestreview-5913937246): <i>"Thanks for the fix."</i> |
 | <img src="https://img.shields.io/badge/Fluentd-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Fluentd: official repository of a CNCF graduated project" title="Fluentd: official repository of a CNCF graduated project"><br>[fluent/fluentd](https://github.com/fluent/fluentd) | [time: fix wrong %N/%L subseconds when EventTime and Integer times share a second](https://github.com/fluent/fluentd/pull/5634) | 2026-11-15 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluentd/pull/5634#pullrequestreview-5884939807): <i>"Thanks for the clear report and the reproduction."</i> |
@@ -60,10 +61,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 346 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 349 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) | [fix(sandboxd): return 404 for a path under a regular file](https://github.com/kubernetes-sigs/agent-sandbox/pull/2220) | 2026-11-16 | bot |  |
+| [PrefectHQ/terraform-provider-prefect](https://github.com/PrefectHQ/terraform-provider-prefect) | [fix(block_schema): handle read errors instead of panicking](https://github.com/PrefectHQ/terraform-provider-prefect/pull/735) | 2026-11-16 | [@mitchnielsen](https://github.com/mitchnielsen) | 🙏 [@mitchnielsen](https://github.com/PrefectHQ/terraform-provider-prefect/pull/735#issuecomment-6924382921): <i>"Thanks for the contribution!"</i> |
+| [moov-io/watchman](https://github.com/moov-io/watchman) | [download: apply Options passed to New](https://github.com/moov-io/watchman/pull/1014) | 2026-11-16 | [@adamdecaf](https://github.com/adamdecaf) | 🙏 [@adamdecaf](https://github.com/moov-io/watchman/pull/1014#issuecomment-6924134467): <i>"Thanks"</i> |
 | [elastic/terraform-provider-ec](https://github.com/elastic/terraform-provider-ec) | [Honor size_resource when counting nodes for dedicated masters](https://github.com/elastic/terraform-provider-ec/pull/1108) | 2026-11-16 | [@dimuon](https://github.com/dimuon) | 🙏 [@dimuon](https://github.com/elastic/terraform-provider-ec/pull/1108#pullrequestreview-5878153103): <i>"Thanks for picking up #1015."</i> |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | [Update LastTransitionTime when an exclusive condition is set to False](https://github.com/kubernetes-sigs/jobset/pull/1398) | 2026-11-16 | bot |  |
 | <img src="https://img.shields.io/badge/OPA%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OPA ecosystem: not the main OPA repository" title="OPA ecosystem: not the main OPA repository"><br>[open-policy-agent/java-opa-sdk](https://github.com/open-policy-agent/java-opa-sdk) | [fix(cli): print counters and histograms in the metrics table](https://github.com/open-policy-agent/java-opa-sdk/pull/269) | 2026-11-16 | [@sspaink](https://github.com/sspaink) | 🙏 [@sspaink](https://github.com/open-policy-agent/java-opa-sdk/pull/269#pullrequestreview-5922992866): <i>"Thank you!"</i> |
@@ -76,21 +80,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(helm): use the service account name helpers](https://github.com/openebs/zfs-localpv/pull/797) | 2026-11-16 | bot |  |
 | [pengovbr/mod-wssei](https://github.com/pengovbr/mod-wssei) | [docs: documenta limit e start no histórico de marcador do processo](https://github.com/pengovbr/mod-wssei/pull/139) | 2026-11-16 | [@caduvieira](https://github.com/caduvieira) |  |
 | [huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) | [Document the real default of truncate in the OpenAPI schema](https://github.com/huggingface/text-embeddings-inference/pull/967) | 2026-11-16 | [@alvarobartt](https://github.com/alvarobartt) | 🙏 [@alvarobartt](https://github.com/huggingface/text-embeddings-inference/pull/967#pullrequestreview-5919480447): <i>"LGTM thanks!"</i> |
-| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: populate change_log.updated_by_email for SDKv2 Fabric resources](https://github.com/equinix/terraform-provider-equinix/pull/1136) | 2026-11-16 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
-| <img src="https://img.shields.io/badge/Prometheus%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Prometheus ecosystem: not the main Prometheus repository" title="Prometheus ecosystem: not the main Prometheus repository"><br>[prometheus-community/prom-label-proxy](https://github.com/prometheus-community/prom-label-proxy) | [fix: return an error when a POST body matcher can't be parsed](https://github.com/prometheus-community/prom-label-proxy/pull/456) | 2026-11-16 | [@simonpasquier](https://github.com/simonpasquier) |  |
-| [zammad/zammad-helm](https://github.com/zammad/zammad-helm) | [fix: set REDIS_USERNAME in sentinel mode when zammadConfig.redis.username is set](https://github.com/zammad/zammad-helm/pull/504) | 2026-11-16 | [@mgruner](https://github.com/mgruner) | 🙏 [@mgruner](https://github.com/zammad/zammad-helm/pull/504#issuecomment-6910422576): <i>"Thanks for the fix!"</i> |
 
-[All 346 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 349 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 482 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 478 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
-- Official CNCF Graduated: 36 in 17 repos
+- Official CNCF Graduated: 35 in 17 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 16 in 7 repos
-- CNCF ecosystem: 131 in 67 repos
-- Other: 292 in 175 repos
+- CNCF ecosystem: 130 in 66 repos
+- Other: 290 in 173 repos
 
 <!--END_SECTION:activity-->
 
