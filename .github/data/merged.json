@@ -467,6 +467,14 @@
   "merged_by": "max-rocket-internet",
   "thanks": null
  },
+ "https://github.com/deliveryhero/helm-charts/pull/833": {
+  "merged_by": "max-rocket-internet",
+  "thanks": null
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/834": {
+  "merged_by": "max-rocket-internet",
+  "thanks": null
+ },
  "https://github.com/deliveryhero/helm-charts/pull/835": {
   "merged_by": "max-rocket-internet",
   "thanks": {
@@ -474,6 +482,14 @@
    "quote": "Thanks 🩵",
    "url": "https://github.com/deliveryhero/helm-charts/pull/835#pullrequestreview-5843112024"
   }
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/842": {
+  "merged_by": "max-rocket-internet",
+  "thanks": null
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/845": {
+  "merged_by": "max-rocket-internet",
+  "thanks": null
  },
  "https://github.com/equinix/cli/pull/68": {
   "merged_by": "ctreatma",
@@ -611,6 +627,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/301#pullrequestreview-5887570344"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/305": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/305#pullrequestreview-5914000511"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/157": {
   "merged_by": "Watson1978",
   "thanks": null
@@ -661,6 +685,14 @@
    "login": "Watson1978",
    "quote": "Thanks for this.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/176#pullrequestreview-5887006875"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/177": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/177#pullrequestreview-5913959388"
   }
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438": {
@@ -827,6 +859,14 @@
    "url": "https://github.com/fluent/fluent-plugin-kafka/pull/628#pullrequestreview-5886889723"
   }
  },
+ "https://github.com/fluent/fluent-plugin-kafka/pull/635": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-kafka/pull/635#pullrequestreview-5915949689"
+  }
+ },
  "https://github.com/fluent/fluent-plugin-opensearch/pull/201": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -873,6 +913,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent/fluent-plugin-webhdfs/pull/112#pullrequestreview-5884852717"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-webhdfs/pull/113": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-webhdfs/pull/113#pullrequestreview-5916014428"
   }
  },
  "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1697": {
@@ -925,6 +973,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the clear report and the reproduction.",
    "url": "https://github.com/fluent/fluentd/pull/5634#pullrequestreview-5884939807"
+  }
+ },
+ "https://github.com/fluent/fluentd/pull/5635": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluentd/pull/5635#pullrequestreview-5913937246"
   }
  },
  "https://github.com/gestaogovbr/Ro-dou/pull/379": {
@@ -1643,6 +1699,10 @@
   "merged_by": "monotek",
   "thanks": null
  },
+ "https://github.com/prometheus-community/helm-charts/pull/7534": {
+  "merged_by": "wilfriedroset",
+  "thanks": null
+ },
  "https://github.com/prometheus-community/helm-charts/pull/7536": {
   "merged_by": "monotek",
   "thanks": null
@@ -1784,6 +1844,18 @@
   }
  },
  "https://github.com/stakater/Reloader/pull/1269": {
+  "merged_by": "msafwankarim",
+  "thanks": null
+ },
+ "https://github.com/stakater/Reloader/pull/1274": {
+  "merged_by": "msafwankarim",
+  "thanks": {
+   "login": "msafwankarim",
+   "quote": "Hi, Thank you for your PR submission.",
+   "url": "https://github.com/stakater/Reloader/pull/1274#pullrequestreview-5916643329"
+  }
+ },
+ "https://github.com/stakater/Reloader/pull/1275": {
   "merged_by": "msafwankarim",
   "thanks": null
  },
