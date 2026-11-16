@@ -191,6 +191,23 @@ def main():
     if thanked:
         lines[0] += f' <img src="https://img.shields.io/badge/thanked%20by%20maintainers-{thanked}-DB61A2?style=flat-square" alt="Thanked by maintainers">'
 
+    k8s_core = sorted((p for p in done if p["repository_url"].endswith("/repos/kubernetes/kubernetes")), key=lambda p: p["pull_request"]["merged_at"], reverse=True)
+    if k8s_core:
+        lines[0] += f' <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-{len(k8s_core)}-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>'
+        items = []
+        for p in k8s_core:
+            approvers = []
+            try:
+                for c in api(f"repos/kubernetes/kubernetes/issues/{p['number']}/comments?per_page=100"):
+                    login = c["user"]["login"]
+                    if re.search(r"^/approve\b", c.get("body") or "", re.M) and not login.endswith("[bot]") and login not in approvers and login != "lbarrosby":
+                        approvers.append(login)
+            except Exception:
+                pass
+            by = f" · approved by {', '.join(f'[@{a}](https://github.com/{a})' for a in approvers)}" if approvers else ""
+            items.append(f"[{p['title']}]({p['html_url']}) ({p['pull_request']['merged_at'][:10]}{by})")
+        lines += [f"☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): " + "; ".join(items), ""]
+
     def level(repo):
         label = cncf_label(repo, repos_cncf, orgs_cncf)
         if not label:

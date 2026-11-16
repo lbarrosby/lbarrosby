@@ -73,6 +73,7 @@ fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(rows => {
   const stat = (v, t) => `<div class="stat"><b>${v}</b><span>${t}</span></div>`;
   document.getElementById("stats").innerHTML =
     stat(rows.length, "pull requests") + stat(merged.length, "merged") +
+    stat(merged.filter(r => r.repo === "kubernetes/kubernetes").length, "☸️ merged in kubernetes/kubernetes (core)") +
     stat(merged.filter(r => r.level === "graduated").length, "merged in official CNCF graduated repos") +
     stat(new Set(rows.map(r => r.repo)).size, "projects") +
     stat(merged.filter(r => r.thanks_by).length, "thanked by maintainers");
