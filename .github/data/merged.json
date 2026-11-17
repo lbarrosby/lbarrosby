@@ -79,6 +79,10 @@
    "url": "https://github.com/OHF-Voice/wyoming-piper/pull/72#issuecomment-6831555139"
   }
  },
+ "https://github.com/OHF-Voice/wyoming-piper/pull/77": {
+  "merged_by": "synesthesiam",
+  "thanks": null
+ },
  "https://github.com/OHF-Voice/wyoming/pull/66": {
   "merged_by": "synesthesiam",
   "thanks": {
@@ -214,6 +218,18 @@
    "quote": "Thanks!",
    "url": "https://github.com/aminueza/terraform-provider-minio/pull/1292#pullrequestreview-5858344770"
   }
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1294": {
+  "merged_by": "felladrin",
+  "thanks": null
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1295": {
+  "merged_by": "felladrin",
+  "thanks": null
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1296": {
+  "merged_by": "felladrin",
+  "thanks": null
  },
  "https://github.com/ansible-collections/community.proxmox/pull/559": {
   "merged_by": "Thulium-Drake",
@@ -375,6 +391,14 @@
    "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3298#pullrequestreview-5901836724"
   }
  },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3308": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Thanks for the fix!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3308#pullrequestreview-5939382589"
+  }
+ },
  "https://github.com/buildkite/terraform-provider-buildkite/pull/1336": {
   "merged_by": "petetomasik",
   "thanks": {
@@ -390,6 +414,10 @@
    "quote": "Thanks for the contribution!",
    "url": "https://github.com/buildkite/terraform-provider-buildkite/pull/1340#pullrequestreview-5879395429"
   }
+ },
+ "https://github.com/cert-manager/cert-manager/pull/9556": {
+  "merged_by": "cert-manager-prow[bot]",
+  "thanks": null
  },
  "https://github.com/civo/terraform-provider-civo/pull/437": {
   "merged_by": "fulviodenza",
@@ -554,6 +582,14 @@
    "quote": "Thanks for the contribution!",
    "url": "https://github.com/equinix/cli/pull/68#pullrequestreview-5847521786"
   }
+ },
+ "https://github.com/equinix/cli/pull/77": {
+  "merged_by": "ramseydsilva",
+  "thanks": null
+ },
+ "https://github.com/equinix/cli/pull/78": {
+  "merged_by": "ramseydsilva",
+  "thanks": null
  },
  "https://github.com/equinix/terraform-provider-equinix/pull/1100": {
   "merged_by": "ctreatma",

@@ -11,16 +11,17 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-859-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-409-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-13-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-184-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-859-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-417-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-14-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-185-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 409 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 417 with filters](https://lbarrosby.github.io/lbarrosby/)
 
-<details open><summary><b>Official CNCF Graduated projects</b> · 13 merged in 6 repos</summary>
+<details open><summary><b>Official CNCF Graduated projects</b> · 14 merged in 7 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/cert--manager-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="cert-manager: official repository of a CNCF graduated project" title="cert-manager: official repository of a CNCF graduated project"><br>[cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | [fix(pki): accept lowercase attribute type names in literalSubject](https://github.com/cert-manager/cert-manager/pull/9556) | 2026-11-17 | bot |  |
 | <img src="https://img.shields.io/badge/Rook-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Rook: official repository of a CNCF graduated project" title="Rook: official repository of a CNCF graduated project"><br>[rook/rook](https://github.com/rook/rook) | [helm: honor allowVolumeExpansion false on pool storage classes](https://github.com/rook/rook/pull/18802) | 2026-11-16 | [@travisn](https://github.com/travisn) |  |
 | <img src="https://img.shields.io/badge/Kubernetes-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Kubernetes: official repository of a CNCF graduated project" title="Kubernetes: official repository of a CNCF graduated project"><br>[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) | 2026-11-16 | bot |  |
 | <img src="https://img.shields.io/badge/Fluentd-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Fluentd: official repository of a CNCF graduated project" title="Fluentd: official repository of a CNCF graduated project"><br>[fluent/fluentd](https://github.com/fluent/fluentd) | [in_syslog: Treat a PRI above 191 as invalid](https://github.com/fluent/fluentd/pull/5635) | 2026-11-16 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluentd/pull/5635#pullrequestreview-5913937246): <i>"Thanks for the fix."</i> |
@@ -64,10 +65,17 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 383 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 390 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [equinix/cli](https://github.com/equinix/cli) | [fix: print empty and non-JSON api responses correctly](https://github.com/equinix/cli/pull/78) | 2026-11-17 | [@ramseydsilva](https://github.com/ramseydsilva) |  |
+| [equinix/cli](https://github.com/equinix/cli) | [fix: send equinix api --data as the request body](https://github.com/equinix/cli/pull/77) | 2026-11-17 | [@ramseydsilva](https://github.com/ramseydsilva) |  |
+| [OHF-Voice/wyoming-piper](https://github.com/OHF-Voice/wyoming-piper) | [Reload a voice whose files changed on disk](https://github.com/OHF-Voice/wyoming-piper/pull/77) | 2026-11-17 | [@synesthesiam](https://github.com/synesthesiam) |  |
+| [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(lxc): stop planning size removal for a mount point without size](https://github.com/bpg/terraform-provider-proxmox/pull/3308) | 2026-11-17 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3308#pullrequestreview-5939382589): <i>"Thanks for the fix!"</i> |
+| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(object_lock): clear rule when the default retention is removed outside Terraform](https://github.com/aminueza/terraform-provider-minio/pull/1296) | 2026-11-17 | [@felladrin](https://github.com/felladrin) |  |
+| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(notify): clear comment and queue_dir when they are removed](https://github.com/aminueza/terraform-provider-minio/pull/1295) | 2026-11-17 | [@felladrin](https://github.com/felladrin) |  |
+| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(config): read quoted config values that contain spaces](https://github.com/aminueza/terraform-provider-minio/pull/1294) | 2026-11-17 | [@felladrin](https://github.com/felladrin) |  |
 | [terraform-aws-modules/terraform-aws-iam](https://github.com/terraform-aws-modules/terraform-aws-iam) | [fix: Add `ec2:DescribeVpcPeeringConnections` to the LBC TargetGroupBinding only policy](https://github.com/terraform-aws-modules/terraform-aws-iam/pull/670) | 2026-11-17 | [@bryantbiggs](https://github.com/bryantbiggs) |  |
 | [syself/cluster-api-provider-hetzner](https://github.com/syself/cluster-api-provider-hetzner) | [🐛 Return the actual error when deleting placement groups fails](https://github.com/syself/cluster-api-provider-hetzner/pull/2354) | 2026-11-17 | [@abdullah599](https://github.com/abdullah599) | 🙏 [@abdullah599](https://github.com/syself/cluster-api-provider-hetzner/pull/2354#pullrequestreview-5916569924): <i>"Thank you for your contribution!"</i> |
 | [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: keep the executable bit of files auto-fix modifies on GitHub](https://github.com/jenkinsci/explain-error-plugin/pull/276) | 2026-11-17 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
@@ -76,25 +84,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] VPCEP: remove deleted endpoints from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3636) | 2026-11-17 | bot |  |
 | [traefik/traefik-helm-chart](https://github.com/traefik/traefik-helm-chart) | [fix(poddisruptionbudget): keep minAvailable and maxUnavailable when set to 0](https://github.com/traefik/traefik-helm-chart/pull/2107) | 2026-11-17 | [@traefiker](https://github.com/traefiker) | 🙏 [@mloiseleur](https://github.com/traefik/traefik-helm-chart/pull/2107#pullrequestreview-5922009274): <i>"LGTM, thanks."</i> |
 | [traefik/traefik-helm-chart](https://github.com/traefik/traefik-helm-chart) | [fix(daemonset): keep revisionHistoryLimit when set to 0](https://github.com/traefik/traefik-helm-chart/pull/2106) | 2026-11-17 | [@traefiker](https://github.com/traefiker) | 🙏 [@mloiseleur](https://github.com/traefik/traefik-helm-chart/pull/2106#pullrequestreview-5922008849): <i>"LGTM, thanks."</i> |
-| [DataDog/terraform-provider-datadog](https://github.com/DataDog/terraform-provider-datadog) | [[datadog_tag_indexing_rule] Fix ValidateConfig error when options is unknown](https://github.com/DataDog/terraform-provider-datadog/pull/4517) | 2026-11-17 | bot | 🙏 [@fpighi](https://github.com/DataDog/terraform-provider-datadog/pull/4517#issuecomment-6943741011): <i>"No, thank you!"</i> |
-| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/node-feature-discovery](https://github.com/kubernetes-sigs/node-feature-discovery) | [fix(kernel): parse version components when the suffix starts with '+'](https://github.com/kubernetes-sigs/node-feature-discovery/pull/2663) | 2026-11-17 | bot | 🙏 [@ArangoGutierrez](https://github.com/kubernetes-sigs/node-feature-discovery/pull/2663#pullrequestreview-5935581060): <i>"Thanks for this, nodes running Debian 13 or Raspberry Pi OS kernels will now get the…"</i> |
-| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/node-feature-discovery](https://github.com/kubernetes-sigs/node-feature-discovery) | [fix(nodefeaturerule): evaluate each term with its own match result](https://github.com/kubernetes-sigs/node-feature-discovery/pull/2662) | 2026-11-17 | bot | 🙏 [@ArangoGutierrez](https://github.com/kubernetes-sigs/node-feature-discovery/pull/2662#pullrequestreview-5935571910): <i>"Thanks for this!"</i> |
-| [ovh/terraform-provider-ovh](https://github.com/ovh/terraform-provider-ovh) | [fix(dedicated_server): remove deleted servers from the state](https://github.com/ovh/terraform-provider-ovh/pull/1597) | 2026-11-17 | [@amstuta](https://github.com/amstuta) | 🙏 [@amstuta](https://github.com/ovh/terraform-provider-ovh/pull/1597#pullrequestreview-5922591953): <i>"Thanks for your contribution!"</i> |
-| [deliveryhero/helm-charts](https://github.com/deliveryhero/helm-charts) | [[stable/superset]: use superset.podAnnotations on the web Deployment and fix the worker HPA target](https://github.com/deliveryhero/helm-charts/pull/847) | 2026-11-17 | [@max-rocket-internet](https://github.com/max-rocket-internet) | 🙏 [@max-rocket-internet](https://github.com/deliveryhero/helm-charts/pull/847#pullrequestreview-5934855243): <i>"Thanks 💚"</i> |
-| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[nginx] Accept an integer metrics.service.nodePort](https://github.com/CloudPirates-io/helm-charts/pull/1933) | 2026-11-17 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
-| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[mariadb] Accept an integer service.nodePort](https://github.com/CloudPirates-io/helm-charts/pull/1930) | 2026-11-17 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
 
-[All 383 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 390 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 450 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 442 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
-- Official CNCF Graduated: 35 in 17 repos
+- Official CNCF Graduated: 34 in 16 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 15 in 6 repos
 - CNCF ecosystem: 124 in 65 repos
-- Other: 269 in 163 repos
+- Other: 262 in 160 repos
 
 <!--END_SECTION:activity-->
 
