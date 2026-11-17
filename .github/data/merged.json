@@ -931,12 +931,28 @@
    "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/203#pullrequestreview-5854626071"
   }
  },
+ "https://github.com/fluent/fluent-plugin-opensearch/pull/204": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/204#pullrequestreview-5858194832"
+  }
+ },
  "https://github.com/fluent/fluent-plugin-prometheus/pull/275": {
   "merged_by": "Watson1978",
   "thanks": {
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent/fluent-plugin-prometheus/pull/275#pullrequestreview-5884796513"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-prometheus/pull/278": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the follow-up to #275.",
+   "url": "https://github.com/fluent/fluent-plugin-prometheus/pull/278#pullrequestreview-5913923577"
   }
  },
  "https://github.com/fluent/fluent-plugin-s3/pull/496": {
@@ -1359,6 +1375,14 @@
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
  },
+ "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/100": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": {
+   "login": "kahirokunn",
+   "quote": "Thank you 🙏",
+   "url": "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/100#issuecomment-6934186986"
+  }
+ },
  "https://github.com/kubernetes-sigs/cluster-inventory-api/pull/93": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": {
@@ -1602,6 +1626,14 @@
  "https://github.com/netbox-community/netbox-chart/pull/1492": {
   "merged_by": "LeoColomb",
   "thanks": null
+ },
+ "https://github.com/netbox-community/netbox-chart/pull/1495": {
+  "merged_by": "LeoColomb",
+  "thanks": {
+   "login": "LeoColomb",
+   "quote": "Thanks for submitting this pull request.",
+   "url": "https://github.com/netbox-community/netbox-chart/pull/1495#pullrequestreview-5918564455"
+  }
  },
  "https://github.com/nicolargo/glances/pull/3851": {
   "merged_by": "nicolargo",
@@ -2062,6 +2094,18 @@
  "https://github.com/tensorchord/Awesome-LLMOps/pull/1176": {
   "merged_by": "NeroHin",
   "thanks": null
+ },
+ "https://github.com/terraform-aws-modules/terraform-aws-ecs/pull/430": {
+  "merged_by": "bryantbiggs",
+  "thanks": null
+ },
+ "https://github.com/terraform-aws-modules/terraform-aws-iam/pull/671": {
+  "merged_by": "bryantbiggs",
+  "thanks": {
+   "login": "jamiemo",
+   "quote": "> This PR is included in version 6.9.2 🎉 Thank you!",
+   "url": "https://github.com/terraform-aws-modules/terraform-aws-iam/pull/671#issuecomment-6931942076"
+  }
  },
  "https://github.com/terraform-linters/tflint/pull/2688": {
   "merged_by": "wata727",

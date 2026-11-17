@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-852-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-380-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-13-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-167-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-852-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-386-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-13-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-172-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 380 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 386 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 13 merged in 6 repos</summary>
 
@@ -63,10 +63,16 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 355 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 361 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [netbox-community/netbox-chart](https://github.com/netbox-community/netbox-chart) | [fix(netbox): use ingress.pathType for plain string paths](https://github.com/netbox-community/netbox-chart/pull/1495) | 2026-11-17 | [@LeoColomb](https://github.com/LeoColomb) | 🙏 [@LeoColomb](https://github.com/netbox-community/netbox-chart/pull/1495#pullrequestreview-5918564455): <i>"Thanks for submitting this pull request."</i> |
+| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-prometheus](https://github.com/fluent/fluent-plugin-prometheus) | [Fix content_encoding gzip with IPv6 bind or <ssl> extra_conf](https://github.com/fluent/fluent-plugin-prometheus/pull/278) | 2026-11-17 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-prometheus/pull/278#pullrequestreview-5913923577): <i>"Thanks for the follow-up to #275."</i> |
+| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-opensearch](https://github.com/fluent/fluent-plugin-opensearch) | [out_opensearch: expand logstash_prefix placeholders in the target_index_affinity search](https://github.com/fluent/fluent-plugin-opensearch/pull/204) | 2026-11-17 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-opensearch/pull/204#pullrequestreview-5858194832): <i>"Thanks for the fix."</i> |
+| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/cluster-inventory-api](https://github.com/kubernetes-sigs/cluster-inventory-api) | [access: do not panic on an empty additional-envs extension](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/100) | 2026-11-17 | bot | 🙏 [@kahirokunn](https://github.com/kubernetes-sigs/cluster-inventory-api/pull/100#issuecomment-6934186986): <i>"Thank you 🙏"</i> |
+| [terraform-aws-modules/terraform-aws-ecs](https://github.com/terraform-aws-modules/terraform-aws-ecs) | [fix: Pass `cluster_capacity_providers_wait_duration` through the root module](https://github.com/terraform-aws-modules/terraform-aws-ecs/pull/430) | 2026-11-16 | [@bryantbiggs](https://github.com/bryantbiggs) |  |
+| [terraform-aws-modules/terraform-aws-iam](https://github.com/terraform-aws-modules/terraform-aws-iam) | [fix: Keep IRSA policy count known when policy documents are not read](https://github.com/terraform-aws-modules/terraform-aws-iam/pull/671) | 2026-11-16 | [@bryantbiggs](https://github.com/bryantbiggs) | 🙏 [@jamiemo](https://github.com/terraform-aws-modules/terraform-aws-iam/pull/671#issuecomment-6931942076): <i>"> This PR is included in version 6.9.2 🎉 Thank you!"</i> |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(visual-regression-tracker): point NOTES at the api and ui services](https://github.com/kokuwaio/helm-charts/pull/266) | 2026-11-16 | [@monotek](https://github.com/monotek) |  |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(mysqldump): select the backup job pods in NOTES](https://github.com/kokuwaio/helm-charts/pull/267) | 2026-11-16 | [@monotek](https://github.com/monotek) |  |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(nginx-php-fpm): point NOTES at the nginx service and pods](https://github.com/kokuwaio/helm-charts/pull/265) | 2026-11-16 | [@monotek](https://github.com/monotek) |  |
@@ -76,24 +82,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) | [fix(sandboxd): return 404 for a path under a regular file](https://github.com/kubernetes-sigs/agent-sandbox/pull/2220) | 2026-11-16 | bot |  |
 | [PrefectHQ/terraform-provider-prefect](https://github.com/PrefectHQ/terraform-provider-prefect) | [fix(block_schema): handle read errors instead of panicking](https://github.com/PrefectHQ/terraform-provider-prefect/pull/735) | 2026-11-16 | [@mitchnielsen](https://github.com/mitchnielsen) | 🙏 [@mitchnielsen](https://github.com/PrefectHQ/terraform-provider-prefect/pull/735#issuecomment-6924382921): <i>"Thanks for the contribution!"</i> |
 | [moov-io/watchman](https://github.com/moov-io/watchman) | [download: apply Options passed to New](https://github.com/moov-io/watchman/pull/1014) | 2026-11-16 | [@adamdecaf](https://github.com/adamdecaf) | 🙏 [@adamdecaf](https://github.com/moov-io/watchman/pull/1014#issuecomment-6924134467): <i>"Thanks"</i> |
-| [elastic/terraform-provider-ec](https://github.com/elastic/terraform-provider-ec) | [Honor size_resource when counting nodes for dedicated masters](https://github.com/elastic/terraform-provider-ec/pull/1108) | 2026-11-16 | [@dimuon](https://github.com/dimuon) | 🙏 [@dimuon](https://github.com/elastic/terraform-provider-ec/pull/1108#pullrequestreview-5878153103): <i>"Thanks for picking up #1015."</i> |
-| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | [Update LastTransitionTime when an exclusive condition is set to False](https://github.com/kubernetes-sigs/jobset/pull/1398) | 2026-11-16 | bot |  |
-| <img src="https://img.shields.io/badge/OPA%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OPA ecosystem: not the main OPA repository" title="OPA ecosystem: not the main OPA repository"><br>[open-policy-agent/java-opa-sdk](https://github.com/open-policy-agent/java-opa-sdk) | [fix(cli): print counters and histograms in the metrics table](https://github.com/open-policy-agent/java-opa-sdk/pull/269) | 2026-11-16 | [@sspaink](https://github.com/sspaink) | 🙏 [@sspaink](https://github.com/open-policy-agent/java-opa-sdk/pull/269#pullrequestreview-5922992866): <i>"Thank you!"</i> |
-| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] DWS: remove deleted clusters from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3632) | 2026-11-16 | bot |  |
-| [opentelekomcloud/terraform-provider-opentelekomcloud](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud) | [[Fix] DCS: remove deleted v1 instances from state on read](https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3631) | 2026-11-16 | bot |  |
-| <img src="https://img.shields.io/badge/Falco%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Falco ecosystem: not the main Falco repository" title="Falco ecosystem: not the main Falco repository"><br>[falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick) | [fix(outputs): count SMTP deliveries in the Prometheus and OTLP metrics](https://github.com/falcosecurity/falcosidekick/pull/1508) | 2026-11-16 | bot |  |
 
-[All 355 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 361 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 472 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 466 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 35 in 17 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 16 in 7 repos
-- CNCF ecosystem: 129 in 66 repos
-- Other: 285 in 171 repos
+- CNCF ecosystem: 126 in 65 repos
+- Other: 282 in 169 repos
 
 <!--END_SECTION:activity-->
 
