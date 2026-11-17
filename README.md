@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-852-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-386-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-13-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-172-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-859-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-388-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-13-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-172-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 386 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 388 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 13 merged in 6 repos</summary>
 
@@ -63,10 +63,12 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 361 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 363 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(nodes): send force-stop=0 from StopAll](https://github.com/luthermonson/go-proxmox/pull/374) | 2026-11-17 | [@luthermonson](https://github.com/luthermonson) |  |
+| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(cluster): let backup jobs turn off enabled, remove and stdexcludes](https://github.com/luthermonson/go-proxmox/pull/373) | 2026-11-17 | [@luthermonson](https://github.com/luthermonson) |  |
 | [netbox-community/netbox-chart](https://github.com/netbox-community/netbox-chart) | [fix(netbox): use ingress.pathType for plain string paths](https://github.com/netbox-community/netbox-chart/pull/1495) | 2026-11-17 | [@LeoColomb](https://github.com/LeoColomb) | 🙏 [@LeoColomb](https://github.com/netbox-community/netbox-chart/pull/1495#pullrequestreview-5918564455): <i>"Thanks for submitting this pull request."</i> |
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-prometheus](https://github.com/fluent/fluent-plugin-prometheus) | [Fix content_encoding gzip with IPv6 bind or <ssl> extra_conf](https://github.com/fluent/fluent-plugin-prometheus/pull/278) | 2026-11-17 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-prometheus/pull/278#pullrequestreview-5913923577): <i>"Thanks for the follow-up to #275."</i> |
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-opensearch](https://github.com/fluent/fluent-plugin-opensearch) | [out_opensearch: expand logstash_prefix placeholders in the target_index_affinity search](https://github.com/fluent/fluent-plugin-opensearch/pull/204) | 2026-11-17 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-opensearch/pull/204#pullrequestreview-5858194832): <i>"Thanks for the fix."</i> |
@@ -80,20 +82,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [OHF-Voice/wyoming](https://github.com/OHF-Voice/wyoming) | [Average channels when converting stereo to mono](https://github.com/OHF-Voice/wyoming/pull/66) | 2026-11-16 | [@synesthesiam](https://github.com/synesthesiam) | 🙏 [@synesthesiam](https://github.com/OHF-Voice/wyoming/pull/66#issuecomment-6928733195): <i>"Thanks!"</i> |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | [Reject invalid onJobFailureMessagePatterns in the webhook](https://github.com/kubernetes-sigs/jobset/pull/1394) | 2026-11-16 | bot | 🙏 [@jianqiaol](https://github.com/kubernetes-sigs/jobset/pull/1394#issuecomment-6907220734): <i>"Thanks for the fix!"</i> |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox) | [fix(sandboxd): return 404 for a path under a regular file](https://github.com/kubernetes-sigs/agent-sandbox/pull/2220) | 2026-11-16 | bot |  |
-| [PrefectHQ/terraform-provider-prefect](https://github.com/PrefectHQ/terraform-provider-prefect) | [fix(block_schema): handle read errors instead of panicking](https://github.com/PrefectHQ/terraform-provider-prefect/pull/735) | 2026-11-16 | [@mitchnielsen](https://github.com/mitchnielsen) | 🙏 [@mitchnielsen](https://github.com/PrefectHQ/terraform-provider-prefect/pull/735#issuecomment-6924382921): <i>"Thanks for the contribution!"</i> |
-| [moov-io/watchman](https://github.com/moov-io/watchman) | [download: apply Options passed to New](https://github.com/moov-io/watchman/pull/1014) | 2026-11-16 | [@adamdecaf](https://github.com/adamdecaf) | 🙏 [@adamdecaf](https://github.com/moov-io/watchman/pull/1014#issuecomment-6924134467): <i>"Thanks"</i> |
 
-[All 361 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 363 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 466 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 471 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 35 in 17 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 16 in 7 repos
-- CNCF ecosystem: 126 in 65 repos
-- Other: 282 in 169 repos
+- CNCF ecosystem: 127 in 66 repos
+- Other: 286 in 172 repos
 
 <!--END_SECTION:activity-->
 
