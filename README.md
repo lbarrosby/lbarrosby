@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-859-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-421-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-14-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-189-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-859-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-426-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-294-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-14-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-193-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 421 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 426 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 14 merged in 7 repos</summary>
 
@@ -66,10 +66,15 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 393 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 398 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [fluent-plugins-nursery/fluent-plugin-bigquery](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery) | [Fix duplicate load job recovery when the table is missing](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/233) | 2026-11-18 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/233#pullrequestreview-5934598593): <i>"Thanks for the fix."</i> |
+| [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Show the configured template in the warning for an unreplaced ${tag}](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/310) | 2026-11-18 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/310#pullrequestreview-5933077062): <i>"Thanks for the fix."</i> |
+| [auth0/terraform-provider-auth0](https://github.com/auth0/terraform-provider-auth0) | [fix: remove organization members in batches of 10](https://github.com/auth0/terraform-provider-auth0/pull/1788) | 2026-11-18 | [@duedares-rvj](https://github.com/duedares-rvj) |  |
+| [strowk/mcp-k8s-go](https://github.com/strowk/mcp-k8s-go) | [fix: mask secrets regardless of how kind and version are spelled](https://github.com/strowk/mcp-k8s-go/pull/81) | 2026-11-18 | [@strowk](https://github.com/strowk) | 🙏 [@strowk](https://github.com/strowk/mcp-k8s-go/pull/81#issuecomment-6974913157): <i>"Thanks,, great work!"</i> |
+| [zammad/zammad-helm](https://github.com/zammad/zammad-helm) | [fix: omit the password from REDIS_URL when no Redis password is configured](https://github.com/zammad/zammad-helm/pull/515) | 2026-11-18 | [@mgruner](https://github.com/mgruner) | 🙏 [@mgruner](https://github.com/zammad/zammad-helm/pull/515#issuecomment-6971867559): <i>"Thanks for the fix!"</i> |
 | <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | [Skip nodeSelector strategy pods in the exclusive placement pod reconciler](https://github.com/kubernetes-sigs/jobset/pull/1396) | 2026-11-18 | bot | 🙏 [@jianqiaol](https://github.com/kubernetes-sigs/jobset/pull/1396#issuecomment-6908224011): <i>"Thanks for the fix!"</i> |
 | [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Give each in_cloudwatch_logs event its own metadata](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/311) | 2026-11-18 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/311#pullrequestreview-5933111854): <i>"Thanks for the fix."</i> |
 | [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(access): remove user from state when deleted outside terraform](https://github.com/bpg/terraform-provider-proxmox/pull/3297) | 2026-11-17 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3297#pullrequestreview-5948410119): <i>"Thanks for the fix!"</i> |
@@ -80,23 +85,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(object_lock): clear rule when the default retention is removed outside Terraform](https://github.com/aminueza/terraform-provider-minio/pull/1296) | 2026-11-17 | [@felladrin](https://github.com/felladrin) |  |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(notify): clear comment and queue_dir when they are removed](https://github.com/aminueza/terraform-provider-minio/pull/1295) | 2026-11-17 | [@felladrin](https://github.com/felladrin) |  |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(config): read quoted config values that contain spaces](https://github.com/aminueza/terraform-provider-minio/pull/1294) | 2026-11-17 | [@felladrin](https://github.com/felladrin) |  |
-| [terraform-aws-modules/terraform-aws-iam](https://github.com/terraform-aws-modules/terraform-aws-iam) | [fix: Add `ec2:DescribeVpcPeeringConnections` to the LBC TargetGroupBinding only policy](https://github.com/terraform-aws-modules/terraform-aws-iam/pull/670) | 2026-11-17 | [@bryantbiggs](https://github.com/bryantbiggs) |  |
-| [syself/cluster-api-provider-hetzner](https://github.com/syself/cluster-api-provider-hetzner) | [🐛 Return the actual error when deleting placement groups fails](https://github.com/syself/cluster-api-provider-hetzner/pull/2354) | 2026-11-17 | [@abdullah599](https://github.com/abdullah599) | 🙏 [@abdullah599](https://github.com/syself/cluster-api-provider-hetzner/pull/2354#pullrequestreview-5916569924): <i>"Thank you for your contribution!"</i> |
-| [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: keep the executable bit of files auto-fix modifies on GitHub](https://github.com/jenkinsci/explain-error-plugin/pull/276) | 2026-11-17 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
-| [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: use the branch the SCM client created for the auto-fix](https://github.com/jenkinsci/explain-error-plugin/pull/275) | 2026-11-17 | [@shenxianpeng](https://github.com/shenxianpeng) |  |
-| [jenkinsci/explain-error-plugin](https://github.com/jenkinsci/explain-error-plugin) | [fix: find the labels of a language given as a tag with a region](https://github.com/jenkinsci/explain-error-plugin/pull/274) | 2026-11-17 | [@shenxianpeng](https://github.com/shenxianpeng) | 🙏 [@shenxianpeng](https://github.com/jenkinsci/explain-error-plugin/pull/274#pullrequestreview-5938590638): <i>"Thanks for the PR！"</i> |
 
-[All 393 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 398 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 438 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 433 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 34 in 16 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 14 in 6 repos
 - CNCF ecosystem: 123 in 65 repos
-- Other: 260 in 159 repos
+- Other: 255 in 155 repos
 
 <!--END_SECTION:activity-->
 

@@ -259,6 +259,10 @@
   "merged_by": "tico24",
   "thanks": null
  },
+ "https://github.com/auth0/terraform-provider-auth0/pull/1788": {
+  "merged_by": "duedares-rvj",
+  "thanks": null
+ },
  "https://github.com/aws/karpenter-provider-aws/pull/9852": {
   "merged_by": "AndrewSirenko",
   "thanks": null
@@ -671,6 +675,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/231#pullrequestreview-5884843886"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/233": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/233#pullrequestreview-5934598593"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -741,6 +753,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/305#pullrequestreview-5914000511"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/310": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/310#pullrequestreview-5933077062"
   }
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/311": {
@@ -2255,6 +2275,14 @@
   "merged_by": "tksm",
   "thanks": null
  },
+ "https://github.com/strowk/mcp-k8s-go/pull/81": {
+  "merged_by": "strowk",
+  "thanks": {
+   "login": "strowk",
+   "quote": "Thanks,, great work!",
+   "url": "https://github.com/strowk/mcp-k8s-go/pull/81#issuecomment-6974913157"
+  }
+ },
  "https://github.com/syself/cluster-api-provider-hetzner/pull/2354": {
   "merged_by": "abdullah599",
   "thanks": {
@@ -2437,6 +2465,14 @@
    "login": "mgruner",
    "quote": "Thanks a lot",
    "url": "https://github.com/zammad/zammad-helm/pull/506#issuecomment-6913175609"
+  }
+ },
+ "https://github.com/zammad/zammad-helm/pull/515": {
+  "merged_by": "mgruner",
+  "thanks": {
+   "login": "mgruner",
+   "quote": "Thanks for the fix!",
+   "url": "https://github.com/zammad/zammad-helm/pull/515#issuecomment-6971867559"
   }
  }
 }
