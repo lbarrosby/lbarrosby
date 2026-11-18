@@ -839,6 +839,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/438#pullrequestreview-5821215808"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/440": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for following up on #439.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/440#pullrequestreview-5838901871"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/441": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -893,6 +901,14 @@
    "login": "Watson1978",
    "quote": "Thank you for working on this.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/94#pullrequestreview-5854175620"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/95": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for fixing this.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/95#pullrequestreview-5885578382"
   }
  },
  "https://github.com/fluent/fluent-logger-ruby/pull/118": {
@@ -1049,6 +1065,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent/fluent-plugin-prometheus/pull/275#pullrequestreview-5884796513"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-prometheus/pull/276": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix and the clear reproduction.",
+   "url": "https://github.com/fluent/fluent-plugin-prometheus/pull/276#pullrequestreview-5886979808"
   }
  },
  "https://github.com/fluent/fluent-plugin-prometheus/pull/278": {
@@ -1209,6 +1233,14 @@
    "login": "lukasmetzner",
    "quote": "Hey, thank you for the contribution.",
    "url": "https://github.com/hetznercloud/hcloud-cloud-controller-manager/pull/1411#issuecomment-6652351427"
+  }
+ },
+ "https://github.com/huggingface/huggingface_hub/pull/5313": {
+  "merged_by": "Wauplin",
+  "thanks": {
+   "login": "Wauplin",
+   "quote": "Thanks for the clean fix, and sorry for the delay!",
+   "url": "https://github.com/huggingface/huggingface_hub/pull/5313#pullrequestreview-5959053790"
   }
  },
  "https://github.com/huggingface/text-embeddings-inference/pull/966": {
@@ -1777,6 +1809,22 @@
  },
  "https://github.com/luthermonson/go-proxmox/pull/374": {
   "merged_by": "luthermonson",
+  "thanks": null
+ },
+ "https://github.com/moov-io/fed/pull/488": {
+  "merged_by": "adamdecaf",
+  "thanks": null
+ },
+ "https://github.com/moov-io/go-sftp/pull/363": {
+  "merged_by": "adamdecaf",
+  "thanks": {
+   "login": "adamdecaf",
+   "quote": "This looks like a change we'll merge, so thanks for raising the issue and providing a fix!",
+   "url": "https://github.com/moov-io/go-sftp/pull/363#issuecomment-6990501330"
+  }
+ },
+ "https://github.com/moov-io/imagecashletter/pull/529": {
+  "merged_by": "adamdecaf",
   "thanks": null
  },
  "https://github.com/moov-io/watchman/pull/1014": {
