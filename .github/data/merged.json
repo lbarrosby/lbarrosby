@@ -383,6 +383,14 @@
    "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3283#pullrequestreview-5858331288"
   }
  },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3297": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Thanks for the fix!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3297#pullrequestreview-5948410119"
+  }
+ },
  "https://github.com/bpg/terraform-provider-proxmox/pull/3298": {
   "merged_by": "bpg-dev",
   "thanks": {
@@ -733,6 +741,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/305#pullrequestreview-5914000511"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/311": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/311#pullrequestreview-5933111854"
   }
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/157": {
@@ -1275,6 +1291,14 @@
   "merged_by": "jianyuan",
   "thanks": null
  },
+ "https://github.com/k8sgpt-ai/k8sgpt/pull/1924": {
+  "merged_by": "AlexsJones",
+  "thanks": {
+   "login": "AlexsJones",
+   "quote": "Good catch, : a 404 that reads like 'the pod doesn't exist' is exactly the kind of…",
+   "url": "https://github.com/k8sgpt-ai/k8sgpt/pull/1924#pullrequestreview-5810724210"
+  }
+ },
  "https://github.com/kagent-dev/tools/pull/100": {
   "merged_by": "dimetron",
   "thanks": null
@@ -1569,6 +1593,14 @@
    "login": "jianqiaol",
    "quote": "Thanks for the fix!",
    "url": "https://github.com/kubernetes-sigs/jobset/pull/1394#issuecomment-6907220734"
+  }
+ },
+ "https://github.com/kubernetes-sigs/jobset/pull/1396": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": {
+   "login": "jianqiaol",
+   "quote": "Thanks for the fix!",
+   "url": "https://github.com/kubernetes-sigs/jobset/pull/1396#issuecomment-6908224011"
   }
  },
  "https://github.com/kubernetes-sigs/jobset/pull/1398": {
