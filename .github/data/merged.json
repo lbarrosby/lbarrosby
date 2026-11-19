@@ -71,6 +71,10 @@
   "merged_by": "alanfranciscos",
   "thanks": null
  },
+ "https://github.com/OHF-Voice/piper1-gpl/pull/353": {
+  "merged_by": "synesthesiam",
+  "thanks": null
+ },
  "https://github.com/OHF-Voice/wyoming-piper/pull/72": {
   "merged_by": "synesthesiam",
   "thanks": {
@@ -294,6 +298,14 @@
  "https://github.com/bloomberg/causal-ts/pull/117": {
   "merged_by": "fesanghary",
   "thanks": null
+ },
+ "https://github.com/bloomberg/causal-ts/pull/125": {
+  "merged_by": "fesanghary",
+  "thanks": {
+   "login": "fesanghary",
+   "quote": "Thanks, merged!",
+   "url": "https://github.com/bloomberg/causal-ts/pull/125#issuecomment-7012610130"
+  }
  },
  "https://github.com/bloomberg/causal-ts/pull/96": {
   "merged_by": "fesanghary",
@@ -1163,6 +1175,14 @@
    "url": "https://github.com/fluent/fluentd/pull/5608#pullrequestreview-5835281054"
   }
  },
+ "https://github.com/fluent/fluentd/pull/5625": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the PR and the clear description.",
+   "url": "https://github.com/fluent/fluentd/pull/5625#pullrequestreview-5839800958"
+  }
+ },
  "https://github.com/fluent/fluentd/pull/5634": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -1537,6 +1557,34 @@
  },
  "https://github.com/kubecolor/kubecolor/pull/397": {
   "merged_by": "prune998",
+  "thanks": null
+ },
+ "https://github.com/kubecolor/kubecolor/pull/398": {
+  "merged_by": "applejag",
+  "thanks": {
+   "login": "applejag",
+   "quote": "Thanks for this!",
+   "url": "https://github.com/kubecolor/kubecolor/pull/398#issuecomment-7019637178"
+  }
+ },
+ "https://github.com/kubecolor/kubecolor/pull/400": {
+  "merged_by": "applejag",
+  "thanks": {
+   "login": "applejag",
+   "quote": "Thanks for this!",
+   "url": "https://github.com/kubecolor/kubecolor/pull/400#pullrequestreview-5981740886"
+  }
+ },
+ "https://github.com/kubecolor/kubecolor/pull/401": {
+  "merged_by": "applejag",
+  "thanks": {
+   "login": "applejag",
+   "quote": "Thanks for this!",
+   "url": "https://github.com/kubecolor/kubecolor/pull/401#pullrequestreview-5981908608"
+  }
+ },
+ "https://github.com/kubecolor/kubecolor/pull/402": {
+  "merged_by": "applejag",
   "thanks": null
  },
  "https://github.com/kubernetes-sigs/agent-sandbox/pull/2202": {
@@ -1971,6 +2019,18 @@
   "merged_by": "mmosarafO2",
   "thanks": null
  },
+ "https://github.com/openobserve/openobserve-helm-chart/pull/288": {
+  "merged_by": "vinayakopenobserve",
+  "thanks": {
+   "login": "vinayakopenobserve",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/openobserve/openobserve-helm-chart/pull/288#issuecomment-6906366069"
+  }
+ },
+ "https://github.com/openobserve/openobserve-helm-chart/pull/293": {
+  "merged_by": "vinayakopenobserve",
+  "thanks": null
+ },
  "https://github.com/openobserve/terraform-provider-openobserve/pull/17": {
   "merged_by": "chaitanya-sistla",
   "thanks": {
@@ -2056,6 +2116,10 @@
   "thanks": null
  },
  "https://github.com/pengovbr/mod-wssei/pull/140": {
+  "merged_by": "caduvieira",
+  "thanks": null
+ },
+ "https://github.com/pengovbr/mod-wssei/pull/141": {
   "merged_by": "caduvieira",
   "thanks": null
  },
@@ -2182,6 +2246,10 @@
    "quote": "thanks for the fix.",
    "url": "https://github.com/rook/rook/pull/18686#pullrequestreview-5789316361"
   }
+ },
+ "https://github.com/rook/rook/pull/18752": {
+  "merged_by": "sp98",
+  "thanks": null
  },
  "https://github.com/rook/rook/pull/18753": {
   "merged_by": "travisn",
