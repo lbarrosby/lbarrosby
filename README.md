@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-853-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-433-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-14-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-198-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-853-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-437-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-14-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-199-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 433 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 437 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 14 merged in 7 repos</summary>
 
@@ -52,10 +52,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details open><summary><b>Official CNCF Sandbox projects</b> · 7 merged in 3 repos</summary>
+<details open><summary><b>Official CNCF Sandbox projects</b> · 8 merged in 3 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/K8sGPT-official%20·%20CNCF%20Sandbox-6E7781?style=flat-square&logo=cncf&logoColor=white" alt="K8sGPT: official repository of a CNCF sandbox project" title="K8sGPT: official repository of a CNCF sandbox project"><br>[k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) | [fix: declare the limit parameter on the MCP list-resources tool](https://github.com/k8sgpt-ai/k8sgpt/pull/1923) | 2026-11-19 | [@AlexsJones](https://github.com/AlexsJones) | 🙏 [@AlexsJones](https://github.com/k8sgpt-ai/k8sgpt/pull/1923#pullrequestreview-5810724055): <i>"Nice find, : the handler already binds limit, so this is the missing half rather than…"</i> |
 | <img src="https://img.shields.io/badge/K8sGPT-official%20·%20CNCF%20Sandbox-6E7781?style=flat-square&logo=cncf&logoColor=white" alt="K8sGPT: official repository of a CNCF sandbox project" title="K8sGPT: official repository of a CNCF sandbox project"><br>[k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) | [fix: require a namespace for namespaced kinds in MCP get-resource](https://github.com/k8sgpt-ai/k8sgpt/pull/1924) | 2026-11-17 | [@AlexsJones](https://github.com/AlexsJones) | 🙏 [@AlexsJones](https://github.com/k8sgpt-ai/k8sgpt/pull/1924#pullrequestreview-5810724210): <i>"Good catch, : a 404 that reads like 'the pod doesn't exist' is exactly the kind of…"</i> |
 | <img src="https://img.shields.io/badge/kube--vip-official%20·%20CNCF%20Sandbox-6E7781?style=flat-square&logo=cncf&logoColor=white" alt="kube-vip: official repository of a CNCF sandbox project" title="kube-vip: official repository of a CNCF sandbox project"><br>[kube-vip/kube-vip](https://github.com/kube-vip/kube-vip) | [fix(kubevip): write log level, on-demand election and egress backend into manifests](https://github.com/kube-vip/kube-vip/pull/1861) | 2026-11-17 | [@Cellebyte](https://github.com/Cellebyte) |  |
 | <img src="https://img.shields.io/badge/kube--vip-official%20·%20CNCF%20Sandbox-6E7781?style=flat-square&logo=cncf&logoColor=white" alt="kube-vip: official repository of a CNCF sandbox project" title="kube-vip: official repository of a CNCF sandbox project"><br>[kube-vip/kube-vip](https://github.com/kube-vip/kube-vip) | [fix(services): do not treat DHCP placeholder VIPs as shared](https://github.com/kube-vip/kube-vip/pull/1838) | 2026-11-09 | [@Cellebyte](https://github.com/Cellebyte) |  |
@@ -66,10 +67,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 405 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 408 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_routing_protocol from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1141) | 2026-11-19 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
+| [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_cloud_router from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1140) | 2026-11-19 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
+| [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox_snap): report changed in check mode](https://github.com/ansible-collections/community.proxmox/pull/565) | 2026-11-19 | [@IamLunchbox](https://github.com/IamLunchbox) |  |
 | [moov-io/go-sftp](https://github.com/moov-io/go-sftp) | [fix: only skip the directory that returned SkipDir in Walk](https://github.com/moov-io/go-sftp/pull/363) | 2026-11-18 | [@adamdecaf](https://github.com/adamdecaf) | 🙏 [@adamdecaf](https://github.com/moov-io/go-sftp/pull/363#issuecomment-6990501330): <i>"This looks like a change we'll merge, so thanks for raising the issue and providing a fix!"</i> |
 | [moov-io/imagecashletter](https://github.com/moov-io/imagecashletter) | [cashLetter: keep caller-set BOFDItemSequenceNumber on returns](https://github.com/moov-io/imagecashletter/pull/529) | 2026-11-18 | [@adamdecaf](https://github.com/adamdecaf) |  |
 | [moov-io/fed](https://github.com/moov-io/fed) | [download: use ClientOpts values in NewClient](https://github.com/moov-io/fed/pull/488) | 2026-11-18 | [@adamdecaf](https://github.com/adamdecaf) |  |
@@ -82,21 +86,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [auth0/terraform-provider-auth0](https://github.com/auth0/terraform-provider-auth0) | [fix: remove organization members in batches of 10](https://github.com/auth0/terraform-provider-auth0/pull/1788) | 2026-11-18 | [@duedares-rvj](https://github.com/duedares-rvj) |  |
 | [strowk/mcp-k8s-go](https://github.com/strowk/mcp-k8s-go) | [fix: mask secrets regardless of how kind and version are spelled](https://github.com/strowk/mcp-k8s-go/pull/81) | 2026-11-18 | [@strowk](https://github.com/strowk) | 🙏 [@strowk](https://github.com/strowk/mcp-k8s-go/pull/81#issuecomment-6974913157): <i>"Thanks,, great work!"</i> |
 | [zammad/zammad-helm](https://github.com/zammad/zammad-helm) | [fix: omit the password from REDIS_URL when no Redis password is configured](https://github.com/zammad/zammad-helm/pull/515) | 2026-11-18 | [@mgruner](https://github.com/mgruner) | 🙏 [@mgruner](https://github.com/zammad/zammad-helm/pull/515#issuecomment-6971867559): <i>"Thanks for the fix!"</i> |
-| <img src="https://img.shields.io/badge/Kubernetes%20SIG%20subproject-not%20the%20main%20repo-555?style=flat-square" alt="Kubernetes SIG subproject: not the main Kubernetes repository" title="Kubernetes SIG subproject: not the main Kubernetes repository"><br>[kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset) | [Skip nodeSelector strategy pods in the exclusive placement pod reconciler](https://github.com/kubernetes-sigs/jobset/pull/1396) | 2026-11-18 | bot | 🙏 [@jianqiaol](https://github.com/kubernetes-sigs/jobset/pull/1396#issuecomment-6908224011): <i>"Thanks for the fix!"</i> |
-| [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Give each in_cloudwatch_logs event its own metadata](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/311) | 2026-11-18 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/311#pullrequestreview-5933111854): <i>"Thanks for the fix."</i> |
-| [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(access): remove user from state when deleted outside terraform](https://github.com/bpg/terraform-provider-proxmox/pull/3297) | 2026-11-17 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3297#pullrequestreview-5948410119): <i>"Thanks for the fix!"</i> |
 
-[All 405 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 408 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 420 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 416 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 34 in 16 repos
 - Official CNCF Incubating: 7 in 4 repos
-- Official CNCF Sandbox: 14 in 6 repos
+- Official CNCF Sandbox: 13 in 5 repos
 - CNCF ecosystem: 122 in 64 repos
-- Other: 243 in 149 repos
+- Other: 240 in 149 repos
 
 <!--END_SECTION:activity-->
 

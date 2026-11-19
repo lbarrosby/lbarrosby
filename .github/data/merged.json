@@ -247,6 +247,10 @@
    "url": "https://github.com/ansible-collections/community.proxmox/pull/563#issuecomment-6712757206"
   }
  },
+ "https://github.com/ansible-collections/community.proxmox/pull/565": {
+  "merged_by": "IamLunchbox",
+  "thanks": null
+ },
  "https://github.com/argoproj/argo-helm/pull/4204": {
   "merged_by": "tico24",
   "thanks": null
@@ -628,6 +632,14 @@
   "thanks": null
  },
  "https://github.com/equinix/terraform-provider-equinix/pull/1136": {
+  "merged_by": "tng1-equinix",
+  "thanks": null
+ },
+ "https://github.com/equinix/terraform-provider-equinix/pull/1140": {
+  "merged_by": "tng1-equinix",
+  "thanks": null
+ },
+ "https://github.com/equinix/terraform-provider-equinix/pull/1141": {
   "merged_by": "tng1-equinix",
   "thanks": null
  },
@@ -1342,6 +1354,14 @@
  "https://github.com/jianyuan/terraform-provider-sentry/pull/1022": {
   "merged_by": "jianyuan",
   "thanks": null
+ },
+ "https://github.com/k8sgpt-ai/k8sgpt/pull/1923": {
+  "merged_by": "AlexsJones",
+  "thanks": {
+   "login": "AlexsJones",
+   "quote": "Nice find, : the handler already binds limit, so this is the missing half rather than…",
+   "url": "https://github.com/k8sgpt-ai/k8sgpt/pull/1923#pullrequestreview-5810724055"
+  }
  },
  "https://github.com/k8sgpt-ai/k8sgpt/pull/1924": {
   "merged_by": "AlexsJones",
