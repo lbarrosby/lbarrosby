@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-853-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-448-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-205-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-853-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-449-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-205-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 448 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 449 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 16 merged in 7 repos</summary>
 
@@ -69,10 +69,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 417 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 418 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(mount): do not bind mount a block volume twice at the same target](https://github.com/openebs/zfs-localpv/pull/794) | 2026-11-20 | bot |  |
 | [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [feat: colorize kubectl set output](https://github.com/kubecolor/kubecolor/pull/401) | 2026-11-19 | [@applejag](https://github.com/applejag) | 🙏 [@applejag](https://github.com/kubecolor/kubecolor/pull/401#pullrequestreview-5981908608): <i>"Thanks for this!"</i> |
 | [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [feat: colorize kubectl replace output](https://github.com/kubecolor/kubecolor/pull/400) | 2026-11-19 | [@applejag](https://github.com/applejag) | 🙏 [@applejag](https://github.com/kubecolor/kubecolor/pull/400#pullrequestreview-5981740886): <i>"Thanks for this!"</i> |
 | [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [fix: color kubectl rollout history as a table](https://github.com/kubecolor/kubecolor/pull/398) | 2026-11-19 | [@applejag](https://github.com/applejag) | 🙏 [@applejag](https://github.com/kubecolor/kubecolor/pull/398#issuecomment-7019637178): <i>"Thanks for this!"</i> |
@@ -87,18 +88,17 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox_snap): report changed in check mode](https://github.com/ansible-collections/community.proxmox/pull/565) | 2026-11-19 | [@IamLunchbox](https://github.com/IamLunchbox) |  |
 | [moov-io/go-sftp](https://github.com/moov-io/go-sftp) | [fix: only skip the directory that returned SkipDir in Walk](https://github.com/moov-io/go-sftp/pull/363) | 2026-11-18 | [@adamdecaf](https://github.com/adamdecaf) | 🙏 [@adamdecaf](https://github.com/moov-io/go-sftp/pull/363#issuecomment-6990501330): <i>"This looks like a change we'll merge, so thanks for raising the issue and providing a fix!"</i> |
 | [moov-io/imagecashletter](https://github.com/moov-io/imagecashletter) | [cashLetter: keep caller-set BOFDItemSequenceNumber on returns](https://github.com/moov-io/imagecashletter/pull/529) | 2026-11-18 | [@adamdecaf](https://github.com/adamdecaf) |  |
-| [moov-io/fed](https://github.com/moov-io/fed) | [download: use ClientOpts values in NewClient](https://github.com/moov-io/fed/pull/488) | 2026-11-18 | [@adamdecaf](https://github.com/adamdecaf) |  |
 
-[All 417 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 418 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 405 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 404 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 32 in 15 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
-- CNCF ecosystem: 121 in 63 repos
+- CNCF ecosystem: 120 in 63 repos
 - Other: 232 in 147 repos
 
 <!--END_SECTION:activity-->
