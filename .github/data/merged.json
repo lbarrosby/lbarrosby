@@ -2227,6 +2227,10 @@
   "merged_by": "bashofmann",
   "thanks": null
  },
+ "https://github.com/ray-project/ray/pull/67828": {
+  "merged_by": "edoakes",
+  "thanks": null
+ },
  "https://github.com/remsky/Kokoro-FastAPI/pull/593": {
   "merged_by": "remsky",
   "thanks": {
