@@ -708,16 +708,16 @@
 "org": "ansible-collections",
 "title": "wakeonlan: repeat the MAC address 16 times in the magic packet",
 "url": "https://github.com/ansible-collections/community.general/pull/13246",
-"status": "open",
+"status": "merged",
 "level": "other",
 "project": "",
 "scope": "",
 "opened": "2026-11-14",
-"merged": "",
-"merged_by": "",
-"thanks_by": "",
-"thanks": "",
-"thanks_url": ""
+"merged": "2026-11-20",
+"merged_by": "felixfontein",
+"thanks_by": "felixfontein",
+"thanks": "thanks for your contribution!",
+"thanks_url": "https://github.com/ansible-collections/community.general/pull/13246#issuecomment-7034081656"
 },
 {
 "repo": "ovh/terraform-provider-ovh",

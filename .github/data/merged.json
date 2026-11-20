@@ -235,6 +235,14 @@
   "merged_by": "felladrin",
   "thanks": null
  },
+ "https://github.com/ansible-collections/community.general/pull/13246": {
+  "merged_by": "felixfontein",
+  "thanks": {
+   "login": "felixfontein",
+   "quote": "thanks for your contribution!",
+   "url": "https://github.com/ansible-collections/community.general/pull/13246#issuecomment-7034081656"
+  }
+ },
  "https://github.com/ansible-collections/community.proxmox/pull/559": {
   "merged_by": "Thulium-Drake",
   "thanks": {
