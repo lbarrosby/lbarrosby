@@ -1,5 +1,21 @@
 [
 {
+"repo": "fluent/fluent-plugin-kafka",
+"org": "fluent",
+"title": "out_rdkafka: Fix attr output_data_type joining fields with no separator",
+"url": "https://github.com/fluent/fluent-plugin-kafka/pull/638",
+"status": "open",
+"level": "ecosystem",
+"project": "Fluentd",
+"scope": "org",
+"opened": "2026-11-21",
+"merged": "",
+"merged_by": "",
+"thanks_by": "",
+"thanks": "",
+"thanks_url": ""
+},
+{
 "repo": "fluent-plugins-nursery/fluent-plugin-bigquery",
 "org": "fluent-plugins-nursery",
 "title": "Fix duplicate load job recovery when the table is missing",
