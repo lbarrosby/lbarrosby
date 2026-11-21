@@ -2143,6 +2143,10 @@
   "merged_by": "caduvieira",
   "thanks": null
  },
+ "https://github.com/petoju/terraform-provider-mysql/pull/307": {
+  "merged_by": "petoju",
+  "thanks": null
+ },
  "https://github.com/project-zot/helm-charts/pull/149": {
   "merged_by": "andaaron",
   "thanks": null

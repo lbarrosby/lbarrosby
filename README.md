@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-854-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-454-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-209-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-905-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-455-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-209-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 454 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 455 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 16 merged in 7 repos</summary>
 
@@ -69,10 +69,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 423 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 424 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [petoju/terraform-provider-mysql](https://github.com/petoju/terraform-provider-mysql) | [fix(resource_default_roles): support roles = ["ALL"] on MySQL](https://github.com/petoju/terraform-provider-mysql/pull/307) | 2026-11-21 | [@petoju](https://github.com/petoju) |  |
 | [vantage-sh/ec2instances.info](https://github.com/vantage-sh/ec2instances.info) | [fix(scraper): skip out-of-range spot advisor R values instead of panicking](https://github.com/vantage-sh/ec2instances.info/pull/1018) | 2026-11-21 | [@alex-wanger](https://github.com/alex-wanger) | 🙏 [@alex-wanger](https://github.com/vantage-sh/ec2instances.info/pull/1018#pullrequestreview-6002819386): <i>"Thanks for submitting this!"</i> |
 | [vantage-sh/ec2instances.info](https://github.com/vantage-sh/ec2instances.info) | [fix(ec2): report per-instance GPU count and memory for p6e-gb200.36xlarge](https://github.com/vantage-sh/ec2instances.info/pull/1016) | 2026-11-21 | [@alex-wanger](https://github.com/alex-wanger) | 🙏 [@alex-wanger](https://github.com/vantage-sh/ec2instances.info/pull/1016#pullrequestreview-5977600164): <i>"We appreciate your contribution!"</i> |
 | [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: don't report unknown stream group lag and entries-read as 0](https://github.com/oliver006/redis_exporter/pull/1215) | 2026-11-21 | [@oliver006](https://github.com/oliver006) | 🙏 [@oliver006](https://github.com/oliver006/redis_exporter/pull/1215#pullrequestreview-5867081145): <i>"Looks good, thanks for the fix, one minor naming suggestion"</i> |
@@ -87,19 +88,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [openobserve/openobserve-helm-chart](https://github.com/openobserve/openobserve-helm-chart) | [feat(openobserve-collector): add extraEnv for the agent, gateway and eBPF collectors](https://github.com/openobserve/openobserve-helm-chart/pull/293) | 2026-11-19 | [@vinayakopenobserve](https://github.com/vinayakopenobserve) |  |
 | [openobserve/openobserve-helm-chart](https://github.com/openobserve/openobserve-helm-chart) | [fix(openobserve): honor postgres.spec.enableSuperuserAccess](https://github.com/openobserve/openobserve-helm-chart/pull/288) | 2026-11-19 | [@vinayakopenobserve](https://github.com/vinayakopenobserve) | 🙏 [@vinayakopenobserve](https://github.com/openobserve/openobserve-helm-chart/pull/288#issuecomment-6906366069): <i>"Thanks for the fix."</i> |
 | [pengovbr/mod-wssei](https://github.com/pengovbr/mod-wssei) | [docs: documenta a consulta de documento interno pelo protocolo formatado](https://github.com/pengovbr/mod-wssei/pull/141) | 2026-11-19 | [@caduvieira](https://github.com/caduvieira) |  |
-| [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Count bool links and accept lag-0 graphs in precision_recall_3d](https://github.com/bloomberg/causal-ts/pull/125) | 2026-11-19 | [@fesanghary](https://github.com/fesanghary) | 🙏 [@fesanghary](https://github.com/bloomberg/causal-ts/pull/125#issuecomment-7012610130): <i>"Thanks, merged!"</i> |
 
-[All 423 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 424 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 400 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 450 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
-- Official CNCF Graduated: 32 in 15 repos
+- Official CNCF Graduated: 33 in 16 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
-- CNCF ecosystem: 121 in 64 repos
-- Other: 227 in 145 repos
+- CNCF ecosystem: 127 in 65 repos
+- Other: 270 in 162 repos
 
 <!--END_SECTION:activity-->
 
