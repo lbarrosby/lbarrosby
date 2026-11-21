@@ -1943,6 +1943,14 @@
    "url": "https://github.com/oliver006/redis_exporter/pull/1214#pullrequestreview-5796358851"
   }
  },
+ "https://github.com/oliver006/redis_exporter/pull/1215": {
+  "merged_by": "oliver006",
+  "thanks": {
+   "login": "oliver006",
+   "quote": "Looks good, thanks for the fix, one minor naming suggestion",
+   "url": "https://github.com/oliver006/redis_exporter/pull/1215#pullrequestreview-5867081145"
+  }
+ },
  "https://github.com/oliver006/redis_exporter/pull/1216": {
   "merged_by": "oliver006",
   "thanks": {

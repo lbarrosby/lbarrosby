@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-853-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-451-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-206-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-853-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-452-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-207-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 451 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 452 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 16 merged in 7 repos</summary>
 
@@ -69,10 +69,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 420 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 421 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: don't report unknown stream group lag and entries-read as 0](https://github.com/oliver006/redis_exporter/pull/1215) | 2026-11-21 | [@oliver006](https://github.com/oliver006) | 🙏 [@oliver006](https://github.com/oliver006/redis_exporter/pull/1215#pullrequestreview-5867081145): <i>"Looks good, thanks for the fix, one minor naming suggestion"</i> |
 | [ray-project/ray](https://github.com/ray-project/ray) | [[Java] Bump log4j to 2.25.5 and jackson-databind to 2.18.11](https://github.com/ray-project/ray/pull/67828) | 2026-11-20 | [@edoakes](https://github.com/edoakes) |  |
 | [ansible-collections/community.general](https://github.com/ansible-collections/community.general) | [wakeonlan: repeat the MAC address 16 times in the magic packet](https://github.com/ansible-collections/community.general/pull/13246) | 2026-11-20 | [@felixfontein](https://github.com/felixfontein) | 🙏 [@felixfontein](https://github.com/ansible-collections/community.general/pull/13246#issuecomment-7034081656): <i>"thanks for your contribution!"</i> |
 | <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(mount): do not bind mount a block volume twice at the same target](https://github.com/openebs/zfs-localpv/pull/794) | 2026-11-20 | bot |  |
@@ -87,19 +88,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Count bool links and accept lag-0 graphs in precision_recall_3d](https://github.com/bloomberg/causal-ts/pull/125) | 2026-11-19 | [@fesanghary](https://github.com/fesanghary) | 🙏 [@fesanghary](https://github.com/bloomberg/causal-ts/pull/125#issuecomment-7012610130): <i>"Thanks, merged!"</i> |
 | [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_routing_protocol from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1141) | 2026-11-19 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
 | [equinix/terraform-provider-equinix](https://github.com/equinix/terraform-provider-equinix) | [fix: remove equinix_fabric_cloud_router from state when it no longer exists](https://github.com/equinix/terraform-provider-equinix/pull/1140) | 2026-11-19 | [@tng1-equinix](https://github.com/tng1-equinix) |  |
-| [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox_snap): report changed in check mode](https://github.com/ansible-collections/community.proxmox/pull/565) | 2026-11-19 | [@IamLunchbox](https://github.com/IamLunchbox) |  |
 
-[All 420 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 421 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 402 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 401 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 32 in 15 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
 - CNCF ecosystem: 120 in 63 repos
-- Other: 230 in 146 repos
+- Other: 229 in 145 repos
 
 <!--END_SECTION:activity-->
 

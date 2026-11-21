@@ -8932,16 +8932,16 @@
 "org": "oliver006",
 "title": "fix: don't report unknown stream group lag and entries-read as 0",
 "url": "https://github.com/oliver006/redis_exporter/pull/1215",
-"status": "open",
+"status": "merged",
 "level": "other",
 "project": "",
 "scope": "",
 "opened": "2026-11-06",
-"merged": "",
-"merged_by": "",
-"thanks_by": "",
-"thanks": "",
-"thanks_url": ""
+"merged": "2026-11-21",
+"merged_by": "oliver006",
+"thanks_by": "oliver006",
+"thanks": "Looks good, thanks for the fix, one minor naming suggestion",
+"thanks_url": "https://github.com/oliver006/redis_exporter/pull/1215#pullrequestreview-5867081145"
 },
 {
 "repo": "falcosecurity/charts",
