@@ -51,6 +51,22 @@
   "merged_by": "zOnlyKroks",
   "thanks": null
  },
+ "https://github.com/CloudPirates-io/helm-charts/pull/1944": {
+  "merged_by": "zOnlyKroks",
+  "thanks": null
+ },
+ "https://github.com/CloudPirates-io/helm-charts/pull/1945": {
+  "merged_by": "zOnlyKroks",
+  "thanks": null
+ },
+ "https://github.com/CloudPirates-io/helm-charts/pull/1946": {
+  "merged_by": "zOnlyKroks",
+  "thanks": null
+ },
+ "https://github.com/CloudPirates-io/helm-charts/pull/1947": {
+  "merged_by": "zOnlyKroks",
+  "thanks": null
+ },
  "https://github.com/DataDog/terraform-provider-datadog/pull/4517": {
   "merged_by": "gh-worker-dd-mergequeue-cf854d[bot]",
   "thanks": {
@@ -1650,6 +1666,22 @@
  "https://github.com/kubecolor/kubecolor/pull/402": {
   "merged_by": "applejag",
   "thanks": null
+ },
+ "https://github.com/kubecolor/kubecolor/pull/407": {
+  "merged_by": "applejag",
+  "thanks": {
+   "login": "applejag",
+   "quote": "Thanks for this!",
+   "url": "https://github.com/kubecolor/kubecolor/pull/407#pullrequestreview-6011975118"
+  }
+ },
+ "https://github.com/kubecolor/kubecolor/pull/408": {
+  "merged_by": "applejag",
+  "thanks": {
+   "login": "applejag",
+   "quote": "Thanks for this!",
+   "url": "https://github.com/kubecolor/kubecolor/pull/408#pullrequestreview-6011972113"
+  }
  },
  "https://github.com/kubernetes-sigs/agent-sandbox/pull/2202": {
   "merged_by": "kubernetes-prow[bot]",

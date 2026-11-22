@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-912-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-466-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-214-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-912-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-472-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-216-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 466 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 472 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 16 merged in 7 repos</summary>
 
@@ -69,10 +69,16 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 435 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 441 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[zookeeper] Accept integer PDB minAvailable and maxUnavailable](https://github.com/CloudPirates-io/helm-charts/pull/1947) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
+| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[etcd] Accept integers and percentages for PDB minAvailable/maxUnavailable](https://github.com/CloudPirates-io/helm-charts/pull/1946) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
+| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[mongodb] Fix schema types for replica set topologySpreadConstraints and external port](https://github.com/CloudPirates-io/helm-charts/pull/1945) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
+| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[mariadb] Accept a list for topologySpreadConstraints](https://github.com/CloudPirates-io/helm-charts/pull/1944) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
+| [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [feat: colorize kubectl autoscale and certificate approve/deny output](https://github.com/kubecolor/kubecolor/pull/407) | 2026-11-22 | [@applejag](https://github.com/applejag) | 🙏 [@applejag](https://github.com/kubecolor/kubecolor/pull/407#pullrequestreview-6011975118): <i>"Thanks for this!"</i> |
+| [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [feat: color the finished message of kubectl rollout status](https://github.com/kubecolor/kubecolor/pull/408) | 2026-11-22 | [@applejag](https://github.com/applejag) | 🙏 [@applejag](https://github.com/kubecolor/kubecolor/pull/408#pullrequestreview-6011972113): <i>"Thanks for this!"</i> |
 | [yonahd/kor](https://github.com/yonahd/kor) | [fix(secrets): treat secrets referenced by CSI PersistentVolumes as used](https://github.com/yonahd/kor/pull/648) | 2026-11-22 | [@yonahd](https://github.com/yonahd) |  |
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-kafka](https://github.com/fluent/fluent-plugin-kafka) | [out_rdkafka: Fix attr output_data_type joining fields with no separator](https://github.com/fluent/fluent-plugin-kafka/pull/638) | 2026-11-22 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-kafka/pull/638#pullrequestreview-6010616344): <i>"Thanks for the fix."</i> |
 | <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-webhdfs](https://github.com/fluent/fluent-plugin-webhdfs) | [Switch to standby_namenode after failures_before_use_standby consecutive write failures](https://github.com/fluent/fluent-plugin-webhdfs/pull/115) | 2026-11-22 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-webhdfs/pull/115#pullrequestreview-5934564182): <i>"Thanks for finding this."</i> |
@@ -82,24 +88,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Use time-aligned Markov blanket regressors in iterative_causal_impute](https://github.com/bloomberg/causal-ts/pull/158) | 2026-11-22 | [@fesanghary](https://github.com/fesanghary) | 🙏 [@fesanghary](https://github.com/bloomberg/causal-ts/pull/158#issuecomment-7073029580): <i>"Thanks, this fixes #141!"</i> |
 | [jianyuan/terraform-provider-sentry](https://github.com/jianyuan/terraform-provider-sentry) | [fix(sentry_notification_action): keep the action in state when a step after creation fails](https://github.com/jianyuan/terraform-provider-sentry/pull/1034) | 2026-11-22 | [@jianyuan](https://github.com/jianyuan) |  |
 | [jianyuan/terraform-provider-sentry](https://github.com/jianyuan/terraform-provider-sentry) | [fix: report transport errors instead of panicking on a nil response](https://github.com/jianyuan/terraform-provider-sentry/pull/1035) | 2026-11-22 | [@jianyuan](https://github.com/jianyuan) |  |
-| [jianyuan/terraform-provider-sentry](https://github.com/jianyuan/terraform-provider-sentry) | [fix(sentry_project): send highlight_tags when creating a project](https://github.com/jianyuan/terraform-provider-sentry/pull/1033) | 2026-11-22 | [@jianyuan](https://github.com/jianyuan) |  |
-| <img src="https://img.shields.io/badge/Falco%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Falco ecosystem: not the main Falco repository" title="Falco ecosystem: not the main Falco repository"><br>[falcosecurity/falcosidekick](https://github.com/falcosecurity/falcosidekick) | [fix(outputs): count Webex deliveries in the Webex stats](https://github.com/falcosecurity/falcosidekick/pull/1520) | 2026-11-21 | bot |  |
-| [petoju/terraform-provider-mysql](https://github.com/petoju/terraform-provider-mysql) | [fix(resource_default_roles): support roles = ["ALL"] on MySQL](https://github.com/petoju/terraform-provider-mysql/pull/307) | 2026-11-21 | [@petoju](https://github.com/petoju) |  |
-| [vantage-sh/ec2instances.info](https://github.com/vantage-sh/ec2instances.info) | [fix(scraper): skip out-of-range spot advisor R values instead of panicking](https://github.com/vantage-sh/ec2instances.info/pull/1018) | 2026-11-21 | [@alex-wanger](https://github.com/alex-wanger) | 🙏 [@alex-wanger](https://github.com/vantage-sh/ec2instances.info/pull/1018#pullrequestreview-6002819386): <i>"Thanks for submitting this!"</i> |
-| [vantage-sh/ec2instances.info](https://github.com/vantage-sh/ec2instances.info) | [fix(ec2): report per-instance GPU count and memory for p6e-gb200.36xlarge](https://github.com/vantage-sh/ec2instances.info/pull/1016) | 2026-11-21 | [@alex-wanger](https://github.com/alex-wanger) | 🙏 [@alex-wanger](https://github.com/vantage-sh/ec2instances.info/pull/1016#pullrequestreview-5977600164): <i>"We appreciate your contribution!"</i> |
-| [oliver006/redis_exporter](https://github.com/oliver006/redis_exporter) | [fix: don't report unknown stream group lag and entries-read as 0](https://github.com/oliver006/redis_exporter/pull/1215) | 2026-11-21 | [@oliver006](https://github.com/oliver006) | 🙏 [@oliver006](https://github.com/oliver006/redis_exporter/pull/1215#pullrequestreview-5867081145): <i>"Looks good, thanks for the fix, one minor naming suggestion"</i> |
 
-[All 435 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 441 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 446 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 440 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 33 in 16 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
 - CNCF ecosystem: 123 in 63 repos
-- Other: 270 in 160 repos
+- Other: 264 in 159 repos
 
 <!--END_SECTION:activity-->
 
