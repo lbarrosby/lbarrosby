@@ -923,6 +923,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/443#pullrequestreview-5887037524"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/444": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for following up on #443.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/444#pullrequestreview-5913968412"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/95": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -1071,6 +1079,14 @@
    "url": "https://github.com/fluent/fluent-plugin-kafka/pull/635#pullrequestreview-5915949689"
   }
  },
+ "https://github.com/fluent/fluent-plugin-kafka/pull/638": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-kafka/pull/638#pullrequestreview-6010616344"
+  }
+ },
  "https://github.com/fluent/fluent-plugin-opensearch/pull/201": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -1157,6 +1173,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent/fluent-plugin-webhdfs/pull/113#pullrequestreview-5916014428"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-webhdfs/pull/115": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for finding this.",
+   "url": "https://github.com/fluent/fluent-plugin-webhdfs/pull/115#pullrequestreview-5934564182"
   }
  },
  "https://github.com/fluent/fluentd-kubernetes-daemonset/pull/1697": {
@@ -2664,6 +2688,10 @@
   }
  },
  "https://github.com/yonahd/kor/pull/647": {
+  "merged_by": "yonahd",
+  "thanks": null
+ },
+ "https://github.com/yonahd/kor/pull/648": {
   "merged_by": "yonahd",
   "thanks": null
  },
