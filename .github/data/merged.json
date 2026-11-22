@@ -315,6 +315,22 @@
    "url": "https://github.com/bloomberg/causal-ts/pull/125#issuecomment-7012610130"
   }
  },
+ "https://github.com/bloomberg/causal-ts/pull/157": {
+  "merged_by": "fesanghary",
+  "thanks": {
+   "login": "fesanghary",
+   "quote": "Thanks, this fixes #144!",
+   "url": "https://github.com/bloomberg/causal-ts/pull/157#issuecomment-7073272900"
+  }
+ },
+ "https://github.com/bloomberg/causal-ts/pull/158": {
+  "merged_by": "fesanghary",
+  "thanks": {
+   "login": "fesanghary",
+   "quote": "Thanks, this fixes #141!",
+   "url": "https://github.com/bloomberg/causal-ts/pull/158#issuecomment-7073029580"
+  }
+ },
  "https://github.com/bloomberg/causal-ts/pull/96": {
   "merged_by": "fesanghary",
   "thanks": {
@@ -2462,6 +2478,10 @@
    "quote": "Thanks,, great work!",
    "url": "https://github.com/strowk/mcp-k8s-go/pull/81#issuecomment-6974913157"
   }
+ },
+ "https://github.com/submariner-io/submariner-charts/pull/799": {
+  "merged_by": "tpantelis",
+  "thanks": null
  },
  "https://github.com/syself/cluster-api-provider-hetzner/pull/2354": {
   "merged_by": "abdullah599",

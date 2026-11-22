@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-905-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-459-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-209-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-905-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-462-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-211-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 459 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 462 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 16 merged in 7 repos</summary>
 
@@ -69,10 +69,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 428 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 431 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/Submariner%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Submariner ecosystem: not the main Submariner repository" title="Submariner ecosystem: not the main Submariner repository"><br>[submariner-io/submariner-charts](https://github.com/submariner-io/submariner-charts) | [Omit ceIPSecPSK when no IPsec PSK is set](https://github.com/submariner-io/submariner-charts/pull/799) | 2026-11-22 | [@tpantelis](https://github.com/tpantelis) |  |
+| [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Let forecast_horizon run lagged-only models and continue the input index](https://github.com/bloomberg/causal-ts/pull/157) | 2026-11-22 | [@fesanghary](https://github.com/fesanghary) | 🙏 [@fesanghary](https://github.com/bloomberg/causal-ts/pull/157#issuecomment-7073272900): <i>"Thanks, this fixes #144!"</i> |
+| [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Use time-aligned Markov blanket regressors in iterative_causal_impute](https://github.com/bloomberg/causal-ts/pull/158) | 2026-11-22 | [@fesanghary](https://github.com/fesanghary) | 🙏 [@fesanghary](https://github.com/bloomberg/causal-ts/pull/158#issuecomment-7073029580): <i>"Thanks, this fixes #141!"</i> |
 | [jianyuan/terraform-provider-sentry](https://github.com/jianyuan/terraform-provider-sentry) | [fix(sentry_notification_action): keep the action in state when a step after creation fails](https://github.com/jianyuan/terraform-provider-sentry/pull/1034) | 2026-11-22 | [@jianyuan](https://github.com/jianyuan) |  |
 | [jianyuan/terraform-provider-sentry](https://github.com/jianyuan/terraform-provider-sentry) | [fix: report transport errors instead of panicking on a nil response](https://github.com/jianyuan/terraform-provider-sentry/pull/1035) | 2026-11-22 | [@jianyuan](https://github.com/jianyuan) |  |
 | [jianyuan/terraform-provider-sentry](https://github.com/jianyuan/terraform-provider-sentry) | [fix(sentry_project): send highlight_tags when creating a project](https://github.com/jianyuan/terraform-provider-sentry/pull/1033) | 2026-11-22 | [@jianyuan](https://github.com/jianyuan) |  |
@@ -85,21 +88,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [ansible-collections/community.general](https://github.com/ansible-collections/community.general) | [wakeonlan: repeat the MAC address 16 times in the magic packet](https://github.com/ansible-collections/community.general/pull/13246) | 2026-11-20 | [@felixfontein](https://github.com/felixfontein) | 🙏 [@felixfontein](https://github.com/ansible-collections/community.general/pull/13246#issuecomment-7034081656): <i>"thanks for your contribution!"</i> |
 | <img src="https://img.shields.io/badge/OpenEBS%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="OpenEBS ecosystem: not the main OpenEBS repository" title="OpenEBS ecosystem: not the main OpenEBS repository"><br>[openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | [fix(mount): do not bind mount a block volume twice at the same target](https://github.com/openebs/zfs-localpv/pull/794) | 2026-11-20 | bot |  |
 | [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [feat: colorize kubectl set output](https://github.com/kubecolor/kubecolor/pull/401) | 2026-11-19 | [@applejag](https://github.com/applejag) | 🙏 [@applejag](https://github.com/kubecolor/kubecolor/pull/401#pullrequestreview-5981908608): <i>"Thanks for this!"</i> |
-| [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [feat: colorize kubectl replace output](https://github.com/kubecolor/kubecolor/pull/400) | 2026-11-19 | [@applejag](https://github.com/applejag) | 🙏 [@applejag](https://github.com/kubecolor/kubecolor/pull/400#pullrequestreview-5981740886): <i>"Thanks for this!"</i> |
-| [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [fix: color kubectl rollout history as a table](https://github.com/kubecolor/kubecolor/pull/398) | 2026-11-19 | [@applejag](https://github.com/applejag) | 🙏 [@applejag](https://github.com/kubecolor/kubecolor/pull/398#issuecomment-7019637178): <i>"Thanks for this!"</i> |
-| [kubecolor/kubecolor](https://github.com/kubecolor/kubecolor) | [fix: do not color the kubectl completion script](https://github.com/kubecolor/kubecolor/pull/402) | 2026-11-19 | [@applejag](https://github.com/applejag) |  |
 
-[All 428 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 431 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 446 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 443 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 33 in 16 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
-- CNCF ecosystem: 126 in 65 repos
-- Other: 267 in 161 repos
+- CNCF ecosystem: 125 in 64 repos
+- Other: 265 in 160 repos
 
 <!--END_SECTION:activity-->
 
