@@ -515,6 +515,14 @@
   "merged_by": "fulviodenza",
   "thanks": null
  },
+ "https://github.com/coredns/coredns/pull/8746": {
+  "merged_by": "mqasimsarfraz",
+  "thanks": {
+   "login": "mqasimsarfraz",
+   "quote": "Thanks for addressing the comments, LGTM!",
+   "url": "https://github.com/coredns/coredns/pull/8746#pullrequestreview-5941853745"
+  }
+ },
  "https://github.com/coredns/coredns/pull/8749": {
   "merged_by": "yongtang",
   "thanks": null
@@ -649,6 +657,30 @@
    "login": "max-rocket-internet",
    "quote": "Thanks 💚",
    "url": "https://github.com/deliveryhero/helm-charts/pull/847#pullrequestreview-5934855243"
+  }
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/854": {
+  "merged_by": "max-rocket-internet",
+  "thanks": {
+   "login": "max-rocket-internet",
+   "quote": "Thanks AGAIN 💛",
+   "url": "https://github.com/deliveryhero/helm-charts/pull/854#pullrequestreview-6019631123"
+  }
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/855": {
+  "merged_by": "max-rocket-internet",
+  "thanks": {
+   "login": "max-rocket-internet",
+   "quote": "Thanks 🩵",
+   "url": "https://github.com/deliveryhero/helm-charts/pull/855#pullrequestreview-6019490198"
+  }
+ },
+ "https://github.com/deliveryhero/helm-charts/pull/856": {
+  "merged_by": "max-rocket-internet",
+  "thanks": {
+   "login": "max-rocket-internet",
+   "quote": "Thanks 💚",
+   "url": "https://github.com/deliveryhero/helm-charts/pull/856#pullrequestreview-6019477583"
   }
  },
  "https://github.com/elastic/terraform-provider-ec/pull/1108": {
@@ -1579,6 +1611,10 @@
   "merged_by": "monotek",
   "thanks": null
  },
+ "https://github.com/kokuwaio/helm-charts/pull/268": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
  "https://github.com/kreuzwerker/terraform-provider-docker/pull/1017": {
   "merged_by": "Junkern",
   "thanks": {
@@ -1995,6 +2031,14 @@
   "merged_by": "adamdecaf",
   "thanks": null
  },
+ "https://github.com/moov-io/fed/pull/499": {
+  "merged_by": "adamdecaf",
+  "thanks": null
+ },
+ "https://github.com/moov-io/fed/pull/500": {
+  "merged_by": "adamdecaf",
+  "thanks": null
+ },
  "https://github.com/moov-io/go-sftp/pull/363": {
   "merged_by": "adamdecaf",
   "thanks": {
@@ -2007,6 +2051,10 @@
   "merged_by": "adamdecaf",
   "thanks": null
  },
+ "https://github.com/moov-io/imagecashletter/pull/539": {
+  "merged_by": "adamdecaf",
+  "thanks": null
+ },
  "https://github.com/moov-io/watchman/pull/1014": {
   "merged_by": "adamdecaf",
   "thanks": {
@@ -2014,6 +2062,14 @@
    "quote": "Thanks",
    "url": "https://github.com/moov-io/watchman/pull/1014#issuecomment-6924134467"
   }
+ },
+ "https://github.com/moov-io/watchman/pull/1039": {
+  "merged_by": "adamdecaf",
+  "thanks": null
+ },
+ "https://github.com/moov-io/watchman/pull/1040": {
+  "merged_by": "adamdecaf",
+  "thanks": null
  },
  "https://github.com/mp-ac/verifica-ai/pull/62": {
   "merged_by": "antonioanerao",
@@ -2392,6 +2448,10 @@
   "thanks": null
  },
  "https://github.com/rook/rook/pull/18802": {
+  "merged_by": "travisn",
+  "thanks": null
+ },
+ "https://github.com/rook/rook/pull/18854": {
   "merged_by": "travisn",
   "thanks": null
  },
