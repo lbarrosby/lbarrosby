@@ -251,6 +251,22 @@
   "merged_by": "felladrin",
   "thanks": null
  },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1351": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "felladrin",
+   "quote": "Thanks!",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1351#pullrequestreview-6014812225"
+  }
+ },
+ "https://github.com/aminueza/terraform-provider-minio/pull/1352": {
+  "merged_by": "felladrin",
+  "thanks": {
+   "login": "felladrin",
+   "quote": "Thanks!",
+   "url": "https://github.com/aminueza/terraform-provider-minio/pull/1352#pullrequestreview-6014890397"
+  }
+ },
  "https://github.com/ansible-collections/community.general/pull/13246": {
   "merged_by": "felixfontein",
   "thanks": {

@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-912-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-472-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-216-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-912-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-474-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-16-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-218-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 472 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 474 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 16 merged in 7 repos</summary>
 
@@ -69,10 +69,12 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 441 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 443 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(iam_ldap_policy_attachment): check the policies of the attached user or group on read](https://github.com/aminueza/terraform-provider-minio/pull/1352) | 2026-11-22 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1352#pullrequestreview-6014890397): <i>"Thanks!"</i> |
+| [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(audit_webhook): clear auth_token and client certificate when they are removed](https://github.com/aminueza/terraform-provider-minio/pull/1351) | 2026-11-22 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1351#pullrequestreview-6014812225): <i>"Thanks!"</i> |
 | [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[zookeeper] Accept integer PDB minAvailable and maxUnavailable](https://github.com/CloudPirates-io/helm-charts/pull/1947) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
 | [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[etcd] Accept integers and percentages for PDB minAvailable/maxUnavailable](https://github.com/CloudPirates-io/helm-charts/pull/1946) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
 | [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[mongodb] Fix schema types for replica set topologySpreadConstraints and external port](https://github.com/CloudPirates-io/helm-charts/pull/1945) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
@@ -86,20 +88,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | <img src="https://img.shields.io/badge/Submariner%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Submariner ecosystem: not the main Submariner repository" title="Submariner ecosystem: not the main Submariner repository"><br>[submariner-io/submariner-charts](https://github.com/submariner-io/submariner-charts) | [Omit ceIPSecPSK when no IPsec PSK is set](https://github.com/submariner-io/submariner-charts/pull/799) | 2026-11-22 | [@tpantelis](https://github.com/tpantelis) |  |
 | [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Let forecast_horizon run lagged-only models and continue the input index](https://github.com/bloomberg/causal-ts/pull/157) | 2026-11-22 | [@fesanghary](https://github.com/fesanghary) | 🙏 [@fesanghary](https://github.com/bloomberg/causal-ts/pull/157#issuecomment-7073272900): <i>"Thanks, this fixes #144!"</i> |
 | [bloomberg/causal-ts](https://github.com/bloomberg/causal-ts) | [Use time-aligned Markov blanket regressors in iterative_causal_impute](https://github.com/bloomberg/causal-ts/pull/158) | 2026-11-22 | [@fesanghary](https://github.com/fesanghary) | 🙏 [@fesanghary](https://github.com/bloomberg/causal-ts/pull/158#issuecomment-7073029580): <i>"Thanks, this fixes #141!"</i> |
-| [jianyuan/terraform-provider-sentry](https://github.com/jianyuan/terraform-provider-sentry) | [fix(sentry_notification_action): keep the action in state when a step after creation fails](https://github.com/jianyuan/terraform-provider-sentry/pull/1034) | 2026-11-22 | [@jianyuan](https://github.com/jianyuan) |  |
-| [jianyuan/terraform-provider-sentry](https://github.com/jianyuan/terraform-provider-sentry) | [fix: report transport errors instead of panicking on a nil response](https://github.com/jianyuan/terraform-provider-sentry/pull/1035) | 2026-11-22 | [@jianyuan](https://github.com/jianyuan) |  |
 
-[All 441 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 443 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 440 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 438 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 33 in 16 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
 - CNCF ecosystem: 123 in 63 repos
-- Other: 264 in 159 repos
+- Other: 262 in 158 repos
 
 <!--END_SECTION:activity-->
 
