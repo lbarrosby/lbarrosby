@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-912-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-485-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-18-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-222-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-912-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-488-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-292-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-18-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-223-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 485 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 488 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 18 merged in 7 repos</summary>
 
@@ -71,10 +71,13 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 452 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 455 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(cluster): let backup jobs send 0 for ionice, lockwait, stopwait and zstd](https://github.com/luthermonson/go-proxmox/pull/379) | 2026-11-24 | [@luthermonson](https://github.com/luthermonson) |  |
+| [fluent-plugins-nursery/fluent-plugin-remote_syslog](https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog) | [Use port when host_with_port has no port](https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/93) | 2026-11-24 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/93#pullrequestreview-5838977133): <i>"Thanks for the follow-up."</i> |
+| [rancher/wrangler](https://github.com/rancher/wrangler) | [Do not panic on conditions without LastUpdateTime](https://github.com/rancher/wrangler/pull/782) | 2026-11-23 | [@brandond](https://github.com/brandond) |  |
 | [moov-io/imagecashletter](https://github.com/moov-io/imagecashletter) | [files: return a JSON object from validate and delete endpoints](https://github.com/moov-io/imagecashletter/pull/539) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
 | [moov-io/watchman](https://github.com/moov-io/watchman) | [search: read every value of a repeated gov_ query parameter](https://github.com/moov-io/watchman/pull/1039) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
 | [moov-io/watchman](https://github.com/moov-io/watchman) | [search: send a person's deathDate from the Go client](https://github.com/moov-io/watchman/pull/1040) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
@@ -87,21 +90,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(iam_ldap_policy_attachment): check the policies of the attached user or group on read](https://github.com/aminueza/terraform-provider-minio/pull/1352) | 2026-11-22 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1352#pullrequestreview-6014890397): <i>"Thanks!"</i> |
 | [aminueza/terraform-provider-minio](https://github.com/aminueza/terraform-provider-minio) | [fix(audit_webhook): clear auth_token and client certificate when they are removed](https://github.com/aminueza/terraform-provider-minio/pull/1351) | 2026-11-22 | [@felladrin](https://github.com/felladrin) | 🙏 [@felladrin](https://github.com/aminueza/terraform-provider-minio/pull/1351#pullrequestreview-6014812225): <i>"Thanks!"</i> |
 | [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[zookeeper] Accept integer PDB minAvailable and maxUnavailable](https://github.com/CloudPirates-io/helm-charts/pull/1947) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
-| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[etcd] Accept integers and percentages for PDB minAvailable/maxUnavailable](https://github.com/CloudPirates-io/helm-charts/pull/1946) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
-| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[mongodb] Fix schema types for replica set topologySpreadConstraints and external port](https://github.com/CloudPirates-io/helm-charts/pull/1945) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
-| [CloudPirates-io/helm-charts](https://github.com/CloudPirates-io/helm-charts) | [[mariadb] Accept a list for topologySpreadConstraints](https://github.com/CloudPirates-io/helm-charts/pull/1944) | 2026-11-22 | [@zOnlyKroks](https://github.com/zOnlyKroks) |  |
 
-[All 452 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 455 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 427 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 424 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 31 in 15 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
 - CNCF ecosystem: 123 in 63 repos
-- Other: 253 in 154 repos
+- Other: 250 in 153 repos
 
 <!--END_SECTION:activity-->
 

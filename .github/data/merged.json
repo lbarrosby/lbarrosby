@@ -1019,6 +1019,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/92#pullrequestreview-5797200803"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/93": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the follow-up.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/93#pullrequestreview-5838977133"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/94": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -2027,6 +2035,10 @@
   "merged_by": "luthermonson",
   "thanks": null
  },
+ "https://github.com/luthermonson/go-proxmox/pull/379": {
+  "merged_by": "luthermonson",
+  "thanks": null
+ },
  "https://github.com/moov-io/fed/pull/488": {
   "merged_by": "adamdecaf",
   "thanks": null
@@ -2397,6 +2409,10 @@
  },
  "https://github.com/qdrant/qdrant-helm/pull/531": {
   "merged_by": "bashofmann",
+  "thanks": null
+ },
+ "https://github.com/rancher/wrangler/pull/782": {
+  "merged_by": "brandond",
   "thanks": null
  },
  "https://github.com/ray-project/ray/pull/67828": {
