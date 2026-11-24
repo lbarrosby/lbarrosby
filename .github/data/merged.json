@@ -583,6 +583,14 @@
    "url": "https://github.com/creativeprojects/resticprofile/pull/706#pullrequestreview-5907681288"
   }
  },
+ "https://github.com/czerwonk/junos_exporter/pull/410": {
+  "merged_by": "czerwonk",
+  "thanks": null
+ },
+ "https://github.com/czerwonk/junos_exporter/pull/411": {
+  "merged_by": "czerwonk",
+  "thanks": null
+ },
  "https://github.com/deliveryhero/helm-charts/pull/819": {
   "merged_by": "max-rocket-internet",
   "thanks": {
@@ -1411,6 +1419,14 @@
    "url": "https://github.com/huggingface/text-embeddings-inference/pull/967#pullrequestreview-5919480447"
   }
  },
+ "https://github.com/ionos-cloud/cluster-api-provider-ionoscloud/pull/419": {
+  "merged_by": "jriedel-ionos",
+  "thanks": {
+   "login": "jriedel-ionos",
+   "quote": "Looks good, thanks for raising this PR.",
+   "url": "https://github.com/ionos-cloud/cluster-api-provider-ionoscloud/pull/419#pullrequestreview-5936895325"
+  }
+ },
  "https://github.com/ionos-cloud/terraform-provider-ionoscloud/pull/1061": {
   "merged_by": "adeatcu-ionos",
   "thanks": {
@@ -1959,6 +1975,14 @@
    "url": "https://github.com/latitudesh/agent/pull/33#pullrequestreview-5830558918"
   }
  },
+ "https://github.com/latitudesh/terraform-provider-latitudesh/pull/263": {
+  "merged_by": "LanusseMorais",
+  "thanks": null
+ },
+ "https://github.com/latitudesh/terraform-provider-latitudesh/pull/264": {
+  "merged_by": "LanusseMorais",
+  "thanks": null
+ },
  "https://github.com/lima-vm/lima/pull/5738": {
   "merged_by": "unsuman",
   "thanks": {
@@ -2315,6 +2339,10 @@
   "merged_by": "caduvieira",
   "thanks": null
  },
+ "https://github.com/pengovbr/mod-wssei/pull/143": {
+  "merged_by": "caduvieira",
+  "thanks": null
+ },
  "https://github.com/petoju/terraform-provider-mysql/pull/307": {
   "merged_by": "petoju",
   "thanks": null
@@ -2558,6 +2586,10 @@
    "quote": "Thank you",
    "url": "https://github.com/sergelogvinov/proxmox-cloud-controller-manager/pull/350#issuecomment-6661857505"
   }
+ },
+ "https://github.com/spacelift-io/terraform-provider-spacelift/pull/882": {
+  "merged_by": "mbialon",
+  "thanks": null
  },
  "https://github.com/stakater/Reloader/pull/1269": {
   "merged_by": "msafwankarim",
