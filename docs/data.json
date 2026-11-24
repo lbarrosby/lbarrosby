@@ -5280,22 +5280,6 @@
 "thanks_url": ""
 },
 {
-"repo": "latitudesh/terraform-provider-latitudesh",
-"org": "latitudesh",
-"title": "fix(member): walk every page of team members when reading a member",
-"url": "https://github.com/latitudesh/terraform-provider-latitudesh/pull/266",
-"status": "open",
-"level": "other",
-"project": "",
-"scope": "",
-"opened": "2026-11-10",
-"merged": "",
-"merged_by": "",
-"thanks_by": "",
-"thanks": "",
-"thanks_url": ""
-},
-{
 "repo": "jenkinsci/helm-charts",
 "org": "jenkinsci",
 "title": "feat(jenkins): use the OpenShift Route host for the Jenkins URL",
