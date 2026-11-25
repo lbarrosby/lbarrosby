@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-908-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-496-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-291-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-18-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-224-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-908-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-504-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-291-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-18-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-232-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 496 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 504 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 18 merged in 7 repos</summary>
 
@@ -71,10 +71,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 463 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 471 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter) | [Add container image metadata to init container logs](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/445) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/445#pullrequestreview-6010597854): <i>"Thanks for the PR."</i> |
+| [fluent-plugins-nursery/fluent-plugin-out-http](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http) | [Fix empty text bodies and double-encoded JSON for formatted records](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/99) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/99#pullrequestreview-5934583301): <i>"Thanks for the fix."</i> |
+| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-opensearch](https://github.com/fluent/fluent-plugin-opensearch) | [out_opensearch_data_stream: honor pipeline](https://github.com/fluent/fluent-plugin-opensearch/pull/205) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-opensearch/pull/205#pullrequestreview-5857345114): <i>"Thanks for the fix."</i> |
+| <img src="https://img.shields.io/badge/Fluentd%20ecosystem-not%20the%20main%20repo-555?style=flat-square" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-opensearch](https://github.com/fluent/fluent-plugin-opensearch) | [out_opensearch,in_opensearch: ignore spaces around commas in hosts](https://github.com/fluent/fluent-plugin-opensearch/pull/210) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-opensearch/pull/210#pullrequestreview-6010679466): <i>"Thanks for the fix."</i> |
+| [fluent-plugins-nursery/fluent-plugin-out-http](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http) | [Honor NO_PROXY when a proxy environment variable is set](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/98) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/98#pullrequestreview-5856183899): <i>"Thanks for working on this."</i> |
+| [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Use the event timestamp when the parser gives no time](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/312) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/312#pullrequestreview-6010593695): <i>"Thank you for the fix."</i> |
+| [fluent-plugins-nursery/fluent-plugin-bigquery](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery) | [out_bigquery_insert: Keep other queued chunks on a non-retryable error without a <secondary>](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/236) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/236#pullrequestreview-6010586393): <i>"Thanks for the fix."</i> |
+| [fluent-plugins-nursery/fluent-plugin-bigquery](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery) | [out_bigquery_load: Give up only the failed chunk on a non-retryable error](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/235) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/235#pullrequestreview-6010581358): <i>"Thanks for the fix and the tests."</i> |
 | [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(mysqldump): fail the backup job when mysqldump fails](https://github.com/kokuwaio/helm-charts/pull/269) | 2026-11-24 | [@monotek](https://github.com/monotek) |  |
 | [latitudesh/terraform-provider-latitudesh](https://github.com/latitudesh/terraform-provider-latitudesh) | [fix: remove server, ssh_key, user_data and firewall from state when deleted outside Terraform](https://github.com/latitudesh/terraform-provider-latitudesh/pull/263) | 2026-11-24 | [@LanusseMorais](https://github.com/LanusseMorais) |  |
 | [latitudesh/terraform-provider-latitudesh](https://github.com/latitudesh/terraform-provider-latitudesh) | [fix(project): read the project by ID instead of scanning the first page](https://github.com/latitudesh/terraform-provider-latitudesh/pull/264) | 2026-11-24 | [@LanusseMorais](https://github.com/LanusseMorais) |  |
@@ -82,26 +90,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [czerwonk/junos_exporter](https://github.com/czerwonk/junos_exporter) | [fix(security): skip N/A central point session counters](https://github.com/czerwonk/junos_exporter/pull/411) | 2026-11-24 | [@czerwonk](https://github.com/czerwonk) |  |
 | [spacelift-io/terraform-provider-spacelift](https://github.com/spacelift-io/terraform-provider-spacelift) | [fix(stack_destructor, stack_activator): import by stack ID](https://github.com/spacelift-io/terraform-provider-spacelift/pull/882) | 2026-11-24 | [@mbialon](https://github.com/mbialon) |  |
 | [pengovbr/mod-wssei](https://github.com/pengovbr/mod-wssei) | [docs: documenta a assinatura de documentos sem bloco no swagger](https://github.com/pengovbr/mod-wssei/pull/143) | 2026-11-24 | [@caduvieira](https://github.com/caduvieira) |  |
-| [ionos-cloud/cluster-api-provider-ionoscloud](https://github.com/ionos-cloud/cluster-api-provider-ionoscloud) | [:bug: Make FindLatestMachine independent of list order](https://github.com/ionos-cloud/cluster-api-provider-ionoscloud/pull/419) | 2026-11-24 | [@jriedel-ionos](https://github.com/jriedel-ionos) | 🙏 [@jriedel-ionos](https://github.com/ionos-cloud/cluster-api-provider-ionoscloud/pull/419#pullrequestreview-5936895325): <i>"Looks good, thanks for raising this PR."</i> |
-| [luthermonson/go-proxmox](https://github.com/luthermonson/go-proxmox) | [fix(cluster): let backup jobs send 0 for ionice, lockwait, stopwait and zstd](https://github.com/luthermonson/go-proxmox/pull/379) | 2026-11-24 | [@luthermonson](https://github.com/luthermonson) |  |
-| [fluent-plugins-nursery/fluent-plugin-remote_syslog](https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog) | [Use port when host_with_port has no port](https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/93) | 2026-11-24 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/93#pullrequestreview-5838977133): <i>"Thanks for the follow-up."</i> |
-| [rancher/wrangler](https://github.com/rancher/wrangler) | [Do not panic on conditions without LastUpdateTime](https://github.com/rancher/wrangler/pull/782) | 2026-11-23 | [@brandond](https://github.com/brandond) |  |
-| [moov-io/imagecashletter](https://github.com/moov-io/imagecashletter) | [files: return a JSON object from validate and delete endpoints](https://github.com/moov-io/imagecashletter/pull/539) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
-| [moov-io/watchman](https://github.com/moov-io/watchman) | [search: read every value of a repeated gov_ query parameter](https://github.com/moov-io/watchman/pull/1039) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
-| [moov-io/watchman](https://github.com/moov-io/watchman) | [search: send a person's deathDate from the Go client](https://github.com/moov-io/watchman/pull/1040) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
-| [moov-io/fed](https://github.com/moov-io/fed) | [fix: return a fresh error from routing number searches](https://github.com/moov-io/fed/pull/500) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
 
-[All 463 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 471 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 412 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 404 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 31 in 15 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
-- CNCF ecosystem: 123 in 63 repos
-- Other: 238 in 145 repos
+- CNCF ecosystem: 121 in 62 repos
+- Other: 232 in 143 repos
 
 <!--END_SECTION:activity-->
 

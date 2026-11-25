@@ -807,6 +807,22 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/233#pullrequestreview-5934598593"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/235": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix and the tests.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/235#pullrequestreview-6010581358"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/236": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/236#pullrequestreview-6010586393"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/289": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -893,6 +909,14 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/311#pullrequestreview-5933111854"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/312": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thank you for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/312#pullrequestreview-6010593695"
   }
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-concat/pull/157": {
@@ -1003,6 +1027,14 @@
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/444#pullrequestreview-5913968412"
   }
  },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/445": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the PR.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/445#pullrequestreview-6010597854"
+  }
+ },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/95": {
   "merged_by": "Watson1978",
   "thanks": {
@@ -1017,6 +1049,22 @@
    "login": "Watson1978",
    "quote": "Thanks for the fix and the clear description.",
    "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/96#pullrequestreview-5839358667"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/98": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for working on this.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/98#pullrequestreview-5856183899"
+  }
+ },
+ "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/99": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/99#pullrequestreview-5934583301"
   }
  },
  "https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog/pull/92": {
@@ -1199,12 +1247,28 @@
    "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/204#pullrequestreview-5858194832"
   }
  },
+ "https://github.com/fluent/fluent-plugin-opensearch/pull/205": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/205#pullrequestreview-5857345114"
+  }
+ },
  "https://github.com/fluent/fluent-plugin-opensearch/pull/206": {
   "merged_by": "Watson1978",
   "thanks": {
    "login": "Watson1978",
    "quote": "Thanks for the fix.",
    "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/206#pullrequestreview-5933162973"
+  }
+ },
+ "https://github.com/fluent/fluent-plugin-opensearch/pull/210": {
+  "merged_by": "Watson1978",
+  "thanks": {
+   "login": "Watson1978",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/fluent/fluent-plugin-opensearch/pull/210#pullrequestreview-6010679466"
   }
  },
  "https://github.com/fluent/fluent-plugin-prometheus/pull/275": {
