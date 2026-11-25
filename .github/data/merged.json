@@ -1639,6 +1639,10 @@
   "merged_by": "monotek",
   "thanks": null
  },
+ "https://github.com/kokuwaio/helm-charts/pull/269": {
+  "merged_by": "monotek",
+  "thanks": null
+ },
  "https://github.com/kreuzwerker/terraform-provider-docker/pull/1017": {
   "merged_by": "Junkern",
   "thanks": {

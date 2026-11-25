@@ -11,11 +11,11 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-908-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-495-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-291-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-18-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-224-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-908-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-496-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-291-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-18-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-224-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 495 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 496 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 18 merged in 7 repos</summary>
 
@@ -71,10 +71,11 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 462 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 463 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(mysqldump): fail the backup job when mysqldump fails](https://github.com/kokuwaio/helm-charts/pull/269) | 2026-11-24 | [@monotek](https://github.com/monotek) |  |
 | [latitudesh/terraform-provider-latitudesh](https://github.com/latitudesh/terraform-provider-latitudesh) | [fix: remove server, ssh_key, user_data and firewall from state when deleted outside Terraform](https://github.com/latitudesh/terraform-provider-latitudesh/pull/263) | 2026-11-24 | [@LanusseMorais](https://github.com/LanusseMorais) |  |
 | [latitudesh/terraform-provider-latitudesh](https://github.com/latitudesh/terraform-provider-latitudesh) | [fix(project): read the project by ID instead of scanning the first page](https://github.com/latitudesh/terraform-provider-latitudesh/pull/264) | 2026-11-24 | [@LanusseMorais](https://github.com/LanusseMorais) |  |
 | [czerwonk/junos_exporter](https://github.com/czerwonk/junos_exporter) | [fix: read PEM current from str3-dc-current on newer Junos](https://github.com/czerwonk/junos_exporter/pull/410) | 2026-11-24 | [@czerwonk](https://github.com/czerwonk) |  |
@@ -89,19 +90,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [moov-io/watchman](https://github.com/moov-io/watchman) | [search: read every value of a repeated gov_ query parameter](https://github.com/moov-io/watchman/pull/1039) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
 | [moov-io/watchman](https://github.com/moov-io/watchman) | [search: send a person's deathDate from the Go client](https://github.com/moov-io/watchman/pull/1040) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
 | [moov-io/fed](https://github.com/moov-io/fed) | [fix: return a fresh error from routing number searches](https://github.com/moov-io/fed/pull/500) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
-| [moov-io/fed](https://github.com/moov-io/fed) | [fix: stop after the error response in wire search](https://github.com/moov-io/fed/pull/499) | 2026-11-23 | [@adamdecaf](https://github.com/adamdecaf) |  |
 
-[All 462 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 463 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 413 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 412 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 31 in 15 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
 - CNCF ecosystem: 123 in 63 repos
-- Other: 239 in 146 repos
+- Other: 238 in 145 repos
 
 <!--END_SECTION:activity-->
 
