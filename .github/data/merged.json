@@ -311,6 +311,14 @@
   "merged_by": "duedares-rvj",
   "thanks": null
  },
+ "https://github.com/aws-ia/terraform-aws-eks-blueprints-addons/pull/524": {
+  "merged_by": "allamand",
+  "thanks": {
+   "login": "allamand",
+   "quote": "Thanks for the fix.",
+   "url": "https://github.com/aws-ia/terraform-aws-eks-blueprints-addons/pull/524#pullrequestreview-5993560072"
+  }
+ },
  "https://github.com/aws/karpenter-provider-aws/pull/9852": {
   "merged_by": "AndrewSirenko",
   "thanks": null
@@ -481,6 +489,14 @@
    "login": "bpg-dev",
    "quote": "Thanks for the fix!",
    "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3308#pullrequestreview-5939382589"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3339": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Thanks for the fix!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3339#pullrequestreview-6015897473"
   }
  },
  "https://github.com/buildkite/terraform-provider-buildkite/pull/1336": {
@@ -2323,6 +2339,22 @@
    "url": "https://github.com/openobserve/terraform-provider-openobserve/pull/17#issuecomment-6668738402"
   }
  },
+ "https://github.com/openobserve/terraform-provider-openobserve/pull/27": {
+  "merged_by": "",
+  "thanks": {
+   "login": "chaitanya-sistla",
+   "quote": "Thanks, good catch, and the write-up made it easy to confirm.",
+   "url": "https://github.com/openobserve/terraform-provider-openobserve/pull/27#issuecomment-7164528715"
+  }
+ },
+ "https://github.com/openobserve/terraform-provider-openobserve/pull/28": {
+  "merged_by": "",
+  "thanks": {
+   "login": "chaitanya-sistla",
+   "quote": "Thanks.",
+   "url": "https://github.com/openobserve/terraform-provider-openobserve/pull/28#issuecomment-7164529307"
+  }
+ },
  "https://github.com/opentelekomcloud/terraform-provider-opentelekomcloud/pull/3616": {
   "merged_by": "otc-zuul-prod[bot]",
   "thanks": null
@@ -2857,6 +2889,14 @@
    "login": "alex-wanger",
    "quote": "Thanks for submitting this!",
    "url": "https://github.com/vantage-sh/ec2instances.info/pull/1018#pullrequestreview-6002819386"
+  }
+ },
+ "https://github.com/vultr/terraform-provider-vultr/pull/811": {
+  "merged_by": "optik-aper",
+  "thanks": {
+   "login": "optik-aper",
+   "quote": "Thanks",
+   "url": "https://github.com/vultr/terraform-provider-vultr/pull/811#pullrequestreview-5831074756"
   }
  },
  "https://github.com/xorbitsai/inference/pull/6026": {
