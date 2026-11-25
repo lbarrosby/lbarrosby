@@ -11,16 +11,17 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<img src="https://img.shields.io/badge/upstream%20PRs-906-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-509-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-290-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-18-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-237-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
+<img src="https://img.shields.io/badge/upstream%20PRs-906-1F6FEB?style=flat-square" alt="Upstream PRs"> <img src="https://img.shields.io/badge/merged-510-8957E5?style=flat-square" alt="Merged"> <img src="https://img.shields.io/badge/projects-290-2EA043?style=flat-square" alt="Projects"> <img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-19-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a> <img src="https://img.shields.io/badge/thanked%20by%20maintainers-237-DB61A2?style=flat-square" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-1-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>
 
 ☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): [cloud-provider: validate --concurrent-service-syncs](https://github.com/kubernetes/kubernetes/pull/143991) (2026-11-16 · approved by [@liggitt](https://github.com/liggitt))
 
-**Merged** · official CNCF project repositories first · [see all 509 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 510 with filters](https://lbarrosby.github.io/lbarrosby/)
 
-<details open><summary><b>Official CNCF Graduated projects</b> · 18 merged in 7 repos</summary>
+<details open><summary><b>Official CNCF Graduated projects</b> · 19 merged in 8 repos</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| <img src="https://img.shields.io/badge/Kubernetes-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Kubernetes: official repository of a CNCF graduated project" title="Kubernetes: official repository of a CNCF graduated project"><br>[kubernetes/autoscaler](https://github.com/kubernetes/autoscaler) | [cluster-autoscaler/chart: keep PDB minAvailable/maxUnavailable with a custom selector](https://github.com/kubernetes/autoscaler/pull/10634) | 2026-11-25 | bot |  |
 | <img src="https://img.shields.io/badge/Rook-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Rook: official repository of a CNCF graduated project" title="Rook: official repository of a CNCF graduated project"><br>[rook/rook](https://github.com/rook/rook) | [helm: pass mapOptions and unmapOptions to EC pool storage classes](https://github.com/rook/rook/pull/18854) | 2026-11-23 | [@travisn](https://github.com/travisn) |  |
 | <img src="https://img.shields.io/badge/CoreDNS-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="CoreDNS: official repository of a CNCF graduated project" title="CoreDNS: official repository of a CNCF graduated project"><br>[coredns/coredns](https://github.com/coredns/coredns) | [plugin/header: keep rules from every header block](https://github.com/coredns/coredns/pull/8746) | 2026-11-23 | [@mqasimsarfraz](https://github.com/mqasimsarfraz) | 🙏 [@mqasimsarfraz](https://github.com/coredns/coredns/pull/8746#pullrequestreview-5941853745): <i>"Thanks for addressing the comments, LGTM!"</i> |
 | <img src="https://img.shields.io/badge/Rook-official%20·%20CNCF%20Graduated-0086FF?style=flat-square&logo=cncf&logoColor=white" alt="Rook: official repository of a CNCF graduated project" title="Rook: official repository of a CNCF graduated project"><br>[rook/rook](https://github.com/rook/rook) | [osd: requeue the disruption controller while a failure domain drains](https://github.com/rook/rook/pull/18752) | 2026-11-19 | [@sp98](https://github.com/sp98) |  |
@@ -95,9 +96,9 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-**In review** · 397 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 396 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
-- Official CNCF Graduated: 31 in 15 repos
+- Official CNCF Graduated: 30 in 15 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
 - CNCF ecosystem: 121 in 62 repos

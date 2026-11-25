@@ -2039,6 +2039,10 @@
    "url": "https://github.com/kubernetes-sigs/node-feature-discovery/pull/2663#pullrequestreview-5935581060"
   }
  },
+ "https://github.com/kubernetes/autoscaler/pull/10634": {
+  "merged_by": "kubernetes-prow[bot]",
+  "thanks": null
+ },
  "https://github.com/kubernetes/cloud-provider-openstack/pull/3283": {
   "merged_by": "kubernetes-prow[bot]",
   "thanks": null
