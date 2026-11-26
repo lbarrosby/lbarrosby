@@ -166,7 +166,7 @@ def main():
         repo = p["repository_url"].split("/repos/")[1]
         repos.setdefault(repo, []).append(p)
     merged = sum(1 for p in prs if status(p) == "merged")
-    badges = [f'<img src="https://img.shields.io/badge/upstream%20PRs-{len(prs)}-1F6FEB?style=flat-square" alt="Upstream PRs">']
+    badges = [f'<img src="https://img.shields.io/badge/upstream%20PRs-{len(prs)}-1F6FEB?style=flat-square&cacheSeconds=3600" alt="Upstream PRs">']
     if merged:
         badges.append(f'<img src="https://img.shields.io/badge/merged-{merged}-8957E5?style=flat-square" alt="Merged">')
     badges.append(f'<img src="https://img.shields.io/badge/projects-{len(repos)}-2EA043?style=flat-square" alt="Projects">')
@@ -177,7 +177,7 @@ def main():
         badges.append(f'<img src="https://img.shields.io/badge/merged%20in%20official%20CNCF%20graduated%20repos-{core}-0086FF?style=flat-square" alt="Merged in repositories the CNCF lists for graduated projects">')
 
     site = "https://lbarrosby.github.io/lbarrosby/"
-    badges.append(f'<a href="{site}"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square&logo=githubpages&logoColor=white" alt="Filter and search all PRs"></a>')
+    badges.append(f'<a href="{site}"><img src="https://img.shields.io/badge/filter%20%26%20search-all%20PRs-F78166?style=flat-square" alt="Filter and search all PRs"></a>')
     lines = [" ".join(badges), ""]
     done = [p for p in prs if status(p) == "merged"]
     try:
