@@ -10592,22 +10592,6 @@
 "thanks_url": ""
 },
 {
-"repo": "bloomberg/memray",
-"org": "bloomberg",
-"title": "Fix stats histogram for degenerate sizes and bin edges",
-"url": "https://github.com/bloomberg/memray/pull/1082",
-"status": "open",
-"level": "other",
-"project": "",
-"scope": "",
-"opened": "2026-11-06",
-"merged": "",
-"merged_by": "",
-"thanks_by": "",
-"thanks": "",
-"thanks_url": ""
-},
-{
 "repo": "civo/civo-cloud-controller-manager",
 "org": "civo",
 "title": "fix: use the node InternalIP for load balancer backends and skip nodes without an address",

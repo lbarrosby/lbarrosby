@@ -191,22 +191,37 @@ def main():
     if thanked:
         lines[0] += f' <img src="https://img.shields.io/badge/thanked%20by%20maintainers-{thanked}-DB61A2?style=flat-square" alt="Thanked by maintainers">'
 
-    k8s_core = sorted((p for p in done if p["repository_url"].endswith("/repos/kubernetes/kubernetes")), key=lambda p: p["pull_request"]["merged_at"], reverse=True)
-    if k8s_core:
-        lines[0] += f' <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-{len(k8s_core)}-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>'
-        items = []
-        for p in k8s_core:
+    def k8s_repo(p):
+        return p["repository_url"].split("/repos/")[1]
+
+    k8s_all = sorted((p for p in done if k8s_repo(p).split("/")[0] in ("kubernetes", "kubernetes-sigs")), key=lambda p: p["pull_request"]["merged_at"], reverse=True)
+    k8s_core = [p for p in k8s_all if k8s_repo(p) == "kubernetes/kubernetes"]
+    if k8s_all:
+        k8s_q = "https://github.com/search?q=author%3Albarrosby+is%3Apr+is%3Amerged+org%3Akubernetes+org%3Akubernetes-sigs&type=pullrequests"
+        lines[0] = f'<a href="{k8s_q}"><img src="https://img.shields.io/badge/merged%20in%20the%20Kubernetes%20project-{len(k8s_all)}-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Merged in the Kubernetes project"></a><br>' + lines[0]
+        if k8s_core:
+            lines[0] += f' <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="https://img.shields.io/badge/merged%20in%20kubernetes%2Fkubernetes-{len(k8s_core)}-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Merged in kubernetes/kubernetes"></a>'
+        nrepos = len({k8s_repo(p) for p in k8s_all})
+        rows = []
+        for p in k8s_all:
+            repo = k8s_repo(p)
             approvers = []
             try:
-                for c in api(f"repos/kubernetes/kubernetes/issues/{p['number']}/comments?per_page=100"):
+                for c in api(f"repos/{repo}/issues/{p['number']}/comments?per_page=100"):
                     login = c["user"]["login"]
-                    if re.search(r"^/approve\b", c.get("body") or "", re.M) and not login.endswith("[bot]") and login not in approvers and login != "lbarrosby":
+                    if re.search(r"^/(approve|lgtm)\b", c.get("body") or "", re.M) and not login.endswith("[bot]") and login not in approvers and login != "lbarrosby":
                         approvers.append(login)
             except Exception:
                 pass
-            by = f" · approved by {', '.join(f'[@{a}](https://github.com/{a})' for a in approvers)}" if approvers else ""
-            items.append(f"[{p['title']}]({p['html_url']}) ({p['pull_request']['merged_at'][:10]}{by})")
-        lines += [f"☸️ **Merged into the Kubernetes core repository** ([kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)): " + "; ".join(items), ""]
+            if not approvers:
+                by = info[p["html_url"]]["merged_by"]
+                if by and not by.endswith("[bot]") and by.lower() not in BOTS:
+                    approvers.append(by)
+            who = ", ".join(f"[@{a}](https://github.com/{a})" for a in approvers)
+            area = "core" if repo == "kubernetes/kubernetes" else ("SIG subproject" if repo.startswith("kubernetes-sigs/") else "official")
+            title = p["title"].replace("|", "\\|")
+            rows.append(f"| [{repo}](https://github.com/{repo}) <sub>{area}</sub> | [{title}]({p['html_url']}) | {p['pull_request']['merged_at'][:10]} | {who} |")
+        lines += [f"### ☸️ Kubernetes", "", f"{len(k8s_all)} pull requests merged across {nrepos} repositories of the Kubernetes project (`kubernetes` and `kubernetes-sigs`), reviewed and approved by Kubernetes maintainers.", "", "| Repository | Pull request | Merged | Approved by |", "|---|---|---|---|"] + rows + ["", "---", ""]
 
     def level(repo):
         label = cncf_label(repo, repos_cncf, orgs_cncf)
