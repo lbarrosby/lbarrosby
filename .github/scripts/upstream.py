@@ -221,7 +221,7 @@ def main():
             area = "core" if repo == "kubernetes/kubernetes" else ("SIG subproject" if repo.startswith("kubernetes-sigs/") else "official")
             title = p["title"].replace("|", "\\|")
             rows.append(f"| [{repo}](https://github.com/{repo}) <sub>{area}</sub> | [{title}]({p['html_url']}) | {p['pull_request']['merged_at'][:10]} | {who} |")
-        lines += [f"### ☸️ Kubernetes", "", f"{len(k8s_all)} pull requests merged across {nrepos} repositories of the Kubernetes project (`kubernetes` and `kubernetes-sigs`), reviewed and approved by Kubernetes maintainers.", "", "| Repository | Pull request | Merged | Approved by |", "|---|---|---|---|"] + rows + ["", "---", ""]
+        lines += [f'### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg" width="26" height="26" align="top" alt="Kubernetes"> Kubernetes', "", f"{len(k8s_all)} pull requests merged across {nrepos} repositories of the Kubernetes project (`kubernetes` and `kubernetes-sigs`), reviewed and approved by Kubernetes maintainers.", "", "| Repository | Pull request | Merged | Approved by |", "|---|---|---|---|"] + rows + ["", "---", ""]
 
     def level(repo):
         label = cncf_label(repo, repos_cncf, orgs_cncf)
