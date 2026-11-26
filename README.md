@@ -11,7 +11,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<a href="https://github.com/search?q=author%3Albarrosby+is%3Apr+is%3Amerged+org%3Akubernetes+org%3Akubernetes-sigs&type=pullrequests"><img src="badges/cdfb77d446ffc926.svg" alt="Merged in the Kubernetes project"></a><br><img src="badges/00124a43c8fe0af7.svg" alt="Upstream PRs"> <img src="badges/1c2eb8bff291a3c8.svg" alt="Merged"> <img src="badges/24dc85b513d6a318.svg" alt="Projects"> <img src="badges/009f701e2c07284f.svg" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="badges/6d7d221d62de220b.svg" alt="Filter and search all PRs"></a> <img src="badges/99a10292a668f8ff.svg" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="badges/66875a619a3f6bd5.svg" alt="Merged in kubernetes/kubernetes"></a>
+<a href="https://github.com/search?q=author%3Albarrosby+is%3Apr+is%3Amerged+org%3Akubernetes+org%3Akubernetes-sigs&type=pullrequests"><img src="badges/cdfb77d446ffc926.svg" alt="Merged in the Kubernetes project"></a><br><img src="badges/00124a43c8fe0af7.svg" alt="Upstream PRs"> <img src="badges/e23c5b6b45972176.svg" alt="Merged"> <img src="badges/24dc85b513d6a318.svg" alt="Projects"> <img src="badges/009f701e2c07284f.svg" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="badges/6d7d221d62de220b.svg" alt="Filter and search all PRs"></a> <img src="badges/ebd5ec3ab8dafc1b.svg" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="badges/66875a619a3f6bd5.svg" alt="Merged in kubernetes/kubernetes"></a>
 
 ### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg" width="26" height="26" align="top" alt="Kubernetes"> Kubernetes
 
@@ -57,7 +57,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 ---
 
-**Merged** · official CNCF project repositories first · [see all 510 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 518 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 19 merged in 8 repos</summary>
 
@@ -114,10 +114,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 476 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 484 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [jenkinsci/mcp-server-plugin](https://github.com/jenkinsci/mcp-server-plugin) | [Count open SSE and Streamable HTTP clients in /mcp-health activeConnections](https://github.com/jenkinsci/mcp-server-plugin/pull/293) | 2026-11-26 | [@olamy](https://github.com/olamy) |  |
+| [elastic/terraform-provider-ec](https://github.com/elastic/terraform-provider-ec) | [Send search_lake data_retention for ec_security_project](https://github.com/elastic/terraform-provider-ec/pull/1125) | 2026-11-26 | [@dimuon](https://github.com/dimuon) | 🙏 [@dimuon](https://github.com/elastic/terraform-provider-ec/pull/1125#pullrequestreview-6072046228): <i>"Thanks for addressing this"</i> |
+| [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox_user): compare groups regardless of order](https://github.com/ansible-collections/community.proxmox/pull/568) | 2026-11-26 | [@IamLunchbox](https://github.com/IamLunchbox) |  |
+| [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox_backup_schedule): handle jobs without a vmid list](https://github.com/ansible-collections/community.proxmox/pull/567) | 2026-11-26 | [@IamLunchbox](https://github.com/IamLunchbox) |  |
+| [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix: treat tasks that end with warnings as successful](https://github.com/ansible-collections/community.proxmox/pull/566) | 2026-11-26 | [@IamLunchbox](https://github.com/IamLunchbox) |  |
+| [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox): keep the MAC address when updating netif](https://github.com/ansible-collections/community.proxmox/pull/562) | 2026-11-26 | [@IamLunchbox](https://github.com/IamLunchbox) | 🙏 [@Thulium-Drake](https://github.com/ansible-collections/community.proxmox/pull/562#issuecomment-6712743049): <i>"Thanks for this change, can you please have a look at the merge conflict I fixed if…"</i> |
+| [bytebase/terraform-provider-bytebase](https://github.com/bytebase/terraform-provider-bytebase) | [fix: drop archived or purged projects from state on read](https://github.com/bytebase/terraform-provider-bytebase/pull/217) | 2026-11-26 | [@ecmadao](https://github.com/ecmadao) | 🙏 [@ecmadao](https://github.com/bytebase/terraform-provider-bytebase/pull/217#pullrequestreview-6070472177): <i>"LGTM, thanks!"</i> |
+| [bytebase/terraform-provider-bytebase](https://github.com/bytebase/terraform-provider-bytebase) | [fix: handle environments removed outside Terraform](https://github.com/bytebase/terraform-provider-bytebase/pull/218) | 2026-11-26 | [@ecmadao](https://github.com/ecmadao) | 🙏 [@ecmadao](https://github.com/bytebase/terraform-provider-bytebase/pull/218#pullrequestreview-6070320292): <i>"LGTM, thanks!"</i> |
 | [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(vm): keep template disk options when a cloned disk is listed](https://github.com/bpg/terraform-provider-proxmox/pull/3339) | 2026-11-25 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3339#pullrequestreview-6015897473): <i>"Thanks for the fix!"</i> |
 | [vultr/terraform-provider-vultr](https://github.com/vultr/terraform-provider-vultr) | [Mark credential attributes as sensitive](https://github.com/vultr/terraform-provider-vultr/pull/811) | 2026-11-25 | [@optik-aper](https://github.com/optik-aper) | 🙏 [@optik-aper](https://github.com/vultr/terraform-provider-vultr/pull/811#pullrequestreview-5831074756): <i>"Thanks"</i> |
 | [openobserve/terraform-provider-openobserve](https://github.com/openobserve/terraform-provider-openobserve) | [fix: revoke custom roles removed from an openobserve_user](https://github.com/openobserve/terraform-provider-openobserve/pull/28) | 2026-11-25 |  | 🙏 [@chaitanya-sistla](https://github.com/openobserve/terraform-provider-openobserve/pull/28#issuecomment-7164529307): <i>"Thanks."</i> |
@@ -125,26 +133,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [aws-ia/terraform-aws-eks-blueprints-addons](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons) | [fix: Keep nested prefixes in the Velero backup location](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons/pull/524) | 2026-11-25 | [@allamand](https://github.com/allamand) | 🙏 [@allamand](https://github.com/aws-ia/terraform-aws-eks-blueprints-addons/pull/524#pullrequestreview-5993560072): <i>"Thanks for the fix."</i> |
 | [fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter) | [Add container image metadata to init container logs](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/445) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-kubernetes_metadata_filter/pull/445#pullrequestreview-6010597854): <i>"Thanks for the PR."</i> |
 | [fluent-plugins-nursery/fluent-plugin-out-http](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http) | [Fix empty text bodies and double-encoded JSON for formatted records](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/99) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/99#pullrequestreview-5934583301): <i>"Thanks for the fix."</i> |
-| <img src="badges/818560963278dc1e.svg" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-opensearch](https://github.com/fluent/fluent-plugin-opensearch) | [out_opensearch_data_stream: honor pipeline](https://github.com/fluent/fluent-plugin-opensearch/pull/205) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-opensearch/pull/205#pullrequestreview-5857345114): <i>"Thanks for the fix."</i> |
-| <img src="badges/818560963278dc1e.svg" alt="Fluentd ecosystem: not the main Fluentd repository" title="Fluentd ecosystem: not the main Fluentd repository"><br>[fluent/fluent-plugin-opensearch](https://github.com/fluent/fluent-plugin-opensearch) | [out_opensearch,in_opensearch: ignore spaces around commas in hosts](https://github.com/fluent/fluent-plugin-opensearch/pull/210) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent/fluent-plugin-opensearch/pull/210#pullrequestreview-6010679466): <i>"Thanks for the fix."</i> |
-| [fluent-plugins-nursery/fluent-plugin-out-http](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http) | [Honor NO_PROXY when a proxy environment variable is set](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/98) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-out-http/pull/98#pullrequestreview-5856183899): <i>"Thanks for working on this."</i> |
-| [fluent-plugins-nursery/fluent-plugin-cloudwatch-logs](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs) | [Use the event timestamp when the parser gives no time](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/312) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs/pull/312#pullrequestreview-6010593695): <i>"Thank you for the fix."</i> |
-| [fluent-plugins-nursery/fluent-plugin-bigquery](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery) | [out_bigquery_insert: Keep other queued chunks on a non-retryable error without a <secondary>](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/236) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/236#pullrequestreview-6010586393): <i>"Thanks for the fix."</i> |
-| [fluent-plugins-nursery/fluent-plugin-bigquery](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery) | [out_bigquery_load: Give up only the failed chunk on a non-retryable error](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/235) | 2026-11-25 | [@Watson1978](https://github.com/Watson1978) | 🙏 [@Watson1978](https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery/pull/235#pullrequestreview-6010581358): <i>"Thanks for the fix and the tests."</i> |
-| [kokuwaio/helm-charts](https://github.com/kokuwaio/helm-charts) | [fix(mysqldump): fail the backup job when mysqldump fails](https://github.com/kokuwaio/helm-charts/pull/269) | 2026-11-24 | [@monotek](https://github.com/monotek) |  |
-| [latitudesh/terraform-provider-latitudesh](https://github.com/latitudesh/terraform-provider-latitudesh) | [fix: remove server, ssh_key, user_data and firewall from state when deleted outside Terraform](https://github.com/latitudesh/terraform-provider-latitudesh/pull/263) | 2026-11-24 | [@LanusseMorais](https://github.com/LanusseMorais) |  |
 
-[All 476 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 484 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 396 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 388 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 31 in 15 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
 - CNCF ecosystem: 121 in 62 repos
-- Other: 224 in 139 repos
+- Other: 216 in 136 repos
 
 <!--END_SECTION:activity-->
 

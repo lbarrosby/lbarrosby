@@ -283,6 +283,14 @@
    "url": "https://github.com/ansible-collections/community.proxmox/pull/559#issuecomment-6712691578"
   }
  },
+ "https://github.com/ansible-collections/community.proxmox/pull/562": {
+  "merged_by": "IamLunchbox",
+  "thanks": {
+   "login": "Thulium-Drake",
+   "quote": "Thanks for this change, can you please have a look at the merge conflict I fixed if…",
+   "url": "https://github.com/ansible-collections/community.proxmox/pull/562#issuecomment-6712743049"
+  }
+ },
  "https://github.com/ansible-collections/community.proxmox/pull/563": {
   "merged_by": "Thulium-Drake",
   "thanks": {
@@ -292,6 +300,18 @@
   }
  },
  "https://github.com/ansible-collections/community.proxmox/pull/565": {
+  "merged_by": "IamLunchbox",
+  "thanks": null
+ },
+ "https://github.com/ansible-collections/community.proxmox/pull/566": {
+  "merged_by": "IamLunchbox",
+  "thanks": null
+ },
+ "https://github.com/ansible-collections/community.proxmox/pull/567": {
+  "merged_by": "IamLunchbox",
+  "thanks": null
+ },
+ "https://github.com/ansible-collections/community.proxmox/pull/568": {
   "merged_by": "IamLunchbox",
   "thanks": null
  },
@@ -515,6 +535,22 @@
    "url": "https://github.com/buildkite/terraform-provider-buildkite/pull/1340#pullrequestreview-5879395429"
   }
  },
+ "https://github.com/bytebase/terraform-provider-bytebase/pull/217": {
+  "merged_by": "ecmadao",
+  "thanks": {
+   "login": "ecmadao",
+   "quote": "LGTM, thanks!",
+   "url": "https://github.com/bytebase/terraform-provider-bytebase/pull/217#pullrequestreview-6070472177"
+  }
+ },
+ "https://github.com/bytebase/terraform-provider-bytebase/pull/218": {
+  "merged_by": "ecmadao",
+  "thanks": {
+   "login": "ecmadao",
+   "quote": "LGTM, thanks!",
+   "url": "https://github.com/bytebase/terraform-provider-bytebase/pull/218#pullrequestreview-6070320292"
+  }
+ },
  "https://github.com/cert-manager/cert-manager/pull/9556": {
   "merged_by": "cert-manager-prow[bot]",
   "thanks": null
@@ -713,6 +749,14 @@
    "login": "dimuon",
    "quote": "Thanks for picking up #1015.",
    "url": "https://github.com/elastic/terraform-provider-ec/pull/1108#pullrequestreview-5878153103"
+  }
+ },
+ "https://github.com/elastic/terraform-provider-ec/pull/1125": {
+  "merged_by": "dimuon",
+  "thanks": {
+   "login": "dimuon",
+   "quote": "Thanks for addressing this",
+   "url": "https://github.com/elastic/terraform-provider-ec/pull/1125#pullrequestreview-6072046228"
   }
  },
  "https://github.com/equinix/cli/pull/68": {
@@ -1585,6 +1629,10 @@
  },
  "https://github.com/jenkinsci/helm-charts/pull/1824": {
   "merged_by": "timja",
+  "thanks": null
+ },
+ "https://github.com/jenkinsci/mcp-server-plugin/pull/293": {
+  "merged_by": "olamy",
   "thanks": null
  },
  "https://github.com/jianyuan/terraform-provider-sentry/pull/1002": {
