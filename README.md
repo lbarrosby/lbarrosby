@@ -11,7 +11,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<a href="https://github.com/search?q=author%3Albarrosby+is%3Apr+is%3Amerged+org%3Akubernetes+org%3Akubernetes-sigs&type=pullrequests"><img src="badges/cdfb77d446ffc926.svg" alt="Merged in the Kubernetes project"></a><br><img src="badges/765a423916ea87e0.svg" alt="Upstream PRs"> <img src="badges/1c2eb8bff291a3c8.svg" alt="Merged"> <img src="badges/24dc85b513d6a318.svg" alt="Projects"> <img src="badges/009f701e2c07284f.svg" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="badges/6d7d221d62de220b.svg" alt="Filter and search all PRs"></a> <img src="badges/99a10292a668f8ff.svg" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="badges/66875a619a3f6bd5.svg" alt="Merged in kubernetes/kubernetes"></a>
+<a href="https://github.com/search?q=author%3Albarrosby+is%3Apr+is%3Amerged+org%3Akubernetes+org%3Akubernetes-sigs&type=pullrequests"><img src="badges/cdfb77d446ffc926.svg" alt="Merged in the Kubernetes project"></a><br><img src="badges/00124a43c8fe0af7.svg" alt="Upstream PRs"> <img src="badges/1c2eb8bff291a3c8.svg" alt="Merged"> <img src="badges/24dc85b513d6a318.svg" alt="Projects"> <img src="badges/009f701e2c07284f.svg" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="badges/6d7d221d62de220b.svg" alt="Filter and search all PRs"></a> <img src="badges/99a10292a668f8ff.svg" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="badges/66875a619a3f6bd5.svg" alt="Merged in kubernetes/kubernetes"></a>
 
 ### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg" width="26" height="26" align="top" alt="Kubernetes"> Kubernetes
 
@@ -138,9 +138,9 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-**In review** · 395 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 396 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
-- Official CNCF Graduated: 30 in 15 repos
+- Official CNCF Graduated: 31 in 15 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
 - CNCF ecosystem: 121 in 62 repos

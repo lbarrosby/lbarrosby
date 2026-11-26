@@ -1,5 +1,21 @@
 [
 {
+"repo": "kubernetes/kubernetes",
+"org": "kubernetes",
+"title": "kubelet: cpumanager: don't fail single-numa-node admission because of reusable init container CPUs",
+"url": "https://github.com/kubernetes/kubernetes/pull/144481",
+"status": "open",
+"level": "graduated",
+"project": "Kubernetes",
+"scope": "core",
+"opened": "2026-11-26",
+"merged": "",
+"merged_by": "",
+"thanks_by": "",
+"thanks": "",
+"thanks_url": ""
+},
+{
 "repo": "opentelekomcloud/terraform-provider-opentelekomcloud",
 "org": "opentelekomcloud",
 "title": "[Fix] IAM: remove deleted protocols and role assignments from state on read",
