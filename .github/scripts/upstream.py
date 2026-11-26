@@ -1,3 +1,4 @@
+import hashlib
 import json
 import urllib.parse
 import os
@@ -13,7 +14,7 @@ def search():
     items = []
     for page in range(1, 11):
         url = f"https://api.github.com/search/issues?per_page=100&page={page}&sort=created&order=desc&q=" + urllib.parse.quote(q)
-        req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json", "Authorization": f"Bearer {TOKEN}"} if TOKEN else {})
+        req = urllib.request.Request(urllib.parse.quote(url, safe=":/?&=%+,"), headers={"Accept": "application/vnd.github+json", "Authorization": f"Bearer {TOKEN}"} if TOKEN else {})
         batch = json.load(urllib.request.urlopen(req))["items"]
         items += batch
         if len(batch) < 100:
@@ -294,6 +295,27 @@ def main():
     os.makedirs("docs", exist_ok=True)
     json.dump(rows, open("docs/data.json", "w"), indent=0, ensure_ascii=False)
     block = "\n".join(lines)
+    os.makedirs("badges", exist_ok=True)
+    keep = set()
+
+    def local_badge(m):
+        url = m.group(1).replace("&amp;", "&")
+        name = hashlib.sha1(url.encode()).hexdigest()[:16] + ".svg"
+        path = os.path.join("badges", name)
+        keep.add(name)
+        if not os.path.exists(path):
+            try:
+                req = urllib.request.Request(urllib.parse.quote(url, safe=":/?&=%+,"), headers={"User-Agent": "profile-badges"})
+                data = urllib.request.urlopen(req, timeout=30).read()
+                open(path, "wb").write(data)
+            except Exception:
+                return m.group(0)
+        return f'src="{path}"'
+
+    block = re.sub(r'src="(https://img\.shields\.io/[^"]+)"', local_badge, block)
+    for f in os.listdir("badges"):
+        if f not in keep:
+            os.remove(os.path.join("badges", f))
     readme = open("README.md").read()
     readme = re.sub(r"(<!--START_SECTION:activity-->\n).*?(<!--END_SECTION:activity-->)", lambda m: m.group(1) + block + "\n" + m.group(2), readme, flags=re.S)
     open("README.md", "w").write(readme)
