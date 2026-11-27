@@ -1467,6 +1467,18 @@
   "merged_by": "edulauer",
   "thanks": null
  },
+ "https://github.com/goharbor/terraform-provider-harbor/pull/666": {
+  "merged_by": "flbla",
+  "thanks": null
+ },
+ "https://github.com/goharbor/terraform-provider-harbor/pull/667": {
+  "merged_by": "flbla",
+  "thanks": null
+ },
+ "https://github.com/goharbor/terraform-provider-harbor/pull/668": {
+  "merged_by": "flbla",
+  "thanks": null
+ },
  "https://github.com/goreleaser/goreleaser/pull/7284": {
   "merged_by": "caarlos0",
   "thanks": null
@@ -1689,6 +1701,14 @@
    "login": "linkvt",
    "quote": "Thanks again!",
    "url": "https://github.com/kedacore/charts/pull/926#issuecomment-6710734132"
+  }
+ },
+ "https://github.com/kedacore/http-add-on/pull/1834": {
+  "merged_by": "linkvt",
+  "thanks": {
+   "login": "linkvt",
+   "quote": "Thank you that's a great finding, I only have one comment to improve the test but…",
+   "url": "https://github.com/kedacore/http-add-on/pull/1834#pullrequestreview-5825332556"
   }
  },
  "https://github.com/keycloak/terraform-provider-keycloak/pull/1803": {
