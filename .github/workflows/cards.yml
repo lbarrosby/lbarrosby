@@ -23,8 +23,9 @@ jobs:
           for i in 1 2 3; do
             git fetch -q origin main && git reset -q --hard origin/main
             python3 .github/scripts/upstream.py
-            git diff --quiet && exit 0
-            git commit -qam "chore: update upstream pull requests"
+            git add -A
+            git diff --cached --quiet && exit 0
+            git commit -qm "chore: update upstream pull requests"
             git push -q origin HEAD:main && exit 0
             sleep 5
           done
