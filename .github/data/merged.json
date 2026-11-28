@@ -143,6 +143,38 @@
    "url": "https://github.com/adriannovegil/awesome-observability/pull/204#issuecomment-6707856717"
   }
  },
+ "https://github.com/adriannovegil/awesome-observability/pull/208": {
+  "merged_by": "adriannovegil",
+  "thanks": {
+   "login": "adriannovegil",
+   "quote": "Thanks for the contribution — merged and included in the list.",
+   "url": "https://github.com/adriannovegil/awesome-observability/pull/208#issuecomment-7238390993"
+  }
+ },
+ "https://github.com/adriannovegil/awesome-observability/pull/209": {
+  "merged_by": "adriannovegil",
+  "thanks": {
+   "login": "adriannovegil",
+   "quote": "Thanks for the contribution — merged and included in the list.",
+   "url": "https://github.com/adriannovegil/awesome-observability/pull/209#issuecomment-7238391181"
+  }
+ },
+ "https://github.com/adriannovegil/awesome-observability/pull/213": {
+  "merged_by": "adriannovegil",
+  "thanks": {
+   "login": "adriannovegil",
+   "quote": "Thanks for the contribution — merged and included in the list.",
+   "url": "https://github.com/adriannovegil/awesome-observability/pull/213#issuecomment-7238391661"
+  }
+ },
+ "https://github.com/adriannovegil/awesome-observability/pull/214": {
+  "merged_by": "adriannovegil",
+  "thanks": {
+   "login": "adriannovegil",
+   "quote": "Thanks for the contribution — merged and included in the list.",
+   "url": "https://github.com/adriannovegil/awesome-observability/pull/214#issuecomment-7238391857"
+  }
+ },
  "https://github.com/aminueza/terraform-provider-minio/pull/1262": {
   "merged_by": "aminueza",
   "thanks": null
@@ -517,6 +549,14 @@
    "login": "bpg-dev",
    "quote": "Thanks for the fix!",
    "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3339#pullrequestreview-6015897473"
+  }
+ },
+ "https://github.com/bpg/terraform-provider-proxmox/pull/3342": {
+  "merged_by": "bpg-dev",
+  "thanks": {
+   "login": "bpg-dev",
+   "quote": "Thanks a lot for the fix!",
+   "url": "https://github.com/bpg/terraform-provider-proxmox/pull/3342#pullrequestreview-6099068515"
   }
  },
  "https://github.com/buildkite/terraform-provider-buildkite/pull/1336": {
@@ -2385,6 +2425,10 @@
  },
  "https://github.com/openebs/zfs-localpv/pull/798": {
   "merged_by": "mergify[bot]",
+  "thanks": null
+ },
+ "https://github.com/openlit/openlit/pull/1924": {
+  "merged_by": "AmanAgarwal041",
   "thanks": null
  },
  "https://github.com/openobserve/openobserve-helm-chart/pull/286": {

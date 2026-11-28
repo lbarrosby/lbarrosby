@@ -11,7 +11,7 @@ I care about boring, predictable infrastructure: everything in code, every chang
 Contributing upstream across the cloud native ecosystem: CNCF projects like Kubernetes, Envoy, Prometheus, Argo, Crossplane, Headlamp and CoreDNS, plus Terraform providers, Helm charts and AI infrastructure tooling (NVIDIA device plugin, Ray, deepwiki-open).
 
 <!--START_SECTION:activity-->
-<a href="https://github.com/search?q=author%3Albarrosby+is%3Apr+is%3Amerged+org%3Akubernetes+org%3Akubernetes-sigs&type=pullrequests"><img src="badges/cdfb77d446ffc926.svg" alt="Merged in the Kubernetes project"></a><br><img src="badges/00124a43c8fe0af7.svg" alt="Upstream PRs"> <img src="badges/b264a571e7b21356.svg" alt="Merged"> <img src="badges/24dc85b513d6a318.svg" alt="Projects"> <img src="badges/009f701e2c07284f.svg" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="badges/6d7d221d62de220b.svg" alt="Filter and search all PRs"></a> <img src="badges/4a19f82b790953de.svg" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="badges/66875a619a3f6bd5.svg" alt="Merged in kubernetes/kubernetes"></a>
+<a href="https://github.com/search?q=author%3Albarrosby+is%3Apr+is%3Amerged+org%3Akubernetes+org%3Akubernetes-sigs&type=pullrequests"><img src="badges/cdfb77d446ffc926.svg" alt="Merged in the Kubernetes project"></a><br><img src="badges/00124a43c8fe0af7.svg" alt="Upstream PRs"> <img src="badges/02cd0e35cedc0c6f.svg" alt="Merged"> <img src="badges/24dc85b513d6a318.svg" alt="Projects"> <img src="badges/009f701e2c07284f.svg" alt="Merged in repositories the CNCF lists for graduated projects"> <a href="https://lbarrosby.github.io/lbarrosby/"><img src="badges/6d7d221d62de220b.svg" alt="Filter and search all PRs"></a> <img src="badges/5bdfe0f26df2cc4f.svg" alt="Thanked by maintainers"> <a href="https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3Albarrosby+is%3Amerged"><img src="badges/66875a619a3f6bd5.svg" alt="Merged in kubernetes/kubernetes"></a>
 
 ### <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg" width="26" height="26" align="top" alt="Kubernetes"> Kubernetes
 
@@ -57,7 +57,7 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 ---
 
-**Merged** · official CNCF project repositories first · [see all 522 with filters](https://lbarrosby.github.io/lbarrosby/)
+**Merged** · official CNCF project repositories first · [see all 528 with filters](https://lbarrosby.github.io/lbarrosby/)
 
 <details open><summary><b>Official CNCF Graduated projects</b> · 19 merged in 8 repos</summary>
 
@@ -114,10 +114,16 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 
 </details>
 
-<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 488 (ecosystem, Terraform providers, Helm charts, tools)</summary>
+<details><summary><b>Latest merges elsewhere</b> · 15 most recent of 494 (ecosystem, Terraform providers, Helm charts, tools)</summary>
 
 | Project | Pull request | Merged | Merged by | Kind words |
 |---|---|---|---|---|
+| [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(vm): keep a cloned VM in state when a later create step fails](https://github.com/bpg/terraform-provider-proxmox/pull/3342) | 2026-11-28 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3342#pullrequestreview-6099068515): <i>"Thanks a lot for the fix!"</i> |
+| [openlit/openlit](https://github.com/openlit/openlit) | [fix(go-sdk): read chat and embedding prices from assets/pricing.json](https://github.com/openlit/openlit/pull/1924) | 2026-11-28 | [@AmanAgarwal041](https://github.com/AmanAgarwal041) |  |
+| [adriannovegil/awesome-observability](https://github.com/adriannovegil/awesome-observability) | [Add OpenTelemetry eBPF Instrumentation to Tracing](https://github.com/adriannovegil/awesome-observability/pull/214) | 2026-11-28 | [@adriannovegil](https://github.com/adriannovegil) | 🙏 [@adriannovegil](https://github.com/adriannovegil/awesome-observability/pull/214#issuecomment-7238391857): <i>"Thanks for the contribution — merged and included in the list."</i> |
+| [adriannovegil/awesome-observability](https://github.com/adriannovegil/awesome-observability) | [Add Uptime Kuma to Uptime](https://github.com/adriannovegil/awesome-observability/pull/213) | 2026-11-28 | [@adriannovegil](https://github.com/adriannovegil) | 🙏 [@adriannovegil](https://github.com/adriannovegil/awesome-observability/pull/213#issuecomment-7238391661): <i>"Thanks for the contribution — merged and included in the list."</i> |
+| [adriannovegil/awesome-observability](https://github.com/adriannovegil/awesome-observability) | [Add Pyrra to Alerts](https://github.com/adriannovegil/awesome-observability/pull/209) | 2026-11-28 | [@adriannovegil](https://github.com/adriannovegil) | 🙏 [@adriannovegil](https://github.com/adriannovegil/awesome-observability/pull/209#issuecomment-7238391181): <i>"Thanks for the contribution — merged and included in the list."</i> |
+| [adriannovegil/awesome-observability](https://github.com/adriannovegil/awesome-observability) | [Add OpenObserve to APM](https://github.com/adriannovegil/awesome-observability/pull/208) | 2026-11-28 | [@adriannovegil](https://github.com/adriannovegil) | 🙏 [@adriannovegil](https://github.com/adriannovegil/awesome-observability/pull/208#issuecomment-7238390993): <i>"Thanks for the contribution — merged and included in the list."</i> |
 | <img src="badges/fec5b9ebc5575a4c.svg" alt="KEDA ecosystem: not the main KEDA repository" title="KEDA ecosystem: not the main KEDA repository"><br>[kedacore/http-add-on](https://github.com/kedacore/http-add-on) | [fix(interceptor): fall back to shorter path when route headers do not match](https://github.com/kedacore/http-add-on/pull/1834) | 2026-11-27 | [@linkvt](https://github.com/linkvt) | 🙏 [@linkvt](https://github.com/kedacore/http-add-on/pull/1834#pullrequestreview-5825332556): <i>"Thank you that's a great finding, I only have one comment to improve the test but…"</i> |
 | <img src="badges/c8d3be1688bb4bdb.svg" alt="Harbor ecosystem: not the main Harbor repository" title="Harbor ecosystem: not the main Harbor repository"><br>[goharbor/terraform-provider-harbor](https://github.com/goharbor/terraform-provider-harbor) | [fix: remove harbor_user from state when the user no longer exists](https://github.com/goharbor/terraform-provider-harbor/pull/667) | 2026-11-27 | [@flbla](https://github.com/flbla) |  |
 | <img src="badges/c8d3be1688bb4bdb.svg" alt="Harbor ecosystem: not the main Harbor repository" title="Harbor ecosystem: not the main Harbor repository"><br>[goharbor/terraform-provider-harbor](https://github.com/goharbor/terraform-provider-harbor) | [fix(project_member_user): return update errors and read member_id](https://github.com/goharbor/terraform-provider-harbor/pull/668) | 2026-11-27 | [@flbla](https://github.com/flbla) |  |
@@ -127,24 +133,18 @@ Contributing upstream across the cloud native ecosystem: CNCF projects like Kube
 | [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox_user): compare groups regardless of order](https://github.com/ansible-collections/community.proxmox/pull/568) | 2026-11-26 | [@IamLunchbox](https://github.com/IamLunchbox) |  |
 | [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox_backup_schedule): handle jobs without a vmid list](https://github.com/ansible-collections/community.proxmox/pull/567) | 2026-11-26 | [@IamLunchbox](https://github.com/IamLunchbox) |  |
 | [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix: treat tasks that end with warnings as successful](https://github.com/ansible-collections/community.proxmox/pull/566) | 2026-11-26 | [@IamLunchbox](https://github.com/IamLunchbox) |  |
-| [ansible-collections/community.proxmox](https://github.com/ansible-collections/community.proxmox) | [fix(proxmox): keep the MAC address when updating netif](https://github.com/ansible-collections/community.proxmox/pull/562) | 2026-11-26 | [@IamLunchbox](https://github.com/IamLunchbox) | 🙏 [@Thulium-Drake](https://github.com/ansible-collections/community.proxmox/pull/562#issuecomment-6712743049): <i>"Thanks for this change, can you please have a look at the merge conflict I fixed if…"</i> |
-| [bytebase/terraform-provider-bytebase](https://github.com/bytebase/terraform-provider-bytebase) | [fix: drop archived or purged projects from state on read](https://github.com/bytebase/terraform-provider-bytebase/pull/217) | 2026-11-26 | [@ecmadao](https://github.com/ecmadao) | 🙏 [@ecmadao](https://github.com/bytebase/terraform-provider-bytebase/pull/217#pullrequestreview-6070472177): <i>"LGTM, thanks!"</i> |
-| [bytebase/terraform-provider-bytebase](https://github.com/bytebase/terraform-provider-bytebase) | [fix: handle environments removed outside Terraform](https://github.com/bytebase/terraform-provider-bytebase/pull/218) | 2026-11-26 | [@ecmadao](https://github.com/ecmadao) | 🙏 [@ecmadao](https://github.com/bytebase/terraform-provider-bytebase/pull/218#pullrequestreview-6070320292): <i>"LGTM, thanks!"</i> |
-| [bpg/terraform-provider-proxmox](https://github.com/bpg/terraform-provider-proxmox) | [fix(vm): keep template disk options when a cloned disk is listed](https://github.com/bpg/terraform-provider-proxmox/pull/3339) | 2026-11-25 | [@bpg-dev](https://github.com/bpg-dev) | 🙏 [@bpg-dev](https://github.com/bpg/terraform-provider-proxmox/pull/3339#pullrequestreview-6015897473): <i>"Thanks for the fix!"</i> |
-| [vultr/terraform-provider-vultr](https://github.com/vultr/terraform-provider-vultr) | [Mark credential attributes as sensitive](https://github.com/vultr/terraform-provider-vultr/pull/811) | 2026-11-25 | [@optik-aper](https://github.com/optik-aper) | 🙏 [@optik-aper](https://github.com/vultr/terraform-provider-vultr/pull/811#pullrequestreview-5831074756): <i>"Thanks"</i> |
-| [openobserve/terraform-provider-openobserve](https://github.com/openobserve/terraform-provider-openobserve) | [fix: revoke custom roles removed from an openobserve_user](https://github.com/openobserve/terraform-provider-openobserve/pull/28) | 2026-11-25 |  | 🙏 [@chaitanya-sistla](https://github.com/openobserve/terraform-provider-openobserve/pull/28#issuecomment-7164529307): <i>"Thanks."</i> |
 
-[All 488 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
+[All 494 of them, with filters](https://lbarrosby.github.io/lbarrosby/)
 
 </details>
 
-**In review** · 384 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
+**In review** · 378 open pull requests · [browse and filter](https://lbarrosby.github.io/lbarrosby/)
 
 - Official CNCF Graduated: 31 in 15 repos
 - Official CNCF Incubating: 7 in 4 repos
 - Official CNCF Sandbox: 13 in 5 repos
 - CNCF ecosystem: 117 in 60 repos
-- Other: 216 in 136 repos
+- Other: 210 in 133 repos
 
 <!--END_SECTION:activity-->
 
